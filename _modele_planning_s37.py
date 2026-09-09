@@ -117,7 +117,12 @@ PLANNING = {
         X("FH 32", url=FH32, q="Matin", caw="FIFTHNET"),
         J("687978", "FQ_Remplacement cable 41HER0 F11", q="Après-midi", caw="PANDA+"),
     ],
-    ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    # Jeudi 10/09 : l'Équipe 1 quitte le 675238 (Ciney-Jemelle) et rejoint
+    # l'Équipe 2 + Pierre Mattiuz sur les deux chantiers Covitin d'Oupeye.
+    ("E1", 3): [
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ Équipe 2 · P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2 · P. Mattiuz", "commun", caw="PANDA+"),
+    ],
     ("E1", 4): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
 
     ("JM", 0): [J("575388", "Rue de Bruxelles 111 — Awans", caw="PANDA+")],
@@ -141,8 +146,8 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
     ("E2", 3): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz · Équipe 1", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz · Équipe 1", "commun", caw="PANDA+"),
     ],
 
     ("PM", 0): [J("582528", "RW SPW MI Pont d'Argenteau — Oupeye", "+ Équipe 2", "commun", caw="PANDA+")],
@@ -152,8 +157,8 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
     ],
     ("PM", 3): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ Équipe 2 · Équipe 1", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2 · Équipe 1", "commun", caw="PANDA+"),
     ],
     ("PM", 4): [J("599588", "Rue des Soeurs Grises/Montmorency/Av. du Condroz — Liège", caw="PANDA+")],
 
@@ -285,80 +290,82 @@ PIED_JMS = ('<b style="color:#1d4ed8;">JMS en bleu ↗</b>'
 
 def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
   return f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
-@page {{ size:A4 landscape; margin:3mm 7mm 2.5mm 7mm; }}
+@page {{  /* S37 : toutes les tailles de police reduites de 3% le 09/09/2026
+   pour absorber l'ajout de l'Equipe 1 le jeudi sans rien supprimer. */
+ size:A4 landscape; margin:3mm 7mm 2.5mm 7mm; }}
 * {{ box-sizing:border-box; }}
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
-        border-bottom:2.5pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:17pt; font-weight:800; letter-spacing:2.5pt; color:#0f172a; line-height:1;
+        border-bottom:2.42pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
+.brand {{ font-size:16.49pt; font-weight:800; letter-spacing:2.42pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:6.1pt; font-weight:600; letter-spacing:1.3pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:5.92pt; font-weight:600; letter-spacing:1.26pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:13pt; font-weight:800; color:#0f172a; letter-spacing:.5pt; }}
-.title .dt {{ font-size:8.3pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:12.61pt; font-weight:800; color:#0f172a; letter-spacing:.4.85pt; }}
+.title .dt {{ font-size:8.05pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.8pt; font-weight:800;
-              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.6pt; }}
-.badge .maj {{ font-size:6.6pt; color:#64748b; margin-top:1.1mm; }}
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.57pt; font-weight:800;
+              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.5.82pt; }}
+.badge .maj {{ font-size:6.4pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:9.3pt; font-weight:800; letter-spacing:.7pt;
-         padding:1mm 1mm; border:0.7pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:7.6pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day {{ background:#0f172a; color:#fff; font-size:9.02pt; font-weight:800; letter-spacing:.6.79pt;
+         padding:1mm 1mm; border:0.68pt solid #0f172a; text-transform:uppercase; text-align:center; }}
+th.day span {{ display:block; font-size:7.37pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
-td {{ border:0.7pt solid #cbd5e1; border-left-width:2.4pt; border-left-style:solid;
-     border-bottom:1.6pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
-tr.grp-end td {{ border-bottom:3pt solid #0f172a; }}
+td {{ border:0.68pt solid #cbd5e1; border-left-width:2.33pt; border-left-style:solid;
+     border-bottom:1.55pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
+tr.grp-end td {{ border-bottom:2.91pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
-tr:last-child td {{ border-bottom:1.6pt solid #0f172a; }}
-.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.7pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:5.8pt; font-weight:800; letter-spacing:.8pt; text-transform:uppercase; }}
-.rtag {{ font-size:5.6pt; font-weight:800; letter-spacing:.7pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:7.6pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+tr:last-child td {{ border-bottom:1.55pt solid #0f172a; }}
+.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.68pt solid rgba(15,23,42,.18); }}
+.rlabel {{ font-size:5.63pt; font-weight:800; letter-spacing:.7.76pt; text-transform:uppercase; }}
+.rtag {{ font-size:5.43pt; font-weight:800; letter-spacing:.6.79pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:7.37pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
-.body.empty {{ background:#eef2f6; border:0.6pt solid #d5dde5; border-radius:.8mm;
+.body.empty {{ background:#eef2f6; border:0.58pt solid #d5dde5; border-radius:.8mm;
               text-align:center; padding:.8mm 0; }}
 .body.abs {{ border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:8.5pt; font-weight:800; letter-spacing:1.2pt; }}
+.absl {{ font-size:8.24pt; font-weight:800; letter-spacing:1.16pt; }}
 .job {{ line-height:1.2; }}
-.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.6pt dashed #94a3b8; }}
-.jms {{ font-size:8.1pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:7.9pt; line-height:1.18; letter-spacing:.25pt; }}
+.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.58pt dashed #94a3b8; }}
+.jms {{ font-size:7.86pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:7.66pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:6.6pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:6.9pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
-.lib.code {{ letter-spacing:.3pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:6.1pt; font-weight:700; padding:.35mm 1.2mm;
-        border-radius:.8mm; margin-top:.6mm; letter-spacing:.3pt; }}
-.n-renfort {{ background:#fef3c7; color:#92400e; border:0.5pt solid #fcd34d; }}
-.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.5pt solid #a5b4fc; }}
-.n-prov {{ background:#fff7ed; color:#c2410c; border:0.6pt dashed #fb923c; }}
-.n-alt {{ background:#f1f5f9; color:#475569; border:0.6pt dashed #94a3b8; }}
+.ext {{ font-size:6.4pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:6.69pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.lib.code {{ letter-spacing:.2.91pt; color:#1e293b; }}
+.note {{ display:inline-block; font-size:5.92pt; font-weight:700; padding:.35mm 1.2mm;
+        border-radius:.8mm; margin-top:.6mm; letter-spacing:.2.91pt; }}
+.n-renfort {{ background:#fef3c7; color:#92400e; border:0.48pt solid #fcd34d; }}
+.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.48pt solid #a5b4fc; }}
+.n-prov {{ background:#fff7ed; color:#c2410c; border:0.58pt dashed #fb923c; }}
+.n-alt {{ background:#f1f5f9; color:#475569; border:0.58pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:5.6pt; font-weight:800; letter-spacing:.6pt;
+.per {{ display:inline-block; font-size:5.43pt; font-weight:800; letter-spacing:.5.82pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:7.4pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:6.2pt; font-weight:800; letter-spacing:.6pt; padding:.35mm 1.4mm;
+.qui {{ font-size:7.18pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:6.01pt; font-weight:800; letter-spacing:.5.82pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:7.4pt; font-weight:800; letter-spacing:.9pt; text-align:center;
+.ligneabs {{ font-size:7.18pt; font-weight:800; letter-spacing:.8.73pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:7.6pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:7.37pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:1pt solid #cbd5e1; font-size:6.6pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.97pt solid #cbd5e1; font-size:6.4pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
-.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.6pt solid #d5dde5;
+.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.58pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}
 </style></head><body>
 <div class="head">

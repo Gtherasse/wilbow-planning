@@ -248,6 +248,30 @@ de la semaine trop dense pour tenir sur 1 page — marge de page réduite (4mm/3
 3mm/2.5mm haut/bas) dans `gen_planning_s37.py` uniquement pour compenser. À surveiller si
 d'autres semaines deviennent aussi denses.
 
+**09/09/2026** : Équipe 1, jeudi 10/09 (S37) — quitte le JMS 675238 (Ciney-Jemelle) pour
+la journée et rejoint l'Équipe 2 + Pierre Mattiuz sur les JMS 662275 (Rue François Jansen
+5A>E) et 553176 (Rue Boyou 13), Oupeye/Covitin. C@W PANDA+. Le 675238 reprend
+normalement le vendredi 11/09. Notes de partage à trois : « + Équipe 2 · P. Mattiuz »
+côté Équipe 1, « + P. Mattiuz · Équipe 1 » côté Équipe 2, « + Équipe 2 · Équipe 1 » côté
+Pierre Mattiuz (convention validée : une seule pastille, partenaires séparés par un point
+médian). Monday.com mis à jour : Bolmain + Petit ajoutés aux personnes Soufflage des deux
+items, dates du 10/09 inchangées.
+
+**09/09/2026** — Note technique (mise en page) : cet ajout a fait déborder la semaine 37
+sur 2 pages. Réduction des marges de page insuffisante (testé jusqu'à 1,5mm/1mm), notes en
+ligne insuffisantes, libellés raccourcis insuffisants. Seule solution sans rien supprimer :
+**toutes les tailles de police réduites de 3 %** dans `_modele_planning_s37.py`. La
+hauteur de ligne retombe à 10,4mm (planning) / 14,7mm (C@W). La semaine 37 est désormais
+la plus dense rencontrée — si une semaine future dépasse encore, il faudra trancher une
+question de fond plutôt que rogner davantage.
+
+**09/09/2026** — Migration : tout le dossier Planning est désormais versionné dans le
+dépôt privé GitHub `Gtherasse/wilbow-planning`. Les règles permanentes sont reprises dans
+`CLAUDE.md` à la racine, lu automatiquement par Claude Code. Constat de migration : les
+scripts `gen_planning_s<sem>.py` n'existaient pas sur le disque — seuls les gabarits
+`_modele_planning_s<sem>.py` avaient été sauvegardés. Le gabarit fait donc office de
+script de travail.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
