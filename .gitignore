@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Rendus temporaires de vérification visuelle (pdftoppm)
+_verif_*.png
+_verif_*.ppm
+*.tmp.pdf
+
+# Système
+Thumbs.db
+desktop.ini
+.DS_Store
