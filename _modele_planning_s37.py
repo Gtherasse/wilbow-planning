@@ -131,7 +131,9 @@ PLANNING = {
         J("667324", "Rue Sabaré — Visé (BBV)", q="Après-midi", caw="PANDA+"),
     ],
     ("JM", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
-    ("JM", 3): [X("FH 32", url=FH32, caw="FIFTHNET")],
+    # Jeudi 10/09 : Johan quitte le FH 32 et reprend le JMS 687978 sur la
+    # journee entiere. FH 32 reste inchange le vendredi.
+    ("JM", 3): [J("687978", "FQ_Remplacement cable 41HER0 F11", caw="PANDA+")],
     ("JM", 4): [X("FH 32", url=FH32, caw="FIFTHNET")],
 
     # Équipe 2 : échange entre le chantier de vendredi 04/09 (S36) et celui de

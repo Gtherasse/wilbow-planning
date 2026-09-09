@@ -272,6 +272,14 @@ scripts `gen_planning_s<sem>.py` n'existaient pas sur le disque — seuls les ga
 `_modele_planning_s<sem>.py` avaient été sauvegardés. Le gabarit fait donc office de
 script de travail.
 
+**09/09/2026** : Meurisse Johan, jeudi 10/09 (S37) — quitte le FH 32 FEED-IN et reprend le
+JMS 687978 (FQ_Remplacement câble 41HER0 F11) sur la journée entière. C@W PANDA+. Le
+FH 32 reste inchangé le vendredi 11/09 ; l'entrée précédente « Jeu-Ven 10-11/09 Meurisse
+Johan FH 32 (inchangé) » ne vaut donc plus que pour le vendredi. Le 687978 était déjà au
+planning mercredi 09/09 après-midi côté Équipe 1 (Soufflage) : cette affectation reste
+inchangée. Monday.com mis à jour côté **Jointage** (date 10/09 + Meurisse Johan), colonnes
+Soufflage laissées intactes.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
