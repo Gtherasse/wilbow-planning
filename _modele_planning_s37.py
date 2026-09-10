@@ -155,6 +155,14 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz · Équipe 1", "commun", caw="PANDA+"),
     ],
 
+    # Vendredi 11/09 : les deux chantiers Covitin d'Oupeye sont prolonges d un
+    # jour pour l Equipe 2, cette fois seule — P. Mattiuz est sur le 599588 et
+    # l Equipe 1 est repartie a Ciney-Jemelle. Sam Feller est de retour ce jour-la.
+    ("E2", 4): [
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", caw="PANDA+"),
+    ],
+
     ("PM", 0): [J("582528", "RW SPW MI Pont d'Argenteau — Oupeye", "+ Équipe 2", "commun", caw="PANDA+")],
     ("PM", 1): [J("582528", "RW SPW MI Pont d'Argenteau — Oupeye", "+ Équipe 2", "commun", caw="PANDA+")],
     ("PM", 2): [

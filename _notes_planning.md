@@ -324,6 +324,17 @@ avec le risque d'oubli que cela comporte. Une séparation moteur/données (un mo
 importé par un petit fichier de données par semaine) supprimerait cette recopie. C'est une
 décision structurante : **à valider avant tout chantier.**
 
+**10/09/2026** : Équipe 2 — les JMS 662275 et 553176 (Oupeye, Covitin) sont **prolongés
+d'un jour, jusqu'au vendredi 11/09**. Ce jour-là l'Équipe 2 est **seule** sur le chantier :
+Pierre Mattiuz est sur le 599588 (Liège) et l'Équipe 1 est repartie à Ciney-Jemelle — pas
+de pastille de partage le vendredi. Sam Feller étant de retour ce jour-là, l'entête affiche
+de nouveau « Dominguez Miguel / Feller Sam ». C@W PANDA+.
+Monday.com : **aucune modification faite**. Les personnes (Miguel et Sam) sont déjà
+assignées et la colonne Soufflage ne porte qu'**une seule date**, actuellement le 10/09 ;
+la déplacer au 11/09 ferait perdre le fait que le chantier commence le mercredi.
+**Convention à trancher : pour un chantier sur plusieurs jours, la date Monday doit-elle
+porter le premier ou le dernier jour ?**
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
