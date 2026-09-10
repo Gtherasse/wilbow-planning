@@ -300,6 +300,12 @@ n'aurait pas été cliquable ; il a été ajouté au dict LIENS.
 porte « Meurisse Johan » alors que Johan est jointeur, et sa date est restée au 14/09.
 Volontaire ou reliquat ? Non modifié dans l'attente d'une confirmation.
 
+**10/09/2026** : horaire de la nuit du 10 au 11/09 (Johan, JMS 687978) corrigé en
+**22h00–06h00** au lieu de 21h00–04h30. Appliqué **uniquement à cette prestation** :
+la constante `NUIT` des scripts (« Nuit 21h00–04h30 ») et la règle permanente
+correspondante sont inchangées, dans l'attente de savoir si le nouvel horaire devient
+la convention générale ou reste propre à cette nuit. **À trancher.**
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

@@ -135,7 +135,7 @@ PLANNING = {
     # Vendredi 11/09 : recup apres la nuit. Le FH 32 part en S38 (lundi 14/09).
     ("JM", 3): [
         J("687978", "FQ_Remplacement cable 41HER0 F11", q=JOUR, caw="PANDA+"),
-        J("687978", "FQ_Remplacement cable 41HER0 F11", q=NUIT, caw="PANDA+"),
+        J("687978", "FQ_Remplacement cable 41HER0 F11", q="Nuit 22h00–06h00", caw="PANDA+"),
     ],
     ("JM", 4): ABS("RÉCUP"),
 
