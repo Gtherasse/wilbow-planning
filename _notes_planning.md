@@ -280,6 +280,26 @@ planning mercredi 09/09 après-midi côté Équipe 1 (Soufflage) : cette affecta
 inchangée. Monday.com mis à jour côté **Jointage** (date 10/09 + Meurisse Johan), colonnes
 Soufflage laissées intactes.
 
+**10/09/2026** : Meurisse Johan — le JMS 687978 (F11) passe **en journée ET en nuit** le
+jeudi 10/09 (badges JOURNÉE puis NUIT 21H00–04H30, C@W PANDA+ sur les deux). Vendredi
+11/09 : **RÉCUP** après la nuit — le FH 32 qui y était prévu est retiré. Monday.com : la
+date Jointage du 687978 reste au 10/09 (jour de début de la nuit), rien à changer.
+
+**10/09/2026** : le **FH 32 FEED-IN** est reporté de la S37 à la **S38, lundi 14/09**
+(Johan, C@W FIFTHNET). En conséquence le JMS 672861 (ROP Accidenté TYCAB18) — déjà
+reporté du mercredi 09/09 au lundi 14/09 — glisse encore d'un jour, au **mardi 15/09**.
+Monday.com mis à jour côté Jointage : FH 32 → 14/09, 672861 → 15/09.
+
+**10/09/2026** : Équipe 1 (Bolmain + Petit) sur le **JMS 675238 (BBN 12310B —
+Ciney-Jemelle) toute la semaine 38**, lundi au vendredi, C@W PANDA+. Monday.com mis à jour
+côté Soufflage (date 14/09 ; Bolmain et Petit étaient déjà assignés). Note technique : le
+lien Monday du 675238 manquait dans `_modele_planning_s38.py` — sans lui le numéro JMS
+n'aurait pas été cliquable ; il a été ajouté au dict LIENS.
+
+**Point à vérifier (non tranché)** : sur l'item Monday 672861, la colonne **Soufflage**
+porte « Meurisse Johan » alors que Johan est jointeur, et sa date est restée au 14/09.
+Volontaire ou reliquat ? Non modifié dans l'attente d'une confirmation.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

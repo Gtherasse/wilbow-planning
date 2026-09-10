@@ -55,6 +55,7 @@ AM    = "Après-midi"
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
     "672861": "https://wilbow.monday.com/boards/5089236279/pulses/3196268739",
+    "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -90,9 +91,20 @@ CODES = {
 NOMS_OVERRIDE = {}
 
 PLANNING = {
-    # Le ROP (672861), initialement remplacé mercredi 09/09 (S37) par le 685230,
-    # est reporté à la semaine suivante -> lundi 14/09.
-    ("JM", 0): [J("672861", "41LONC/609 — ROP Accidenté TYCAB18", caw="PANDA+")],
+    # Equipe 1 : dossier de Ciney toute la semaine, comme en S37.
+    ("E1", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 4): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+
+    # Lundi 14/09 : le FH 32, reporte depuis la S37 (Johan etait en recup le
+    # vendredi 11/09 apres la nuit du 10 au 11).
+    ("JM", 0): [X("FH 32", url=FH32, caw="FIFTHNET")],
+
+    # Le ROP (672861), deja reporte du mercredi 09/09 (S37) au lundi 14/09,
+    # glisse encore d un jour -> mardi 15/09, le FH 32 prenant le lundi.
+    ("JM", 1): [J("672861", "41LONC/609 — ROP Accidenté TYCAB18", caw="PANDA+")],
 
     # Reste de la semaine : à planifier au fur et à mesure.
 }
