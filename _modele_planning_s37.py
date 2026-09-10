@@ -254,7 +254,13 @@ def cellule(r, i, DATA=None, mode="site"):
                 cls = "jms nonum"
                 detail = CODES.get(nom_caw, "") if nom_caw else ""
                 lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-                jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                if (d.get("q") or "").lower().startswith("nuit"):
+                    # bloc visible a cheval sur les deux jours + spacer invisible
+                    # qui reserve la hauteur, l absolu n en occupant aucune.
+                    jobs.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>'
+                                f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                else:
+                    jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 continue
 
             url = d.get("url") or (LIENS.get(d["jms"]) if d["jms"] else None)
@@ -265,7 +271,13 @@ def cellule(r, i, DATA=None, mode="site"):
                          f'<span class="ext">↗</span></a>')
             detail = d["lib"] if d["jms"] else d.get("sub")
             lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-            jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+            if (d.get("q") or "").lower().startswith("nuit"):
+                # bloc visible a cheval sur les deux jours + spacer invisible
+                # qui reserve la hauteur, l absolu n en occupant aucune.
+                jobs.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>'
+                            f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+            else:
+                jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
         body = '<div class="body">' + "".join(jobs) + "</div>"
 
     return (f'<td style="border-left-color:{r["c"]}; background:{r["bg"]}; position:relative;">'
@@ -350,6 +362,16 @@ tr:last-child td {{ border-bottom:1.55pt solid #0f172a; }}
 .n-prov {{ background:#fff7ed; color:#c2410c; border:0.58pt dashed #fb923c; }}
 .n-alt {{ background:#f1f5f9; color:#475569; border:0.58pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
+/* Prestation de nuit : bloc a cheval sur la frontiere des deux journees.
+   Le bloc visible est en position absolue ; le spacer, invisible mais dans le
+   flux, reserve exactement la meme hauteur pour que la ligne ne deborde pas. */
+.job.cheval {{ position:absolute; left:50%; width:100%; z-index:5; margin-top:0;
+        background:#0f172a; border-radius:1.2mm; padding:0.7mm 1.4mm; border-top:0;
+        box-shadow:0 0 0 .6mm #ffffff; }}
+.job.cheval .jms {{ color:#93c5fd; }}
+.job.cheval .lib {{ color:#cbd5e1; }}
+.job.cheval .per.nuit {{ background:#334155; color:#fff; }}
+.job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
 .perline {{ margin-bottom:.2mm; }}
 .per {{ display:inline-block; font-size:5.43pt; font-weight:800; letter-spacing:.5.82pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}

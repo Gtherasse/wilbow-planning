@@ -306,6 +306,24 @@ la constante `NUIT` des scripts (« Nuit 21h00–04h30 ») et la règle permanen
 correspondante sont inchangées, dans l'attente de savoir si le nouvel horaire devient
 la convention générale ou reste propre à cette nuit. **À trancher.**
 
+**10/09/2026** — Nouveauté de mise en page : **prestation de nuit affichée à cheval sur
+les deux journées**. Toute prestation dont le quart commence par « Nuit » sort désormais du
+flux (bloc sombre en position absolue, centré sur la frontière entre les deux cellules,
+liseré blanc) et un spacer invisible réserve la hauteur correspondante pour que la ligne ne
+déborde pas sur celle du dessous. Appliqué à la nuit du 10 au 11/09 (Johan, JMS 687978).
+Rembourrage du bloc ramené à 0,7mm/1,4mm : à 1mm/1,6mm la semaine 37 repassait sur 2 pages.
+**Attention — ce rendu n'existe pour l'instant que dans `_modele_planning_s37.py`.** Les
+scripts étant des copies indépendantes, il faudra le reporter dans les scripts des semaines
+suivantes qui contiendront une nuit. **Voir le point d'architecture ci-dessous.**
+
+**Point d'architecture à trancher** : chaque semaine a son propre script, copie complète du
+précédent (~410 lignes, dont ~300 de moteur de rendu identique). Toute amélioration du
+rendu — le bloc de nuit à cheval, la réduction de police, les notes de partage à trois —
+ne bénéficie qu'à la semaine où elle a été faite et doit être recopiée à la main ensuite,
+avec le risque d'oubli que cela comporte. Une séparation moteur/données (un module commun
+importé par un petit fichier de données par semaine) supprimerait cette recopie. C'est une
+décision structurante : **à valider avant tout chantier.**
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
