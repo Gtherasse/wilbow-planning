@@ -97,14 +97,16 @@ CODES = {
     "CATERPILLAR":        "1Y102SV8BK22Z",
 }
 
-# Sam Feller absent du 31/08 au 10/09 (inclus) : personne ne le remplace pour
-# l'instant à côté de Miguel sur la ligne Équipe 2 (lundi 07 -> jeudi 10/09).
-# Vendredi 11/09 : Sam est de retour, entête normale.
+# Sam Feller absent du 31/08 au 11/09 (inclus) : personne ne le remplace à côté
+# de Miguel sur la ligne Équipe 2. L'absence a été prolongée au vendredi 11/09
+# (elle devait initialement s'arrêter le jeudi 10), donc l'entête affiche
+# « Dominguez Miguel » seul sur les cinq jours.
 NOMS_OVERRIDE = {
     ("E2", 0): ["Dominguez Miguel"],
     ("E2", 1): ["Dominguez Miguel"],
     ("E2", 2): ["Dominguez Miguel"],
     ("E2", 3): ["Dominguez Miguel"],
+    ("E2", 4): ["Dominguez Miguel"],
 }
 
 PLANNING = {
@@ -159,8 +161,8 @@ PLANNING = {
     # jour pour l Equipe 2, cette fois seule — P. Mattiuz est sur le 599588 et
     # l Equipe 1 est repartie a Ciney-Jemelle. Sam Feller est de retour ce jour-la.
     ("E2", 4): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", caw="PANDA+"),
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
 
     ("PM", 0): [J("582528", "RW SPW MI Pont d'Argenteau — Oupeye", "+ Équipe 2", "commun", caw="PANDA+")],
@@ -173,7 +175,12 @@ PLANNING = {
         J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ Équipe 2 · Équipe 1", "commun", caw="PANDA+"),
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2 · Équipe 1", "commun", caw="PANDA+"),
     ],
-    ("PM", 4): [J("599588", "Rue des Soeurs Grises/Montmorency/Av. du Condroz — Liège", caw="PANDA+")],
+    # Vendredi 11/09 : Pierre quitte le 599588 (Liege) et rejoint Miguel sur les
+    # deux chantiers Covitin d Oupeye, Sam Feller etant absent ce jour-la aussi.
+    ("PM", 4): [
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
+    ],
 
     ("DP", 0): ABS("ABSENT"),
     ("DP", 1): [X("BTO", caw="BTO")],

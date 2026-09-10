@@ -335,6 +335,25 @@ la déplacer au 11/09 ferait perdre le fait que le chantier commence le mercredi
 **Convention à trancher : pour un chantier sur plusieurs jours, la date Monday doit-elle
 porter le premier ou le dernier jour ?**
 
+**10/09/2026** : **Feller Sam absent le vendredi 11/09 également** — son absence, qui
+devait s'arrêter au jeudi 10/09 inclus, est prolongée au vendredi. L'entête Équipe 2
+affiche donc « Dominguez Miguel » seul sur **les cinq jours** de la semaine 37.
+Corrige l'entrée du 31/08 qui indiquait « retour vendredi 11/09 ».
+
+**10/09/2026** : vendredi 11/09 — **Pierre Mattiuz rejoint Miguel** sur les JMS 662275 et
+553176 (Oupeye, Covitin), Sam étant absent. Pastilles « + P. Mattiuz » et « + Équipe 2 »
+de part et d'autre. C@W PANDA+. **Le JMS 599588 (Liège), que Pierre devait faire seul ce
+vendredi, sort du planning** — il n'est reporté nulle part pour l'instant.
+L'Équipe 1 reste sur le JMS 675238 (Ciney-Jemelle) le vendredi : c'était déjà le cas, rien
+n'a été modifié de ce côté.
+
+**Deux points Monday.com laissés en l'état, à trancher :**
+- **599588** (item 3006164733) : colonne Soufflage encore au **11/09 avec Pierre Mattiuz**,
+  alors que le chantier ne figure plus au planning. Faut-il vider la date, la reporter à
+  une date connue, ou la laisser ainsi en attendant replanification ?
+- **662275 / 553176** : **Feller Sam** figure toujours parmi les personnes assignées au
+  Soufflage alors qu'il est absent toute la semaine. Le retirer ou le laisser ?
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
