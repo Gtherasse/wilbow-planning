@@ -83,6 +83,23 @@ retour de la mutation.
   page ou problème de mise en page. Si le cas se présente, ajuster (par ex.
   réduire légèrement les marges de page) **sans jamais couper de contenu**.
 
+## Livraison des documents — toujours donner la commande
+
+Les PDF sont générés et commités dans ce dépôt, mais **Claude Code n'a pas toujours accès
+au disque de Geoffrey** (session distante). **Terminer systématiquement chaque livraison
+par la commande à exécuter**, sans attendre qu'elle soit demandée :
+
+```powershell
+cd "C:\Users\123\Desktop\WILBOW\Claude\Planning"
+git pull
+```
+
+Elle dépose les PDF directement dans `Grille Planning\` et `Check-in @ Work\`, et met à
+jour le script de la semaine et le mémo au passage. Les fichiers de même nom sont écrasés :
+c'est voulu — un seul fichier par document et par semaine.
+
+Préciser à chaque fois **quels fichiers** la commande met à jour.
+
 ## Après chaque modification
 
 - Mettre à jour le gabarit `_modele_planning_s<sem>.py` (copie du script de la

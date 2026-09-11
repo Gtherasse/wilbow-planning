@@ -426,6 +426,11 @@ corrigé avant livraison. À surveiller : `X()` et `J()` ont la même convention
 `(lib, note, t, ...)`, mais une note sans type ne déclenche aucune erreur — elle sort
 simplement sans style.
 
+**11/09/2026** — Règle permanente ajoutée (demande de Geoffrey) : **toujours terminer une
+livraison par la commande `git pull` à exécuter dans le dossier Planning**, sans attendre
+qu'elle soit demandée, en précisant quels fichiers elle met à jour. Inscrite dans
+`CLAUDE.md`, section « Livraison des documents ».
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
