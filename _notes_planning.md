@@ -358,6 +358,22 @@ n'a été modifié de ce côté.
 (lundi 14 au vendredi 18/09), C@W BTO. Aucune mise à jour Monday.com : le BTO n'y est
 jamais modifié.
 
+**11/09/2026** : semaine 38 — **Pierre Mattiuz sur le JMS 599588** (Rue des Soeurs
+Grises/Montmorency/Av. du Condroz — Liège) le **lundi 14/09**, seul. C@W PANDA+. Ce
+chantier était sorti du planning le vendredi 11/09 (S37) quand Pierre avait rejoint Miguel
+à Oupeye ; il est donc replacé, et le point en suspens correspondant est **clos**.
+Monday.com : date Soufflage déplacée du 11/09 au **14/09** ; Pierre y était déjà assigné.
+
+**Deuxième occurrence du même défaut** : le lien Monday du 599588 manquait lui aussi dans
+le dict `LIENS` de `_modele_planning_s38.py` — comme celui du 675238 la veille. Sans lui le
+numéro JMS sort non cliquable. Ajouté. Voir la proposition d'automatisation ci-dessous.
+
+**Automatisation proposée (non implémentée)** : ajouter au script un contrôle qui refuse de
+générer si un JMS présent dans `PLANNING` n'a pas d'entrée dans `LIENS`. Coût : quelques
+lignes, sans risque. Intérêt : supprime définitivement une erreur silencieuse qui s'est déjà
+produite deux fois en deux jours, et que seule une relecture attentive du PDF permet de
+repérer. **À valider.**
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

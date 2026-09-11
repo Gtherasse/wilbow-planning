@@ -56,6 +56,7 @@ AM    = "Après-midi"
 LIENS = {
     "672861": "https://wilbow.monday.com/boards/5089236279/pulses/3196268739",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
+    "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -105,6 +106,10 @@ PLANNING = {
     # Le ROP (672861), deja reporte du mercredi 09/09 (S37) au lundi 14/09,
     # glisse encore d un jour -> mardi 15/09, le FH 32 prenant le lundi.
     ("JM", 1): [J("672861", "41LONC/609 — ROP Accidenté TYCAB18", caw="PANDA+")],
+
+    # Lundi 14/09 : Pierre reprend le 599588 (Liege), sorti du planning du
+    # vendredi 11/09 (S37) quand il avait rejoint Miguel a Oupeye. Seul.
+    ("PM", 0): [J("599588", "Rue des Soeurs Grises/Montmorency/Av. du Condroz — Liège", caw="PANDA+")],
 
     # Panait Dan et Hanikenne Florian : BTO toute la semaine.
     ("DP", 0): [X("BTO", caw="BTO")],
