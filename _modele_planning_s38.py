@@ -106,6 +106,19 @@ PLANNING = {
     # glisse encore d un jour -> mardi 15/09, le FH 32 prenant le lundi.
     ("JM", 1): [J("672861", "41LONC/609 — ROP Accidenté TYCAB18", caw="PANDA+")],
 
+    # Panait Dan et Hanikenne Florian : BTO toute la semaine.
+    ("DP", 0): [X("BTO", caw="BTO")],
+    ("DP", 1): [X("BTO", caw="BTO")],
+    ("DP", 2): [X("BTO", caw="BTO")],
+    ("DP", 3): [X("BTO", caw="BTO")],
+    ("DP", 4): [X("BTO", caw="BTO")],
+
+    ("FH", 0): [X("BTO", caw="BTO")],
+    ("FH", 1): [X("BTO", caw="BTO")],
+    ("FH", 2): [X("BTO", caw="BTO")],
+    ("FH", 3): [X("BTO", caw="BTO")],
+    ("FH", 4): [X("BTO", caw="BTO")],
+
     # Reste de la semaine : à planifier au fur et à mesure.
 }
 

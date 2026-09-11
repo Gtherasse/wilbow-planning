@@ -354,6 +354,10 @@ n'a été modifié de ce côté.
 - **662275 / 553176** : **Feller Sam** figure toujours parmi les personnes assignées au
   Soufflage alors qu'il est absent toute la semaine. Le retirer ou le laisser ?
 
+**11/09/2026** : semaine 38 — **Panait Dan et Hanikenne Florian en BTO toute la semaine**
+(lundi 14 au vendredi 18/09), C@W BTO. Aucune mise à jour Monday.com : le BTO n'y est
+jamais modifié.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
