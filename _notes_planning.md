@@ -374,6 +374,38 @@ lignes, sans risque. Intérêt : supprime définitivement une erreur silencieuse
 produite deux fois en deux jours, et que seule une relecture attentive du PDF permet de
 repérer. **À valider.**
 
+**11/09/2026** — Semaine 38, plusieurs affectations (toutes C@W **PANDA+**) :
+
+| Jour | Qui | Quoi |
+|------|-----|------|
+| Lun 14/09 | Équipe 1 | JMS 687959 (Sinistre Canalisation — Rue de Séroule, Check Cuo) |
+| Mar-Ven 15-18/09 | Équipe 1 | JMS 675238 (Ciney-Jemelle) — **décalé d'un jour** |
+| Lun 14/09 | Équipe 2 | JMS 662275 + 553176 (Oupeye, Covitin) — soufflage |
+| Mar-Mer 15-16/09 | Meurisse Johan + Mattiuz Pierre | JMS 662275 (DIST) + 553176 (DIST) + 569815 (FEED) — en binôme, pastilles « + P. Mattiuz » / « + J. Meurisse » |
+| Jeu 17/09 | Meurisse Johan | JMS 672861 (ROP Accidenté) — **reporté du mardi au jeudi** |
+
+**Le chantier de Ciney perd une journée** : il occupait lundi→vendredi, il occupe désormais
+mardi→vendredi. La 5e journée est **à replanifier** si le chantier n'est pas terminé —
+option « samedi » et « report en S39 » écartées explicitement. **À suivre.**
+
+Nouveau JMS au répertoire : **569815** = FEED de la Rue Boyou 13 (Oupeye, Covitin), même
+adresse que le 553176 qui en est le DIST.
+
+Monday.com — six items mis à jour, puis relus sur le board :
+687959 Soufflage 14/09 + Bolmain/Petit · 675238 Soufflage 15/09 · 662275 et 553176
+Soufflage 14/09 et **Jointage 15/09 + Johan et Pierre** · 569815 Jointage 15/09 + Johan et
+Pierre · 672861 Jointage 17/09. Pierre placé en **Jointage** avec Johan pour ces trois
+chantiers (décision du 11/09), l'Équipe 2 gardant le soufflage du lundi.
+
+Mise en page : l'ajout du trio DIST/FEED sur deux jours faisait passer la semaine 38 sur
+2 pages. **Toutes les tailles de police réduites de 1 %** dans `_modele_planning_s38.py` —
+le minimum testé qui suffise. Hauteur de ligne 10,7mm (planning) / 16,8mm (C@W).
+
+**Troisième occurrence du défaut des liens manquants** : les liens Monday du 662275, 553176,
+569815 et 687959 étaient **tous les quatre** absents du dict `LIENS` de la S38. Ajoutés.
+La proposition d'automatisation (contrôle bloquant si un JMS de `PLANNING` n'a pas de lien)
+reste **en attente de validation** et gagne en urgence.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
