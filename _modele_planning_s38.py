@@ -66,6 +66,7 @@ LIENS = {
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
 SIGN  = "https://wilbow.monday.com/boards/5089236279/pulses/2832088996"  # SignaDyn - Zone D - Soufflage et Soudage reste zone D
 FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32 FEED-IN
+MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Verification Move Rop 41FEX
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 
@@ -127,7 +128,12 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
         J("569815", "FEED Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
-    ("JM", 3): [J("672861", "41LONC/609 — ROP Accidenté TYCAB18", caw="PANDA+")],
+    # Jeudi 17/09 : Johan et Pierre en binome sur le ROP et la verification
+    # du Move ROP 41FEX, journee entiere pour les deux.
+    ("JM", 3): [
+        J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        X("Vérification Move ROP 41FEX", "+ P. Mattiuz", "commun", url=MOVE41, caw="PANDA+"),
+    ],
 
     # Lundi 14/09 : Pierre reprend le 599588 (Liege), sorti du planning du
     # vendredi 11/09 (S37) quand il avait rejoint Miguel a Oupeye. Seul.
@@ -141,6 +147,10 @@ PLANNING = {
         J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
         J("569815", "FEED Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
+    ],
+    ("PM", 3): [
+        J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ J. Meurisse", "commun", caw="PANDA+"),
+        X("Vérification Move ROP 41FEX", "+ J. Meurisse", "commun", url=MOVE41, caw="PANDA+"),
     ],
 
     # Panait Dan et Hanikenne Florian : BTO toute la semaine.

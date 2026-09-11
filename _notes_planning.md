@@ -406,6 +406,26 @@ le minimum testé qui suffise. Hauteur de ligne 10,7mm (planning) / 16,8mm (C@W)
 La proposition d'automatisation (contrôle bloquant si un JMS de `PLANNING` n'a pas de lien)
 reste **en attente de validation** et gagne en urgence.
 
+**11/09/2026** : semaine 38, **jeudi 17/09** — Meurisse Johan **et** Mattiuz Pierre, en
+binôme sur la journée entière :
+- JMS 672861 (41LONC/609 — ROP Accidenté TYCAB18) — désormais **pour les deux** ;
+- **Vérification Move ROP 41FEX** — chantier **sans numéro JMS**, lié à l'élément Monday
+  `3218880657`, donc cliquable dans le PDF.
+
+C@W **PANDA+** pour les deux prestations (code confirmé le 11/09 — il n'était pas précisé
+dans la demande, conformément à la règle il a été demandé avant génération).
+
+Monday.com : l'élément « Vérification Move Rop 41FEX » portait déjà Johan et Pierre en
+Jointage au 17/09 — rien à modifier. Sur le 672861, **Pierre a été ajouté** au Jointage à
+côté de Johan.
+
+**Défaut corrigé en cours de route** : la note de partage de la prestation 41FEX
+s'affichait en texte brut, sans pastille bleue — le type `"commun"` manquait sur l'entrée
+`X()`, dont la signature place `note` avant `t`. Repéré à la vérification visuelle du PDF,
+corrigé avant livraison. À surveiller : `X()` et `J()` ont la même convention
+`(lib, note, t, ...)`, mais une note sans type ne déclenche aucune erreur — elle sort
+simplement sans style.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
