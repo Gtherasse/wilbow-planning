@@ -334,16 +334,16 @@ body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
 .brand small {{ display:block; font-size:5.92pt; font-weight:600; letter-spacing:1.26pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:12.61pt; font-weight:800; color:#0f172a; letter-spacing:.4.85pt; }}
+.title .wk {{ font-size:12.61pt; font-weight:800; color:#0f172a; letter-spacing:0.485pt; }}
 .title .dt {{ font-size:8.05pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
 .badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.57pt; font-weight:800;
-              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.5.82pt; }}
+              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.582pt; }}
 .badge .maj {{ font-size:6.4pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:9.02pt; font-weight:800; letter-spacing:.6.79pt;
+th.day {{ background:#0f172a; color:#fff; font-size:9.02pt; font-weight:800; letter-spacing:0.679pt;
          padding:1mm 1mm; border:0.68pt solid #0f172a; text-transform:uppercase; text-align:center; }}
 th.day span {{ display:block; font-size:7.37pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
@@ -353,8 +353,8 @@ tr.grp-end td {{ border-bottom:2.91pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
 tr:last-child td {{ border-bottom:1.55pt solid #0f172a; }}
 .hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.68pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:5.63pt; font-weight:800; letter-spacing:.7.76pt; text-transform:uppercase; }}
-.rtag {{ font-size:5.43pt; font-weight:800; letter-spacing:.6.79pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rlabel {{ font-size:5.63pt; font-weight:800; letter-spacing:0.776pt; text-transform:uppercase; }}
+.rtag {{ font-size:5.43pt; font-weight:800; letter-spacing:0.679pt; text-transform:uppercase; margin-left:1.4mm; }}
 .rname {{ font-size:7.37pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
@@ -369,9 +369,9 @@ tr:last-child td {{ border-bottom:1.55pt solid #0f172a; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
 .ext {{ font-size:6.4pt; margin-left:.8mm; color:#1d4ed8; }}
 .lib {{ font-size:6.69pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
-.lib.code {{ letter-spacing:.2.91pt; color:#1e293b; }}
+.lib.code {{ letter-spacing:0.291pt; color:#1e293b; }}
 .note {{ display:inline-block; font-size:5.92pt; font-weight:700; padding:.35mm 1.2mm;
-        border-radius:.8mm; margin-top:.6mm; letter-spacing:.2.91pt; }}
+        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.291pt; }}
 .n-renfort {{ background:#fef3c7; color:#92400e; border:0.48pt solid #fcd34d; }}
 .n-commun {{ background:#e0e7ff; color:#3730a3; border:0.48pt solid #a5b4fc; }}
 .n-prov {{ background:#fff7ed; color:#c2410c; border:0.58pt dashed #fb923c; }}
@@ -388,16 +388,16 @@ tr:last-child td {{ border-bottom:1.55pt solid #0f172a; }}
 .job.cheval .per.nuit {{ background:#334155; color:#fff; }}
 .job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:5.43pt; font-weight:800; letter-spacing:.5.82pt;
+.per {{ display:inline-block; font-size:5.43pt; font-weight:800; letter-spacing:0.582pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
 .qui {{ font-size:7.18pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:6.01pt; font-weight:800; letter-spacing:.5.82pt; padding:.35mm 1.4mm;
+.statut {{ font-size:6.01pt; font-weight:800; letter-spacing:0.582pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:7.18pt; font-weight:800; letter-spacing:.8.73pt; text-align:center;
+.ligneabs {{ font-size:7.18pt; font-weight:800; letter-spacing:0.873pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
 .dash {{ font-size:7.37pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;

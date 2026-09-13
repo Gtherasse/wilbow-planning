@@ -431,6 +431,34 @@ livraison par la commande `git pull` à exécuter dans le dossier Planning**, sa
 qu'elle soit demandée, en précisant quels fichiers elle met à jour. Inscrite dans
 `CLAUDE.md`, section « Livraison des documents ».
 
+**13/09/2026** — **Changement de format des livrables** (demande de Geoffrey) : désormais
+**un seul PDF par semaine, deux pages** — page 1 le planning chantier, page 2 le Check in @
+Work. Nom inchangé (`Planning WILBOW - S<sem> - <jours> <mois> <année>.pdf`), **tout dans
+`Grille Planning/`**. Le dossier `Check-in @ Work/` n'est plus alimenté ; le fichier S38 qui
+s'y trouvait a été supprimé, il faisait doublon avec la page 2 du nouveau PDF. Le script
+prend maintenant un seul argument de sortie et **refuse de générer si le résultat ne fait
+pas exactement 2 pages**. Règle inscrite dans `CLAUDE.md`.
+Appliqué à la **semaine 38** uniquement. La semaine 37, terminée et déjà distribuée, garde
+ses deux fichiers séparés — à refaire au format 2 pages si tu le souhaites.
+
+**13/09/2026** : semaine 38, **lundi 14/09** — l'Équipe 1 enchaîne sur le **JMS 687978**
+(FQ_Remplacement câble 41HER0 F11) après le 687959 (Sinistre Séroule). C@W **PANDA+**,
+repris du code déjà établi pour ce chantier en S37 — code non redemandé puisqu'il est
+documenté, mais **à corriger si ce n'est pas le bon**. Monday.com : date Soufflage du 687978
+déplacée du 09/09 au 14/09 ; Bolmain et Petit y étaient déjà assignés.
+
+**13/09/2026 — Défaut introduit par mes soins, corrigé** : les réductions de police des
+09 et 11/09 avaient été appliquées par expression régulière sur toutes les valeurs en `pt`.
+Les valeurs écrites sans zéro initial (`letter-spacing:.4pt`) sont devenues `.4.85pt`,
+syntaxe **invalide**, donc silencieusement ignorée par WeasyPrint : l'espacement des lettres
+des titres, entêtes de jour et pastilles était perdu depuis le 09/09. **10 occurrences par
+script**, corrigées dans la S37 et la S38. Leçon : une transformation automatique du CSS doit
+être relue, une propriété invalide ne provoque aucune erreur.
+
+Mise en page S38 : l'ajout du 687978 **plus** la restauration du letter-spacing ont fait
+déborder la page 1. Polices ramenées à **-5 %** (contre -1 % auparavant). Hauteurs de ligne
+10,1mm (planning) et 16,0mm (C@W).
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

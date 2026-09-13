@@ -72,16 +72,26 @@ retour de la mutation.
 
 ## Livrables
 
-- **Un seul fichier PDF par document et par semaine.** Pas de copie en double.
-- Noms de fichiers :
-  - `Planning WILBOW - S<sem> - <jours> <mois> <année>.pdf`
-  - `Check in at Work - S<sem> - <jours> <mois> <année>.pdf`
-- Emplacements : planning chantier dans `Grille Planning/`,
-  Check-in @ Work dans `Check-in @ Work/`.
-- **Vérification visuelle obligatoire avant livraison** : convertir le PDF en
-  image (`pdftoppm`) et le regarder, pour repérer tout débordement sur une 2e
-  page ou problème de mise en page. Si le cas se présente, ajuster (par ex.
-  réduire légèrement les marges de page) **sans jamais couper de contenu**.
+**Un seul fichier PDF par semaine, deux pages** (règle du 13/09/2026) :
+
+| Page | Contenu | Destinataire |
+| --- | --- | --- |
+| 1 | Planning chantier — qui fait quoi, où, quel JMS | Équipe terrain |
+| 2 | Check in @ Work — uniquement les codes C@W | Secrétariat |
+
+Les deux pages sont générées à partir du **même** dict `PLANNING`, elles ne peuvent donc
+pas diverger. Chaque page conserve sa propre hauteur de ligne optimale.
+
+- Nom du fichier : `Planning WILBOW - S<sem> - <jours> <mois> <année>.pdf`
+- Emplacement : **`Grille Planning/`** — tout y va, le dossier `Check-in @ Work/` n'est plus
+  alimenté.
+- **Un seul fichier par semaine.** Pas de copie en double, pas de PDF C@W séparé.
+- Le script prend le chemin de sortie en unique argument :
+  `python3 _modele_planning_s<sem>.py "Grille Planning/Planning WILBOW - S<sem> - ....pdf"`
+- **Vérification visuelle obligatoire avant livraison** : convertir **les deux pages** en
+  image et les regarder. Le script refuse déjà de produire autre chose que 2 pages, mais il
+  ne juge pas la mise en page. Si une page déborde, ajuster (marges, taille de police)
+  **sans jamais couper de contenu**.
 
 ## Livraison des documents — toujours donner la commande
 

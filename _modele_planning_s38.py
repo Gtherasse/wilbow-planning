@@ -61,6 +61,7 @@ LIENS = {
     "553176": "https://wilbow.monday.com/boards/5089236279/pulses/3166049312",
     "569815": "https://wilbow.monday.com/boards/5089236279/pulses/3218027388",
     "687959": "https://wilbow.monday.com/boards/5089236279/pulses/3211229702",
+    "687978": "https://wilbow.monday.com/boards/5089236279/pulses/3212938322",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -100,7 +101,10 @@ PLANNING = {
     # Equipe 1 : dossier de Ciney toute la semaine, comme en S37.
     # Lundi 14/09 : sinistre rue de Seroule. Le chantier de Ciney est decale
     # d un jour -> mardi a vendredi ; la 5e journee sera replanifiee plus tard.
-    ("E1", 0): [J("687959", "Sinistre Canalisation — Rue de Séroule (Check Cuo)", caw="PANDA+")],
+    ("E1", 0): [
+        J("687959", "Sinistre Canalisation — Rue de Séroule (Check Cuo)", caw="PANDA+"),
+        J("687978", "FQ_Remplacement cable 41HER0 F11", caw="PANDA+"),
+    ],
     ("E1", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
@@ -288,76 +292,76 @@ def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
 * {{ box-sizing:border-box; }}
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
-        border-bottom:2.48pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:16.83pt; font-weight:800; letter-spacing:2.48pt; color:#0f172a; line-height:1;
+        border-bottom:2.356pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
+.brand {{ font-size:15.988pt; font-weight:800; letter-spacing:2.356pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:6.04pt; font-weight:600; letter-spacing:1.29pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:5.738pt; font-weight:600; letter-spacing:1.226pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:12.87pt; font-weight:800; color:#0f172a; letter-spacing:.4.95pt; }}
-.title .dt {{ font-size:8.22pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:12.226pt; font-weight:800; color:#0f172a; letter-spacing:0.47pt; }}
+.title .dt {{ font-size:7.809pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.72pt; font-weight:800;
-              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.5.94pt; }}
-.badge .maj {{ font-size:6.53pt; color:#64748b; margin-top:1.1mm; }}
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.334pt; font-weight:800;
+              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.564pt; }}
+.badge .maj {{ font-size:6.204pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:9.21pt; font-weight:800; letter-spacing:.6.93pt;
-         padding:1mm 1mm; border:0.69pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:7.52pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day {{ background:#0f172a; color:#fff; font-size:8.75pt; font-weight:800; letter-spacing:0.658pt;
+         padding:1mm 1mm; border:0.655pt solid #0f172a; text-transform:uppercase; text-align:center; }}
+th.day span {{ display:block; font-size:7.144pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
-td {{ border:0.69pt solid #cbd5e1; border-left-width:2.38pt; border-left-style:solid;
-     border-bottom:1.58pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
-tr.grp-end td {{ border-bottom:2.97pt solid #0f172a; }}
+td {{ border:0.655pt solid #cbd5e1; border-left-width:2.261pt; border-left-style:solid;
+     border-bottom:1.501pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
+tr.grp-end td {{ border-bottom:2.821pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
-tr:last-child td {{ border-bottom:1.58pt solid #0f172a; }}
-.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.69pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:5.74pt; font-weight:800; letter-spacing:.7.92pt; text-transform:uppercase; }}
-.rtag {{ font-size:5.54pt; font-weight:800; letter-spacing:.6.93pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:7.52pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+tr:last-child td {{ border-bottom:1.501pt solid #0f172a; }}
+.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.655pt solid rgba(15,23,42,.18); }}
+.rlabel {{ font-size:5.453pt; font-weight:800; letter-spacing:0.752pt; text-transform:uppercase; }}
+.rtag {{ font-size:5.263pt; font-weight:800; letter-spacing:0.658pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:7.144pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
-.body.empty {{ background:#eef2f6; border:0.59pt solid #d5dde5; border-radius:.8mm;
+.body.empty {{ background:#eef2f6; border:0.56pt solid #d5dde5; border-radius:.8mm;
               text-align:center; padding:.8mm 0; }}
 .body.abs {{ border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:8.41pt; font-weight:800; letter-spacing:1.19pt; }}
+.absl {{ font-size:7.989pt; font-weight:800; letter-spacing:1.13pt; }}
 .job {{ line-height:1.2; }}
-.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.59pt dashed #94a3b8; }}
-.jms {{ font-size:8.02pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:7.82pt; line-height:1.18; letter-spacing:.25pt; }}
+.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.56pt dashed #94a3b8; }}
+.jms {{ font-size:7.619pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:7.429pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:6.53pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:6.83pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
-.lib.code {{ letter-spacing:.2.97pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:6.04pt; font-weight:700; padding:.35mm 1.2mm;
-        border-radius:.8mm; margin-top:.6mm; letter-spacing:.2.97pt; }}
-.n-renfort {{ background:#fef3c7; color:#92400e; border:0.49pt solid #fcd34d; }}
-.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.49pt solid #a5b4fc; }}
-.n-prov {{ background:#fff7ed; color:#c2410c; border:0.59pt dashed #fb923c; }}
-.n-alt {{ background:#f1f5f9; color:#475569; border:0.59pt dashed #94a3b8; }}
+.ext {{ font-size:6.204pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:6.489pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.lib.code {{ letter-spacing:0.282pt; color:#1e293b; }}
+.note {{ display:inline-block; font-size:5.738pt; font-weight:700; padding:.35mm 1.2mm;
+        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.282pt; }}
+.n-renfort {{ background:#fef3c7; color:#92400e; border:0.465pt solid #fcd34d; }}
+.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.465pt solid #a5b4fc; }}
+.n-prov {{ background:#fff7ed; color:#c2410c; border:0.56pt dashed #fb923c; }}
+.n-alt {{ background:#f1f5f9; color:#475569; border:0.56pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:5.54pt; font-weight:800; letter-spacing:.5.94pt;
+.per {{ display:inline-block; font-size:5.263pt; font-weight:800; letter-spacing:0.564pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:7.33pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:6.14pt; font-weight:800; letter-spacing:.5.94pt; padding:.35mm 1.4mm;
+.qui {{ font-size:6.963pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:5.833pt; font-weight:800; letter-spacing:0.564pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:7.33pt; font-weight:800; letter-spacing:.8.91pt; text-align:center;
+.ligneabs {{ font-size:6.963pt; font-weight:800; letter-spacing:0.846pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:7.52pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:7.144pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:0.99pt solid #cbd5e1; font-size:6.53pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.941pt solid #cbd5e1; font-size:6.204pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
-.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.59pt solid #d5dde5;
+.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.56pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}
 </style></head><body>
 <div class="head">
@@ -380,29 +384,46 @@ tr:last-child td {{ border-bottom:1.58pt solid #0f172a; }}
 from weasyprint import HTML as W
 import math
 
-def rendre(rows, chemin, badge, soustitre, pied2, cle_vide):
+def hauteur_page(rows, badge, soustitre, pied2, quoi):
+    """Cherche la hauteur de ligne la plus confortable qui tienne sur UNE page."""
     def pages(h):
         open("/tmp/_pl38.html", "w", encoding="utf-8").write(
             build(h, rows, badge, soustitre, pied2))
         return len(W(filename="/tmp/_pl38.html").render().pages)
     lo, hi = 4.0, 40.0
     if pages(lo) > 1:
-        raise SystemExit(f"Contenu trop dense pour une page : {chemin}")
+        raise SystemExit(f"Contenu trop dense pour une page : {quoi}")
     for _ in range(12):
         mid = (lo + hi) / 2
         if pages(mid) == 1: lo = mid
         else: hi = mid
     lo = math.floor(lo * 10) / 10
     while lo > 4 and pages(lo) > 1: lo -= 0.1
-    open("/tmp/_pl38.html", "w", encoding="utf-8").write(
-        build(round(lo, 1), rows, badge, soustitre, pied2))
-    W(filename="/tmp/_pl38.html").write_pdf(chemin)
-    print(f"OK -> {chemin}  (hauteur ligne {lo:.1f}mm)")
+    return round(lo, 1)
 
-out_chantier = sys.argv[1] if len(sys.argv) > 1 else "planning_s38.pdf"
-out_caw      = sys.argv[2] if len(sys.argv) > 2 else "planning_s38_caw.pdf"
+def corps(html):
+    """Contenu du <body>, pour concatener les deux pages dans un seul document."""
+    return html.split("<body>", 1)[1].rsplit("</body>", 1)[0]
 
-rendre(make_rows(PLANNING, "site"), out_chantier, "PLANNING CONFIRMÉ", None, None, True)
-rendre(make_rows(PLANNING, "caw"), out_caw, "CHECK IN @ WORK",
-       " — CHECK IN @ WORK",
-       "Le code sous chaque intitulé = référence à encoder dans Check in @ Work", False)
+# Un SEUL fichier PDF, deux pages : page 1 le planning chantier, page 2 le
+# Check in @ Work. Les deux viennent du meme dict PLANNING, donc ils ne peuvent
+# pas diverger. Chaque page garde sa propre hauteur de ligne optimale.
+ROWS_SITE = make_rows(PLANNING, "site")
+ROWS_CAW  = make_rows(PLANNING, "caw")
+CAW_ST    = " — CHECK IN @ WORK"
+CAW_PIED  = "Le code sous chaque intitulé = référence à encoder dans Check in @ Work"
+
+h1 = hauteur_page(ROWS_SITE, "PLANNING CONFIRMÉ", None, None, "page 1 (planning chantier)")
+h2 = hauteur_page(ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED, "page 2 (Check in @ Work)")
+
+doc = build(h1, ROWS_SITE, "PLANNING CONFIRMÉ", None, None)
+pg2 = corps(build(h2, ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED))
+doc = doc.replace("</body>", '<div style="break-before:page;">' + pg2 + "</div></body>")
+
+sortie = sys.argv[1] if len(sys.argv) > 1 else "Planning WILBOW - S38.pdf"
+open("/tmp/_pl38.html", "w", encoding="utf-8").write(doc)
+rendu = W(filename="/tmp/_pl38.html").render()
+if len(rendu.pages) != 2:
+    raise SystemExit(f"Attendu 2 pages, obtenu {len(rendu.pages)} : {sortie}")
+rendu.write_pdf(sortie)
+print(f"OK -> {sortie}  (2 pages ; hauteurs de ligne {h1:.1f}mm et {h2:.1f}mm)")
