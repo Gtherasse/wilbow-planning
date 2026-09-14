@@ -459,6 +459,24 @@ Mise en page S38 : l'ajout du 687978 **plus** la restauration du letter-spacing 
 déborder la page 1. Polices ramenées à **-5 %** (contre -1 % auparavant). Hauteurs de ligne
 10,1mm (planning) et 16,0mm (C@W).
 
+**14/09/2026** : **Feller Sam absent toute la semaine 38** (lundi 14 au vendredi 18/09).
+Personne ne le remplace à côté de Miguel — l'entête Équipe 2 affiche « Dominguez Miguel »
+seul sur les cinq jours. Son absence était déjà prolongée au vendredi 11/09 en S37 : elle
+court donc sans interruption depuis le 31/08.
+
+**14/09/2026** : lundi 14/09 — **le JMS 599588 (Liège) est annulé** pour Pierre Mattiuz, qui
+rejoint Miguel sur les JMS 662275 et 553176 (Oupeye, Covitin), Sam étant absent. Pastilles
+« + Équipe 2 » et « + P. Mattiuz » de part et d'autre. C@W PANDA+.
+
+**Le 599588 sort du planning pour la deuxième fois** (déjà sorti du vendredi 11/09 en S37,
+replacé au lundi 14/09 le 11/09, annulé de nouveau ce jour). Il n'est reporté nulle part.
+Sur Monday.com sa date Soufflage reste au **14/09 avec Pierre** — non modifiée, faute de
+convention arbitrée. **À trancher.**
+
+Mise en page : la case de Pierre du lundi passant d'un à deux chantiers, la page 1 débordait
+de nouveau. Polices ramenées à **-6 %** (cumul depuis le 11/09). Hauteurs de ligne 10,6mm et
+12,6mm. **Quatrième resserrage consécutif — voir le point d'architecture du 10/09.**
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

@@ -95,7 +95,15 @@ CODES = {
     "CATERPILLAR":        "1Y102SV8BK22Z",
 }
 
-NOMS_OVERRIDE = {}
+# Feller Sam absent toute la semaine 38 : personne ne le remplace a cote de
+# Miguel, l entete Equipe 2 affiche donc "Dominguez Miguel" seul les 5 jours.
+NOMS_OVERRIDE = {
+    ("E2", 0): ["Dominguez Miguel"],
+    ("E2", 1): ["Dominguez Miguel"],
+    ("E2", 2): ["Dominguez Miguel"],
+    ("E2", 3): ["Dominguez Miguel"],
+    ("E2", 4): ["Dominguez Miguel"],
+}
 
 PLANNING = {
     # Equipe 1 : dossier de Ciney toute la semaine, comme en S37.
@@ -112,8 +120,8 @@ PLANNING = {
 
     # Equipe 2 : soufflage des deux DIST de la rue Boyou / Jansen le lundi.
     ("E2", 0): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", caw="PANDA+"),
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
 
     # Lundi 14/09 : le FH 32, reporte depuis la S37 (Johan etait en recup le
@@ -141,7 +149,12 @@ PLANNING = {
 
     # Lundi 14/09 : Pierre reprend le 599588 (Liege), sorti du planning du
     # vendredi 11/09 (S37) quand il avait rejoint Miguel a Oupeye. Seul.
-    ("PM", 0): [J("599588", "Rue des Soeurs Grises/Montmorency/Av. du Condroz — Liège", caw="PANDA+")],
+    # Lundi 14/09 : le 599588 (Liege) est annule, Pierre rejoint Miguel sur les
+    # deux DIST d Oupeye, Sam Feller etant absent toute la semaine.
+    ("PM", 0): [
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
+    ],
     ("PM", 1): [
         J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
@@ -292,76 +305,76 @@ def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
 * {{ box-sizing:border-box; }}
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
-        border-bottom:2.356pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:15.988pt; font-weight:800; letter-spacing:2.356pt; color:#0f172a; line-height:1;
+        border-bottom:2.332pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
+.brand {{ font-size:15.828pt; font-weight:800; letter-spacing:2.332pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:5.738pt; font-weight:600; letter-spacing:1.226pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:5.681pt; font-weight:600; letter-spacing:1.214pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:12.226pt; font-weight:800; color:#0f172a; letter-spacing:0.47pt; }}
-.title .dt {{ font-size:7.809pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:12.104pt; font-weight:800; color:#0f172a; letter-spacing:0.465pt; }}
+.title .dt {{ font-size:7.731pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.334pt; font-weight:800;
-              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.564pt; }}
-.badge .maj {{ font-size:6.204pt; color:#64748b; margin-top:1.1mm; }}
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.261pt; font-weight:800;
+              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.558pt; }}
+.badge .maj {{ font-size:6.142pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:8.75pt; font-weight:800; letter-spacing:0.658pt;
-         padding:1mm 1mm; border:0.655pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:7.144pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day {{ background:#0f172a; color:#fff; font-size:8.662pt; font-weight:800; letter-spacing:0.651pt;
+         padding:1mm 1mm; border:0.648pt solid #0f172a; text-transform:uppercase; text-align:center; }}
+th.day span {{ display:block; font-size:7.073pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
-td {{ border:0.655pt solid #cbd5e1; border-left-width:2.261pt; border-left-style:solid;
-     border-bottom:1.501pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
-tr.grp-end td {{ border-bottom:2.821pt solid #0f172a; }}
+td {{ border:0.648pt solid #cbd5e1; border-left-width:2.238pt; border-left-style:solid;
+     border-bottom:1.486pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
+tr.grp-end td {{ border-bottom:2.793pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
-tr:last-child td {{ border-bottom:1.501pt solid #0f172a; }}
-.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.655pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:5.453pt; font-weight:800; letter-spacing:0.752pt; text-transform:uppercase; }}
-.rtag {{ font-size:5.263pt; font-weight:800; letter-spacing:0.658pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:7.144pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+tr:last-child td {{ border-bottom:1.486pt solid #0f172a; }}
+.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.648pt solid rgba(15,23,42,.18); }}
+.rlabel {{ font-size:5.398pt; font-weight:800; letter-spacing:0.744pt; text-transform:uppercase; }}
+.rtag {{ font-size:5.21pt; font-weight:800; letter-spacing:0.651pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:7.073pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
-.body.empty {{ background:#eef2f6; border:0.56pt solid #d5dde5; border-radius:.8mm;
+.body.empty {{ background:#eef2f6; border:0.554pt solid #d5dde5; border-radius:.8mm;
               text-align:center; padding:.8mm 0; }}
 .body.abs {{ border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:7.989pt; font-weight:800; letter-spacing:1.13pt; }}
+.absl {{ font-size:7.909pt; font-weight:800; letter-spacing:1.119pt; }}
 .job {{ line-height:1.2; }}
-.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.56pt dashed #94a3b8; }}
-.jms {{ font-size:7.619pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:7.429pt; line-height:1.18; letter-spacing:.25pt; }}
+.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.554pt dashed #94a3b8; }}
+.jms {{ font-size:7.543pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:7.355pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:6.204pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:6.489pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
-.lib.code {{ letter-spacing:0.282pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:5.738pt; font-weight:700; padding:.35mm 1.2mm;
-        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.282pt; }}
-.n-renfort {{ background:#fef3c7; color:#92400e; border:0.465pt solid #fcd34d; }}
-.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.465pt solid #a5b4fc; }}
-.n-prov {{ background:#fff7ed; color:#c2410c; border:0.56pt dashed #fb923c; }}
-.n-alt {{ background:#f1f5f9; color:#475569; border:0.56pt dashed #94a3b8; }}
+.ext {{ font-size:6.142pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:6.424pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.lib.code {{ letter-spacing:0.279pt; color:#1e293b; }}
+.note {{ display:inline-block; font-size:5.681pt; font-weight:700; padding:.35mm 1.2mm;
+        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.279pt; }}
+.n-renfort {{ background:#fef3c7; color:#92400e; border:0.46pt solid #fcd34d; }}
+.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.46pt solid #a5b4fc; }}
+.n-prov {{ background:#fff7ed; color:#c2410c; border:0.554pt dashed #fb923c; }}
+.n-alt {{ background:#f1f5f9; color:#475569; border:0.554pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:5.263pt; font-weight:800; letter-spacing:0.564pt;
+.per {{ display:inline-block; font-size:5.21pt; font-weight:800; letter-spacing:0.558pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:6.963pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:5.833pt; font-weight:800; letter-spacing:0.564pt; padding:.35mm 1.4mm;
+.qui {{ font-size:6.893pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:5.775pt; font-weight:800; letter-spacing:0.558pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:6.963pt; font-weight:800; letter-spacing:0.846pt; text-align:center;
+.ligneabs {{ font-size:6.893pt; font-weight:800; letter-spacing:0.838pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:7.144pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:7.073pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:0.941pt solid #cbd5e1; font-size:6.204pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.932pt solid #cbd5e1; font-size:6.142pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
-.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.56pt solid #d5dde5;
+.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.554pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}
 </style></head><body>
 <div class="head">
