@@ -477,6 +477,36 @@ Mise en page : la case de Pierre du lundi passant d'un à deux chantiers, la pag
 de nouveau. Polices ramenées à **-6 %** (cumul depuis le 11/09). Hauteurs de ligne 10,6mm et
 12,6mm. **Quatrième resserrage consécutif — voir le point d'architecture du 10/09.**
 
+**14/09/2026** — Semaine 38, Équipe 2 complétée (tout en C@W **PANDA+**) :
+
+| Jour | Équipe 2 | Détail |
+|------|----------|--------|
+| Mar 15/09 | JMS 662275 + 553176 | mêmes chantiers que le lundi, **partagés avec Johan et Pierre** |
+| Mer 16/09 | FQ Tihange (version définitive) | sans numéro JMS, item Monday `3183700075` |
+| Jeu 17/09 | JMS 656373 | FMROP C/107 — Rue d'Orp 62, Orp-Jauche |
+| Ven 18/09 | JMS 603753 - 671456 | Rue du Vicinal 17-31 — Clavier (Thomas et Piron) |
+
+**Hanikenne Florian complète l'Équipe 2 mercredi et jeudi** : l'entête affiche « Dominguez
+Miguel / Hanikenne Florian » ces deux jours, et sa propre ligne porte le même chantier avec
+une pastille « + Équipe 2 ». Il reste en BTO lundi, mardi et vendredi.
+
+**Particularité du 603753 / 671456** : un **seul** item Monday porte les deux numéros dans
+son nom, le 671456 n'existe pas séparément. La clef du dict `LIENS` est donc composée —
+`"603753 - 671456"`. Premier cas de ce type.
+
+Monday.com — trois items mis à jour côté Soufflage : FQ Tihange 16/09 (Miguel + Florian),
+656373 17/09 (Miguel + Florian), 603753/671456 18/09 (Miguel).
+**À valider** : Florian est jointeur, mais il travaille ici dans l'équipe de soufflage ; il a
+donc été placé en **Soufflage**. Dis-moi si tu préfères le Jointage.
+
+**Mise en page — le seuil est franchi.** Ce lot a fait déborder la page 1. Libellés des trois
+nouveaux chantiers raccourcis (gain ≈ 2 points), puis polices ramenées à **-12 %** du
+réglage d'origine. Sans le raccourcissement il aurait fallu **-14 %**. C'est le cinquième
+resserrage en cinq jours (100 % → 88 %). Le PDF reste lisible, mais **la marge est épuisée** :
+la prochaine semaine chargée ne tiendra pas. Trois pistes proposées le 14/09, aucune
+tranchée — libellés courts généralisés, regroupement des chantiers d'une même adresse, ou
+planning sur deux pages les semaines exceptionnelles. **Décision structurante à prendre.**
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

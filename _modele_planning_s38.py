@@ -62,12 +62,17 @@ LIENS = {
     "569815": "https://wilbow.monday.com/boards/5089236279/pulses/3218027388",
     "687959": "https://wilbow.monday.com/boards/5089236279/pulses/3211229702",
     "687978": "https://wilbow.monday.com/boards/5089236279/pulses/3212938322",
+    "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
+    # Un seul item Monday porte les deux numeros dans son nom (671456 n existe
+    # pas separement), d ou la clef composee.
+    "603753 - 671456": "https://wilbow.monday.com/boards/5089236279/pulses/3159304163",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
 SIGN  = "https://wilbow.monday.com/boards/5089236279/pulses/2832088996"  # SignaDyn - Zone D - Soufflage et Soudage reste zone D
 FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32 FEED-IN
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Verification Move Rop 41FEX
+TIHANGE = "https://wilbow.monday.com/boards/5089236279/pulses/3183700075"  # FQ Tihange version definitive
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 
@@ -103,6 +108,9 @@ NOMS_OVERRIDE = {
     ("E2", 2): ["Dominguez Miguel"],
     ("E2", 3): ["Dominguez Miguel"],
     ("E2", 4): ["Dominguez Miguel"],
+    # Mercredi et jeudi : Hanikenne Florian complete l Equipe 2 a cote de Miguel.
+    ("E2", 2): ["Dominguez Miguel", "Hanikenne Florian"],
+    ("E2", 3): ["Dominguez Miguel", "Hanikenne Florian"],
 }
 
 PLANNING = {
@@ -123,6 +131,14 @@ PLANNING = {
         J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
+    # Mardi : Miguel reste sur les deux DIST, partages avec Johan et Pierre.
+    ("E2", 1): [
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ J. Meurisse · P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse · P. Mattiuz", "commun", caw="PANDA+"),
+    ],
+    ("E2", 2): [X("FQ Tihange (version définitive)", url=TIHANGE, caw="PANDA+")],
+    ("E2", 3): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
+    ("E2", 4): [J("603753 - 671456", "Rue du Vicinal 17-31 — Clavier (Thomas et Piron)", caw="PANDA+")],
 
     # Lundi 14/09 : le FH 32, reporte depuis la S37 (Johan etait en recup le
     # vendredi 11/09 apres la nuit du 10 au 11).
@@ -131,8 +147,8 @@ PLANNING = {
     # Mardi-mercredi : Johan et Pierre en binome sur les deux DIST et le FEED
     # de la rue Boyou / Jansen. Le ROP 672861 glisse donc au jeudi 17/09.
     ("JM", 1): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz · Équipe 2", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz · Équipe 2", "commun", caw="PANDA+"),
         J("569815", "FEED Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
     ("JM", 2): [
@@ -156,8 +172,8 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ Équipe 2", "commun", caw="PANDA+"),
     ],
     ("PM", 1): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
+        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ J. Meurisse · Équipe 2", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse · Équipe 2", "commun", caw="PANDA+"),
         J("569815", "FEED Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
     ("PM", 2): [
@@ -179,8 +195,8 @@ PLANNING = {
 
     ("FH", 0): [X("BTO", caw="BTO")],
     ("FH", 1): [X("BTO", caw="BTO")],
-    ("FH", 2): [X("BTO", caw="BTO")],
-    ("FH", 3): [X("BTO", caw="BTO")],
+    ("FH", 2): [X("FQ Tihange (version définitive)", "+ Équipe 2", "commun", url=TIHANGE, caw="PANDA+")],
+    ("FH", 3): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", "+ Équipe 2", "commun", caw="PANDA+")],
     ("FH", 4): [X("BTO", caw="BTO")],
 
     # Reste de la semaine : à planifier au fur et à mesure.
@@ -305,76 +321,76 @@ def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
 * {{ box-sizing:border-box; }}
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
-        border-bottom:2.332pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:15.828pt; font-weight:800; letter-spacing:2.332pt; color:#0f172a; line-height:1;
+        border-bottom:2.192pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
+.brand {{ font-size:14.878pt; font-weight:800; letter-spacing:2.192pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:5.681pt; font-weight:600; letter-spacing:1.214pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:5.34pt; font-weight:600; letter-spacing:1.141pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:12.104pt; font-weight:800; color:#0f172a; letter-spacing:0.465pt; }}
-.title .dt {{ font-size:7.731pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:11.378pt; font-weight:800; color:#0f172a; letter-spacing:0.437pt; }}
+.title .dt {{ font-size:7.267pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.261pt; font-weight:800;
-              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.558pt; }}
-.badge .maj {{ font-size:6.142pt; color:#64748b; margin-top:1.1mm; }}
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:6.825pt; font-weight:800;
+              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.525pt; }}
+.badge .maj {{ font-size:5.773pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:8.662pt; font-weight:800; letter-spacing:0.651pt;
-         padding:1mm 1mm; border:0.648pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:7.073pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day {{ background:#0f172a; color:#fff; font-size:8.142pt; font-weight:800; letter-spacing:0.612pt;
+         padding:1mm 1mm; border:0.609pt solid #0f172a; text-transform:uppercase; text-align:center; }}
+th.day span {{ display:block; font-size:6.649pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
-td {{ border:0.648pt solid #cbd5e1; border-left-width:2.238pt; border-left-style:solid;
-     border-bottom:1.486pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
-tr.grp-end td {{ border-bottom:2.793pt solid #0f172a; }}
+td {{ border:0.609pt solid #cbd5e1; border-left-width:2.104pt; border-left-style:solid;
+     border-bottom:1.397pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
+tr.grp-end td {{ border-bottom:2.625pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
-tr:last-child td {{ border-bottom:1.486pt solid #0f172a; }}
-.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.648pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:5.398pt; font-weight:800; letter-spacing:0.744pt; text-transform:uppercase; }}
-.rtag {{ font-size:5.21pt; font-weight:800; letter-spacing:0.651pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:7.073pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+tr:last-child td {{ border-bottom:1.397pt solid #0f172a; }}
+.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.609pt solid rgba(15,23,42,.18); }}
+.rlabel {{ font-size:5.074pt; font-weight:800; letter-spacing:0.699pt; text-transform:uppercase; }}
+.rtag {{ font-size:4.897pt; font-weight:800; letter-spacing:0.612pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:6.649pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
-.body.empty {{ background:#eef2f6; border:0.554pt solid #d5dde5; border-radius:.8mm;
+.body.empty {{ background:#eef2f6; border:0.521pt solid #d5dde5; border-radius:.8mm;
               text-align:center; padding:.8mm 0; }}
 .body.abs {{ border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:7.909pt; font-weight:800; letter-spacing:1.119pt; }}
+.absl {{ font-size:7.434pt; font-weight:800; letter-spacing:1.052pt; }}
 .job {{ line-height:1.2; }}
-.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.554pt dashed #94a3b8; }}
-.jms {{ font-size:7.543pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:7.355pt; line-height:1.18; letter-spacing:.25pt; }}
+.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.521pt dashed #94a3b8; }}
+.jms {{ font-size:7.09pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:6.914pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:6.142pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:6.424pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
-.lib.code {{ letter-spacing:0.279pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:5.681pt; font-weight:700; padding:.35mm 1.2mm;
-        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.279pt; }}
-.n-renfort {{ background:#fef3c7; color:#92400e; border:0.46pt solid #fcd34d; }}
-.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.46pt solid #a5b4fc; }}
-.n-prov {{ background:#fff7ed; color:#c2410c; border:0.554pt dashed #fb923c; }}
-.n-alt {{ background:#f1f5f9; color:#475569; border:0.554pt dashed #94a3b8; }}
+.ext {{ font-size:5.773pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:6.039pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.lib.code {{ letter-spacing:0.262pt; color:#1e293b; }}
+.note {{ display:inline-block; font-size:5.34pt; font-weight:700; padding:.35mm 1.2mm;
+        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.262pt; }}
+.n-renfort {{ background:#fef3c7; color:#92400e; border:0.432pt solid #fcd34d; }}
+.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.432pt solid #a5b4fc; }}
+.n-prov {{ background:#fff7ed; color:#c2410c; border:0.521pt dashed #fb923c; }}
+.n-alt {{ background:#f1f5f9; color:#475569; border:0.521pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:5.21pt; font-weight:800; letter-spacing:0.558pt;
+.per {{ display:inline-block; font-size:4.897pt; font-weight:800; letter-spacing:0.525pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:6.893pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:5.775pt; font-weight:800; letter-spacing:0.558pt; padding:.35mm 1.4mm;
+.qui {{ font-size:6.479pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:5.428pt; font-weight:800; letter-spacing:0.525pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:6.893pt; font-weight:800; letter-spacing:0.838pt; text-align:center;
+.ligneabs {{ font-size:6.479pt; font-weight:800; letter-spacing:0.788pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:7.073pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:6.649pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:0.932pt solid #cbd5e1; font-size:6.142pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.876pt solid #cbd5e1; font-size:5.773pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
-.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.554pt solid #d5dde5;
+.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.521pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}
 </style></head><body>
 <div class="head">
