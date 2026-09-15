@@ -517,7 +517,7 @@ frontière, convention de la semaine 37).
 | Nuit | Semaine | Chantier | Qui | C@W |
 |------|---------|----------|-----|-----|
 | Jeu 17/09 → ven 18/09 | S38 | **BBN Rotheux** | Mattiuz Pierre + Meurisse Johan | PANDA+ · **intégré** |
-| Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan + Meurisse Johan | EQUANS-CAMERA-CCTV · **intégré** |
+| Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan **seul** | EQUANS-CAMERA-CCTV · **intégré** |
 | Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | PANDA+ · **intégré** |
 | Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
 | Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
@@ -570,6 +570,16 @@ Non implémenté : c'est une modification du moteur de rendu. **À valider.**
 EUP8756W0 — WELK OTS 5131 M, BBN Seille, PW pont de Tihange. Aucun élément trouvé sur le
 board. Donne les noms exacts pour les rendre cliquables. Le 622272/622268 BBN Fexhe porte
 des numéros JMS, à relier au moment de créer la S42.
+
+**15/09/2026** : **Meurisse Johan retiré de la nuit Mesures OTDR SignaDyn** (lun 21 → mar
+22/09, S39). Panait Dan la fait seul — plus de pastille de partage. Le lundi de Johan
+redevient une case grisée ; sa nuit du mardi au mercredi (EUP8756W0 — WELK OTS 5131 M) est
+inchangée.
+
+Effet de bord favorable : les deux nuits de la S39 s'affichent désormais **toutes deux à
+cheval**. L'inconsistance signalée plus haut — deux rendus différents pour une même nuit —
+ne se manifeste plus sur cette semaine. Le défaut de fond reste entier : il se reproduira dès
+qu'une personne aura une nuit suivie d'une journée occupée. **Correctif toujours à valider.**
 
 ---
 

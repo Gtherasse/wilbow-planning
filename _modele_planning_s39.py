@@ -109,9 +109,9 @@ PLANNING = {
     ("E2", 1): [J("586382", "RW_Marché GCC — Rue de Limbourg, Verviers — PW Backbone URGENT",
                   note="+ Équipe 1", t="commun", caw="PANDA+")],
 
-    # Nuit du lundi 21 au mardi 22/09 : mesures OTDR SignaDyn, Dan et Johan.
-    ("DP", 0): [X("Mesures OTDR SignaDyn", "+ J. Meurisse", "commun", q=NUIT, caw="EQUANS-CAMERA-CCTV")],
-    ("JM", 0): [X("Mesures OTDR SignaDyn", "+ D. Panait", "commun", q=NUIT, caw="EQUANS-CAMERA-CCTV")],
+    # Nuit du lundi 21 au mardi 22/09 : mesures OTDR SignaDyn, Panait Dan seul
+    # (Johan retire le 15/09).
+    ("DP", 0): [X("Mesures OTDR SignaDyn", q=NUIT, caw="EQUANS-CAMERA-CCTV")],
 
     # Reste de la semaine : à planifier au fur et à mesure.
 }
