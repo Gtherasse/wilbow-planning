@@ -581,6 +581,28 @@ cheval**. L'inconsistance signalée plus haut — deux rendus différents pour u
 ne se manifeste plus sur cette semaine. Le défaut de fond reste entier : il se reproduira dès
 qu'une personne aura une nuit suivie d'une journée occupée. **Correctif toujours à valider.**
 
+**15/09/2026** : semaine 39 — **Panait Dan et Hanikenne Florian en BTO toute la semaine**,
+**sauf Dan le mardi 22/09 qui est en RÉCUP** après la nuit du 21 au 22 (Mesures OTDR
+SignaDyn). Lundi, Dan cumule le BTO de journée et la nuit, comme Johan l'avait fait le 10/09.
+
+**Lecture d'instruction à confirmer** : la demande disait « sauf **le** mardi 22 tu peux
+**le** mettre en récup », au singulier. La récup a été attribuée à **Dan**, qui est le seul
+des deux à faire une nuit — Florian reste en BTO les cinq jours. À corriger si l'intention
+était l'inverse.
+
+**15/09/2026 — Moteur de rendu des nuits, correctif de fond.** Le bloc de nuit réserve
+désormais sa hauteur **dans les deux journées** : la prestation de la veille est rejouée en
+spacer invisible dans la case du lendemain, et le bloc visible est **ancré en bas de la
+ligne** plutôt qu'à sa position dans le flux. Le garde-fou du matin — qui supprimait purement
+le rendu à cheval dès que le lendemain était occupé — n'est plus nécessaire dans ce cas.
+
+**Limite qui subsiste** : une case d'**absence** (RÉCUP, CONGÉ…) ne passe pas par la boucle
+de rendu, il est donc impossible d'y réserver la hauteur. Quand le lendemain d'une nuit est
+une absence, la nuit reste dans sa propre journée — c'est le cas de Dan le 21/09. Sans cette
+condition, le bloc recouvrait la pastille RÉCUP du mardi : **défaut constaté au rendu, puis
+corrigé**. Étendre la réservation aux cases d'absence demanderait de refondre le rendu des
+absences ; non fait.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

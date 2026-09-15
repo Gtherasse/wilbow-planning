@@ -228,11 +228,22 @@ def cellule(r, i, DATA=None, mode="site"):
         hdr = (f'<div class="rname">{H.escape(noms_jour[0])}'
                f'<span class="rtag" style="color:{r["c"]};">{H.escape(r["label"])}</span></div>')
     v = (DATA if DATA is not None else PLANNING).get((r["id"], i))
-    # Le bloc de nuit "a cheval" deborde sur la journee suivante : on ne
-    # l utilise que si la case du lendemain est vide, sinon il masquerait
-    # son contenu. Sinon la nuit reste dans le flux de sa propre journee.
+    # Une nuit deborde sur la journee suivante. Pour qu elle ne masque rien,
+    # la case du lendemain reserve la meme hauteur : on y rejoue la
+    # prestation de la veille sous forme de spacer invisible. Inutile si
+    # cette case est vide, le bloc ne recouvrant alors aucun contenu.
+    # Une case d absence ne passe pas par la boucle de rendu : impossible d y
+    # reserver la hauteur. Dans ce cas la nuit reste dans sa propre journee
+    # plutot que de masquer le motif d absence du lendemain.
     suivant = (DATA if DATA is not None else PLANNING).get((r["id"], i + 1))
-    peut_cheval = suivant is None
+    peut_cheval = suivant is None or isinstance(suivant, list)
+    veille = (DATA if DATA is not None else PLANNING).get((r["id"], i - 1)) if i else None
+    reports = [dict(d, _spacer=True) for d in veille
+               if isinstance(d, dict) and str(d.get("q") or "").lower().startswith("nuit")
+               ] if isinstance(veille, list) else []
+
+    if isinstance(v, list) and reports:
+        v = v + reports
 
     if v is None:
         txt = r.get("defaut", "—")
@@ -244,7 +255,7 @@ def cellule(r, i, DATA=None, mode="site"):
         body = (f'<div class="body abs" style="background:{bg};">'
                 f'<div class="absl" style="color:{fg};">{H.escape(v["absence"])}</div></div>')
     else:
-        jobs = []
+        jobs, nuits = [], []
         for d in v:
             per = ""
             n_inline = ""
@@ -282,10 +293,12 @@ def cellule(r, i, DATA=None, mode="site"):
                 detail = CODES.get(nom_caw, "") if nom_caw else ""
                 lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
                 if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
-                    # bloc visible a cheval sur les deux jours + spacer invisible
-                    # qui reserve la hauteur, l absolu n en occupant aucune.
-                    jobs.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>'
-                                f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                    # La nuit est ancree en bas de la ligne, a cheval sur les deux
+                    # journees. Le spacer invisible qui la suit reserve sa hauteur en
+                    # fin de case, dans la journee de depart comme dans la suivante.
+                    if not d.get("_spacer"):
+                        nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                    nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 else:
                     jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 continue
@@ -299,13 +312,15 @@ def cellule(r, i, DATA=None, mode="site"):
             detail = d["lib"] if d["jms"] else d.get("sub")
             lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
             if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
-                # bloc visible a cheval sur les deux jours + spacer invisible
-                # qui reserve la hauteur, l absolu n en occupant aucune.
-                jobs.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>'
-                            f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                # La nuit est ancree en bas de la ligne, a cheval sur les deux
+                # journees. Le spacer invisible qui la suit reserve sa hauteur en
+                # fin de case, dans la journee de depart comme dans la suivante.
+                if not d.get("_spacer"):
+                    nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
             else:
                 jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
-        body = '<div class="body">' + "".join(jobs) + "</div>"
+        body = '<div class="body">' + "".join(jobs + nuits) + "</div>"
 
     return (f'<td style="border-left-color:{r["c"]}; background:{r["bg"]}; position:relative;">'
             f'<div class="hdr">{hdr}</div>{body}</td>')
@@ -392,7 +407,7 @@ tr:last-child td {{ border-bottom:1.397pt solid #0f172a; }}
 /* Prestation de nuit : bloc a cheval sur la frontiere des deux journees.
    Le bloc visible est en position absolue ; le spacer, invisible mais dans le
    flux, reserve exactement la meme hauteur pour que la ligne ne deborde pas. */
-.job.cheval {{ position:absolute; left:50%; width:100%; z-index:5; margin-top:0;
+.job.cheval {{ position:absolute; left:50%; width:100%; bottom:0.8mm; z-index:5; margin-top:0;
         background:#0f172a; border-radius:1.2mm; padding:0.7mm 1.4mm; border-top:0;
         box-shadow:0 0 0 .6mm #ffffff; }}
 .job.cheval .jms {{ color:#93c5fd; }}
