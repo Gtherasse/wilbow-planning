@@ -516,12 +516,12 @@ frontière, convention de la semaine 37).
 
 | Nuit | Semaine | Chantier | Qui | C@W |
 |------|---------|----------|-----|-----|
-| Jeu 17/09 → ven 18/09 | S38 | **BBN Rotheux** | Mattiuz Pierre + Meurisse Johan | **à préciser** |
-| Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan + Meurisse Johan | **à préciser** |
-| Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | **à préciser** |
-| Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | **à préciser** |
-| Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | **à préciser** |
-| Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | **à préciser** |
+| Jeu 17/09 → ven 18/09 | S38 | **BBN Rotheux** | Mattiuz Pierre + Meurisse Johan | PANDA+ · **intégré** |
+| Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan + Meurisse Johan | EQUANS-CAMERA-CCTV · **intégré** |
+| Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | PANDA+ · **intégré** |
+| Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
+| Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
+| Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
 
 **Points ouverts sur ces nuits :**
 
@@ -540,6 +540,36 @@ frontière, convention de la semaine 37).
   Johan et Pierre (ROP 672861 + Vérification Move ROP 41FEX), sur une page 1 déjà réduite à
   -12 %. Le rendu « à cheval » n'existe par ailleurs que dans le script S37 : il doit être
   porté dans la S38 et la S39.
+
+**15/09/2026** — Nuits : **codes C@W arbitrés** — PANDA+ pour toutes, **sauf Mesures OTDR
+SignaDyn en EQUANS-CAMERA-CCTV** (`1Y100001PT2KZ`). **Horaire : 22h00–06h00 pour toutes**,
+qui devient l'horaire de nuit standard — la constante `NUIT` des scripts S38 et S39 est
+passée de « Nuit 21h00–04h30 » à « Nuit 22h00–06h00 ». La question ouverte du 10/09 est
+donc close.
+
+Intégrées : **BBN Rotheux** (S38, jeu 17 → ven 18, Johan + Pierre) et les deux nuits de la
+**S39** (OTDR SignaDyn lun 21 → mar 22, Dan + Johan ; EUP8756W0 WELK mar 22 → mer 23, Johan
+seul). Les trois autres attendent la création des scripts S40, S41 et S42.
+
+Le rendu « à cheval » a été **porté de la S37 vers les S38 et S39**, et le script S39 est
+passé au format un seul PDF de deux pages (son ancien Check in @ Work séparé a été supprimé).
+
+**Défaut découvert et corrigé** : le bloc de nuit en position absolue déborde sur la journée
+suivante, mais l'espaceur ne réservait la hauteur **que dans la case de départ**. En S39, le
+bloc de Johan recouvrait donc le texte de son chantier du mardi. Invisible en S37 et S38 où
+la case voisine était vide. **Garde-fou posé** : le rendu à cheval n'est utilisé que si la
+case du lendemain est vide ; sinon la nuit reste dans le flux de sa propre journée.
+
+**Conséquence à trancher** : pour une même nuit, deux personnes peuvent désormais avoir un
+rendu différent selon que leur lendemain est occupé ou non — c'est le cas du 21 au 22/09
+(Dan à cheval, Johan dans sa journée). Le correctif propre serait de **réserver la hauteur
+dans les deux cases**, ce qui demande de dupliquer le bloc invisible dans la case suivante.
+Non implémenté : c'est une modification du moteur de rendu. **À valider.**
+
+**Chantiers de nuit sans lien Monday identifié** : BBN Rotheux, Mesures OTDR SignaDyn,
+EUP8756W0 — WELK OTS 5131 M, BBN Seille, PW pont de Tihange. Aucun élément trouvé sur le
+board. Donne les noms exacts pour les rendre cliquables. Le 622272/622268 BBN Fexhe porte
+des numéros JMS, à relier au moment de créer la S42.
 
 ---
 

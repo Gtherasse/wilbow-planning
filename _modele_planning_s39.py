@@ -47,7 +47,7 @@ J = lambda jms, lib, note=None, t=None, url=None, q=None, caw=None: dict(
 X = lambda lib, note=None, t=None, url=None, q=None, sub=None, caw=None: dict(
     jms=None, lib=lib, note=note, t=t, url=url, q=q, sub=sub, caw=caw)
 A = lambda motif, q=None: dict(ligne_abs=motif, q=q)   # absence sur une partie de la journee
-NUIT  = "Nuit 21h00–04h30"
+NUIT  = "Nuit 22h00–06h00"
 JOUR  = "Journée"
 MATIN = "Matin"
 AM    = "Après-midi"
@@ -97,7 +97,9 @@ PLANNING = {
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
     ("JM", 1): [J("680608", "OL_B_003712199 — INSKY NV, Rue des Spinettes 5, Sprimont",
-                  note="+ P. Mattiuz", t="commun", caw="PANDA+")],
+                  note="+ P. Mattiuz", t="commun", caw="PANDA+"),
+                # Nuit du mardi 22 au mercredi 23/09, Johan seul.
+                X("EUP8756W0 — WELK OTS 5131 M", q=NUIT, caw="PANDA+")],
     ("PM", 1): [J("680608", "OL_B_003712199 — INSKY NV, Rue des Spinettes 5, Sprimont",
                   note="+ J. Meurisse", t="commun", caw="PANDA+")],
 
@@ -106,6 +108,10 @@ PLANNING = {
                   note="+ Équipe 2", t="commun", caw="PANDA+")],
     ("E2", 1): [J("586382", "RW_Marché GCC — Rue de Limbourg, Verviers — PW Backbone URGENT",
                   note="+ Équipe 1", t="commun", caw="PANDA+")],
+
+    # Nuit du lundi 21 au mardi 22/09 : mesures OTDR SignaDyn, Dan et Johan.
+    ("DP", 0): [X("Mesures OTDR SignaDyn", "+ J. Meurisse", "commun", q=NUIT, caw="EQUANS-CAMERA-CCTV")],
+    ("JM", 0): [X("Mesures OTDR SignaDyn", "+ D. Panait", "commun", q=NUIT, caw="EQUANS-CAMERA-CCTV")],
 
     # Reste de la semaine : à planifier au fur et à mesure.
 }
@@ -134,6 +140,11 @@ def cellule(r, i, DATA=None, mode="site"):
         hdr = (f'<div class="rname">{H.escape(noms_jour[0])}'
                f'<span class="rtag" style="color:{r["c"]};">{H.escape(r["label"])}</span></div>')
     v = (DATA if DATA is not None else PLANNING).get((r["id"], i))
+    # Le bloc de nuit "a cheval" deborde sur la journee suivante : on ne
+    # l utilise que si la case du lendemain est vide, sinon il masquerait
+    # son contenu. Sinon la nuit reste dans le flux de sa propre journee.
+    suivant = (DATA if DATA is not None else PLANNING).get((r["id"], i + 1))
+    peut_cheval = suivant is None
 
     if v is None:
         txt = r.get("defaut", "—")
@@ -182,7 +193,13 @@ def cellule(r, i, DATA=None, mode="site"):
                 cls = "jms nonum"
                 detail = CODES.get(nom_caw, "") if nom_caw else ""
                 lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-                jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
+                    # bloc visible a cheval sur les deux jours + spacer invisible
+                    # qui reserve la hauteur, l absolu n en occupant aucune.
+                    jobs.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>'
+                                f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                else:
+                    jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 continue
 
             url = d.get("url") or (LIENS.get(d["jms"]) if d["jms"] else None)
@@ -193,7 +210,13 @@ def cellule(r, i, DATA=None, mode="site"):
                          f'<span class="ext">↗</span></a>')
             detail = d["lib"] if d["jms"] else d.get("sub")
             lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-            jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+            if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
+                # bloc visible a cheval sur les deux jours + spacer invisible
+                # qui reserve la hauteur, l absolu n en occupant aucune.
+                jobs.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>'
+                            f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+            else:
+                jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
         body = '<div class="body">' + "".join(jobs) + "</div>"
 
     return (f'<td style="border-left-color:{r["c"]}; background:{r["bg"]}; position:relative;">'
@@ -276,6 +299,16 @@ tr:last-child td {{ border-bottom:1.6pt solid #0f172a; }}
 .n-prov {{ background:#fff7ed; color:#c2410c; border:0.6pt dashed #fb923c; }}
 .n-alt {{ background:#f1f5f9; color:#475569; border:0.6pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
+/* Prestation de nuit : bloc a cheval sur la frontiere des deux journees.
+   Le bloc visible est en position absolue ; le spacer, invisible mais dans le
+   flux, reserve exactement la meme hauteur pour que la ligne ne deborde pas. */
+.job.cheval {{ position:absolute; left:50%; width:100%; z-index:5; margin-top:0;
+        background:#0f172a; border-radius:1.2mm; padding:0.7mm 1.4mm; border-top:0;
+        box-shadow:0 0 0 .6mm #ffffff; }}
+.job.cheval .jms {{ color:#93c5fd; }}
+.job.cheval .lib {{ color:#cbd5e1; }}
+.job.cheval .per.nuit {{ background:#334155; color:#fff; }}
+.job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
 .perline {{ margin-bottom:.2mm; }}
 .per {{ display:inline-block; font-size:5.6pt; font-weight:800; letter-spacing:.6pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
@@ -319,29 +352,46 @@ tr:last-child td {{ border-bottom:1.6pt solid #0f172a; }}
 from weasyprint import HTML as W
 import math
 
-def rendre(rows, chemin, badge, soustitre, pied2, cle_vide):
+def hauteur_page(rows, badge, soustitre, pied2, quoi):
+    """Cherche la hauteur de ligne la plus confortable qui tienne sur UNE page."""
     def pages(h):
         open("/tmp/_pl39.html", "w", encoding="utf-8").write(
             build(h, rows, badge, soustitre, pied2))
         return len(W(filename="/tmp/_pl39.html").render().pages)
     lo, hi = 4.0, 40.0
     if pages(lo) > 1:
-        raise SystemExit(f"Contenu trop dense pour une page : {chemin}")
+        raise SystemExit(f"Contenu trop dense pour une page : {quoi}")
     for _ in range(12):
         mid = (lo + hi) / 2
         if pages(mid) == 1: lo = mid
         else: hi = mid
     lo = math.floor(lo * 10) / 10
     while lo > 4 and pages(lo) > 1: lo -= 0.1
-    open("/tmp/_pl39.html", "w", encoding="utf-8").write(
-        build(round(lo, 1), rows, badge, soustitre, pied2))
-    W(filename="/tmp/_pl39.html").write_pdf(chemin)
-    print(f"OK -> {chemin}  (hauteur ligne {lo:.1f}mm)")
+    return round(lo, 1)
 
-out_chantier = sys.argv[1] if len(sys.argv) > 1 else "planning_s39.pdf"
-out_caw      = sys.argv[2] if len(sys.argv) > 2 else "planning_s39_caw.pdf"
+def corps(html):
+    """Contenu du <body>, pour concatener les deux pages dans un seul document."""
+    return html.split("<body>", 1)[1].rsplit("</body>", 1)[0]
 
-rendre(make_rows(PLANNING, "site"), out_chantier, "PLANNING CONFIRMÉ", None, None, True)
-rendre(make_rows(PLANNING, "caw"), out_caw, "CHECK IN @ WORK",
-       " — CHECK IN @ WORK",
-       "Le code sous chaque intitulé = référence à encoder dans Check in @ Work", False)
+# Un SEUL fichier PDF, deux pages : page 1 le planning chantier, page 2 le
+# Check in @ Work. Les deux viennent du meme dict PLANNING, donc ils ne peuvent
+# pas diverger. Chaque page garde sa propre hauteur de ligne optimale.
+ROWS_SITE = make_rows(PLANNING, "site")
+ROWS_CAW  = make_rows(PLANNING, "caw")
+CAW_ST    = " — CHECK IN @ WORK"
+CAW_PIED  = "Le code sous chaque intitulé = référence à encoder dans Check in @ Work"
+
+h1 = hauteur_page(ROWS_SITE, "PLANNING CONFIRMÉ", None, None, "page 1 (planning chantier)")
+h2 = hauteur_page(ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED, "page 2 (Check in @ Work)")
+
+doc = build(h1, ROWS_SITE, "PLANNING CONFIRMÉ", None, None)
+pg2 = corps(build(h2, ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED))
+doc = doc.replace("</body>", '<div style="break-before:page;">' + pg2 + "</div></body>")
+
+sortie = sys.argv[1] if len(sys.argv) > 1 else "Planning WILBOW - S39.pdf"
+open("/tmp/_pl39.html", "w", encoding="utf-8").write(doc)
+rendu = W(filename="/tmp/_pl39.html").render()
+if len(rendu.pages) != 2:
+    raise SystemExit(f"Attendu 2 pages, obtenu {len(rendu.pages)} : {sortie}")
+rendu.write_pdf(sortie)
+print(f"OK -> {sortie}  (2 pages ; hauteurs de ligne {h1:.1f}mm et {h2:.1f}mm)")
