@@ -63,6 +63,7 @@ LIENS = {
     "687959": "https://wilbow.monday.com/boards/5089236279/pulses/3211229702",
     "687978": "https://wilbow.monday.com/boards/5089236279/pulses/3212938322",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
+    "594136": "https://wilbow.monday.com/boards/5089236279/pulses/3225516958",
     # Un seul item Monday porte les deux numeros dans son nom (671456 n existe
     # pas separement), d ou la clef composee.
     "603753 - 671456": "https://wilbow.monday.com/boards/5089236279/pulses/3159304163",
@@ -161,8 +162,11 @@ PLANNING = {
     ("JM", 3): [
         J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ P. Mattiuz", "commun", caw="PANDA+"),
         X("Vérification Move ROP 41FEX", "+ P. Mattiuz", "commun", url=MOVE41, caw="PANDA+"),
-        X("BBN Rotheux", "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
+        J("594136", "MP_Câble Backbone 12576-12578 — GPW Rotheux",
+          "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
     ],
+    # Recuperation apres la nuit du jeudi 17 au vendredi 18/09.
+    ("JM", 4): ABS("RÉCUP"),
 
     # Lundi 14/09 : Pierre reprend le 599588 (Liege), sorti du planning du
     # vendredi 11/09 (S37) quand il avait rejoint Miguel a Oupeye. Seul.
@@ -185,8 +189,10 @@ PLANNING = {
     ("PM", 3): [
         J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ J. Meurisse", "commun", caw="PANDA+"),
         X("Vérification Move ROP 41FEX", "+ J. Meurisse", "commun", url=MOVE41, caw="PANDA+"),
-        X("BBN Rotheux", "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
+        J("594136", "MP_Câble Backbone 12576-12578 — GPW Rotheux",
+          "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
     ],
+    ("PM", 4): ABS("RÉCUP"),
 
     # Panait Dan et Hanikenne Florian : BTO toute la semaine.
     ("DP", 0): [X("BTO", caw="BTO")],
@@ -236,12 +242,18 @@ def cellule(r, i, DATA=None, mode="site"):
     # reserver la hauteur. Dans ce cas la nuit reste dans sa propre journee
     # plutot que de masquer le motif d absence du lendemain.
     suivant = (DATA if DATA is not None else PLANNING).get((r["id"], i + 1))
-    peut_cheval = suivant is None or isinstance(suivant, list)
+    peut_cheval = (suivant is None or isinstance(suivant, list)
+                   or (isinstance(suivant, dict) and "absence" in suivant))
     veille = (DATA if DATA is not None else PLANNING).get((r["id"], i - 1)) if i else None
     reports = [dict(d, _spacer=True) for d in veille
                if isinstance(d, dict) and str(d.get("q") or "").lower().startswith("nuit")
                ] if isinstance(veille, list) else []
 
+    # Une absence se rend normalement hors de la boucle des jobs, ce qui
+    # empeche d y reserver la hauteur. Quand une nuit de la veille deborde
+    # ici, on la bascule dans le flux des jobs via A(), qui sait l afficher.
+    if isinstance(v, dict) and "absence" in v and reports:
+        v = [A(v["absence"])]
     if isinstance(v, list) and reports:
         v = v + reports
 

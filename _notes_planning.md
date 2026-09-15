@@ -516,8 +516,8 @@ frontière, convention de la semaine 37).
 
 | Nuit | Semaine | Chantier | Qui | C@W |
 |------|---------|----------|-----|-----|
-| Jeu 17/09 → ven 18/09 | S38 | **BBN Rotheux** | Mattiuz Pierre + Meurisse Johan | PANDA+ · **intégré** |
-| Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan **seul** | EQUANS-CAMERA-CCTV · **intégré** |
+| Jeu 17/09 → ven 18/09 | S38 | **JMS 594136** — MP_Câble Backbone 12576-12578, GPW Rotheux | Mattiuz Pierre + Meurisse Johan | PANDA+ · **intégré** |
+| Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan + Hanikenne Florian | EQUANS-CAMERA-CCTV · **intégré** |
 | Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | PANDA+ · **intégré** |
 | Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
 | Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
@@ -602,6 +602,40 @@ une absence, la nuit reste dans sa propre journée — c'est le cas de Dan le 21
 condition, le bloc recouvrait la pastille RÉCUP du mardi : **défaut constaté au rendu, puis
 corrigé**. Étendre la réservation aux cases d'absence demanderait de refondre le rendu des
 absences ; non fait.
+
+**15/09/2026** — Semaine 38 :
+- La nuit du jeu 17 → ven 18/09 n'est plus « BBN Rotheux » mais le **JMS 594136**
+  (MP_Câble Backbone 12576-12578 — GPW Rotheux), désormais cliquable. C@W PANDA+ inchangé.
+  Monday.com : Jointage 17/09 + Johan et Pierre — l'item n'avait aucune affectation.
+- **Vendredi 18/09 : RÉCUP pour Meurisse Johan et Mattiuz Pierre**, après la nuit.
+
+**15/09/2026** — Semaine 39 :
+- **Lundi 21/09** : Johan et Pierre reprennent les JMS **662275 et 553176**, comme le mardi
+  15/09, **sans le FEED 569815** qui sera terminé. C@W PANDA+.
+- **Lundi 21/09** : Équipe 1 sur le **JMS 675238** (Ciney-Jemelle), comme le mardi 15/09.
+- **Mercredi 23/09 : RÉCUP pour Johan**, après la nuit du mardi au mercredi.
+- **Hanikenne Florian s'aligne sur Panait Dan** : BTO le lundi **et la nuit OTDR SignaDyn
+  avec lui**, RÉCUP le mardi, BTO du mercredi au vendredi. Pastilles « + F. Hanikenne » et
+  « + D. Panait ».
+- Mise en page : polices de la S39 réduites de **2 %**, première réduction pour cette semaine.
+
+**15/09/2026 — Le rendu à cheval fonctionne enfin au-dessus d'une absence.** La limite notée
+ce matin est levée : quand une nuit déborde sur une case d'absence, celle-ci est désormais
+rendue **dans le flux des jobs** via `A()` au lieu de la branche `absence`, ce qui permet d'y
+réserver la hauteur du bloc. Les quatre nuits suivies d'une récup (Johan et Pierre le 17→18,
+Dan et Florian le 21→22) s'affichent donc bien à cheval, sans masquer les pastilles RÉCUP.
+Vérifié au zoom sur les deux semaines.
+
+**Défaut introduit puis corrigé dans la foulée** : l'insertion du commentaire de réduction de
+police dans le script S39 a mangé une accolade du gabarit f-string (`@page {{` devenu
+`@page {`), rendant le fichier non exécutable. Repéré immédiatement par l'erreur de syntaxe,
+réparé. Même famille que la casse des `letter-spacing` du 09/09 : **toute transformation
+automatique du source doit être relue**.
+
+**Monday.com — deux dates restées en l'état, faute de convention** : les JMS **662275 /
+553176** (Jointage au 15/09) et **675238** (Soufflage au 15/09) sont désormais travaillés à
+deux moments distincts, en S38 puis de nouveau le lundi 21/09. Une colonne date unique ne
+peut pas l'exprimer. **Toujours à trancher.**
 
 ---
 
