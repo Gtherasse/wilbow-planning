@@ -509,6 +509,40 @@ planning sur deux pages les semaines exceptionnelles. **Décision structurante �
 
 ---
 
+## Nuits planifiées (enregistrées le 15/09/2026)
+
+Toutes affichées en **case à cheval sur les deux journées** (bloc sombre centré sur la
+frontière, convention de la semaine 37).
+
+| Nuit | Semaine | Chantier | Qui | C@W |
+|------|---------|----------|-----|-----|
+| Jeu 17/09 → ven 18/09 | S38 | **BBN Rotheux** | Mattiuz Pierre + Meurisse Johan | **à préciser** |
+| Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan + Meurisse Johan | **à préciser** |
+| Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | **à préciser** |
+| Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | **à préciser** |
+| Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | **à préciser** |
+| Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | **à préciser** |
+
+**Points ouverts sur ces nuits :**
+
+- **Aucun code C@W n'a été précisé.** Rien ne sera généré tant qu'ils ne sont pas donnés
+  (règle du mémo). Seul le 622272/622268 porte des numéros JMS ; les cinq autres sont des
+  chantiers sans JMS, dont les liens Monday restent à identifier.
+- **Horaire** : la semaine 37 utilisait 22h00–06h00 après correction. Horaire à confirmer
+  pour chacune de ces nuits.
+- **Mike Wilvers n'a pas de ligne dans `RESSOURCES`** — il figure au mémo comme étant au
+  bureau, volontairement hors de la colonne Jointage de Monday pour ne pas fausser
+  Rentabilité_Chantiers. Il apparaîtra donc en pastille « + M. Wilvers » sur la ligne de
+  Johan, sauf décision contraire.
+- **Les scripts S40, S41 et S42 n'existent pas encore.** Ils seront créés le moment venu ;
+  ces nuits doivent y être reportées.
+- **Densité** : la nuit du 17 au 18/09 s'ajoute à une journée du jeudi déjà chargée pour
+  Johan et Pierre (ROP 672861 + Vérification Move ROP 41FEX), sur une page 1 déjà réduite à
+  -12 %. Le rendu « à cheval » n'existe par ailleurs que dans le script S37 : il doit être
+  porté dans la S38 et la S39.
+
+---
+
 ## Absences à venir (à reprendre dans les semaines concernées)
 
 - **Mickael Bolmain absent les 1, 2, 5 et 6 octobre 2026**
