@@ -637,6 +637,19 @@ automatique du source doit être relue**.
 deux moments distincts, en S38 puis de nouveau le lundi 21/09. Une colonne date unique ne
 peut pas l'exprimer. **Toujours à trancher.**
 
+**16/09/2026** : semaine 38, **mercredi 16/09 — Avenia Geoffrey en BTO avec Fabrice
+Gaspard**. C@W BTO. Fabrice n'ayant pas de ligne propre, il apparaît en pastille
+« + Fabrice Gaspard ». Pastille de type `commun` (bleue), contrairement au 09/09 en S37 où
+la note sortait en texte brut faute de type — l'affichage est désormais homogène avec le
+reste du document. Aucune mise à jour Monday.com : le BTO n'y est jamais modifié.
+
+**Mise en page — l'ajout d'une seule ligne de magasinier a fait déborder la page 1.**
+Polices de la S38 ramenées à **-15 %** du réglage d'origine (85 %), contre -12 % hier. Six
+resserrages en six jours. Une ligne « BTO + une pastille » ne devrait pas coûter 3 points de
+police : la grille est saturée. **La décision structurante ne peut plus attendre beaucoup** —
+libellés courts généralisés, regroupement des chantiers d'une même adresse, ou planning sur
+deux pages les semaines chargées.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

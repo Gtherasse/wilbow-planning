@@ -207,6 +207,10 @@ PLANNING = {
     ("FH", 3): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", "+ Équipe 2", "commun", caw="PANDA+")],
     ("FH", 4): [X("BTO", caw="BTO")],
 
+    # Mercredi 16/09 : le magasinier en BTO avec Fabrice Gaspard, qui n a pas
+    # de ligne propre et apparait donc en pastille.
+    ("GA", 2): [X("BTO", "+ Fabrice Gaspard", "commun", caw="BTO")],
+
     # Reste de la semaine : à planifier au fur et à mesure.
 }
 
@@ -367,54 +371,54 @@ def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
 * {{ box-sizing:border-box; }}
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
-        border-bottom:2.192pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:14.878pt; font-weight:800; letter-spacing:2.192pt; color:#0f172a; line-height:1;
+        border-bottom:2.126pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
+.brand {{ font-size:14.432pt; font-weight:800; letter-spacing:2.126pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:5.34pt; font-weight:600; letter-spacing:1.141pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:5.18pt; font-weight:600; letter-spacing:1.107pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:11.378pt; font-weight:800; color:#0f172a; letter-spacing:0.437pt; }}
-.title .dt {{ font-size:7.267pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:11.037pt; font-weight:800; color:#0f172a; letter-spacing:0.424pt; }}
+.title .dt {{ font-size:7.049pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:6.825pt; font-weight:800;
-              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.525pt; }}
-.badge .maj {{ font-size:5.773pt; color:#64748b; margin-top:1.1mm; }}
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:6.62pt; font-weight:800;
+              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:0.509pt; }}
+.badge .maj {{ font-size:5.6pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:8.142pt; font-weight:800; letter-spacing:0.612pt;
-         padding:1mm 1mm; border:0.609pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:6.649pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day {{ background:#0f172a; color:#fff; font-size:7.898pt; font-weight:800; letter-spacing:0.594pt;
+         padding:1mm 1mm; border:0.591pt solid #0f172a; text-transform:uppercase; text-align:center; }}
+th.day span {{ display:block; font-size:6.45pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
-td {{ border:0.609pt solid #cbd5e1; border-left-width:2.104pt; border-left-style:solid;
-     border-bottom:1.397pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
-tr.grp-end td {{ border-bottom:2.625pt solid #0f172a; }}
+td {{ border:0.591pt solid #cbd5e1; border-left-width:2.041pt; border-left-style:solid;
+     border-bottom:1.355pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
+tr.grp-end td {{ border-bottom:2.546pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
-tr:last-child td {{ border-bottom:1.397pt solid #0f172a; }}
-.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.609pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:5.074pt; font-weight:800; letter-spacing:0.699pt; text-transform:uppercase; }}
-.rtag {{ font-size:4.897pt; font-weight:800; letter-spacing:0.612pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:6.649pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+tr:last-child td {{ border-bottom:1.355pt solid #0f172a; }}
+.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.591pt solid rgba(15,23,42,.18); }}
+.rlabel {{ font-size:4.922pt; font-weight:800; letter-spacing:0.678pt; text-transform:uppercase; }}
+.rtag {{ font-size:4.75pt; font-weight:800; letter-spacing:0.594pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:6.45pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
-.body.empty {{ background:#eef2f6; border:0.521pt solid #d5dde5; border-radius:.8mm;
+.body.empty {{ background:#eef2f6; border:0.505pt solid #d5dde5; border-radius:.8mm;
               text-align:center; padding:.8mm 0; }}
 .body.abs {{ border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:7.434pt; font-weight:800; letter-spacing:1.052pt; }}
+.absl {{ font-size:7.211pt; font-weight:800; letter-spacing:1.02pt; }}
 .job {{ line-height:1.2; }}
-.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.521pt dashed #94a3b8; }}
-.jms {{ font-size:7.09pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:6.914pt; line-height:1.18; letter-spacing:.25pt; }}
+.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.505pt dashed #94a3b8; }}
+.jms {{ font-size:6.877pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:6.707pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:5.773pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:6.039pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
-.lib.code {{ letter-spacing:0.262pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:5.34pt; font-weight:700; padding:.35mm 1.2mm;
-        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.262pt; }}
-.n-renfort {{ background:#fef3c7; color:#92400e; border:0.432pt solid #fcd34d; }}
-.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.432pt solid #a5b4fc; }}
-.n-prov {{ background:#fff7ed; color:#c2410c; border:0.521pt dashed #fb923c; }}
-.n-alt {{ background:#f1f5f9; color:#475569; border:0.521pt dashed #94a3b8; }}
+.ext {{ font-size:5.6pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:5.858pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.lib.code {{ letter-spacing:0.254pt; color:#1e293b; }}
+.note {{ display:inline-block; font-size:5.18pt; font-weight:700; padding:.35mm 1.2mm;
+        border-radius:.8mm; margin-top:.6mm; letter-spacing:0.254pt; }}
+.n-renfort {{ background:#fef3c7; color:#92400e; border:0.419pt solid #fcd34d; }}
+.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.419pt solid #a5b4fc; }}
+.n-prov {{ background:#fff7ed; color:#c2410c; border:0.505pt dashed #fb923c; }}
+.n-alt {{ background:#f1f5f9; color:#475569; border:0.505pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
 /* Prestation de nuit : bloc a cheval sur la frontiere des deux journees.
    Le bloc visible est en position absolue ; le spacer, invisible mais dans le
@@ -427,26 +431,26 @@ tr:last-child td {{ border-bottom:1.397pt solid #0f172a; }}
 .job.cheval .per.nuit {{ background:#334155; color:#fff; }}
 .job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:4.897pt; font-weight:800; letter-spacing:0.525pt;
+.per {{ display:inline-block; font-size:4.75pt; font-weight:800; letter-spacing:0.509pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:6.479pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:5.428pt; font-weight:800; letter-spacing:0.525pt; padding:.35mm 1.4mm;
+.qui {{ font-size:6.285pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:5.265pt; font-weight:800; letter-spacing:0.509pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:6.479pt; font-weight:800; letter-spacing:0.788pt; text-align:center;
+.ligneabs {{ font-size:6.285pt; font-weight:800; letter-spacing:0.764pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:6.649pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:6.45pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:0.876pt solid #cbd5e1; font-size:5.773pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.85pt solid #cbd5e1; font-size:5.6pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
-.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.521pt solid #d5dde5;
+.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.505pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}
 </style></head><body>
 <div class="head">
