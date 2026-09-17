@@ -672,6 +672,27 @@ son travail. Le script **converge désormais tout seul** : il resserre la plus h
 hauteurs par pas de 0,2mm jusqu'à obtenir exactement deux pages. Ajouté aux scripts S38 et
 S39. Sans cela, toute semaine allégée pouvait produire un PDF invalide.
 
+**17/09/2026** : semaine 38 — **les chantiers de l'Équipe 2 du jeudi et du vendredi sont
+intervertis** :
+
+| Jour | Équipe 2 | Chantier |
+|------|----------|----------|
+| Jeu 17/09 | Dominguez Miguel + Petit Gauthier | JMS **603753 - 671456** — Rue du Vicinal 17-31, Clavier |
+| Ven 18/09 | Dominguez Miguel + **Hanikenne Florian** | JMS **656373** — FMROP C/107, Rue d'Orp 62, Orp-Jauche |
+
+**Florian rejoint Miguel le vendredi** : l'entête le mentionne et sa propre ligne porte le
+656373 avec une pastille « + Équipe 2 ». Il reste en BTO lundi, mardi et jeudi. C@W PANDA+.
+
+Monday.com : les deux items suivent le mouvement, date **et** équipier — 603753/671456 au
+17/09 avec Miguel et Gauthier, 656373 au 18/09 avec Miguel et Florian.
+
+**Défaut de structure corrigé** : le dict `NOMS_OVERRIDE` de la S38 contenait **deux fois**
+les clés `("E2", 2)` et `("E2", 3)`, les secondes écrasant silencieusement les premières. Le
+résultat affiché était le bon — Python garde la dernière valeur — mais une modification de la
+première occurrence n'aurait eu **aucun effet**, sans le moindre message. Dict réécrit avec
+six clés uniques et un commentaire expliquant les renforts de la semaine. À surveiller : rien
+dans le script n'empêche une clé en double.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

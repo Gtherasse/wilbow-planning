@@ -104,18 +104,17 @@ CODES = {
 # Feller Sam absent toute la semaine 38 : personne ne le remplace a cote de
 # Miguel, l entete Equipe 2 affiche donc "Dominguez Miguel" seul les 5 jours.
 NOMS_OVERRIDE = {
+    # Feller Sam absent toute la semaine : personne ne le remplace a cote de Miguel,
+    # sauf renfort ponctuel. Mercredi et vendredi : Hanikenne Florian. Jeudi :
+    # Gauthier Petit, qui quitte alors l Equipe 1 ou Bolmain reste seul a l atelier.
     ("E2", 0): ["Dominguez Miguel"],
     ("E2", 1): ["Dominguez Miguel"],
-    ("E2", 2): ["Dominguez Miguel"],
-    ("E2", 3): ["Dominguez Miguel"],
-    ("E2", 4): ["Dominguez Miguel"],
-    # Mercredi et jeudi : Hanikenne Florian complete l Equipe 2 a cote de Miguel.
     ("E2", 2): ["Dominguez Miguel", "Hanikenne Florian"],
-    # Jeudi 17/09 : Gauthier Petit prend la place de Florian a cote de Miguel,
-    # Bolmain reste seul a l atelier.
     ("E2", 3): ["Dominguez Miguel", "Petit Gauthier"],
+    ("E2", 4): ["Dominguez Miguel", "Hanikenne Florian"],
     ("E1", 3): ["Bolmain Mickael"],
 }
+
 
 PLANNING = {
     # Equipe 1 : dossier de Ciney toute la semaine, comme en S37.
@@ -141,8 +140,9 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse · P. Mattiuz", "commun", caw="PANDA+"),
     ],
     ("E2", 2): [X("FQ Tihange (version définitive)", url=TIHANGE, caw="PANDA+")],
-    ("E2", 3): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
-    ("E2", 4): [J("603753 - 671456", "Rue du Vicinal 17-31 — Clavier (Thomas et Piron)", caw="PANDA+")],
+    # Jeudi et vendredi intervertis le 17/09.
+    ("E2", 3): [J("603753 - 671456", "Rue du Vicinal 17-31 — Clavier (Thomas et Piron)", caw="PANDA+")],
+    ("E2", 4): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
 
     # Lundi 14/09 : le FH 32, reporte depuis la S37 (Johan etait en recup le
     # vendredi 11/09 apres la nuit du 10 au 11).
@@ -208,7 +208,7 @@ PLANNING = {
     ("FH", 1): [X("BTO", caw="BTO")],
     ("FH", 2): [X("FQ Tihange (version définitive)", "+ Équipe 2", "commun", url=TIHANGE, caw="PANDA+")],
     ("FH", 3): [X("BTO", caw="BTO")],
-    ("FH", 4): [X("BTO", caw="BTO")],
+    ("FH", 4): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", "+ Équipe 2", "commun", caw="PANDA+")],
 
     # Mercredi 16/09 : le magasinier en BTO avec Fabrice Gaspard, qui n a pas
     # de ligne propre et apparait donc en pastille.
