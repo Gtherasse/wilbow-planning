@@ -111,7 +111,10 @@ NOMS_OVERRIDE = {
     ("E2", 4): ["Dominguez Miguel"],
     # Mercredi et jeudi : Hanikenne Florian complete l Equipe 2 a cote de Miguel.
     ("E2", 2): ["Dominguez Miguel", "Hanikenne Florian"],
-    ("E2", 3): ["Dominguez Miguel", "Hanikenne Florian"],
+    # Jeudi 17/09 : Gauthier Petit prend la place de Florian a cote de Miguel,
+    # Bolmain reste seul a l atelier.
+    ("E2", 3): ["Dominguez Miguel", "Petit Gauthier"],
+    ("E1", 3): ["Bolmain Mickael"],
 }
 
 PLANNING = {
@@ -124,7 +127,7 @@ PLANNING = {
     ],
     ("E1", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
-    ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 3): ABS("ATELIER"),
     ("E1", 4): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
 
     # Equipe 2 : soufflage des deux DIST de la rue Boyou / Jansen le lundi.
@@ -204,7 +207,7 @@ PLANNING = {
     ("FH", 0): [X("BTO", caw="BTO")],
     ("FH", 1): [X("BTO", caw="BTO")],
     ("FH", 2): [X("FQ Tihange (version définitive)", "+ Équipe 2", "commun", url=TIHANGE, caw="PANDA+")],
-    ("FH", 3): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", "+ Équipe 2", "commun", caw="PANDA+")],
+    ("FH", 3): [X("BTO", caw="BTO")],
     ("FH", 4): [X("BTO", caw="BTO")],
 
     # Mercredi 16/09 : le magasinier en BTO avec Fabrice Gaspard, qui n a pas
@@ -222,6 +225,7 @@ ABS_STYLE = {
     "CONGÉ":     ("#e2e8f0", "#475569"),
     "MALADIE":   ("#fee2e2", "#b91c1c"),
     "FORMATION": ("#ede9fe", "#5b21b6"),
+    "ATELIER":   ("#e2e8f0", "#475569"),
     "RÉCUP":     ("#cffafe", "#0e7490"),
     "ABSENT":    ("#e2e8f0", "#475569"),
     "EN ATTENTE":("#fef3c7", "#92400e"),
@@ -505,14 +509,29 @@ CAW_PIED  = "Le code sous chaque intitulé = référence à encoder dans Check i
 h1 = hauteur_page(ROWS_SITE, "PLANNING CONFIRMÉ", None, None, "page 1 (planning chantier)")
 h2 = hauteur_page(ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED, "page 2 (Check in @ Work)")
 
-doc = build(h1, ROWS_SITE, "PLANNING CONFIRMÉ", None, None)
-pg2 = corps(build(h2, ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED))
-doc = doc.replace("</body>", '<div style="break-before:page;">' + pg2 + "</div></body>")
+def document(a, b):
+    """Assemble les deux pages en un seul document."""
+    d = build(a, ROWS_SITE, "PLANNING CONFIRMÉ", None, None)
+    p2 = corps(build(b, ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED))
+    return d.replace("</body>", '<div style="break-before:page;">' + p2 + "</div></body>")
+
+# Chaque page tient sur une feuille prise isolement, mais leur reunion peut en
+# demander une troisieme. On resserre alors la plus haute des deux jusqu a
+# obtenir exactement deux pages.
+for _ in range(80):
+    open("/tmp/_pl38.html", "w", encoding="utf-8").write(document(h1, h2))
+    rendu = W(filename="/tmp/_pl38.html").render()
+    if len(rendu.pages) == 2:
+        break
+    if h1 >= h2 and h1 > 4.0:
+        h1 = round(h1 - 0.2, 1)
+    elif h2 > 4.0:
+        h2 = round(h2 - 0.2, 1)
+    else:
+        raise SystemExit("Impossible de tenir en deux pages meme au minimum.")
+else:
+    raise SystemExit("Convergence impossible vers deux pages.")
 
 sortie = sys.argv[1] if len(sys.argv) > 1 else "Planning WILBOW - S38.pdf"
-open("/tmp/_pl38.html", "w", encoding="utf-8").write(doc)
-rendu = W(filename="/tmp/_pl38.html").render()
-if len(rendu.pages) != 2:
-    raise SystemExit(f"Attendu 2 pages, obtenu {len(rendu.pages)} : {sortie}")
 rendu.write_pdf(sortie)
 print(f"OK -> {sortie}  (2 pages ; hauteurs de ligne {h1:.1f}mm et {h2:.1f}mm)")

@@ -442,14 +442,29 @@ CAW_PIED  = "Le code sous chaque intitulé = référence à encoder dans Check i
 h1 = hauteur_page(ROWS_SITE, "PLANNING CONFIRMÉ", None, None, "page 1 (planning chantier)")
 h2 = hauteur_page(ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED, "page 2 (Check in @ Work)")
 
-doc = build(h1, ROWS_SITE, "PLANNING CONFIRMÉ", None, None)
-pg2 = corps(build(h2, ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED))
-doc = doc.replace("</body>", '<div style="break-before:page;">' + pg2 + "</div></body>")
+def document(a, b):
+    """Assemble les deux pages en un seul document."""
+    d = build(a, ROWS_SITE, "PLANNING CONFIRMÉ", None, None)
+    p2 = corps(build(b, ROWS_CAW, "CHECK IN @ WORK", CAW_ST, CAW_PIED))
+    return d.replace("</body>", '<div style="break-before:page;">' + p2 + "</div></body>")
+
+# Chaque page tient sur une feuille prise isolement, mais leur reunion peut en
+# demander une troisieme. On resserre alors la plus haute des deux jusqu a
+# obtenir exactement deux pages.
+for _ in range(80):
+    open("/tmp/_pl39.html", "w", encoding="utf-8").write(document(h1, h2))
+    rendu = W(filename="/tmp/_pl39.html").render()
+    if len(rendu.pages) == 2:
+        break
+    if h1 >= h2 and h1 > 4.0:
+        h1 = round(h1 - 0.2, 1)
+    elif h2 > 4.0:
+        h2 = round(h2 - 0.2, 1)
+    else:
+        raise SystemExit("Impossible de tenir en deux pages meme au minimum.")
+else:
+    raise SystemExit("Convergence impossible vers deux pages.")
 
 sortie = sys.argv[1] if len(sys.argv) > 1 else "Planning WILBOW - S39.pdf"
-open("/tmp/_pl39.html", "w", encoding="utf-8").write(doc)
-rendu = W(filename="/tmp/_pl39.html").render()
-if len(rendu.pages) != 2:
-    raise SystemExit(f"Attendu 2 pages, obtenu {len(rendu.pages)} : {sortie}")
 rendu.write_pdf(sortie)
 print(f"OK -> {sortie}  (2 pages ; hauteurs de ligne {h1:.1f}mm et {h2:.1f}mm)")

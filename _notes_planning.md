@@ -650,6 +650,28 @@ police : la grille est saturée. **La décision structurante ne peut plus attend
 libellés courts généralisés, regroupement des chantiers d'une même adresse, ou planning sur
 deux pages les semaines chargées.
 
+**17/09/2026** : semaine 38, **jeudi 17/09 — recomposition des équipes de soufflage** :
+- **Gauthier Petit passe en Équipe 2** à côté de Miguel, sur le JMS 656373. L'entête affiche
+  « Dominguez Miguel / Petit Gauthier » ce jour-là.
+- **Hanikenne Florian quitte l'Équipe 2** et repasse en **BTO**.
+- **Mickael Bolmain reste seul à l'atelier** : l'entête Équipe 1 n'affiche que son nom, et la
+  case porte un statut grisé **ATELIER**, **sans code C@W** — comme les motifs d'absence, il
+  ne génère aucune ligne sur le tableau secrétariat. Nouveau motif `ATELIER` ajouté à
+  `ABS_STYLE` (gris neutre) pour que ce rendu soit explicite et non un repli par défaut.
+- **Le JMS 675238 (Ciney) disparaît du jeudi** : personne ne reste dessus. Il reprend le
+  vendredi 18/09.
+
+Monday.com : sur le 656373, **Florian remplacé par Gauthier Petit** au Soufflage. Le 675238
+garde sa date unique au 15/09 — la convention multi-jours reste à trancher.
+
+**17/09/2026 — Défaut du moteur découvert et corrigé : trois pages au lieu de deux.** Le
+contenu du jeudi ayant diminué, la dichotomie a choisi des hauteurs de ligne plus confortables
+pour chaque page ; chacune tenait sur une feuille prise **isolément**, mais leur réunion en
+demandait **trois**. Le garde-fou « exactement 2 pages » a bloqué la génération — il a fait
+son travail. Le script **converge désormais tout seul** : il resserre la plus haute des deux
+hauteurs par pas de 0,2mm jusqu'à obtenir exactement deux pages. Ajouté aux scripts S38 et
+S39. Sans cela, toute semaine allégée pouvait produire un PDF invalide.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
