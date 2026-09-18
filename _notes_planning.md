@@ -710,6 +710,21 @@ s'accumulent : Monday annonce du travail qui n'aura pas lieu. Une règle simple 
 date dès qu'un chantier sort du planning, ou le reporter aussitôt — réglerait les trois d'un
 coup. **Proposition en attente.**
 
+**18/09/2026** : semaine 39, **jeudi 24/09 — Avenia Geoffrey chez FRANCE ÉLÉVATEURS**,
+**sans code C@W**. Rendu comme un statut grisé, sur le même mécanisme que l'ATELIER de
+Bolmain : il n'apparaît donc **avec aucun code** sur la page Check in @ Work. Motif
+`FRANCE ÉLÉVATEURS` ajouté à `ABS_STYLE` de la S39. Aucune mise à jour Monday.com — ce n'est
+pas un chantier du board.
+
+Mise en page : polices de la S39 ramenées à **-3 %** (contre -2 %) pour absorber ce libellé,
+long pour la ligne compacte du magasinier.
+
+**Convention qui se dégage** : une prestation **sans code C@W** (ATELIER, FRANCE ÉLÉVATEURS)
+se déclare via `ABS("MOTIF")` avec une entrée grise dans `ABS_STYLE`. C'est aujourd'hui le
+seul moyen d'obtenir une case remplie qui ne génère aucune ligne au secrétariat — `X()` sans
+`caw=` afficherait « ? ». **À formaliser dans `CLAUDE.md`** si ce cas se répète : le nom
+`ABS_STYLE` devient trompeur, ces motifs n'étant pas des absences.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
