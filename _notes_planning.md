@@ -693,6 +693,23 @@ première occurrence n'aurait eu **aucun effet**, sans le moindre message. Dict 
 six clés uniques et un commentaire expliquant les renforts de la semaine. À surveiller : rien
 dans le script n'empêche une clé en double.
 
+**18/09/2026** : semaine 38, **vendredi 18/09** — **Hanikenne Florian revient au BTO**, et
+**Dominguez Miguel rejoint l'Équipe 1 sur le JMS 675238** (Ciney-Jemelle). Les deux équipes
+de soufflage sont donc regroupées sur le même chantier, chacune gardant sa ligne avec une
+pastille « + Équipe 1 » / « + Équipe 2 » — convention déjà utilisée le 28/08 sur le 685230.
+C@W PANDA+. Monday.com : Miguel ajouté au Soufflage du 675238, à côté de Bolmain et Petit.
+
+**Le JMS 656373 (FMROP C/107, Orp-Jauche) sort du planning.** Il avait été déplacé au
+vendredi hier seulement ; plus personne n'étant dessus, il disparaît. Sur Monday.com sa date
+Soufflage reste au **18/09 avec Miguel et Florian** — non modifiée, faute de savoir s'il faut
+la vider ou le replanifier. **À trancher.**
+
+**Troisième chantier dans ce cas.** Après le 599588 (Liège) et le 675238 du jeudi, le 656373
+est planifié sur Monday.com à une date où il ne figure plus au planning. Ces écarts
+s'accumulent : Monday annonce du travail qui n'aura pas lieu. Une règle simple — vider la
+date dès qu'un chantier sort du planning, ou le reporter aussitôt — réglerait les trois d'un
+coup. **Proposition en attente.**
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

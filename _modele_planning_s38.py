@@ -111,7 +111,7 @@ NOMS_OVERRIDE = {
     ("E2", 1): ["Dominguez Miguel"],
     ("E2", 2): ["Dominguez Miguel", "Hanikenne Florian"],
     ("E2", 3): ["Dominguez Miguel", "Petit Gauthier"],
-    ("E2", 4): ["Dominguez Miguel", "Hanikenne Florian"],
+    ("E2", 4): ["Dominguez Miguel"],
     ("E1", 3): ["Bolmain Mickael"],
 }
 
@@ -127,7 +127,7 @@ PLANNING = {
     ("E1", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 3): ABS("ATELIER"),
-    ("E1", 4): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 4): [J("675238", "BBN 12310B — Ciney-Jemelle", "+ Équipe 2", "commun", caw="PANDA+")],
 
     # Equipe 2 : soufflage des deux DIST de la rue Boyou / Jansen le lundi.
     ("E2", 0): [
@@ -142,7 +142,9 @@ PLANNING = {
     ("E2", 2): [X("FQ Tihange (version définitive)", url=TIHANGE, caw="PANDA+")],
     # Jeudi et vendredi intervertis le 17/09.
     ("E2", 3): [J("603753 - 671456", "Rue du Vicinal 17-31 — Clavier (Thomas et Piron)", caw="PANDA+")],
-    ("E2", 4): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
+    # Vendredi 18/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 656373 sort donc
+    # du planning, plus personne n etant dessus.
+    ("E2", 4): [J("675238", "BBN 12310B — Ciney-Jemelle", "+ Équipe 1", "commun", caw="PANDA+")],
 
     # Lundi 14/09 : le FH 32, reporte depuis la S37 (Johan etait en recup le
     # vendredi 11/09 apres la nuit du 10 au 11).
@@ -208,7 +210,7 @@ PLANNING = {
     ("FH", 1): [X("BTO", caw="BTO")],
     ("FH", 2): [X("FQ Tihange (version définitive)", "+ Équipe 2", "commun", url=TIHANGE, caw="PANDA+")],
     ("FH", 3): [X("BTO", caw="BTO")],
-    ("FH", 4): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", "+ Équipe 2", "commun", caw="PANDA+")],
+    ("FH", 4): [X("BTO", caw="BTO")],
 
     # Mercredi 16/09 : le magasinier en BTO avec Fabrice Gaspard, qui n a pas
     # de ligne propre et apparait donc en pastille.
