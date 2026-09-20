@@ -164,6 +164,7 @@ Fichiers créés : `Planning WILBOW - S38 - 14-18 sept 2026.pdf`,
 - **BTO — Tirage câble aérien**
 - **Fexhe**
 - **Francorchamps** (Johan, lundi 17/08 S34 — volontairement laissé sans lien Monday)
+- **SWDE Réservoir de Nalamont** (Johan + M. Wilvers, S39)
 
 Donner le nom exact de l'élément Monday pour les rendre cliquables dans le PDF.
 
@@ -742,6 +743,23 @@ assigné depuis le 18/09).
 Mise en page : aucun resserrage nécessaire cette fois — la semaine est passée telle quelle,
 hauteur de ligne 21,2mm. Le vendredi 25/09 reste **entièrement vide** pour tout le monde
 sauf Dan, Florian et le magasinier.
+
+**20/09/2026** : semaine 39, **jeudi 24 et vendredi 25/09 — Meurisse Johan sur SWDE
+Réservoir de Nalamont**, avec **Mike Wilvers** en pastille (il n'a pas de ligne propre).
+
+**Code C@W volontairement non renseigné.** Il n'existe pas dans le répertoire — qui contient
+quatre codes SWDE (BIERSET, VIELSALM, VILLERS, HUCCORGNE), aucun pour Nalamont — et il est
+**à déterminer avec M. Wilvers**. La page Check in @ Work affiche donc
+« **SWDE — À DÉTERMINER** » **sans aucun code** : le secrétariat voit que la référence est
+en attente, plutôt qu'un code deviné. **À compléter dès que M. Wilvers l'aura donné** ; ce
+sera alors une entrée à ajouter au dict `CODES`, comme CATERPILLAR en août.
+
+Aucun élément Monday.com pour ce chantier — ajouté à la liste des chantiers sans lien. Mike
+Wilvers reste volontairement hors de la colonne Jointage, pour ne pas fausser
+Rentabilité_Chantiers (décision du mémo).
+
+Titre affiché : « SWDE Réservoir de Nalamont », en casse normale plutôt qu'en capitales, pour
+rester homogène avec les autres intitulés du document.
 
 ---
 

@@ -120,6 +120,14 @@ PLANNING = {
     # Mercredi 23/09 : recuperation apres la nuit du mardi au mercredi.
     ("JM", 2): ABS("RÉCUP"),
 
+    # Jeudi 24 et vendredi 25/09 : SWDE Reservoir de Nalamont avec Mike Wilvers,
+    # qui n a pas de ligne propre. Le code C@W n est pas connu : il reste a
+    # determiner avec lui, d ou un intitule explicite plutot qu un code devine.
+    ("JM", 3): [X("SWDE Réservoir de Nalamont", "+ M. Wilvers", "commun",
+                  caw="SWDE — À DÉTERMINER")],
+    ("JM", 4): [X("SWDE Réservoir de Nalamont", "+ M. Wilvers", "commun",
+                  caw="SWDE — À DÉTERMINER")],
+
     # Lundi 21/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 685239 (Hannut) qui
     # lui etait prevu ce jour-la part au mercredi, avec Pierre.
     ("E2", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", "+ Équipe 1", "commun", caw="PANDA+")],
