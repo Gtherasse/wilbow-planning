@@ -92,11 +92,19 @@ CODES = {
     "CATERPILLAR":        "1Y102SV8BK22Z",
 }
 
-NOMS_OVERRIDE = {}
+# Feller Sam absent toute la semaine 39 : personne ne le remplace a cote de
+# Miguel, l entete Equipe 2 affiche donc "Dominguez Miguel" seul les 5 jours.
+NOMS_OVERRIDE = {
+    ("E2", 0): ["Dominguez Miguel"],
+    ("E2", 1): ["Dominguez Miguel"],
+    ("E2", 2): ["Dominguez Miguel"],
+    ("E2", 3): ["Dominguez Miguel"],
+    ("E2", 4): ["Dominguez Miguel"],
+}
 
 PLANNING = {
     # Lundi 21/09 : Equipe 1 sur le dossier de Ciney, comme le mardi 15/09.
-    ("E1", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", "+ Équipe 2", "commun", caw="PANDA+")],
 
     # Lundi 21/09 : Johan et Pierre reprennent les deux DIST d Oupeye, sans le
     # FEED 569815 qui sera termine.
@@ -112,8 +120,15 @@ PLANNING = {
     # Mercredi 23/09 : recuperation apres la nuit du mardi au mercredi.
     ("JM", 2): ABS("RÉCUP"),
 
-    # Lundi 21/09 : Équipe 2 -> 685239 (Administration Communale d'Hannut)
-    ("E2", 0): [J("685239", "OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut", caw="PANDA+")],
+    # Lundi 21/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 685239 (Hannut) qui
+    # lui etait prevu ce jour-la part au mercredi, avec Pierre.
+    ("E2", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", "+ Équipe 1", "commun", caw="PANDA+")],
+    ("E2", 2): [J("685239", "OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut", "+ P. Mattiuz", "commun", caw="PANDA+")],
+    ("PM", 2): [J("685239", "OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut", "+ Équipe 2", "commun", caw="PANDA+")],
+
+    # Mercredi et jeudi : l Equipe 1 revient sur Ciney, comme le lundi.
+    ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
     ("JM", 1): [J("680608", "OL_B_003712199 — INSKY NV, Rue des Spinettes 5, Sprimont",

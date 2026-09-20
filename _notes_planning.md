@@ -725,6 +725,24 @@ seul moyen d'obtenir une case remplie qui ne génère aucune ligne au secrétari
 `caw=` afficherait « ? ». **À formaliser dans `CLAUDE.md`** si ce cas se répète : le nom
 `ABS_STYLE` devient trompeur, ces motifs n'étant pas des absences.
 
+**20/09/2026** — Semaine 39 :
+- **Feller Sam absent toute la semaine 39.** Son absence court désormais sans interruption
+  depuis le 31/08. L'entête Équipe 2 affiche « Dominguez Miguel » seul les cinq jours.
+- **Lundi 21/09** : Miguel rejoint l'Équipe 1 sur le **JMS 675238** (Ciney-Jemelle), les deux
+  équipes regroupées avec pastilles « + Équipe 1 » / « + Équipe 2 ».
+- **Le JMS 685239 (Administration Communale d'Hannut), prévu le lundi pour Miguel, part au
+  mercredi 23/09**, cette fois **avec Pierre Mattiuz**. Pastilles de part et d'autre.
+- **Mercredi 24 et jeudi 24/09** : l'Équipe 1 revient sur le **675238** (Ciney), comme le
+  lundi. Elle y est donc lundi, mercredi et jeudi ; mardi elle est sur le 586382 (Verviers).
+
+Monday.com : 685239 → Soufflage **23/09 avec Miguel et Pierre** ; 675238 → date Soufflage
+avancée du 15/09 au **21/09**, premier jour de sa nouvelle occurrence (Miguel y était déjà
+assigné depuis le 18/09).
+
+Mise en page : aucun resserrage nécessaire cette fois — la semaine est passée telle quelle,
+hauteur de ligne 21,2mm. Le vendredi 25/09 reste **entièrement vide** pour tout le monde
+sauf Dan, Florian et le magasinier.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
