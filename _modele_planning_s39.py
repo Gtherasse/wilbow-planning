@@ -95,7 +95,9 @@ CODES = {
 # Feller Sam absent toute la semaine 39 : personne ne le remplace a cote de
 # Miguel, l entete Equipe 2 affiche donc "Dominguez Miguel" seul les 5 jours.
 NOMS_OVERRIDE = {
-    ("E2", 0): ["Dominguez Miguel"],
+    # Lundi 21/09 : Bolmain malade, Gauthier Petit rejoint Miguel en Equipe 2.
+    ("E2", 0): ["Dominguez Miguel", "Petit Gauthier"],
+    ("E1", 0): ["Bolmain Mickael"],
     ("E2", 1): ["Dominguez Miguel"],
     ("E2", 2): ["Dominguez Miguel"],
     ("E2", 3): ["Dominguez Miguel"],
@@ -104,7 +106,7 @@ NOMS_OVERRIDE = {
 
 PLANNING = {
     # Lundi 21/09 : Equipe 1 sur le dossier de Ciney, comme le mardi 15/09.
-    ("E1", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", "+ Équipe 2", "commun", caw="PANDA+")],
+    ("E1", 0): ABS("MALADIE"),
 
     # Lundi 21/09 : Johan et Pierre reprennent les deux DIST d Oupeye, sans le
     # FEED 569815 qui sera termine.
@@ -130,7 +132,7 @@ PLANNING = {
 
     # Lundi 21/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 685239 (Hannut) qui
     # lui etait prevu ce jour-la part au mercredi, avec Pierre.
-    ("E2", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", "+ Équipe 1", "commun", caw="PANDA+")],
+    ("E2", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E2", 2): [J("685239", "OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut", "+ P. Mattiuz", "commun", caw="PANDA+")],
     ("PM", 2): [J("685239", "OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut", "+ Équipe 2", "commun", caw="PANDA+")],
 

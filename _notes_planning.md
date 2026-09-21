@@ -761,6 +761,21 @@ Rentabilité_Chantiers (décision du mémo).
 Titre affiché : « SWDE Réservoir de Nalamont », en casse normale plutôt qu'en capitales, pour
 rester homogène avec les autres intitulés du document.
 
+**21/09/2026** : semaine 39, **lundi 21/09 — Bolmain Mickael en MALADIE**. L'entête Équipe 1
+n'affiche que son nom et la case porte la pastille rouge MALADIE, sans code C@W.
+**Gauthier Petit passe en Équipe 2** à côté de Miguel, sur le **même JMS 675238**
+(Ciney-Jemelle). L'entête affiche « Dominguez Miguel / Petit Gauthier » ce jour-là, et la
+pastille de partage « + Équipe 1 » disparaît — l'Équipe 1 n'étant plus sur le chantier.
+
+Monday.com : **aucune modification**. Bolmain reste parmi les personnes assignées au
+Soufflage du 675238, le chantier se poursuivant mercredi et jeudi où il est attendu. Retirer
+quelqu'un pour une seule journée d'absence fausserait l'affectation du chantier.
+
+**Deux recompositions d'équipe en trois jours ouvrables** (jeudi 17/09 et aujourd'hui), plus
+l'absence continue de Sam depuis le 31/08 : l'Équipe 1 et l'Équipe 2 ne tiennent plus leur
+composition nominale. Le point soulevé le 20/09 — prévoir un renfort permanent à côté de
+Miguel plutôt que de recomposer au jour le jour — **reste ouvert**.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
