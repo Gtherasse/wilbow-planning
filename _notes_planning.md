@@ -776,6 +776,35 @@ l'absence continue de Sam depuis le 31/08 : l'Équipe 1 et l'Équipe 2 ne tienne
 composition nominale. Le point soulevé le 20/09 — prévoir un renfort permanent à côté de
 Miguel plutôt que de recomposer au jour le jour — **reste ouvert**.
 
+**21/09/2026** — **Nouvelle ressource : Andreï, jointeur.** Ligne ajoutée à `RESSOURCES`
+(identifiant `AN`, couleur violette), placée entre Hanikenne Florian et le magasinier.
+Première création de ligne depuis le départ d'Yves Noville en août. **BTO du mardi 22 au
+vendredi 25/09** ; lundi grisé, il n'était pas encore là.
+**Nom de famille inconnu** — la ligne affiche « Andreï » seul, alors que toutes les autres
+sont en « Nom Prénom ». **À compléter.** Il n'a pas non plus été recherché sur Monday.com :
+le BTO n'y étant jamais modifié, la question ne se pose pas encore.
+
+**21/09/2026** : **Avenia Geoffrey en BTO mardi 22 et mercredi 23/09** (C@W BTO). Sa semaine
+est donc : Dépôt lundi, BTO mardi-mercredi, France Élévateurs jeudi, Dépôt vendredi.
+
+**Mise en page — le levier des libellés courts enfin appliqué.** La huitième ligne faisait
+déborder la page. Deux actions :
+1. **Libellés récurrents raccourcis** (les préfixes de référence Monday `OL_B_…` et `RW_`
+   sont retirés : le numéro JMS cliquable les porte déjà) —
+   `OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut` →
+   `Adm. Communale d'Hannut — Rue de Landen 23` ; `RW_Marché GCC — Rue de Limbourg, Verviers
+   — PW Backbone URGENT` → `Marché GCC — Verviers (PW Backbone URGENT)` ;
+   `OL_B_003712199 — INSKY NV, …` → `INSKY NV — …` ;
+   `Rue François Jansen 5A>E — Oupeye (Covitin)` → `Rue Fr. Jansen 5A>E — Oupeye` ;
+   `Rue Boyou 13 — Oupeye (Covitin)` → `Rue Boyou 13 — Oupeye`. Dix occurrences au total.
+2. Polices ramenées à **-7 %** (93 %), le raccourcissement seul ne suffisant pas : une ligne
+   de plus coûte une hauteur d'entête incompressible.
+
+**Constat** : les libellés courts ont absorbé une partie du coût, mais **pas une ligne
+entière**. Avec huit ressources, la grille A4 paysage est à sa limite structurelle. Si une
+neuvième ligne apparaît, ou si Andreï reçoit de vrais chantiers plutôt que du BTO, il faudra
+trancher entre un planning sur deux pages ou une refonte de la grille.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

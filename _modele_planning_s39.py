@@ -30,6 +30,7 @@ RESSOURCES = [
     dict(id="PM", label="Jointeur", noms=["Mattiuz Pierre"], c="#be123c", bg="#fff1f2"),
     dict(id="DP", label="Jointeur", noms=["Panait Dan"], c="#0369a1", bg="#f0f9ff"),
     dict(id="FH", label="Jointeur", noms=["Hanikenne Florian"], c="#4d7c0f", bg="#f7fee7"),
+    dict(id="AN", label="Jointeur", noms=["Andreï"], c="#7e22ce", bg="#faf5ff"),
     dict(id="GA", label="Magasinier", noms=["Avenia Geoffrey"], c="#57534e", bg="#fafaf9",
          defaut="Dépôt", compact=True),
 ]
@@ -111,12 +112,12 @@ PLANNING = {
     # Lundi 21/09 : Johan et Pierre reprennent les deux DIST d Oupeye, sans le
     # FEED 569815 qui sera termine.
     ("JM", 0): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("662275", "Rue Fr. Jansen 5A>E — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
     ("PM", 0): [
-        J("662275", "Rue François Jansen 5A>E — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
-        J("553176", "Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
+        J("662275", "Rue Fr. Jansen 5A>E — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
 
     # Mercredi 23/09 : recuperation apres la nuit du mardi au mercredi.
@@ -133,25 +134,25 @@ PLANNING = {
     # Lundi 21/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 685239 (Hannut) qui
     # lui etait prevu ce jour-la part au mercredi, avec Pierre.
     ("E2", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
-    ("E2", 2): [J("685239", "OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut", "+ P. Mattiuz", "commun", caw="PANDA+")],
-    ("PM", 2): [J("685239", "OL_B_003712728 — Administration Communale d'Hannut, Rue de Landen 23, 4280 Hannut", "+ Équipe 2", "commun", caw="PANDA+")],
+    ("E2", 2): [J("685239", "Adm. Communale d'Hannut — Rue de Landen 23", "+ P. Mattiuz", "commun", caw="PANDA+")],
+    ("PM", 2): [J("685239", "Adm. Communale d'Hannut — Rue de Landen 23", "+ Équipe 2", "commun", caw="PANDA+")],
 
     # Mercredi et jeudi : l Equipe 1 revient sur Ciney, comme le lundi.
     ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
-    ("JM", 1): [J("680608", "OL_B_003712199 — INSKY NV, Rue des Spinettes 5, Sprimont",
+    ("JM", 1): [J("680608", "INSKY NV — Rue des Spinettes 5, Sprimont",
                   note="+ P. Mattiuz", t="commun", caw="PANDA+"),
                 # Nuit du mardi 22 au mercredi 23/09, Johan seul.
                 X("EUP8756W0 — WELK OTS 5131 M", q=NUIT, caw="PANDA+")],
-    ("PM", 1): [J("680608", "OL_B_003712199 — INSKY NV, Rue des Spinettes 5, Sprimont",
+    ("PM", 1): [J("680608", "INSKY NV — Rue des Spinettes 5, Sprimont",
                   note="+ J. Meurisse", t="commun", caw="PANDA+")],
 
     # Mardi 22/09 : les 2 équipes de soufflage -> 586382 (Marché GCC, Rue de Limbourg, Verviers — PW Backbone)
-    ("E1", 1): [J("586382", "RW_Marché GCC — Rue de Limbourg, Verviers — PW Backbone URGENT",
+    ("E1", 1): [J("586382", "Marché GCC — Verviers (PW Backbone URGENT)",
                   note="+ Équipe 2", t="commun", caw="PANDA+")],
-    ("E2", 1): [J("586382", "RW_Marché GCC — Rue de Limbourg, Verviers — PW Backbone URGENT",
+    ("E2", 1): [J("586382", "Marché GCC — Verviers (PW Backbone URGENT)",
                   note="+ Équipe 1", t="commun", caw="PANDA+")],
 
     # Panait Dan et Hanikenne Florian : BTO toute la semaine. Dan fait en plus la
@@ -173,8 +174,18 @@ PLANNING = {
     ("FH", 4): [X("BTO", caw="BTO")],
 
 
+    # Mardi et mercredi : le magasinier en BTO.
+    ("GA", 1): [X("BTO", caw="BTO")],
+    ("GA", 2): [X("BTO", caw="BTO")],
+
     # Jeudi 24/09 : le magasinier chez France Elevateurs, sans code C@W.
     ("GA", 3): ABS("FRANCE ÉLÉVATEURS"),
+
+    # Andrei arrive le mardi : BTO jusqu a la fin de la semaine.
+    ("AN", 1): [X("BTO", caw="BTO")],
+    ("AN", 2): [X("BTO", caw="BTO")],
+    ("AN", 3): [X("BTO", caw="BTO")],
+    ("AN", 4): [X("BTO", caw="BTO")],
 
     # Reste de la semaine : à planifier au fur et à mesure.
 }
@@ -339,54 +350,54 @@ def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
 * {{ box-sizing:border-box; }}
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
-        border-bottom:2.425pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:16.493pt; font-weight:800; letter-spacing:2.425pt; color:#0f172a; line-height:1;
+        border-bottom:2.328pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
+.brand {{ font-size:15.833pt; font-weight:800; letter-spacing:2.328pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:5.918pt; font-weight:600; letter-spacing:1.261pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:5.681pt; font-weight:600; letter-spacing:1.211pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:12.613pt; font-weight:800; color:#0f172a; letter-spacing:.4.851pt; }}
-.title .dt {{ font-size:8.053pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:12.108pt; font-weight:800; color:#0f172a; letter-spacing:.4.657pt; }}
+.title .dt {{ font-size:7.731pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.568pt; font-weight:800;
-              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.5.821pt; }}
-.badge .maj {{ font-size:6.403pt; color:#64748b; margin-top:1.1mm; }}
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:7.265pt; font-weight:800;
+              padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.5.588pt; }}
+.badge .maj {{ font-size:6.147pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:9.023pt; font-weight:800; letter-spacing:.6.791pt;
-         padding:1mm 1mm; border:0.679pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:7.374pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day {{ background:#0f172a; color:#fff; font-size:8.662pt; font-weight:800; letter-spacing:.6.519pt;
+         padding:1mm 1mm; border:0.652pt solid #0f172a; text-transform:uppercase; text-align:center; }}
+th.day span {{ display:block; font-size:7.079pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
-td {{ border:0.679pt solid #cbd5e1; border-left-width:2.328pt; border-left-style:solid;
-     border-bottom:1.552pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
-tr.grp-end td {{ border-bottom:2.911pt solid #0f172a; }}
+td {{ border:0.652pt solid #cbd5e1; border-left-width:2.235pt; border-left-style:solid;
+     border-bottom:1.49pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
+tr.grp-end td {{ border-bottom:2.795pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
-tr:last-child td {{ border-bottom:1.552pt solid #0f172a; }}
-.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.679pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:5.627pt; font-weight:800; letter-spacing:.7.762pt; text-transform:uppercase; }}
-.rtag {{ font-size:5.433pt; font-weight:800; letter-spacing:.6.791pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:7.374pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+tr:last-child td {{ border-bottom:1.49pt solid #0f172a; }}
+.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.652pt solid rgba(15,23,42,.18); }}
+.rlabel {{ font-size:5.402pt; font-weight:800; letter-spacing:.7.452pt; text-transform:uppercase; }}
+.rtag {{ font-size:5.216pt; font-weight:800; letter-spacing:.6.519pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:7.079pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
-.body.empty {{ background:#eef2f6; border:0.582pt solid #d5dde5; border-radius:.8mm;
+.body.empty {{ background:#eef2f6; border:0.559pt solid #d5dde5; border-radius:.8mm;
               text-align:center; padding:.8mm 0; }}
 .body.abs {{ border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:8.247pt; font-weight:800; letter-spacing:1.164pt; }}
+.absl {{ font-size:7.917pt; font-weight:800; letter-spacing:1.117pt; }}
 .job {{ line-height:1.2; }}
-.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.582pt dashed #94a3b8; }}
-.jms {{ font-size:7.859pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:7.665pt; line-height:1.18; letter-spacing:.25pt; }}
+.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.559pt dashed #94a3b8; }}
+.jms {{ font-size:7.545pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:7.358pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:6.403pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:6.694pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
-.lib.code {{ letter-spacing:.2.911pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:5.918pt; font-weight:700; padding:.35mm 1.2mm;
-        border-radius:.8mm; margin-top:.6mm; letter-spacing:.2.911pt; }}
-.n-renfort {{ background:#fef3c7; color:#92400e; border:0.485pt solid #fcd34d; }}
-.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.485pt solid #a5b4fc; }}
-.n-prov {{ background:#fff7ed; color:#c2410c; border:0.582pt dashed #fb923c; }}
-.n-alt {{ background:#f1f5f9; color:#475569; border:0.582pt dashed #94a3b8; }}
+.ext {{ font-size:6.147pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:6.426pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.lib.code {{ letter-spacing:.2.795pt; color:#1e293b; }}
+.note {{ display:inline-block; font-size:5.681pt; font-weight:700; padding:.35mm 1.2mm;
+        border-radius:.8mm; margin-top:.6mm; letter-spacing:.2.795pt; }}
+.n-renfort {{ background:#fef3c7; color:#92400e; border:0.466pt solid #fcd34d; }}
+.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.466pt solid #a5b4fc; }}
+.n-prov {{ background:#fff7ed; color:#c2410c; border:0.559pt dashed #fb923c; }}
+.n-alt {{ background:#f1f5f9; color:#475569; border:0.559pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
 /* Prestation de nuit : bloc a cheval sur la frontiere des deux journees.
    Le bloc visible est en position absolue ; le spacer, invisible mais dans le
@@ -399,26 +410,26 @@ tr:last-child td {{ border-bottom:1.552pt solid #0f172a; }}
 .job.cheval .per.nuit {{ background:#334155; color:#fff; }}
 .job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:5.433pt; font-weight:800; letter-spacing:.5.821pt;
+.per {{ display:inline-block; font-size:5.216pt; font-weight:800; letter-spacing:.5.588pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:7.179pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:6.015pt; font-weight:800; letter-spacing:.5.821pt; padding:.35mm 1.4mm;
+.qui {{ font-size:6.892pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:5.774pt; font-weight:800; letter-spacing:.5.588pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:7.179pt; font-weight:800; letter-spacing:.8.732pt; text-align:center;
+.ligneabs {{ font-size:6.892pt; font-weight:800; letter-spacing:.8.383pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:7.374pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:7.079pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:0.97pt solid #cbd5e1; font-size:6.403pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.931pt solid #cbd5e1; font-size:6.147pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
-.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.582pt solid #d5dde5;
+.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.559pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}
 </style></head><body>
 <div class="head">
