@@ -829,6 +829,24 @@ ressources, -7 % puis -11 %, et tous les libellés déjà raccourcis. Il ne rest
 avant la refonte. **La prochaine demande de cette ampleur ne passera pas** — décision à
 prendre entre un planning sur deux pages les semaines chargées, ou une refonte de la grille.
 
+**22/09/2026** : semaine 39, **mercredi 23/09 — la RÉCUP de Meurisse Johan est supprimée**.
+Il enchaîne sur le **même dossier que le jeudi : SWDE Réservoir de Nalamont**, avec
+M. Wilvers. Il y est donc mercredi, jeudi et vendredi. C@W toujours
+« **SWDE — À DÉTERMINER** », le code n'ayant pas encore été donné.
+
+**Point de vigilance — amplitude horaire.** Johan fait la nuit du mardi 22 au mercredi 23
+(22h00–06h00) **puis la journée entière du mercredi**, la récupération qui suivait étant
+retirée. C'est ta décision et elle est appliquée telle quelle ; je la signale parce que
+l'enchaînement nuit + journée complète est inhabituel, et que la récup avait justement été
+posée le 15/09 pour compenser cette nuit.
+
+Le bloc de nuit du mardi au mercredi reste affiché **à cheval** : la case du mercredi étant
+désormais une prestation et non une absence, le mécanisme de réservation de hauteur
+fonctionne et rien n'est masqué. Vérifié au zoom sur les deux pages.
+
+Aucune mise à jour Monday.com : Nalamont n'a pas d'élément sur le board, et M. Wilvers en
+reste volontairement absent.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

@@ -122,8 +122,10 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
 
-    # Mercredi 23/09 : recuperation apres la nuit du mardi au mercredi.
-    ("JM", 2): ABS("RÉCUP"),
+    # Mercredi 23/09 : la recuperation est supprimee, Johan enchaine sur le
+    # meme dossier que le jeudi, juste apres la nuit du mardi au mercredi.
+    ("JM", 2): [X("SWDE Réservoir de Nalamont", "+ M. Wilvers", "commun",
+                  caw="SWDE — À DÉTERMINER")],
 
     # Jeudi 24 et vendredi 25/09 : SWDE Reservoir de Nalamont avec Mike Wilvers,
     # qui n a pas de ligne propre. Le code C@W n est pas connu : il reste a
