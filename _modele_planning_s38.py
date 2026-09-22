@@ -252,7 +252,11 @@ def cellule(r, i, DATA=None, mode="site"):
     # reserver la hauteur. Dans ce cas la nuit reste dans sa propre journee
     # plutot que de masquer le motif d absence du lendemain.
     suivant = (DATA if DATA is not None else PLANNING).get((r["id"], i + 1))
-    peut_cheval = (suivant is None or isinstance(suivant, list)
+    # Le bloc de nuit s ancre au bas du CONTENU de sa propre case, pas au bas
+    # de la ligne : si la case du lendemain est plus chargee, il recouvrirait
+    # son texte. On ne l affiche donc a cheval que si le lendemain est vide ou
+    # porte une simple absence, dont la hauteur est comparable.
+    peut_cheval = (suivant is None
                    or (isinstance(suivant, dict) and "absence" in suivant))
     veille = (DATA if DATA is not None else PLANNING).get((r["id"], i - 1)) if i else None
     reports = [dict(d, _spacer=True) for d in veille
@@ -263,9 +267,7 @@ def cellule(r, i, DATA=None, mode="site"):
     # empeche d y reserver la hauteur. Quand une nuit de la veille deborde
     # ici, on la bascule dans le flux des jobs via A(), qui sait l afficher.
     if isinstance(v, dict) and "absence" in v and reports:
-        v = [A(v["absence"])]
-    if isinstance(v, list) and reports:
-        v = v + reports
+        v = [A(v["absence"])] + reports
 
     if v is None:
         txt = r.get("defaut", "—")
@@ -314,12 +316,14 @@ def cellule(r, i, DATA=None, mode="site"):
                 cls = "jms nonum"
                 detail = CODES.get(nom_caw, "") if nom_caw else ""
                 lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-                if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
+                if d.get("_spacer"):
+                    # Hauteur reservee pour la nuit de la veille : jamais visible.
+                    nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                elif peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
                     # La nuit est ancree en bas de la ligne, a cheval sur les deux
                     # journees. Le spacer invisible qui la suit reserve sa hauteur en
                     # fin de case, dans la journee de depart comme dans la suivante.
-                    if not d.get("_spacer"):
-                        nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                    nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                     nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 else:
                     jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
@@ -333,12 +337,14 @@ def cellule(r, i, DATA=None, mode="site"):
                          f'<span class="ext">↗</span></a>')
             detail = d["lib"] if d["jms"] else d.get("sub")
             lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-            if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
+            if d.get("_spacer"):
+                # Hauteur reservee pour la nuit de la veille : jamais visible.
+                nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+            elif peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
                 # La nuit est ancree en bas de la ligne, a cheval sur les deux
                 # journees. Le spacer invisible qui la suit reserve sa hauteur en
                 # fin de case, dans la journee de depart comme dans la suivante.
-                if not d.get("_spacer"):
-                    nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
             else:
                 jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')

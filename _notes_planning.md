@@ -847,6 +847,43 @@ fonctionne et rien n'est masqué. Vérifié au zoom sur les deux pages.
 Aucune mise à jour Monday.com : Nalamont n'a pas d'élément sur le board, et M. Wilvers en
 reste volontairement absent.
 
+**22/09/2026** : semaine 39, **mercredi 23/09** — **Bolmain Mickael en MALADIE**, troisième
+jour consécutif (lundi, mardi, mercredi). Ciney retiré du mercredi.
+- **Miguel et Gauthier Petit** ensemble sur le **JMS 685239** (Adm. Communale d'Hannut).
+  Pierre n'y étant plus, la pastille de partage disparaît.
+- **La SWDE de Nalamont est annulée le mercredi.** Johan et Pierre reprennent les **JMS
+  662275 et 553176** (Oupeye), comme le lundi. Johan reste sur Nalamont jeudi et vendredi.
+- **Avenia Geoffrey et Fabrice Gaspard** sur le **JMS 586382** (Marché GCC, Rue de Limbourg),
+  deuxième jour d'affilée pour eux.
+
+Monday.com : 685239 → Soufflage **Miguel et Gauthier** ; 662275 et 553176 → date Jointage
+avancée du 15/09 au **21/09**, premier jour de l'occurrence lundi + mercredi. Le 586382 est
+déjà au 22/09 avec Geoffrey et Fabrice.
+
+**Page Check in @ Work — fusion des codes identiques (décision à confirmer).** La page 2 ne
+tenait plus, **même à -18 %** : la police n'était plus le facteur limitant, le contenu
+dépassait la feuille quoi qu'il arrive. Correctif appliqué : dans une même case, deux
+prestations **strictement identiques** (même code, même quart, même note) n'apparaissent
+qu'une fois. Le secrétariat y lit des codes, pas des chantiers — « PANDA+ » écrit deux fois
+le même jour pour la même personne n'apporte rien. **Rien n'est fusionné dès que le code, le
+quart ou la note diffèrent**, et la page planning est inchangée. Effet : plus besoin de
+resserrer, la page C@W passe même de 12,8mm à 19,6mm de hauteur de ligne. **À confirmer ou à
+annuler** — c'est un changement de contenu du document du secrétariat.
+
+**Deux régressions du rendu des nuits, détectées à la vérification visuelle et corrigées :**
+1. Le bloc de nuit s'ancre au bas du **contenu de sa propre case**, pas au bas de la ligne.
+   Le mercredi de Johan étant devenu plus chargé que son mardi, le bloc **recouvrait son
+   second JMS**. Le rendu à cheval est désormais réservé aux cas où le lendemain est **vide ou
+   porte une simple absence** — hauteurs comparables, pas de recouvrement possible.
+2. En conséquence du point 1, le bloc de réservation de hauteur était rendu comme une
+   **prestation visible** quand le rendu à cheval était refusé : la nuit apparaissait **en
+   double**, et les blocs de Dan et Florian masquaient leur récup. Un report est maintenant
+   **toujours** un espaceur invisible, jamais une prestation.
+
+Conséquence visible : la nuit de Johan du mardi au mercredi s'affiche **dans sa journée du
+mardi** et non à cheval, le mercredi étant chargé. Les nuits de Dan et Florian restent à
+cheval. C'est le compromis retenu : jamais de contenu masqué, quitte à perdre l'effet visuel.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)

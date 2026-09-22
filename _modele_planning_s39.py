@@ -102,7 +102,9 @@ NOMS_OVERRIDE = {
     # Mardi 22/09 : Bolmain malade, Gauthier Petit rejoint Miguel en Equipe 2.
     ("E2", 1): ["Dominguez Miguel", "Petit Gauthier"],
     ("E1", 1): ["Bolmain Mickael"],
-    ("E2", 2): ["Dominguez Miguel"],
+    # Mercredi 23/09 : Bolmain malade (3e jour), Gauthier Petit en Equipe 2.
+    ("E2", 2): ["Dominguez Miguel", "Petit Gauthier"],
+    ("E1", 2): ["Bolmain Mickael"],
     ("E2", 3): ["Dominguez Miguel"],
     ("E2", 4): ["Dominguez Miguel"],
 }
@@ -122,10 +124,12 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
 
-    # Mercredi 23/09 : la recuperation est supprimee, Johan enchaine sur le
-    # meme dossier que le jeudi, juste apres la nuit du mardi au mercredi.
-    ("JM", 2): [X("SWDE Réservoir de Nalamont", "+ M. Wilvers", "commun",
-                  caw="SWDE — À DÉTERMINER")],
+    # Mercredi 23/09 : la SWDE est annulee. Johan et Pierre reprennent les deux
+    # DIST d Oupeye, comme le lundi.
+    ("JM", 2): [
+        J("662275", "Rue Fr. Jansen 5A>E — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
+    ],
 
     # Jeudi 24 et vendredi 25/09 : SWDE Reservoir de Nalamont avec Mike Wilvers,
     # qui n a pas de ligne propre. Le code C@W n est pas connu : il reste a
@@ -138,11 +142,14 @@ PLANNING = {
     # Lundi 21/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 685239 (Hannut) qui
     # lui etait prevu ce jour-la part au mercredi, avec Pierre.
     ("E2", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
-    ("E2", 2): [J("685239", "Adm. Communale d'Hannut — Rue de Landen 23", "+ P. Mattiuz", "commun", caw="PANDA+")],
-    ("PM", 2): [J("685239", "Adm. Communale d'Hannut — Rue de Landen 23", "+ Équipe 2", "commun", caw="PANDA+")],
+    ("E2", 2): [J("685239", "Adm. Communale d'Hannut — Rue de Landen 23", caw="PANDA+")],
+    ("PM", 2): [
+        J("662275", "Rue Fr. Jansen 5A>E — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
+    ],
 
     # Mercredi et jeudi : l Equipe 1 revient sur Ciney, comme le lundi.
-    ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 2): ABS("MALADIE"),
     ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
@@ -180,7 +187,7 @@ PLANNING = {
     # Mardi et mercredi : le magasinier en BTO.
     ("GA", 1): [J("586382", "Marché GCC — Verviers (PW Backbone)",
                   "+ Éq. 2 · F. Gaspard", "commun", caw="PANDA+")],
-    ("GA", 2): [X("BTO", caw="BTO")],
+    ("GA", 2): [J("586382", "Marché GCC — Verviers (PW Backbone)", "+ F. Gaspard", "commun", caw="PANDA+")],
 
     # Jeudi 24/09 : le magasinier chez France Elevateurs, sans code C@W.
     ("GA", 3): ABS("FRANCE ÉLÉVATEURS"),
@@ -229,7 +236,11 @@ def cellule(r, i, DATA=None, mode="site"):
     # reserver la hauteur. Dans ce cas la nuit reste dans sa propre journee
     # plutot que de masquer le motif d absence du lendemain.
     suivant = (DATA if DATA is not None else PLANNING).get((r["id"], i + 1))
-    peut_cheval = (suivant is None or isinstance(suivant, list)
+    # Le bloc de nuit s ancre au bas du CONTENU de sa propre case, pas au bas
+    # de la ligne : si la case du lendemain est plus chargee, il recouvrirait
+    # son texte. On ne l affiche donc a cheval que si le lendemain est vide ou
+    # porte une simple absence, dont la hauteur est comparable.
+    peut_cheval = (suivant is None
                    or (isinstance(suivant, dict) and "absence" in suivant))
     veille = (DATA if DATA is not None else PLANNING).get((r["id"], i - 1)) if i else None
     reports = [dict(d, _spacer=True) for d in veille
@@ -240,9 +251,7 @@ def cellule(r, i, DATA=None, mode="site"):
     # empeche d y reserver la hauteur. Quand une nuit de la veille deborde
     # ici, on la bascule dans le flux des jobs via A(), qui sait l afficher.
     if isinstance(v, dict) and "absence" in v and reports:
-        v = [A(v["absence"])]
-    if isinstance(v, list) and reports:
-        v = v + reports
+        v = [A(v["absence"])] + reports
 
     if v is None:
         txt = r.get("defaut", "—")
@@ -291,12 +300,14 @@ def cellule(r, i, DATA=None, mode="site"):
                 cls = "jms nonum"
                 detail = CODES.get(nom_caw, "") if nom_caw else ""
                 lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-                if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
+                if d.get("_spacer"):
+                    # Hauteur reservee pour la nuit de la veille : jamais visible.
+                    nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                elif peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
                     # La nuit est ancree en bas de la ligne, a cheval sur les deux
                     # journees. Le spacer invisible qui la suit reserve sa hauteur en
                     # fin de case, dans la journee de depart comme dans la suivante.
-                    if not d.get("_spacer"):
-                        nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                    nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                     nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 else:
                     jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
@@ -310,12 +321,14 @@ def cellule(r, i, DATA=None, mode="site"):
                          f'<span class="ext">↗</span></a>')
             detail = d["lib"] if d["jms"] else d.get("sub")
             lib = f'<div class="lib">{H.escape(detail)}</div>' if detail else ""
-            if peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
+            if d.get("_spacer"):
+                # Hauteur reservee pour la nuit de la veille : jamais visible.
+                nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+            elif peut_cheval and (d.get("q") or "").lower().startswith("nuit"):
                 # La nuit est ancree en bas de la ligne, a cheval sur les deux
                 # journees. Le spacer invisible qui la suit reserve sa hauteur en
                 # fin de case, dans la journee de depart comme dans la suivante.
-                if not d.get("_spacer"):
-                    nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
+                nuits.append(f'<div class="job cheval">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
                 nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
             else:
                 jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
@@ -328,7 +341,28 @@ ths = "".join(
     f'<th class="day">{JOURS[i]}<span>{(LUNDI + datetime.timedelta(days=i)):%d/%m}</span></th>'
     for i in range(NB_JOURS))
 
+def fusionner_caw(DATA):
+    """Page Check in @ Work : le secretariat lit des codes, pas des chantiers.
+    Deux prestations strictement identiques (meme code, meme quart, meme note)
+    dans la meme case ne lui apprennent rien de plus -> on n en garde qu une.
+    Rien n est fusionne des que le code, le quart ou la note different."""
+    fusionne = {}
+    for cle, v in DATA.items():
+        if isinstance(v, list):
+            vus, garde = set(), []
+            for d in v:
+                k = (d.get("caw"), d.get("q"), d.get("note"), d.get("ligne_abs"))
+                if k in vus:
+                    continue
+                vus.add(k)
+                garde.append(d)
+            v = garde
+        fusionne[cle] = v
+    return fusionne
+
 def make_rows(DATA, mode="site"):
+    if mode == "caw":
+        DATA = fusionner_caw(DATA)
     return "".join(
         f'<tr class="{"grp-end " if r.get("fin_bloc") else ""}{"compact" if r.get("compact") else ""}">'
         + "".join(cellule(r, i, DATA, mode) for i in range(NB_JOURS)) + "</tr>"
