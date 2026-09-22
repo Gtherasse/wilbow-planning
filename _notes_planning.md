@@ -805,6 +805,30 @@ entière**. Avec huit ressources, la grille A4 paysage est à sa limite structur
 neuvième ligne apparaît, ou si Andreï reçoit de vrais chantiers plutôt que du BTO, il faudra
 trancher entre un planning sur deux pages ou une refonte de la grille.
 
+**22/09/2026** : semaine 39, **mardi 22/09 — Bolmain Mickael toujours en MALADIE**
+(deuxième jour consécutif). L'entête Équipe 1 ne porte que son nom, la case affiche la
+pastille rouge.
+
+**Gauthier Petit rejoint Miguel en Équipe 2** sur le JMS **586382** (Marché GCC, Verviers —
+PW Backbone), le chantier prévu. **Avenia Geoffrey et Fabrice Gaspard renforcent ce même
+chantier** : le magasinier quitte son BTO du mardi et sa ligne porte le 586382 avec la
+pastille « + Éq. 2 · F. Gaspard » ; côté Équipe 2, la pastille devient
+« + G. Avenia · F. Gaspard ». C@W PANDA+. Fabrice n'a pas de ligne propre, d'où la pastille.
+
+Monday.com : sur le 586382, **Geoffrey Avenia et Fabrice Gaspard ajoutés au Soufflage** à
+côté de Bolmain, Petit, Miguel et Sam. Date déjà au 22/09.
+
+**Mise en page — deux resserrages dans la même journée.** Placer un chantier complet sur la
+ligne compacte du magasinier a fait déborder la page 1, puis la page 2 une fois la première
+réglée. Deux actions : libellé `Marché GCC — Verviers (PW Backbone URGENT)` raccourci en
+`… (PW Backbone)` et pastille abrégée en « + Éq. 2 », puis polices ramenées à **-11 %**
+(89 %). Hauteurs de ligne 12,7mm et 12,8mm.
+
+**La limite est atteinte, cette fois sans ambiguïté.** En deux jours : huit lignes de
+ressources, -7 % puis -11 %, et tous les libellés déjà raccourcis. Il ne reste plus de levier
+avant la refonte. **La prochaine demande de cette ampleur ne passera pas** — décision à
+prendre entre un planning sur deux pages les semaines chargées, ou une refonte de la grille.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
