@@ -131,13 +131,16 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
     ],
 
-    # Jeudi 24 et vendredi 25/09 : SWDE Reservoir de Nalamont avec Mike Wilvers,
-    # qui n a pas de ligne propre. Le code C@W n est pas connu : il reste a
-    # determiner avec lui, d ou un intitule explicite plutot qu un code devine.
-    ("JM", 3): [X("SWDE Réservoir de Nalamont", "+ M. Wilvers", "commun",
-                  caw="SWDE — À DÉTERMINER")],
-    ("JM", 4): [X("SWDE Réservoir de Nalamont", "+ M. Wilvers", "commun",
-                  caw="SWDE — À DÉTERMINER")],
+    # Jeudi 24/09 : la SWDE est annulee sur toute la semaine. Johan et Pierre
+    # restent sur les deux DIST d Oupeye, comme le mercredi.
+    ("JM", 3): [
+        J("662275", "Rue Fr. Jansen 5A>E — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
+    ],
+    ("PM", 3): [
+        J("662275", "Rue Fr. Jansen 5A>E — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
+    ],
 
     # Lundi 21/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 685239 (Hannut) qui
     # lui etait prevu ce jour-la part au mercredi, avec Pierre.
@@ -150,7 +153,10 @@ PLANNING = {
 
     # Mercredi et jeudi : l Equipe 1 revient sur Ciney, comme le lundi.
     ("E1", 2): ABS("MALADIE"),
-    ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    # Jeudi 24/09 : l Equipe 1 et Miguel regroupes sur le 586382. Ciney sort
+    # du jeudi, plus personne n y restant.
+    ("E1", 3): [J("586382", "Marché GCC — Verviers (PW Backbone)", "+ Équipe 2", "commun", caw="PANDA+")],
+    ("E2", 3): [J("586382", "Marché GCC — Verviers (PW Backbone)", "+ Équipe 1", "commun", caw="PANDA+")],
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
     ("JM", 1): [J("680608", "INSKY NV — Rue des Spinettes 5, Sprimont",

@@ -164,7 +164,7 @@ Fichiers créés : `Planning WILBOW - S38 - 14-18 sept 2026.pdf`,
 - **BTO — Tirage câble aérien**
 - **Fexhe**
 - **Francorchamps** (Johan, lundi 17/08 S34 — volontairement laissé sans lien Monday)
-- **SWDE Réservoir de Nalamont** (Johan + M. Wilvers, S39)
+- ~~**SWDE Réservoir de Nalamont**~~ (annulé le 23/09, plus au planning)
 
 Donner le nom exact de l'élément Monday pour les rendre cliquables dans le PDF.
 
@@ -883,6 +883,31 @@ annuler** — c'est un changement de contenu du document du secrétariat.
 Conséquence visible : la nuit de Johan du mardi au mercredi s'affiche **dans sa journée du
 mardi** et non à cheval, le mercredi étant chargé. Les nuits de Dan et Florian restent à
 cheval. C'est le compromis retenu : jamais de contenu masqué, quitte à perdre l'effet visuel.
+
+**23/09/2026** : semaine 39 — **la SWDE Réservoir de Nalamont est annulée sur toute la
+semaine**. Elle disparaît du jeudi et du vendredi de Meurisse Johan (elle avait déjà quitté
+le mercredi hier). **La question du code C@W « SWDE — À DÉTERMINER » devient donc sans objet
+pour la S39** ; elle se reposera si le chantier est replanifié. M. Wilvers n'apparaît plus au
+planning de la semaine.
+
+**Jeudi 24/09** :
+- **Johan et Pierre** restent sur les **JMS 662275 et 553176** (Oupeye), comme le mercredi.
+- **L'Équipe 1 et Miguel regroupés sur le JMS 586382** (Marché GCC, Rue de Limbourg), avec
+  pastilles « + Équipe 1 » / « + Équipe 2 ». **Bolmain est de retour** après trois jours de
+  maladie, l'entête Équipe 1 redevient « Bolmain Mickael / Petit Gauthier ».
+- **Ciney (675238) sort du jeudi**, plus personne n'y restant. Il ne figure donc plus qu'au
+  lundi, côté Équipe 2.
+
+Monday.com : **aucune modification nécessaire**. Le 586382 porte déjà Bolmain, Petit, Miguel
+au Soufflage, et sa date reste au 22/09, premier jour de l'occurrence mardi-mercredi-jeudi.
+Les 662275 et 553176 sont déjà au 21/09 côté Jointage avec Johan et Pierre.
+
+**Le vendredi 25/09 se vide.** L'Équipe 1, l'Équipe 2, Johan et Pierre n'ont plus rien ce
+jour-là ; seuls Dan, Florian, Andreï (BTO) et le magasinier (Dépôt) y figurent. **À
+compléter.**
+
+Mise en page : aucun resserrage cette fois. Le jeudi s'est densifié mais le vendredi s'est
+vidé — hauteurs de ligne remontées à 15,9mm et 18,5mm.
 
 ---
 
