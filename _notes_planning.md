@@ -909,12 +909,13 @@ compléter.**
 Mise en page : aucun resserrage cette fois. Le jeudi s'est densifié mais le vendredi s'est
 vidé — hauteurs de ligne remontées à 15,9mm et 18,5mm.
 
-**24/09/2026** : semaine 39 — **Dominguez Miguel absent le jeudi 24 et le vendredi 25/09**
-(motif retenu : `ABSENT`, faute de motif précisé — à corriger si c'est un congé, une maladie
-ou une récup).
+**24/09/2026** : semaine 39 — **Dominguez Miguel absent le jeudi 24/09** (motif retenu :
+`ABSENT`, faute de motif précisé — à corriger si c'est un congé, une maladie ou une récup).
+**Vendredi 25/09 : rien pour l'Équipe 2 pour le moment** — arbitrage de Geoffrey, la case
+reste **grisée** et non « ABSENT », la situation de Miguel ce jour-là n'étant pas tranchée.
 
-- **Équipe 2 grisée en ABSENT** le jeudi et le vendredi : Feller Sam étant absent toute la
-  semaine, Miguel parti, l'équipe ne tourne plus.
+- **Équipe 2 en ABSENT le jeudi**, **case grise le vendredi** : Feller Sam étant absent toute
+  la semaine, l'équipe ne tourne plus dès que Miguel manque.
 - **L'Équipe 1 (Bolmain + Petit) garde le même dossier, le JMS 586382** (Marché GCC, Rue de
   Limbourg, Verviers), le jeudi **et** le vendredi. Les pastilles « + Équipe 2 » / « + Équipe 1 »
   disparaissent : il n'y a plus de chantier commun.
@@ -937,7 +938,8 @@ Monday.com mis à jour :
 Mise en page : hauteurs de ligne 18,9mm et 19,6mm — la semaine s'est allégée (deux cases
 d'équipe en absence), plus aucun resserrage nécessaire.
 
-**Reste à compléter le vendredi 25/09** : Mattiuz Pierre n'a toujours rien ce jour-là.
+**Reste à compléter le vendredi 25/09** : Mattiuz Pierre et l'Équipe 2 n'ont toujours rien
+ce jour-là.
 
 ---
 

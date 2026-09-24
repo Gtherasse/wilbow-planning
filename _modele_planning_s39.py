@@ -161,12 +161,12 @@ PLANNING = {
 
     # Mercredi et jeudi : l Equipe 1 revient sur Ciney, comme le lundi.
     ("E1", 2): ABS("MALADIE"),
-    # Jeudi 24 et vendredi 25/09 : Miguel absent, l Equipe 2 ne tourne pas
-    # (Feller Sam absent toute la semaine). L Equipe 1 reste seule sur le 586382.
+    # Jeudi 24/09 : Miguel absent, l Equipe 2 ne tourne pas (Feller Sam absent
+    # toute la semaine). L Equipe 1 reste seule sur le 586382, jeudi et vendredi.
+    # Vendredi 25/09 : rien pour l Equipe 2, case grisee -> a decider.
     ("E1", 3): [J("586382", "Marché GCC — Verviers (PW Backbone)", caw="PANDA+")],
     ("E1", 4): [J("586382", "Marché GCC — Verviers (PW Backbone)", caw="PANDA+")],
     ("E2", 3): ABS("ABSENT"),
-    ("E2", 4): ABS("ABSENT"),
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
     ("JM", 1): [J("680608", "INSKY NV — Rue des Spinettes 5, Sprimont",
