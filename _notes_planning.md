@@ -938,8 +938,31 @@ Monday.com mis à jour :
 Mise en page : hauteurs de ligne 18,9mm et 19,6mm — la semaine s'est allégée (deux cases
 d'équipe en absence), plus aucun resserrage nécessaire.
 
-**Reste à compléter le vendredi 25/09** : Mattiuz Pierre et l'Équipe 2 n'ont toujours rien
-ce jour-là.
+**Vendredi 25/09 complété** (même jour, après la première version) :
+
+- **Dominguez Miguel seul** : **JMS 582528** (SPW MI — Pont d'Argenteau, Oupeye) le **matin**,
+  puis **SignaDyn — Zone D (soufflage et soudage)** l'**après-midi**. Code C@W du 582528
+  confirmé par Geoffrey : **PANDA+**. SignaDyn reste en **EQUANS-CAMERA-CCTV** (règle établie :
+  tout en Panda+ sauf SignaDyn, qui est Equans CCTV). Lien Monday du 582528 ajouté au script
+  (item 3202011232).
+- **Mattiuz Pierre** garde les mêmes chantiers que le jeudi, les **JMS 662275 et 553176**
+  (Oupeye), mais **seul** : la pastille « + J. Meurisse » disparaît, Johan étant sur le
+  Move ROP et le 685239.
+- **Équipe 1** : inchangée, **JMS 586382**, comme le jeudi.
+- **Avenia Geoffrey : BTO**.
+
+Monday.com mis à jour :
+
+- **3202011232** (582528) : Soufflage → **25/09**, **Miguel seul** (Sam Feller et Pierre
+  Mattiuz retirés, ils ne sont pas sur ce chantier ce jour-là).
+- **2832088996** (SignaDyn Zone D) : Soufflage → **25/09**, **Miguel seul** (la date traînait
+  au 16/04/2026 ; Geoffrey Avenia retiré, il est en BTO).
+- **662275 / 553176** : **non modifiés**, le Jointage reste au 21/09 avec Johan et Pierre —
+  ils couvrent toute la semaine. ⚠️ Toujours la même question de convention de date pour un
+  chantier étalé sur plusieurs jours.
+
+Mise en page : semaine plus dense, hauteurs de ligne redescendues à 13,5mm et 17,2mm. Toujours
+2 pages, rien de coupé.
 
 ---
 

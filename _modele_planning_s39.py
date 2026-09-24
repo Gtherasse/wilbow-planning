@@ -61,6 +61,7 @@ LIENS = {
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
+    "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -143,6 +144,13 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
 
+    # Vendredi 25/09 : Pierre reste sur les deux DIST d Oupeye, mais seul :
+    # Johan part sur le Move ROP et le 685239.
+    ("PM", 4): [
+        J("662275", "Rue Fr. Jansen 5A>E — Oupeye", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", caw="PANDA+"),
+    ],
+
     # Vendredi 25/09 : Johan sur la verification du Move ROP 41FEX, puis le
     # jointage du 685239 (Adm. communale d Hannut).
     ("JM", 4): [
@@ -167,6 +175,13 @@ PLANNING = {
     ("E1", 3): [J("586382", "Marché GCC — Verviers (PW Backbone)", caw="PANDA+")],
     ("E1", 4): [J("586382", "Marché GCC — Verviers (PW Backbone)", caw="PANDA+")],
     ("E2", 3): ABS("ABSENT"),
+    # Vendredi 25/09 : Miguel seul, le 582528 (Pont d Argenteau) le matin puis
+    # SignaDyn Zone D l apres-midi.
+    ("E2", 4): [
+        J("582528", "SPW MI — Pont d'Argenteau, Oupeye", q=MATIN, caw="PANDA+"),
+        X("SignaDyn — Zone D (soufflage et soudage)", url=SIGN, q=AM,
+          caw="EQUANS-CAMERA-CCTV"),
+    ],
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
     ("JM", 1): [J("680608", "INSKY NV — Rue des Spinettes 5, Sprimont",
@@ -207,6 +222,9 @@ PLANNING = {
 
     # Jeudi 24/09 : le magasinier chez France Elevateurs, sans code C@W.
     ("GA", 3): ABS("FRANCE ÉLÉVATEURS"),
+
+    # Vendredi 25/09 : le magasinier en BTO.
+    ("GA", 4): [X("BTO", caw="BTO")],
 
     # Andrei arrive le mardi : BTO jusqu a la fin de la semaine.
     ("AN", 1): [X("BTO", caw="BTO")],
