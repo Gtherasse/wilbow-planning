@@ -68,6 +68,7 @@ SIGN  = "https://wilbow.monday.com/boards/5089236279/pulses/2832088996"  # Signa
 FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32 FEED-IN
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
+MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
 
 ABS = lambda motif: dict(absence=motif)
 BARRE = dict(barre=True)  # case barrée en diagonale : personne partie / plus dispo
@@ -142,6 +143,13 @@ PLANNING = {
         J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
 
+    # Vendredi 25/09 : Johan sur la verification du Move ROP 41FEX, puis le
+    # jointage du 685239 (Adm. communale d Hannut).
+    ("JM", 4): [
+        X("Vérification Move ROP 41FEX", url=MOVE41, caw="PANDA+"),
+        J("685239", "Adm. Communale d'Hannut — Rue de Landen 23", caw="PANDA+"),
+    ],
+
     # Lundi 21/09 : Miguel rejoint l Equipe 1 sur Ciney. Le 685239 (Hannut) qui
     # lui etait prevu ce jour-la part au mercredi, avec Pierre.
     ("E2", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
@@ -153,10 +161,12 @@ PLANNING = {
 
     # Mercredi et jeudi : l Equipe 1 revient sur Ciney, comme le lundi.
     ("E1", 2): ABS("MALADIE"),
-    # Jeudi 24/09 : l Equipe 1 et Miguel regroupes sur le 586382. Ciney sort
-    # du jeudi, plus personne n y restant.
-    ("E1", 3): [J("586382", "Marché GCC — Verviers (PW Backbone)", "+ Équipe 2", "commun", caw="PANDA+")],
-    ("E2", 3): [J("586382", "Marché GCC — Verviers (PW Backbone)", "+ Équipe 1", "commun", caw="PANDA+")],
+    # Jeudi 24 et vendredi 25/09 : Miguel absent, l Equipe 2 ne tourne pas
+    # (Feller Sam absent toute la semaine). L Equipe 1 reste seule sur le 586382.
+    ("E1", 3): [J("586382", "Marché GCC — Verviers (PW Backbone)", caw="PANDA+")],
+    ("E1", 4): [J("586382", "Marché GCC — Verviers (PW Backbone)", caw="PANDA+")],
+    ("E2", 3): ABS("ABSENT"),
+    ("E2", 4): ABS("ABSENT"),
 
     # Mardi 22/09 : 680608 (INSKY NV, Sprimont) partagé Johan + Pierre
     ("JM", 1): [J("680608", "INSKY NV — Rue des Spinettes 5, Sprimont",

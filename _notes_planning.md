@@ -909,6 +909,36 @@ compléter.**
 Mise en page : aucun resserrage cette fois. Le jeudi s'est densifié mais le vendredi s'est
 vidé — hauteurs de ligne remontées à 15,9mm et 18,5mm.
 
+**24/09/2026** : semaine 39 — **Dominguez Miguel absent le jeudi 24 et le vendredi 25/09**
+(motif retenu : `ABSENT`, faute de motif précisé — à corriger si c'est un congé, une maladie
+ou une récup).
+
+- **Équipe 2 grisée en ABSENT** le jeudi et le vendredi : Feller Sam étant absent toute la
+  semaine, Miguel parti, l'équipe ne tourne plus.
+- **L'Équipe 1 (Bolmain + Petit) garde le même dossier, le JMS 586382** (Marché GCC, Rue de
+  Limbourg, Verviers), le jeudi **et** le vendredi. Les pastilles « + Équipe 2 » / « + Équipe 1 »
+  disparaissent : il n'y a plus de chantier commun.
+- **Meurisse Johan, vendredi 25/09** : **Vérification Move ROP 41FEX** puis **JMS 685239**
+  (Adm. communale d'Hannut, Rue de Landen 23). Les deux en PANDA+ — la page C@W n'affiche
+  donc qu'une seule ligne PANDA+ (fusion des codes identiques).
+- Lien Monday ajouté au script : `MOVE41` → item 3218880657 « Vérification Move Rop 41FEX ».
+
+Monday.com mis à jour :
+
+- **3218880657** (Move ROP 41FEX) : Jointage → **25/09**, **Meurisse Johan** seul (Pierre
+  Mattiuz retiré, il n'est pas prévu ce vendredi).
+- **3136655230** (685239) : Jointage → **25/09**, **Meurisse Johan**. Les colonnes Soufflage
+  restent au 23/09 avec Miguel et Gauthier — c'est le soufflage du mercredi, inchangé.
+- **2987797757** (586382) : **non modifié**. Bolmain et Petit y figurent déjà au Soufflage et
+  la date reste au 22/09, premier jour de l'occurrence. ⚠️ La convention de date pour un
+  chantier qui s'étale sur plusieurs jours (premier ou dernier jour) n'est toujours pas
+  tranchée.
+
+Mise en page : hauteurs de ligne 18,9mm et 19,6mm — la semaine s'est allégée (deux cases
+d'équipe en absence), plus aucun resserrage nécessaire.
+
+**Reste à compléter le vendredi 25/09** : Mattiuz Pierre n'a toujours rien ce jour-là.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
