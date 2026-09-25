@@ -966,6 +966,27 @@ Mise en page : semaine plus dense, hauteurs de ligne redescendues à 13,5mm et 1
 
 ---
 
+## Rendez-vous à venir (à reprendre dans les semaines concernées)
+
+| Date | Semaine | Chantier | Qui | C@W | Monday |
+|------|---------|----------|-----|-----|--------|
+| Mar 06/10/2026 | S41 | **HT1673A** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
+
+**25/09/2026** — **HT1673A au mardi 06/10 pour Meurisse Johan**, enregistré ici : **le script
+S41 n'existe pas encore**, le chantier y sera repris à sa création.
+
+Deux points bloquants avant de pouvoir le porter au planning :
+
+- **Aucun item « HT1673A » sur Monday.com.** Recherche faite sur le nom *et* sur la colonne
+  Référence du board Chantiers (5089236279), plus une recherche globale : rien. Les
+  références proches existantes sont **HT1827A** (deux items : 3244097200 et 3089268578),
+  **HT1796G** (2871944698) et **HT 1736 A** (2720459945, sur un autre board). Faute d'item,
+  **rien n'a été modifié sur Monday** — ni date ni assignation. À trancher : est-ce une
+  référence à créer, ou une coquille pour l'une de celles-ci ?
+- **Code C@W non précisé** — à donner avant toute génération du PDF S41 (règle du mémo).
+
+---
+
 ## Absences à venir (à reprendre dans les semaines concernées)
 
 - **Mickael Bolmain absent les 1, 2, 5 et 6 octobre 2026**
