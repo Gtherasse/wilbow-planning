@@ -72,6 +72,7 @@ ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP B
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
+FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
 
 ABS = lambda motif: dict(absence=motif)
 BARRE = dict(barre=True)  # case barrée en diagonale : personne partie / plus dispo
@@ -102,6 +103,8 @@ CODES = {
 NOMS_OVERRIDE = {
     ("E1", 3): ["Petit Gauthier"],
     ("E1", 4): ["Petit Gauthier"],
+    # Mardi 29/09 : Feller Sam absent, Miguel travaille avec Pierre Mattiuz.
+    ("E2", 1): ["Dominguez Miguel"],
 }
 
 PLANNING = {
@@ -116,8 +119,16 @@ PLANNING = {
     # Monday identifie pour ce chantier, donc titre non cliquable.
     ("E2", 0): [X("Retirer octocable — Rotheux", caw="PANDA+")],
 
+    # Mardi 29/09 : Sam absent, Miguel fait le FH 44 Feed-in avec Pierre
+    # Mattiuz. Mercredi 30/09 : meme chantier, Miguel avec Sam, l Equipe 2 au
+    # complet — plus de pastille de partage. C@W : FIFTHNET (arbitrage du
+    # 27/09).
+    ("E2", 1): [X("FH 44 Feed-in", "+ P. Mattiuz", "commun", url=FH44, caw="FIFTHNET")],
+    ("E2", 2): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
+
     # Lundi 28/09 : Pierre sur le chantier de la rue Du Vicinal. Un seul item
     # Monday porte les deux JMS (603753 et 671456), d ou le titre groupe.
+    ("PM", 1): [X("FH 44 Feed-in", "+ M. Dominguez", "commun", url=FH44, caw="FIFTHNET")],
     ("PM", 0): [X("JMS 603753 · 671456",
                   sub="RZ FTTH FEED et DIST 8 SDU — Rue Du Vicinal 17 à 31, "
                       "Clavier (Thomas et Piron)",

@@ -1004,6 +1004,20 @@ semaine est donc grisé.**
   C@W **PANDA+**. Sam est donc considéré comme présent — son absence des S38 et S39 est
   terminée.
 
+**27/09/2026 — FH 44 Feed-in, mardi et mercredi :**
+
+- **Mardi 29/09** : **Feller Sam absent**, Dominguez Miguel fait le **FH 44 Feed-in** avec
+  **Mattiuz Pierre**. L'entête Équipe 2 n'affiche que « Dominguez Miguel » ce jour-là.
+  ⚠️ **Motif de l'absence de Sam non précisé.**
+- **Mercredi 30/09** : même chantier, **Miguel avec Sam** — l'Équipe 2 au complet, donc plus
+  de pastille de partage.
+- **Code C@W : FIFTHNET** (`1Y101P4M8XGQZ`), arbitré par Geoffrey (« 5net »).
+- Item Monday **3241665311 « FH 44 Feed-in »**, titre cliquable.
+
+Monday.com mis à jour : **3241665311** — Soufflage → **29/09**, **Miguel Dominguez + Sam
+Feller** ; Jointage → **29/09**, **Pierre Mattiuz**. (Les deux dates étaient vides et aucune
+personne n'était assignée.)
+
 **Pas d'item Monday** pour le **BBN Seille** ni pour le **retrait d'octocable à Rotheux** :
 les deux titres ne sont pas cliquables et **rien n'a été encodé sur Monday** pour ces
 prestations.
@@ -1028,7 +1042,7 @@ Monday.com mis à jour :
   cinq jours**.
 - **Que font l'Équipe 2, Pierre et Johan le reste de la semaine ?** Miguel et Sam n'ont que
   le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. Côté Équipe 1,
-  le jeudi et le vendredi restent vides.
+  le jeudi et le vendredi restent vides ; côté Équipe 2, le jeudi et le vendredi aussi.
 
 **Correctif du moteur de rendu (S40)** : une case **vide** dont la veille portait une nuit
 affichait son bandeau « aucun dossier confirmé » **sous** le bloc de nuit, qui le
