@@ -520,7 +520,7 @@ frontière, convention de la semaine 37).
 | Jeu 17/09 → ven 18/09 | S38 | **JMS 594136** — MP_Câble Backbone 12576-12578, GPW Rotheux | Mattiuz Pierre + Meurisse Johan | PANDA+ · **intégré** |
 | Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan + Hanikenne Florian | EQUANS-CAMERA-CCTV · **intégré** |
 | Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | PANDA+ · **intégré** |
-| Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
+| Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
 | Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
 | Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
 
@@ -963,6 +963,50 @@ Monday.com mis à jour :
 
 Mise en page : semaine plus dense, hauteurs de ligne redescendues à 13,5mm et 17,2mm. Toujours
 2 pages, rien de coupé.
+
+---
+
+## Semaine 40 (28/09 au 02/10/2026) — créée le 27/09/2026
+
+Script `_modele_planning_s40.py`, copié de la S39. PDF
+`Grille Planning/Planning WILBOW - S40 - 28 sept-02 oct 2026.pdf`, 2 pages.
+
+**Ce qui était déjà prévu et a été repris** — c'est tout ce que le mémo et Monday
+contenaient pour cette semaine :
+
+- **Nuit du jeudi 01 au vendredi 02/10 — BBN Seille — Meurisse Johan + Mike Wilvers**,
+  22h00–06h00, C@W **PANDA+** (arbitrage du 15/09 : PANDA+ pour toutes les nuits sauf les
+  mesures OTDR SignaDyn). Affichée en case à cheval sur les deux journées. Mike Wilvers
+  n'ayant pas de ligne `RESSOURCES`, il apparaît en pastille « + M. Wilvers ».
+- **Mickael Bolmain absent les jeudi 01 et vendredi 02/10**. Convention retenue, la même
+  que pour Feller Sam en S38 et S39 : **il disparaît de l'entête Équipe 1** ces deux jours,
+  qui n'affiche plus que « Petit Gauthier ». ⚠️ **Le motif n'a jamais été précisé** — dès
+  qu'il l'est, l'absence sera affichée avec son motif exact.
+
+**Vérification faite sur Monday.com** : aucun chantier n'a de date de Soufflage ni de
+Jointage entre le 28/09 et le 02/10. Rien d'autre à reprendre. **Tout le reste de la
+semaine est donc grisé.**
+
+**Points à trancher pour compléter la S40 :**
+
+- **Que fait Petit Gauthier les jeudi et vendredi**, Bolmain absent ? Reste-t-il seul en
+  Équipe 1, ou rejoint-il l'Équipe 2 comme il l'a fait en S39 ?
+- **Feller Sam est-il de retour ?** Il était absent toute la S38 et toute la S39 ; faute
+  d'information, l'entête Équipe 2 de la S40 affiche à nouveau « Dominguez Miguel /
+  Feller Sam » les cinq jours.
+- **BBN Seille n'a toujours pas d'item Monday identifié** : le titre n'est donc pas
+  cliquable et **rien n'a été encodé sur Monday** pour cette nuit.
+- Les cinq jours de Dan, Florian et Andreï sont vides : **BTO par défaut comme les
+  semaines précédentes ?**
+
+**Correctif du moteur de rendu (S40)** : une case **vide** dont la veille portait une nuit
+affichait son bandeau « aucun dossier confirmé » **sous** le bloc de nuit, qui le
+recouvrait à moitié. Le bandeau est désormais supprimé sur ce jour-là — la personne termine
+sa nuit ce matin, la case n'est pas vide au sens du planning — et seul le spacer invisible
+subsiste, ce qui aligne exactement le bloc sur les deux journées. Le défaut existait aussi
+en S39, sans effet visible (aucune nuit n'y était suivie d'une case vide) : **le script S39
+n'a pas été retouché**, la semaine étant close. Le correctif vit dans la S40, d'où seront
+copiées les semaines suivantes.
 
 ---
 
