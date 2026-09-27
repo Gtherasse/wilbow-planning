@@ -105,12 +105,12 @@ NOMS_OVERRIDE = {
 }
 
 PLANNING = {
-    # Equipe 1 sur Ciney-Jemelle du lundi au jeudi. Le jeudi, Bolmain etant
-    # absent, l entete ne porte plus que Petit Gauthier.
+    # Equipe 1 sur Ciney-Jemelle du lundi au mercredi. Le jeudi a ete retire le
+    # 27/09 : plus rien de confirme ce jour-la, ou Bolmain est par ailleurs
+    # absent et l entete ne porte que Petit Gauthier.
     ("E1", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
-    ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
 
     # Lundi 28/09 : Miguel et Sam retirent l octocable a Rotheux. Pas d item
     # Monday identifie pour ce chantier, donc titre non cliquable.
