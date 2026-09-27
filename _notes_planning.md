@@ -987,17 +987,46 @@ contenaient pour cette semaine :
 Jointage entre le 28/09 et le 02/10. Rien d'autre à reprendre. **Tout le reste de la
 semaine est donc grisé.**
 
+**27/09/2026 — première vague d'affectations de la S40 :**
+
+- **Panait Dan, Hanikenne Florian et Andreï : BTO les cinq jours.**
+- **Équipe 1 sur le JMS 675238** (BBN 12310B — Ciney-Jemelle) **mardi, mercredi et jeudi**.
+  Le jeudi, Bolmain étant absent, l'entête ne porte plus que Petit Gauthier — le chantier,
+  lui, reste affiché.
+- **Mattiuz Pierre, lundi 28/09** : **JMS 603753 · 671456** (RZ FTTH FEED et DIST 8 SDU —
+  Rue Du Vicinal 17 à 31, Clavier, Thomas et Piron). **Un seul item Monday porte les deux
+  numéros** (3159304163) : le titre est donc groupé et pointe vers cet item unique.
+- **Meurisse Johan, lundi et mardi : BBN Seille de jour**, C@W **PANDA+**. S'ajoute à sa
+  nuit du jeudi au vendredi sur le même chantier.
+- **Dominguez Miguel et Feller Sam, lundi 28/09** : **retirer l'octocable à Rotheux**,
+  C@W **PANDA+**. Sam est donc considéré comme présent — son absence des S38 et S39 est
+  terminée.
+
+**Pas d'item Monday** pour le **BBN Seille** ni pour le **retrait d'octocable à Rotheux** :
+les deux titres ne sont pas cliquables et **rien n'a été encodé sur Monday** pour ces
+prestations.
+
+Monday.com mis à jour :
+
+- **3158202616** (675238, Ciney-Jemelle) : Soufflage → **29/09** (premier jour de la série
+  mardi-mercredi-jeudi), **Mickael Bolmain + Gauthier Petit**.
+- **3159304163** (603753 / 671456, rue Du Vicinal) : Jointage → **28/09**. Pierre Mattiuz y
+  était déjà seul assigné, rien d'autre à changer.
+
 **Points à trancher pour compléter la S40 :**
 
 - **Que fait Petit Gauthier les jeudi et vendredi**, Bolmain absent ? Reste-t-il seul en
   Équipe 1, ou rejoint-il l'Équipe 2 comme il l'a fait en S39 ?
-- **Feller Sam est-il de retour ?** Il était absent toute la S38 et toute la S39 ; faute
-  d'information, l'entête Équipe 2 de la S40 affiche à nouveau « Dominguez Miguel /
-  Feller Sam » les cinq jours.
+- ~~**Feller Sam est-il de retour ?**~~ Tranché le 27/09 : il travaille avec Miguel le
+  lundi, donc présent. L'entête Équipe 2 affiche « Dominguez Miguel / Feller Sam » les
+  cinq jours.
 - **BBN Seille n'a toujours pas d'item Monday identifié** : le titre n'est donc pas
   cliquable et **rien n'a été encodé sur Monday** pour cette nuit.
-- Les cinq jours de Dan, Florian et Andreï sont vides : **BTO par défaut comme les
-  semaines précédentes ?**
+- ~~Les cinq jours de Dan, Florian et Andreï sont vides~~ — tranché le 27/09 : **BTO les
+  cinq jours**.
+- **Que font l'Équipe 2, Pierre et Johan le reste de la semaine ?** Miguel et Sam n'ont que
+  le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. Le mercredi et le
+  vendredi de l'Équipe 1 restent également vides.
 
 **Correctif du moteur de rendu (S40)** : une case **vide** dont la veille portait une nuit
 affichait son bandeau « aucun dossier confirmé » **sous** le bloc de nuit, qui le

@@ -61,6 +61,7 @@ LIENS = {
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
+    "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -70,6 +71,7 @@ FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
+VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 
 ABS = lambda motif: dict(absence=motif)
 BARRE = dict(barre=True)  # case barrée en diagonale : personne partie / plus dispo
@@ -103,13 +105,37 @@ NOMS_OVERRIDE = {
 }
 
 PLANNING = {
-    # Seule prestation deja arretee pour la semaine 40 : la nuit du jeudi 01 au
-    # vendredi 02/10 sur le BBN Seille, Meurisse Johan avec Mike Wilvers.
-    # Mike Wilvers n a pas de ligne RESSOURCES (bureau, volontairement hors de
-    # la colonne Jointage de Monday) : il apparait en pastille de partage.
+    # Equipe 1 sur Ciney-Jemelle mardi, mercredi et jeudi. Le jeudi, Bolmain
+    # etant absent, l entete ne porte plus que Petit Gauthier.
+    ("E1", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+
+    # Lundi 28/09 : Miguel et Sam retirent l octocable a Rotheux. Pas d item
+    # Monday identifie pour ce chantier, donc titre non cliquable.
+    ("E2", 0): [X("Retirer octocable — Rotheux", caw="PANDA+")],
+
+    # Lundi 28/09 : Pierre sur le chantier de la rue Du Vicinal. Un seul item
+    # Monday porte les deux JMS (603753 et 671456), d ou le titre groupe.
+    ("PM", 0): [X("JMS 603753 · 671456",
+                  sub="RZ FTTH FEED et DIST 8 SDU — Rue Du Vicinal 17 à 31, "
+                      "Clavier (Thomas et Piron)",
+                  url=VICINAL, caw="PANDA+")],
+
+    # Johan de jour sur le BBN Seille le lundi et le mardi, puis la nuit du
+    # jeudi 01 au vendredi 02/10 avec Mike Wilvers. Mike Wilvers n a pas de
+    # ligne RESSOURCES (bureau, volontairement hors de la colonne Jointage de
+    # Monday) : il apparait en pastille de partage.
+    ("JM", 0): [X("BBN Seille", caw="PANDA+")],
+    ("JM", 1): [X("BBN Seille", caw="PANDA+")],
     ("JM", 3): [X("BBN Seille", "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+")],
 
-    # Tout le reste de la semaine est a confirmer : cases grisees.
+    # Dan, Florian et Andrei : BTO les cinq jours.
+    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
+    **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
+
+    # Le reste de la semaine est a confirmer : cases grisees.
 }
 
 # --------------------------------------------------------------------- RENDU
