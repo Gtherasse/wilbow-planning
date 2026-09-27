@@ -105,8 +105,9 @@ NOMS_OVERRIDE = {
 }
 
 PLANNING = {
-    # Equipe 1 sur Ciney-Jemelle mardi, mercredi et jeudi. Le jeudi, Bolmain
-    # etant absent, l entete ne porte plus que Petit Gauthier.
+    # Equipe 1 sur Ciney-Jemelle du lundi au jeudi. Le jeudi, Bolmain etant
+    # absent, l entete ne porte plus que Petit Gauthier.
+    ("E1", 0): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
     ("E1", 3): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],

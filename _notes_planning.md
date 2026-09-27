@@ -990,7 +990,8 @@ semaine est donc grisé.**
 **27/09/2026 — première vague d'affectations de la S40 :**
 
 - **Panait Dan, Hanikenne Florian et Andreï : BTO les cinq jours.**
-- **Équipe 1 sur le JMS 675238** (BBN 12310B — Ciney-Jemelle) **mardi, mercredi et jeudi**.
+- **Équipe 1 sur le JMS 675238** (BBN 12310B — Ciney-Jemelle) **du lundi au jeudi** (le
+  lundi ajouté dans la foulée, le 27/09).
   Le jeudi, Bolmain étant absent, l'entête ne porte plus que Petit Gauthier — le chantier,
   lui, reste affiché.
 - **Mattiuz Pierre, lundi 28/09** : **JMS 603753 · 671456** (RZ FTTH FEED et DIST 8 SDU —
@@ -1008,8 +1009,8 @@ prestations.
 
 Monday.com mis à jour :
 
-- **3158202616** (675238, Ciney-Jemelle) : Soufflage → **29/09** (premier jour de la série
-  mardi-mercredi-jeudi), **Mickael Bolmain + Gauthier Petit**.
+- **3158202616** (675238, Ciney-Jemelle) : Soufflage → **28/09** (premier jour de la série
+  lundi-mardi-mercredi-jeudi), **Mickael Bolmain + Gauthier Petit**.
 - **3159304163** (603753 / 671456, rue Du Vicinal) : Jointage → **28/09**. Pierre Mattiuz y
   était déjà seul assigné, rien d'autre à changer.
 
@@ -1025,8 +1026,8 @@ Monday.com mis à jour :
 - ~~Les cinq jours de Dan, Florian et Andreï sont vides~~ — tranché le 27/09 : **BTO les
   cinq jours**.
 - **Que font l'Équipe 2, Pierre et Johan le reste de la semaine ?** Miguel et Sam n'ont que
-  le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. Le mercredi et le
-  vendredi de l'Équipe 1 restent également vides.
+  le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. Côté Équipe 1,
+  seul le vendredi reste vide.
 
 **Correctif du moteur de rendu (S40)** : une case **vide** dont la veille portait une nuit
 affichait son bandeau « aucun dossier confirmé » **sous** le bloc de nuit, qui le
