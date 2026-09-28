@@ -1065,6 +1065,23 @@ copiées les semaines suivantes.
 
 ---
 
+## Correction rétroactive — semaine 38
+
+**28/09/2026** : **le JMS 672861** (41LONC/609 — ROP Accidenté TYCAB18) **n'a pas été fait
+le jeudi 17/09**. Il est **retiré du jeudi de Meurisse Johan et de Mattiuz Pierre** dans le
+script S38, et le PDF
+`Grille Planning/Planning WILBOW - S38 - 14-18 sept 2026.pdf` a été régénéré. Leur jeudi ne
+porte donc plus que la **Vérification Move ROP 41FEX** et la **nuit du 17 au 18/09** sur le
+594136.
+
+⚠️ **Monday.com non modifié** : l'item **3196268739** porte toujours un Jointage au
+**17/09** avec **Meurisse Johan et Pierre Mattiuz**. Deux options, à trancher — je ne décide
+pas seul : **vider la date**, ou **la reporter** au jour où le chantier sera réellement fait.
+C'est exactement la règle générale restée en suspens depuis le 23/09 : *quand un chantier
+sort du planning, que devient sa date sur Monday ?*
+
+---
+
 ## Rendez-vous à venir (à reprendre dans les semaines concernées)
 
 | Date | Semaine | Chantier | Qui | C@W | Monday |

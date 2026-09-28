@@ -164,8 +164,9 @@ PLANNING = {
     ],
     # Jeudi 17/09 : Johan et Pierre en binome sur le ROP et la verification
     # du Move ROP 41FEX, journee entiere pour les deux.
+    # Le ROP accidente 672861 a ete retire le 28/09 : il n a finalement pas ete
+    # fait ce jeudi-la, ni par Johan ni par Pierre.
     ("JM", 3): [
-        J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ P. Mattiuz", "commun", caw="PANDA+"),
         X("Vérification Move ROP 41FEX", "+ P. Mattiuz", "commun", url=MOVE41, caw="PANDA+"),
         J("594136", "MP_Câble Backbone 12576-12578 — GPW Rotheux",
           "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
@@ -192,7 +193,6 @@ PLANNING = {
         J("569815", "FEED Rue Boyou 13 — Oupeye (Covitin)", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
     ("PM", 3): [
-        J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ J. Meurisse", "commun", caw="PANDA+"),
         X("Vérification Move ROP 41FEX", "+ J. Meurisse", "commun", url=MOVE41, caw="PANDA+"),
         J("594136", "MP_Câble Backbone 12576-12578 — GPW Rotheux",
           "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
