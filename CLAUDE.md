@@ -93,22 +93,32 @@ pas diverger. Chaque page conserve sa propre hauteur de ligne optimale.
   ne juge pas la mise en page. Si une page déborde, ajuster (marges, taille de police)
   **sans jamais couper de contenu**.
 
-## Livraison des documents — toujours donner la commande
+## Livraison des documents — récupération automatique
 
-Les PDF sont générés et commités dans ce dépôt, mais **Claude Code n'a pas toujours accès
-au disque de Geoffrey** (session distante). **Terminer systématiquement chaque livraison
-par la commande à exécuter**, sans attendre qu'elle soit demandée :
+Les PDF sont générés et commités dans ce dépôt, mais **Claude Code n'a aucun accès au
+disque de Geoffrey** (session distante) : il ne peut donc pas déposer lui-même les fichiers.
+
+**Depuis le 28/09/2026, la récupération est automatique.** Une tâche planifiée Windows
+(« Planning WILBOW - maj ») exécute `maj.bat auto` **toutes les 10 minutes** sur le poste de
+Geoffrey, qui fait le `git pull`. Les PDF arrivent seuls dans `Grille Planning\`, avec le
+script de la semaine et le mémo. Les fichiers de même nom sont écrasés : c'est voulu — un
+seul fichier par document et par semaine.
+
+**Conséquence sur les réponses : ne plus terminer chaque livraison par la commande
+`git pull`.** Se contenter d'indiquer **quels fichiers** ont été mis à jour, et de préciser
+que les documents arrivent **dans les 10 minutes**.
+
+Ne redonner la commande manuelle que dans deux cas :
+
+- Geoffrey signale que la tâche est désactivée, supprimée ou en échec ;
+- un document est attendu **immédiatement**, sans attendre le prochain déclenchement.
 
 ```powershell
 cd "C:\Users\123\Desktop\WILBOW\Claude\Planning"
 git pull
 ```
 
-Elle dépose les PDF directement dans `Grille Planning\` et `Check-in @ Work\`, et met à
-jour le script de la semaine et le mémo au passage. Les fichiers de même nom sont écrasés :
-c'est voulu — un seul fichier par document et par semaine.
-
-Préciser à chaque fois **quels fichiers** la commande met à jour.
+Le double-clic sur `maj.bat` fait la même chose, sans terminal.
 
 ### Trois façons de récupérer les documents
 
