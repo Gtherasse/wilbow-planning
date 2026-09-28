@@ -1004,19 +1004,29 @@ semaine est donc grisé.**
   C@W **PANDA+**. Sam est donc considéré comme présent — son absence des S38 et S39 est
   terminée.
 
-**27/09/2026 — FH 44 Feed-in, mardi et mercredi :**
+**27/09/2026, corrigé le 28/09 — Équipe 2, du mardi au vendredi :**
 
-- **Mardi 29/09** : **Feller Sam absent**, Dominguez Miguel fait le **FH 44 Feed-in** avec
-  **Mattiuz Pierre**. L'entête Équipe 2 n'affiche que « Dominguez Miguel » ce jour-là.
-  ⚠️ **Motif de l'absence de Sam non précisé.**
-- **Mercredi 30/09** : même chantier, **Miguel avec Sam** — l'Équipe 2 au complet, donc plus
-  de pastille de partage.
-- **Code C@W : FIFTHNET** (`1Y101P4M8XGQZ`), arbitré par Geoffrey (« 5net »).
-- Item Monday **3241665311 « FH 44 Feed-in »**, titre cliquable.
+- **Mardi 29/09** : **Feller Sam absent**, Dominguez Miguel part sur le **JMS 656373**
+  (FMROP C/107 — Rue d'Orp 62, Orp-Jauche) avec **Mattiuz Pierre**. L'entête Équipe 2
+  n'affiche que « Dominguez Miguel » ce jour-là. ⚠️ **Motif de l'absence de Sam non
+  précisé.** C@W **PANDA+**.
+- **Mercredi 30/09, jeudi 01/10 et vendredi 02/10** : **FH 44 Feed-in**, **Miguel avec
+  Sam** — l'Équipe 2 au complet, donc plus de pastille de partage. **Code C@W : FIFTHNET**
+  (`1Y101P4M8XGQZ`), arbitré par Geoffrey (« 5net »). Item Monday **3241665311**, titre
+  cliquable.
 
-Monday.com mis à jour : **3241665311** — Soufflage → **29/09**, **Miguel Dominguez + Sam
-Feller** ; Jointage → **29/09**, **Pierre Mattiuz**. (Les deux dates étaient vides et aucune
-personne n'était assignée.)
+  _Première version du 27/09 : le FH 44 était au mardi et au mercredi, et le mardi se
+  faisait avec Pierre. Corrigé le 28/09._
+
+Monday.com mis à jour :
+
+- **3241665311** (FH 44 Feed-in) : Soufflage → **30/09** (premier jour de la série
+  mercredi-jeudi-vendredi), **Miguel Dominguez + Sam Feller**. Le Jointage, posé par erreur
+  au 29/09 avec Pierre lors de la première version, a été **vidé** : aucun jointeur n'est
+  sur ce chantier.
+- **2987894869** (656373) : Soufflage → **29/09**, **Miguel Dominguez** seul (Florian
+  Hanikenne retiré, il est en BTO) ; Jointage → **29/09**, **Pierre Mattiuz**. La date
+  traînait au 18/09.
 
 **Pas d'item Monday** pour le **BBN Seille** ni pour le **retrait d'octocable à Rotheux** :
 les deux titres ne sont pas cliquables et **rien n'a été encodé sur Monday** pour ces
@@ -1041,8 +1051,8 @@ Monday.com mis à jour :
 - ~~Les cinq jours de Dan, Florian et Andreï sont vides~~ — tranché le 27/09 : **BTO les
   cinq jours**.
 - **Que font l'Équipe 2, Pierre et Johan le reste de la semaine ?** Miguel et Sam n'ont que
-  le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. Côté Équipe 1,
-  le jeudi et le vendredi restent vides ; côté Équipe 2, le jeudi et le vendredi aussi.
+  le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. L'Équipe 2 est
+  désormais complète ; côté Équipe 1, le jeudi et le vendredi restent vides.
 
 **Correctif du moteur de rendu (S40)** : une case **vide** dont la veille portait une nuit
 affichait son bandeau « aucun dossier confirmé » **sous** le bloc de nuit, qui le

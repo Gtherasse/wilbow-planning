@@ -61,7 +61,7 @@ LIENS = {
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
-    "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
+    "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -119,16 +119,20 @@ PLANNING = {
     # Monday identifie pour ce chantier, donc titre non cliquable.
     ("E2", 0): [X("Retirer octocable — Rotheux", caw="PANDA+")],
 
-    # Mardi 29/09 : Sam absent, Miguel fait le FH 44 Feed-in avec Pierre
-    # Mattiuz. Mercredi 30/09 : meme chantier, Miguel avec Sam, l Equipe 2 au
-    # complet — plus de pastille de partage. C@W : FIFTHNET (arbitrage du
-    # 27/09).
-    ("E2", 1): [X("FH 44 Feed-in", "+ P. Mattiuz", "commun", url=FH44, caw="FIFTHNET")],
+    # Mardi 29/09 : Sam absent, Miguel part sur le 656373 avec Pierre Mattiuz.
+    # Du mercredi au vendredi : FH 44 Feed-in, Miguel avec Sam, l Equipe 2 au
+    # complet — plus de pastille de partage. C@W du FH 44 : FIFTHNET
+    # (arbitrage du 27/09).
+    ("E2", 1): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche",
+                  "+ P. Mattiuz", "commun", caw="PANDA+")],
     ("E2", 2): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
+    ("E2", 3): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
+    ("E2", 4): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
 
     # Lundi 28/09 : Pierre sur le chantier de la rue Du Vicinal. Un seul item
     # Monday porte les deux JMS (603753 et 671456), d ou le titre groupe.
-    ("PM", 1): [X("FH 44 Feed-in", "+ M. Dominguez", "commun", url=FH44, caw="FIFTHNET")],
+    ("PM", 1): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche",
+                  "+ M. Dominguez", "commun", caw="PANDA+")],
     ("PM", 0): [X("JMS 603753 · 671456",
                   sub="RZ FTTH FEED et DIST 8 SDU — Rue Du Vicinal 17 à 31, "
                       "Clavier (Thomas et Piron)",
