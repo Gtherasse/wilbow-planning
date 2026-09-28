@@ -6,9 +6,11 @@ git pull --ff-only
 if errorlevel 1 (
   echo.
   echo *** La mise a jour a echoue. Previens Claude avec le message ci-dessus. ***
-  pause
+  rem Avec le parametre "auto", on ne bloque jamais sur une pause : la tache
+  rem planifiee tourne sans personne devant l ecran.
+  if /i not "%~1"=="auto" pause
   exit /b 1
 )
 echo.
 echo Plannings a jour.
-timeout /t 3 >nul
+if /i not "%~1"=="auto" timeout /t 3 >nul

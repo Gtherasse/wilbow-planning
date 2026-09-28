@@ -119,17 +119,31 @@ et ne peut donc pas exécuter lui-même la mise à jour. Trois solutions, de la 
 1. **La commande à la main** (ci-dessus) — c'est le mode de secours, toujours valable.
 2. **`maj.bat`**, à la racine du dossier : un double-clic fait le `git pull` et affiche une
    erreur lisible s'il échoue. Rien à retenir, rien à taper.
-3. **Tâche planifiée Windows** : `maj.bat` exécuté automatiquement toutes les 10 minutes.
-   Les PDF se mettent à jour seuls, plus aucune action. À installer une fois, dans un
-   PowerShell **ouvert en administrateur** :
+3. **Tâche planifiée Windows** : `maj.bat auto` exécuté automatiquement toutes les
+   10 minutes. Les PDF se mettent à jour seuls, plus aucune action. À installer une fois,
+   dans un PowerShell **ordinaire** (pas besoin d'administrateur — la tâche est enregistrée
+   pour l'utilisateur courant) :
 
    ```powershell
-   schtasks /create /tn "Planning WILBOW - maj" ^
-     /tr "\"C:\Users\123\Desktop\WILBOW\Claude\Planning\maj.bat\"" ^
-     /sc minute /mo 10 /f
+   $dossier = "C:\Users\123\Desktop\WILBOW\Claude\Planning"
+   $action  = New-ScheduledTaskAction -Execute "$dossier\maj.bat" -Argument "auto" -WorkingDirectory $dossier
+   $decl    = New-ScheduledTaskTrigger -Once -At (Get-Date) `
+                -RepetitionInterval (New-TimeSpan -Minutes 10)
+   Register-ScheduledTask -TaskName "Planning WILBOW - maj" -Action $action `
+                -Trigger $decl -Description "git pull des plannings WILBOW" -Force
    ```
 
-   Pour la retirer : `schtasks /delete /tn "Planning WILBOW - maj" /f`.
+   Pour la retirer : `Unregister-ScheduledTask -TaskName "Planning WILBOW - maj" -Confirm:$false`.
+
+   ⚠️ `schtasks /create /tr "\"...\""` **ne fonctionne pas en PowerShell** : `\"` n'y est
+   pas un échappement valide et la commande est rejetée (« Argument ou option non valide »).
+   Les applets `New-ScheduledTaskAction` / `Register-ScheduledTask` ci-dessus évitent ce
+   piège de guillemets.
+
+   Le paramètre `auto` supprime les `pause` et les temporisations du script : sans lui, une
+   tâche planifiée qui échoue resterait bloquée indéfiniment sur une fenêtre invisible.
+   Une brève fenêtre de console apparaît à chaque exécution ; c'est le comportement normal
+   d'un `.bat` planifié.
 
 **Solution 3 recommandée** : c'est la seule qui supprime complètement l'étape manuelle.
 Tant qu'elle n'est pas installée, continuer à donner la commande à chaque livraison.
