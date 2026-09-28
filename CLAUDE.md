@@ -110,6 +110,30 @@ c'est voulu — un seul fichier par document et par semaine.
 
 Préciser à chaque fois **quels fichiers** la commande met à jour.
 
+### Trois façons de récupérer les documents
+
+Claude Code tourne dans un conteneur distant : **il n'a aucun accès au disque de Geoffrey**
+et ne peut donc pas exécuter lui-même la mise à jour. Trois solutions, de la plus manuelle
+à la plus automatique :
+
+1. **La commande à la main** (ci-dessus) — c'est le mode de secours, toujours valable.
+2. **`maj.bat`**, à la racine du dossier : un double-clic fait le `git pull` et affiche une
+   erreur lisible s'il échoue. Rien à retenir, rien à taper.
+3. **Tâche planifiée Windows** : `maj.bat` exécuté automatiquement toutes les 10 minutes.
+   Les PDF se mettent à jour seuls, plus aucune action. À installer une fois, dans un
+   PowerShell **ouvert en administrateur** :
+
+   ```powershell
+   schtasks /create /tn "Planning WILBOW - maj" ^
+     /tr "\"C:\Users\123\Desktop\WILBOW\Claude\Planning\maj.bat\"" ^
+     /sc minute /mo 10 /f
+   ```
+
+   Pour la retirer : `schtasks /delete /tn "Planning WILBOW - maj" /f`.
+
+**Solution 3 recommandée** : c'est la seule qui supprime complètement l'étape manuelle.
+Tant qu'elle n'est pas installée, continuer à donner la commande à chaque livraison.
+
 ## Après chaque modification
 
 - Mettre à jour le gabarit `_modele_planning_s<sem>.py` (copie du script de la
