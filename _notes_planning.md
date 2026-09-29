@@ -1039,6 +1039,32 @@ Monday.com mis à jour :
 - **3159304163** (603753 / 671456, rue Du Vicinal) : Jointage → **28/09**. Pierre Mattiuz y
   était déjà seul assigné, rien d'autre à changer.
 
+**29/09/2026 — Johan et Pierre, mercredi et vendredi :**
+
+- **Mercredi 30/09** : **JMS 672861** (41LONC/609 — ROP Accidenté TYCAB18) **et JMS 553176**
+  (Rue Boyou 13 — Oupeye), **Johan et Pierre ensemble**, C@W PANDA+.
+  **Le 672861 est celui qui n'avait pas été fait le jeudi 17/09** (S38) : la question
+  ouverte hier — vider sa date Monday ou la reporter — est donc **tranchée de fait, il est
+  reporté ici**.
+- **Vendredi 02/10** : **Johan en RÉCUP** après la nuit du jeudi au vendredi (BBN Seille).
+  **Pierre reste sur le JMS 656373** (Orp-Jauche), **seul** : Miguel est sur le FH 44 avec
+  Sam ce jour-là.
+
+Monday.com mis à jour :
+
+- **3196268739** (672861) : Jointage → **30/09**, Johan et Pierre (déjà assignés).
+- **3166049312** (553176) : Jointage → **30/09**. La date traînait au 21/09, Johan et Pierre
+  y étaient déjà.
+- **2987894869** (656373) : **non modifié**, Jointage au 29/09 avec Pierre — premier jour de
+  ses deux passages (mardi et vendredi).
+
+**Correctif du moteur de rendu (suite) :** le bloc de nuit **recouvrait la pastille RÉCUP du
+lendemain** — on ne lisait plus que « CUP ». Même cause que le bandeau « aucun dossier »
+corrigé la veille : le bloc s'ancre au bas du contenu de **sa propre** case, et la case du
+lendemain était plus haute d'une pastille. La journée de départ réserve désormais, **en
+tête**, la hauteur de la pastille d'absence du lendemain (classe `.absspacer`, invisible), ce
+qui aligne exactement les deux journées. Vérifié sur le PDF : RÉCUP lisible, bloc en dessous.
+
 **Points à trancher pour compléter la S40 :**
 
 - **Que fait Petit Gauthier les jeudi et vendredi**, Bolmain absent ? Reste-t-il seul en

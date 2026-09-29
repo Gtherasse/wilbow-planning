@@ -62,6 +62,7 @@ LIENS = {
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
+    "672861": "https://wilbow.monday.com/boards/5089236279/pulses/3196268739",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -133,6 +134,13 @@ PLANNING = {
     # Monday porte les deux JMS (603753 et 671456), d ou le titre groupe.
     ("PM", 1): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche",
                   "+ M. Dominguez", "commun", caw="PANDA+")],
+    ("PM", 2): [
+        J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ J. Meurisse", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
+    ],
+    # Vendredi 02/10 : Pierre reste sur le 656373, mais seul — Miguel est sur
+    # le FH 44 avec Sam.
+    ("PM", 4): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
     ("PM", 0): [X("JMS 603753 · 671456",
                   sub="RZ FTTH FEED et DIST 8 SDU — Rue Du Vicinal 17 à 31, "
                       "Clavier (Thomas et Piron)",
@@ -144,6 +152,15 @@ PLANNING = {
     # Monday) : il apparait en pastille de partage.
     ("JM", 0): [X("BBN Seille", caw="PANDA+")],
     ("JM", 1): [X("BBN Seille", caw="PANDA+")],
+
+    # Mercredi 30/09 : Johan et Pierre ensemble sur le ROP accidente 672861
+    # (pas fait le 17/09, il revient ici) et sur le 553176.
+    ("JM", 2): [
+        J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("553176", "Rue Boyou 13 — Oupeye", "+ P. Mattiuz", "commun", caw="PANDA+"),
+    ],
+    # Vendredi 02/10 : recuperation apres la nuit du jeudi au vendredi.
+    ("JM", 4): ABS("RÉCUP"),
     ("JM", 3): [X("BBN Seille", "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
@@ -215,6 +232,19 @@ def cellule(r, i, DATA=None, mode="site"):
     prefixe_vide = ""
     if v is None and reports:
         v = list(reports)
+
+    # Symetrique du probleme ci-dessus, cote journee de DEPART. Le bloc de nuit
+    # s ancre au bas du contenu de sa propre case. Si le lendemain porte une
+    # absence, son contenu est plus haut d une pastille : le bloc remonte donc
+    # au-dessus d elle et la recouvre. On reserve ici la hauteur de cette
+    # pastille, en tete de la case de depart, pour aligner les deux journees.
+    prefixe_nuit = ""
+    if (isinstance(v, list) and peut_cheval
+            and isinstance(suivant, dict) and "absence" in suivant
+            and any(str(d.get("q") or "").lower().startswith("nuit")
+                    for d in v if isinstance(d, dict))):
+        prefixe_nuit = (f'<div class="abs absspacer">'
+                        f'<div class="absl">{H.escape(suivant["absence"])}</div></div>')
 
     if v is None:
         txt = r.get("defaut", "—")
@@ -295,7 +325,7 @@ def cellule(r, i, DATA=None, mode="site"):
                 nuits.append(f'<div class="job chevalspacer">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
             else:
                 jobs.append(f'<div class="job">{per}<div class="{cls}">{titre}</div>{lib}{n}</div>')
-        body = ('<div class="body">' + prefixe_vide
+        body = ('<div class="body">' + prefixe_vide + prefixe_nuit
                 + "".join(jobs + nuits) + "</div>")
 
     return (f'<td style="border-left-color:{r["c"]}; background:{r["bg"]}; position:relative;">'
@@ -389,6 +419,9 @@ tr:last-child td {{ border-bottom:1.43pt solid #0f172a; }}
    hauteur d une nuit de la veille : meme aspect que .body.empty. */
 .dashbar {{ background:#eef2f6; border:0.537pt solid #d5dde5; border-radius:.8mm;
            text-align:center; padding:.8mm 0; }}
+/* Hauteur reservee pour la pastille d absence du lendemain, dans la case qui
+   porte la nuit : jamais visible. */
+.absspacer {{ visibility:hidden; border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
 .absl {{ font-size:7.6pt; font-weight:800; letter-spacing:1.072pt; }}
 .job {{ line-height:1.2; }}
 .job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.537pt dashed #94a3b8; }}
