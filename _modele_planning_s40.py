@@ -63,6 +63,9 @@ LIENS = {
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
     "672861": "https://wilbow.monday.com/boards/5089236279/pulses/3196268739",
+    "687978": "https://wilbow.monday.com/boards/5089236279/pulses/3212938322",
+    "590458": "https://wilbow.monday.com/boards/5089236279/pulses/3174254132",
+    "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -109,6 +112,18 @@ NOMS_OVERRIDE = {
 }
 
 PLANNING = {
+    # Jeudi et vendredi : Bolmain absent, Petit Gauthier fait equipe avec
+    # Mattiuz Pierre. Les memes chantiers figurent donc sur les deux lignes,
+    # avec la pastille de partage.
+    ("E1", 3): [
+        J("586382", "Marché GCC — Verviers (PW Backbone)", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("687978", "FQ_Remplacement cable 41HER0 F11", "+ P. Mattiuz", "commun", caw="PANDA+"),
+    ],
+    ("E1", 4): [
+        J("590458", "FQ ch. de Wavre 36 — Héron", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        X("BBN Seille", "+ P. Mattiuz", "commun", caw="PANDA+"),
+    ],
+
     # Equipe 1 sur Ciney-Jemelle du lundi au mercredi. Le jeudi a ete retire le
     # 27/09 : plus rien de confirme ce jour-la, ou Bolmain est par ailleurs
     # absent et l entete ne porte que Petit Gauthier.
@@ -138,9 +153,16 @@ PLANNING = {
         J("672861", "41LONC/609 — ROP Accidenté TYCAB18", "+ J. Meurisse", "commun", caw="PANDA+"),
         J("553176", "Rue Boyou 13 — Oupeye", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
-    # Vendredi 02/10 : Pierre reste sur le 656373, mais seul — Miguel est sur
-    # le FH 44 avec Sam.
-    ("PM", 4): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
+    # Jeudi et vendredi : Pierre avec Petit Gauthier. Le 656373 du vendredi,
+    # prevu la veille, sort du planning.
+    ("PM", 3): [
+        J("586382", "Marché GCC — Verviers (PW Backbone)", "+ G. Petit", "commun", caw="PANDA+"),
+        J("687978", "FQ_Remplacement cable 41HER0 F11", "+ G. Petit", "commun", caw="PANDA+"),
+    ],
+    ("PM", 4): [
+        J("590458", "FQ ch. de Wavre 36 — Héron", "+ G. Petit", "commun", caw="PANDA+"),
+        X("BBN Seille", "+ G. Petit", "commun", caw="PANDA+"),
+    ],
     ("PM", 0): [X("JMS 603753 · 671456",
                   sub="RZ FTTH FEED et DIST 8 SDU — Rue Du Vicinal 17 à 31, "
                       "Clavier (Thomas et Piron)",
@@ -161,7 +183,11 @@ PLANNING = {
     ],
     # Vendredi 02/10 : recuperation apres la nuit du jeudi au vendredi.
     ("JM", 4): ABS("RÉCUP"),
-    ("JM", 3): [X("BBN Seille", "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+")],
+    ("JM", 3): [
+        J("553176", "Rue Boyou 13 — Oupeye", caw="PANDA+"),
+        J("535147", "FEED OUT FOx FH44/FH45 SB — Liège", caw="PANDA+"),
+        X("BBN Seille", "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
+    ],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
@@ -239,10 +265,13 @@ def cellule(r, i, DATA=None, mode="site"):
     # au-dessus d elle et la recouvre. On reserve ici la hauteur de cette
     # pastille, en tete de la case de depart, pour aligner les deux journees.
     prefixe_nuit = ""
+    # Uniquement si la case ne porte QUE la nuit : des qu elle contient aussi
+    # des prestations de jour, elle est deja plus haute que la pastille du
+    # lendemain et ce decalage n a plus lieu d etre — il ferait deborder la case.
     if (isinstance(v, list) and peut_cheval
             and isinstance(suivant, dict) and "absence" in suivant
-            and any(str(d.get("q") or "").lower().startswith("nuit")
-                    for d in v if isinstance(d, dict))):
+            and v and all(str(d.get("q") or "").lower().startswith("nuit")
+                          for d in v if isinstance(d, dict))):
         prefixe_nuit = (f'<div class="abs absspacer">'
                         f'<div class="absl">{H.escape(suivant["absence"])}</div></div>')
 

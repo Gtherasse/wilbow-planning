@@ -1065,6 +1065,42 @@ lendemain était plus haute d'une pastille. La journée de départ réserve dés
 tête**, la hauteur de la pastille d'absence du lendemain (classe `.absspacer`, invisible), ce
 qui aligne exactement les deux journées. Vérifié sur le PDF : RÉCUP lisible, bloc en dessous.
 
+**30/09/2026 — jeudi et vendredi complétés :**
+
+- **Petit Gauthier fait équipe avec Mattiuz Pierre** les deux jours, Bolmain étant absent.
+  Les mêmes chantiers figurent donc sur les deux lignes, avec la pastille de partage
+  (« + P. Mattiuz » côté Équipe 1, « + G. Petit » côté Pierre).
+  - **Jeudi 01/10** : **JMS 586382** (Marché GCC — Verviers) et **JMS 687978**
+    (FQ_Remplacement câble 41HER0 F11).
+  - **Vendredi 02/10** : **JMS 590458** (FQ ch. de Wavre 36 — Héron) et **BBN Seille**.
+  - Le **656373 de Pierre, prévu la veille pour le vendredi, sort du planning**.
+- **Meurisse Johan, jeudi 01/10** : **JMS 553176** (Rue Boyou 13 — Oupeye) et **JMS 535147**
+  (FEED OUT FOx FH44/FH45 SB — Liège), en plus de sa nuit sur le BBN Seille.
+- Tous en C@W **PANDA+**.
+
+_Lecture d'instruction : le premier message disait « Johan sera avec Gauthier », corrigé
+immédiatement en « **Pierre** sera avec Gauthier ». C'est la version corrigée qui est
+appliquée._
+
+Monday.com mis à jour :
+
+- **2987797757** (586382) : Soufflage et Jointage → **01/10**, **Gauthier Petit** au
+  soufflage, **Pierre Mattiuz** au jointage. ⚠️ La colonne Soufflage portait six personnes
+  (Bolmain, Petit, Dominguez, Feller, Avenia, Gaspard), héritées des passages précédents :
+  elle ne porte plus que Gauthier. **À me dire si tu préfères conserver l'historique** des
+  intervenants plutôt que refléter le seul passage en cours.
+- **3212938322** (687978) : Soufflage et Jointage → **01/10**, Gauthier / Pierre.
+- **3174254132** (590458) : Soufflage et Jointage → **02/10**, Gauthier / Pierre.
+- **2777940249** (535147) : Jointage → **01/10**, Johan y était déjà assigné.
+- **3166049312** (553176) : **non modifié**, Jointage au 30/09 — premier jour des deux
+  passages de la semaine.
+- **BBN Seille** : toujours **aucun item Monday**, rien n'a pu être encodé.
+
+**Correctif du moteur de rendu (suite) :** la réserve de hauteur ajoutée la veille dans la
+journée portant une nuit ne s'applique plus que si cette journée **ne porte que la nuit**.
+Dès qu'elle contient aussi des prestations de jour — le cas de Johan ce jeudi — elle est
+déjà plus haute que la pastille du lendemain, et la réserve faisait déborder la case.
+
 **Points à trancher pour compléter la S40 :**
 
 - **Que fait Petit Gauthier les jeudi et vendredi**, Bolmain absent ? Reste-t-il seul en
@@ -1077,8 +1113,8 @@ qui aligne exactement les deux journées. Vérifié sur le PDF : RÉCUP lisible,
 - ~~Les cinq jours de Dan, Florian et Andreï sont vides~~ — tranché le 27/09 : **BTO les
   cinq jours**.
 - **Que font l'Équipe 2, Pierre et Johan le reste de la semaine ?** Miguel et Sam n'ont que
-  le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. L'Équipe 2 est
-  désormais complète ; côté Équipe 1, le jeudi et le vendredi restent vides.
+  le lundi, Pierre que le lundi, Johan que le lundi, le mardi et sa nuit. **La semaine est
+  désormais complète**, à l'exception du motif d'absence de Bolmain.
 
 **Correctif du moteur de rendu (S40)** : une case **vide** dont la veille portait une nuit
 affichait son bandeau « aucun dossier confirmé » **sous** le bloc de nuit, qui le
