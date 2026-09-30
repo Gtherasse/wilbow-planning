@@ -1112,10 +1112,11 @@ sort du planning, que devient sa date sur Monday ?*
 
 | Date | Semaine | Chantier | Qui | C@W | Monday |
 |------|---------|----------|-----|-----|--------|
-| Mar 06/10/2026 | S41 | **HT1673A** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
+| Mar 13/10/2026 | S42 | **HT1673A** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
 
-**25/09/2026** — **HT1673A au mardi 06/10 pour Meurisse Johan**, enregistré ici : **le script
-S41 n'existe pas encore**, le chantier y sera repris à sa création.
+**25/09/2026, déplacé le 30/09** — **HT1673A pour Meurisse Johan, reporté du mardi 06/10 au
+mardi 13/10** : il change donc de semaine, de la **S41 à la S42**. Enregistré ici, **aucun
+de ces deux scripts n'existe encore** ; le chantier sera repris à la création de la S42.
 
 Deux points bloquants avant de pouvoir le porter au planning :
 
@@ -1123,7 +1124,9 @@ Deux points bloquants avant de pouvoir le porter au planning :
   Référence du board Chantiers (5089236279), plus une recherche globale : rien. Les
   références proches existantes sont **HT1827A** (deux items : 3244097200 et 3089268578),
   **HT1796G** (2871944698) et **HT 1736 A** (2720459945, sur un autre board). Faute d'item,
-  **rien n'a été modifié sur Monday** — ni date ni assignation. À trancher : est-ce une
+  **rien n'a été modifié sur Monday** — ni date ni assignation. **Recherche refaite le 30/09 : toujours
+  aucun item HT1673A**, ni par le nom ni par la colonne Référence. La date du 13/10 n'a donc
+  pas pu être encodée sur Monday non plus. À trancher : est-ce une
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S41 (règle du mémo).
 
