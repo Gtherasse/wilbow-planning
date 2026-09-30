@@ -1128,7 +1128,7 @@ Deux points bloquants avant de pouvoir le porter au planning :
   aucun item HT1673A**, ni par le nom ni par la colonne Référence. La date du 13/10 n'a donc
   pas pu être encodée sur Monday non plus. À trancher : est-ce une
   référence à créer, ou une coquille pour l'une de celles-ci ?
-- **Code C@W non précisé** — à donner avant toute génération du PDF S41 (règle du mémo).
+- **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
 ---
 
