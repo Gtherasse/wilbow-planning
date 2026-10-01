@@ -65,7 +65,7 @@ LIENS = {
     "672861": "https://wilbow.monday.com/boards/5089236279/pulses/3196268739",
     "687978": "https://wilbow.monday.com/boards/5089236279/pulses/3212938322",
     "590458": "https://wilbow.monday.com/boards/5089236279/pulses/3174254132",
-    "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
+    "622386": "https://wilbow.monday.com/boards/5089236279/pulses/3183700075",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -185,7 +185,7 @@ PLANNING = {
     ("JM", 4): ABS("RÉCUP"),
     ("JM", 3): [
         J("553176", "Rue Boyou 13 — Oupeye", caw="PANDA+"),
-        J("535147", "FEED OUT FOx FH44/FH45 SB — Liège", caw="PANDA+"),
+        J("622386", "FQ Tihange (version définitive)", caw="PANDA+"),
         X("BBN Seille", "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
     ],
 

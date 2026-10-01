@@ -1074,8 +1074,13 @@ qui aligne exactement les deux journées. Vérifié sur le PDF : RÉCUP lisible,
     (FQ_Remplacement câble 41HER0 F11).
   - **Vendredi 02/10** : **JMS 590458** (FQ ch. de Wavre 36 — Héron) et **BBN Seille**.
   - Le **656373 de Pierre, prévu la veille pour le vendredi, sort du planning**.
-- **Meurisse Johan, jeudi 01/10** : **JMS 553176** (Rue Boyou 13 — Oupeye) et **JMS 535147**
-  (FEED OUT FOx FH44/FH45 SB — Liège), en plus de sa nuit sur le BBN Seille.
+- **Meurisse Johan, jeudi 01/10** : **JMS 553176** (Rue Boyou 13 — Oupeye) et **JMS 622386**
+  (FQ Tihange, version définitive), en plus de sa nuit sur le BBN Seille.
+
+  _Le 01/10, le **535147** (FEED OUT FOx FH44/FH45 — Liège) a été **remplacé par le
+  622386**. **Deux items Monday portent cette référence** — « FQ_cable cut 12303+12605 »
+  (3208879580) et « FQ Tihange version définitive » (3183700075) : Geoffrey a tranché pour
+  **FQ Tihange**._
 - Tous en C@W **PANDA+**.
 
 _Lecture d'instruction : le premier message disait « Johan sera avec Gauthier », corrigé
@@ -1091,7 +1096,9 @@ Monday.com mis à jour :
   intervenants plutôt que refléter le seul passage en cours.
 - **3212938322** (687978) : Soufflage et Jointage → **01/10**, Gauthier / Pierre.
 - **3174254132** (590458) : Soufflage et Jointage → **02/10**, Gauthier / Pierre.
-- **2777940249** (535147) : Jointage → **01/10**, Johan y était déjà assigné.
+- **3183700075** (622386, FQ Tihange) : Jointage → **01/10**, **Meurisse Johan**.
+- **2777940249** (535147) : d'abord posé au 01/10, puis **date vidée** le 01/10 quand le
+  chantier est sorti du planning. Johan reste assigné au jointage, sans date.
 - **3166049312** (553176) : **non modifié**, Jointage au 30/09 — premier jour des deux
   passages de la semaine.
 - **BBN Seille** : toujours **aucun item Monday**, rien n'a pu être encodé.
