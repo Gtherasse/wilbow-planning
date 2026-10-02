@@ -521,7 +521,7 @@ frontière, convention de la semaine 37).
 | Lun 21/09 → mar 22/09 | S39 | **Mesures OTDR SignaDyn** | Panait Dan + Hanikenne Florian | EQUANS-CAMERA-CCTV · **intégré** |
 | Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | PANDA+ · **intégré** |
 | Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
-| Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · script à créer |
+| Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
 | Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
 
 **Points ouverts sur ces nuits :**
@@ -1148,6 +1148,43 @@ porte donc plus que la **Vérification Move ROP 41FEX** et la **nuit du 17 au 18
 pas seul : **vider la date**, ou **la reporter** au jour où le chantier sera réellement fait.
 C'est exactement la règle générale restée en suspens depuis le 23/09 : *quand un chantier
 sort du planning, que devient sa date sur Monday ?*
+
+---
+
+## Semaine 41 (05/10 au 09/10/2026) — créée le 02/10/2026
+
+Script `_modele_planning_s41.py`, copié de la S40. PDF
+`Grille Planning/Planning WILBOW - S41 - 05-09 oct 2026.pdf`, 2 pages.
+
+**Ce qui était déjà prévu et a été repris :**
+
+- **Nuit du jeudi 08 au vendredi 09/10 — PW pont de Tihange — Meurisse Johan + Mike
+  Wilvers**, 22h00–06h00, C@W **PANDA+** (arbitrage du 15/09). Affichée en case à cheval.
+  Toujours **aucun item Monday** pour ce chantier : titre non cliquable, rien d'encodé.
+- **Mickael Bolmain absent les lundi 05 et mardi 06/10** : il disparaît de l'entête Équipe 1
+  ces deux jours, qui n'affiche plus que « Petit Gauthier ». ⚠️ **Motif toujours pas
+  précisé** — c'est la même absence que celle des 01 et 02/10, annoncée le 23/09 pour les
+  1, 2, 5 et 6 octobre.
+- **HT1673A n'est plus de cette semaine** : prévu au 06/10, il a été **reporté au 13/10**
+  (S42) le 30/09.
+
+**Affectations données le 02/10 :**
+
+- **Lundi 05/10** : **Johan et Pierre sur le JMS 622386**, le **FQ Tihange version
+  définitive** — Geoffrey a confirmé qu'il s'agit du même des deux items portant cette
+  référence que celui fait le 01/10. C@W PANDA+.
+- **Jeudi 08/10** : **Johan et Pierre sur le 4020 Leman/Digneffe CA120**, C@W
+  **EQUANS-CAMERA-CCTV** (« CCTV equans »). Item Monday 2725054102, titre cliquable.
+- **Panait Dan, Hanikenne Florian et Andreï : BTO les cinq jours.**
+
+Monday.com mis à jour :
+
+- **3183700075** (622386, FQ Tihange) : Jointage → **05/10**, **Johan et Pierre**.
+- **2725054102** (4020 Leman/Digneffe CA120) : Jointage → **08/10**, **Johan et Pierre**.
+  Les deux colonnes étaient vides.
+
+**Reste à compléter** : l'Équipe 1 et l'Équipe 2 n'ont **rien de toute la semaine** ; Johan
+et Pierre n'ont que le lundi et le jeudi ; le magasinier est au Dépôt par défaut.
 
 ---
 
