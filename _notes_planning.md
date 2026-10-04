@@ -1193,10 +1193,22 @@ et Pierre n'ont que le lundi et le jeudi ; le magasinier est au Dépôt par déf
 | Date | Semaine | Chantier | Qui | C@W | Monday |
 |------|---------|----------|-----|-----|--------|
 | Mar 13/10/2026 | S42 | **HT1673A** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
+| Jeu 29/10/2026 | S44 | **Liège Expo** | Dominguez Miguel + Feller Sam | **à préciser** | ⚠️ **item introuvable** |
+| Ven 30/10/2026 | S44 | **Liège Expo** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
 
 **25/09/2026, déplacé le 30/09** — **HT1673A pour Meurisse Johan, reporté du mardi 06/10 au
 mardi 13/10** : il change donc de semaine, de la **S41 à la S42**. Enregistré ici, **aucun
 de ces deux scripts n'existe encore** ; le chantier sera repris à la création de la S42.
+
+**04/10/2026 — Liège Expo, jeudi 29 et vendredi 30/10** (semaine 44, **script à créer**) :
+
+- **Jeudi 29/10** : **Dominguez Miguel et Feller Sam**.
+- **Vendredi 30/10** : **Meurisse Johan**.
+- ⚠️ **Aucun item Monday trouvé** sous ce nom : recherche faite sur le nom du board Chantiers
+  (5089236279) et en recherche globale. Les résultats proches sont d'autres boards ou
+  d'autres chantiers liégeois — rien qui corresponde à « Liège Expo ». **Rien n'a donc été
+  encodé sur Monday**, et le titre ne sera pas cliquable tant qu'un item n'est pas identifié.
+- ⚠️ **Code C@W non précisé** — à donner avant la génération du PDF S44.
 
 Deux points bloquants avant de pouvoir le porter au planning :
 
