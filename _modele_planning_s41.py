@@ -114,9 +114,17 @@ PLANNING = {
     # Lundi 05/10 : Johan et Pierre sur le 622386, le FQ Tihange version
     # definitive, que Johan avait deja fait le 01/10.
     ("JM", 0): [J("622386", "FQ Tihange (version définitive)",
-                  "+ P. Mattiuz", "commun", caw="PANDA+")],
+                  "+ P. Mattiuz · G. Petit", "commun", caw="PANDA+")],
     ("PM", 0): [J("622386", "FQ Tihange (version définitive)",
-                  "+ J. Meurisse", "commun", caw="PANDA+")],
+                  "+ J. Meurisse · G. Petit", "commun", caw="PANDA+")],
+    # Petit Gauthier rejoint Pierre et Johan sur le 622386 le lundi. Bolmain
+    # etant absent, l entete Equipe 1 ne porte deja que son nom.
+    ("E1", 0): [J("622386", "FQ Tihange (version définitive)",
+                  "+ J. Meurisse · P. Mattiuz", "commun", caw="PANDA+")],
+
+    # Lundi 05 et mardi 06/10 : l Equipe 2 sur le FH 44 Feed-in, C@W FIFTHNET.
+    ("E2", 0): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
+    ("E2", 1): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en
     # EQUANS-CAMERA-CCTV. Johan enchaine la nuit du jeudi au vendredi sur le

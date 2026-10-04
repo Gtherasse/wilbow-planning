@@ -1183,8 +1183,26 @@ Monday.com mis à jour :
 - **2725054102** (4020 Leman/Digneffe CA120) : Jointage → **08/10**, **Johan et Pierre**.
   Les deux colonnes étaient vides.
 
-**Reste à compléter** : l'Équipe 1 et l'Équipe 2 n'ont **rien de toute la semaine** ; Johan
-et Pierre n'ont que le lundi et le jeudi ; le magasinier est au Dépôt par défaut.
+**04/10/2026 — lundi et mardi complétés :**
+
+- **Équipe 2 sur le FH 44 Feed-in les lundi 05 et mardi 06/10**, C@W **FIFTHNET**.
+  ⚠️ L'instruction disait « pour **Miguel** » ; faute de précision sur Feller Sam, le
+  chantier est porté par **la ligne Équipe 2 entière, donc Miguel et Sam**. À me dire si
+  Sam fait autre chose ces deux jours.
+- **Petit Gauthier rejoint Johan et Pierre sur le JMS 622386** (FQ Tihange) **le lundi
+  05/10**. Bolmain étant absent ce jour-là, l'entête Équipe 1 ne portait déjà que le nom de
+  Gauthier. Les trois lignes portent le chantier avec leurs pastilles de partage
+  respectives.
+
+Monday.com mis à jour :
+
+- **3241665311** (FH 44 Feed-in) : Soufflage → **05/10**, Miguel et Sam y étaient déjà.
+- **3183700075** (622386) : **Soufflage** → **05/10**, **Gauthier Petit** (la colonne était
+  vide). Le Jointage y est déjà au 05/10 avec Johan et Pierre.
+
+**Reste à compléter** : l'Équipe 1 n'a rien du mardi au vendredi, l'Équipe 2 rien du
+mercredi au vendredi ; Johan et Pierre n'ont que le lundi et le jeudi ; le magasinier est au
+Dépôt par défaut.
 
 ---
 
