@@ -523,6 +523,7 @@ frontière, convention de la semaine 37).
 | Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
 | Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
 | Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
+| Jeu 22/10 → ven 23/10 | S43 | **JMS 675238** — BBN 12310B, Ciney-Jemelle | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
 
 **Points ouverts sur ces nuits :**
 
@@ -1205,6 +1206,22 @@ Monday.com mis à jour :
 **Reste à compléter** : l'Équipe 1 n'a rien du mardi au vendredi, l'Équipe 2 rien du
 mercredi au vendredi ; Johan et Pierre n'ont que le lundi et le jeudi ; le magasinier est au
 Dépôt par défaut.
+
+---
+
+## Nuit ajoutée le 05/10/2026
+
+**Nuit du jeudi 22 au vendredi 23/10 — JMS 675238** (BBN 12310B, Ciney-Jemelle) —
+**Meurisse Johan + Mattiuz Pierre**, 22h00–06h00, C@W **PANDA+** (règle du 15/09 : PANDA+
+pour toutes les nuits sauf les mesures OTDR SignaDyn ; le 675238 est par ailleurs en PANDA+
+sur toutes ses occurrences de jour).
+
+Elle tombe en **semaine 43 (19 au 23/10)**, dont le **script n'existe pas encore** : elle y
+sera reprise à sa création, en case à cheval sur les deux journées.
+
+Monday.com : **3158202616** (675238) — **Jointage → 22/10**, **Johan et Pierre** (les deux
+colonnes de jointage étaient vides). Le Soufflage reste au 28/09, c'est le passage de jour
+de l'Équipe 1 en S40.
 
 ---
 
