@@ -1188,7 +1188,11 @@ Monday.com mis à jour :
 
 **04/10/2026 — lundi et mardi complétés :**
 
-- **Équipe 2 sur le FH 44 Feed-in les lundi 05 et mardi 06/10**, C@W **FIFTHNET**.
+- **Équipe 2 sur le FH 44 Feed-in les lundi 05 et mardi 06/10**, C@W **FIFTHNET**. Le
+  **lundi après-midi**, elle quitte le FH 44 pour le **JMS 647240** (RW — renouvellement
+  d'un pont PWC 25016576, GPW), C@W **PANDA+** : le lundi se lit donc « Matin : FH 44 /
+  Après-midi : 647240 ». Ajouté le 05/10, avec confirmation de Geoffrey que **Sam suit
+  Miguel** sur ce chantier.
   ⚠️ L'instruction disait « pour **Miguel** » ; faute de précision sur Feller Sam, le
   chantier est porté par **la ligne Équipe 2 entière, donc Miguel et Sam**. À me dire si
   Sam fait autre chose ces deux jours.
@@ -1200,6 +1204,8 @@ Monday.com mis à jour :
 Monday.com mis à jour :
 
 - **3241665311** (FH 44 Feed-in) : Soufflage → **05/10**, Miguel et Sam y étaient déjà.
+- **3139752774** (647240) : Soufflage → **05/10** (la date était vide), **Miguel et Sam** —
+  Sam ajouté, seul Miguel y figurait.
 - **3183700075** (622386) : **Soufflage** → **05/10**, **Gauthier Petit** (la colonne était
   vide). Le Jointage y est déjà au 05/10 avec Johan et Pierre.
 

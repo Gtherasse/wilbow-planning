@@ -66,6 +66,7 @@ LIENS = {
     "687978": "https://wilbow.monday.com/boards/5089236279/pulses/3212938322",
     "590458": "https://wilbow.monday.com/boards/5089236279/pulses/3174254132",
     "622386": "https://wilbow.monday.com/boards/5089236279/pulses/3183700075",
+    "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -78,6 +79,7 @@ MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vér
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
 DIGN = "https://wilbow.monday.com/boards/5089236279/pulses/2725054102"  # 4020 Leman/Digneffe CA120
+
 
 ABS = lambda motif: dict(absence=motif)
 BARRE = dict(barre=True)  # case barrée en diagonale : personne partie / plus dispo
@@ -123,7 +125,12 @@ PLANNING = {
                   "+ J. Meurisse · P. Mattiuz", "commun", caw="PANDA+")],
 
     # Lundi 05 et mardi 06/10 : l Equipe 2 sur le FH 44 Feed-in, C@W FIFTHNET.
-    ("E2", 0): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
+    # Le lundi apres-midi, elle part sur le 647240 (renouvellement d un pont).
+    ("E2", 0): [
+        X("FH 44 Feed-in", url=FH44, q=MATIN, caw="FIFTHNET"),
+        J("647240", "RW — Renouvellement d'un pont PWC 25016576 (GPW)",
+          q=AM, caw="PANDA+"),
+    ],
     ("E2", 1): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en
