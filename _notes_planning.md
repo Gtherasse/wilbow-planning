@@ -1180,7 +1180,29 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
   le vendredi 09/10** (ajouté le 05/10). Motif retenu : `ABSENT`, faute de précision ; à
   corriger si c'est un congé, une maladie ou une récup.
 
+**05/10/2026 (soir) — mardi et mercredi complétés :**
+
+- **Mardi 06/10** :
+  - **Petit Gauthier en BTO avec Panait Dan** (pastilles de partage sur les deux lignes).
+    Bolmain étant absent, l'entête Équipe 1 ne porte déjà que le nom de Gauthier.
+  - **Mattiuz Pierre : JMS 523547** (RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G).
+  - **Meurisse Johan : JMS 622386** (FQ Tihange), **le même dossier que le lundi, mais
+    seul** — Pierre part sur le 523547 et Gauthier passe en BTO.
+  - **Équipe 2 : JMS 675043** (Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche).
+    **Le FH 44 ne tient donc plus que le lundi matin.**
+- **Mercredi 07/10** : **Équipe 2 sur le JMS 635054** (Feed-out Eupen FH01 — Raeren FH06).
+- **Codes C@W** : les trois nouveaux chantiers (523547, 675043, 635054) en **PANDA+**,
+  arbitrage de Geoffrey.
+
 Monday.com mis à jour :
+
+- **2987880677** (675043) : Soufflage → **06/10**, **Miguel et Sam** (colonnes vides).
+- **3262247942** (635054) : Soufflage → **07/10**, **Miguel et Sam** (colonnes vides).
+- **2987923297** (523547) : Jointage → **06/10**, **Pierre Mattiuz** (colonnes vides ; la
+  date de Soufflage traînait au 19/06, laissée telle quelle — elle ne concerne pas ce
+  passage).
+- **3183700075** (622386) : **Soufflage vidé** — Gauthier y avait été mis le matin même pour
+  le lundi, mais il passe en BTO le mardi et le chantier n'a plus de soufflage.
 
 - **3183700075** (622386, FQ Tihange) : Jointage → **05/10**, **Johan et Pierre**.
 - **2725054102** (4020 Leman/Digneffe CA120) : Jointage → **08/10**, **Johan et Pierre**.

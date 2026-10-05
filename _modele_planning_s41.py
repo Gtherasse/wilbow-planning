@@ -67,6 +67,9 @@ LIENS = {
     "590458": "https://wilbow.monday.com/boards/5089236279/pulses/3174254132",
     "622386": "https://wilbow.monday.com/boards/5089236279/pulses/3183700075",
     "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
+    "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
+    "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
+    "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -113,6 +116,16 @@ NOMS_OVERRIDE = {
 }
 
 PLANNING = {
+    # Mardi 06/10 : Johan reste sur le 622386, mais seul — Pierre part sur le
+    # 523547 et Gauthier passe en BTO.
+    ("JM", 1): [J("622386", "FQ Tihange (version définitive)", caw="PANDA+")],
+    ("PM", 1): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+                  caw="PANDA+")],
+    # Mardi 06/10 : Petit Gauthier en BTO avec Panait Dan. Bolmain etant
+    # absent, l entete Equipe 1 ne porte deja que le nom de Gauthier.
+    ("E1", 1): [X("BTO", "+ D. Panait", "commun", caw="BTO")],
+    ("DP", 1): [X("BTO", "+ G. Petit", "commun", caw="BTO")],
+
     # Lundi 05/10 : Johan et Pierre sur le 622386, le FQ Tihange version
     # definitive, que Johan avait deja fait le 01/10.
     ("JM", 0): [J("622386", "FQ Tihange (version définitive)",
@@ -124,14 +137,19 @@ PLANNING = {
     ("E1", 0): [J("622386", "FQ Tihange (version définitive)",
                   "+ J. Meurisse · P. Mattiuz", "commun", caw="PANDA+")],
 
-    # Lundi 05 et mardi 06/10 : l Equipe 2 sur le FH 44 Feed-in, C@W FIFTHNET.
-    # Le lundi apres-midi, elle part sur le 647240 (renouvellement d un pont).
+    # Lundi 05/10 : l Equipe 2 sur le FH 44 Feed-in le matin (C@W FIFTHNET),
+    # puis sur le 647240 (renouvellement d un pont) l apres-midi.
     ("E2", 0): [
         X("FH 44 Feed-in", url=FH44, q=MATIN, caw="FIFTHNET"),
         J("647240", "RW — Renouvellement d'un pont PWC 25016576 (GPW)",
           q=AM, caw="PANDA+"),
     ],
-    ("E2", 1): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
+    # Mardi 06/10 : l Equipe 2 passe sur le 675043 (Orp-Jauche), mercredi sur
+    # le 635054 (Feed-out Eupen FH01 - Raeren FH06). Le FH 44 ne tient donc
+    # plus que le lundi matin.
+    ("E2", 1): [J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
+                  caw="PANDA+")],
+    ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en
     # EQUANS-CAMERA-CCTV. Johan enchaine la nuit du jeudi au vendredi sur le
@@ -145,7 +163,7 @@ PLANNING = {
                   caw="EQUANS-CAMERA-CCTV")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 2, 3, 4)},
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
     # Andrei : BTO du lundi au jeudi, absent le vendredi 09/10 (motif a
     # confirmer).
