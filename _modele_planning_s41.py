@@ -140,7 +140,10 @@ PLANNING = {
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
-    **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
+    # Andrei : BTO du lundi au jeudi, absent le vendredi 09/10 (motif a
+    # confirmer).
+    **{("AN", i): [X("BTO", caw="BTO")] for i in range(4)},
+    ("AN", 4): ABS("ABSENT"),
 
     # Le reste de la semaine est a confirmer : cases grisees.
 }
