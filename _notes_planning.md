@@ -1175,7 +1175,9 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
   référence que celui fait le 01/10. C@W PANDA+.
 - **Jeudi 08/10** : **Johan et Pierre sur le 4020 Leman/Digneffe CA120**, C@W
   **EQUANS-CAMERA-CCTV** (« CCTV equans »). Item Monday 2725054102, titre cliquable.
-- **Panait Dan, Hanikenne Florian et Andreï : BTO les cinq jours.**
+- **Panait Dan, Hanikenne Florian et Andreï : BTO les cinq jours** — sauf **Andreï, absent
+  le vendredi 09/10** (ajouté le 05/10). Motif retenu : `ABSENT`, faute de précision ; à
+  corriger si c'est un congé, une maladie ou une récup.
 
 Monday.com mis à jour :
 
