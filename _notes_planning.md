@@ -1186,8 +1186,10 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
   - **Petit Gauthier en BTO avec Panait Dan** (pastilles de partage sur les deux lignes).
     Bolmain étant absent, l'entête Équipe 1 ne porte déjà que le nom de Gauthier.
   - **Mattiuz Pierre : JMS 523547** (RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G).
-  - **Meurisse Johan : JMS 622386** (FQ Tihange), **le même dossier que le lundi, mais
-    seul** — Pierre part sur le 523547 et Gauthier passe en BTO.
+  - **Meurisse Johan : JMS 622386** (FQ Tihange) **le matin**, **le même dossier que le
+    lundi, mais seul** — Pierre part sur le 523547 et Gauthier passe en BTO. **L'après-midi,
+    JMS 599588** (Rue des Sœurs Grises/Montmorency/Av. du Condroz — Liège), C@W PANDA+,
+    ajouté le 06/10.
   - **Équipe 2 : JMS 675043** (Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche).
     **Le FH 44 ne tient donc plus que le lundi matin.**
 - **Mercredi 07/10** : **Équipe 2 sur le JMS 635054** (Feed-out Eupen FH01 — Raeren FH06).
@@ -1201,6 +1203,8 @@ Monday.com mis à jour :
 - **2987923297** (523547) : Jointage → **06/10**, **Pierre Mattiuz** (colonnes vides ; la
   date de Soufflage traînait au 19/06, laissée telle quelle — elle ne concerne pas ce
   passage).
+- **3006164733** (599588) : **Jointage → 06/10**. Johan y était déjà assigné, mais la
+  colonne n'avait aucune date. Le Soufflage reste au 14/09, c'est un autre passage.
 - **3183700075** (622386) : **Soufflage vidé** — Gauthier y avait été mis le matin même pour
   le lundi, mais il passe en BTO le mardi et le chantier n'a plus de soufflage.
 

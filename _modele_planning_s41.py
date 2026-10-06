@@ -67,6 +67,7 @@ LIENS = {
     "590458": "https://wilbow.monday.com/boards/5089236279/pulses/3174254132",
     "622386": "https://wilbow.monday.com/boards/5089236279/pulses/3183700075",
     "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
+    "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
@@ -116,9 +117,14 @@ NOMS_OVERRIDE = {
 }
 
 PLANNING = {
-    # Mardi 06/10 : Johan reste sur le 622386, mais seul — Pierre part sur le
-    # 523547 et Gauthier passe en BTO.
-    ("JM", 1): [J("622386", "FQ Tihange (version définitive)", caw="PANDA+")],
+    # Mardi 06/10 : Johan reste sur le 622386 le matin, mais seul — Pierre part
+    # sur le 523547 et Gauthier passe en BTO. L apres-midi, il part sur le
+    # 599588 (Liege).
+    ("JM", 1): [
+        J("622386", "FQ Tihange (version définitive)", q=MATIN, caw="PANDA+"),
+        J("599588", "Rue des Soeurs Grises/Montmorency/Av. du Condroz — Liège",
+          q=AM, caw="PANDA+"),
+    ],
     ("PM", 1): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
                   caw="PANDA+")],
     # Mardi 06/10 : Petit Gauthier en BTO avec Panait Dan. Bolmain etant
