@@ -69,6 +69,8 @@ LIENS = {
     "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
     "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
+    "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
+    "622268": "https://wilbow.monday.com/boards/5089236279/pulses/2924899531",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
@@ -130,8 +132,11 @@ PLANNING = {
                   caw="PANDA+")],
     # Mercredi 07/10 : Johan reste sur le 599588, Pierre sur le 523547 —
     # chacun poursuit son chantier de la veille.
-    ("JM", 2): [J("599588", "Rue des Soeurs Grises/Montmorency/Av. du Condroz — Liège",
-                  caw="PANDA+")],
+    # Mercredi 07/10 : le 599588 est remplace par les deux JMS du BBN Fexhe.
+    ("JM", 2): [
+        J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+"),
+        J("622268", "IS MP — Câble définitif branche 12352", caw="PANDA+"),
+    ],
     ("PM", 2): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
                   caw="PANDA+")],
 

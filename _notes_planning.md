@@ -1203,13 +1203,21 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
 
 - **Équipe 2 : le JMS 635054** (Feed-out Eupen FH01 — Raeren FH06) **court du mercredi au
   vendredi**.
-- **Mercredi 07/10** : **Johan sur le JMS 599588**, **Pierre sur le JMS 523547** — chacun
-  poursuit son chantier de la veille.
+- **Mercredi 07/10** : ~~Johan sur le JMS 599588~~ → **Johan sur les JMS 622272 et 622268**
+  (IS MP — Câble définitif branches 12835 et 12352, le BBN Fexhe), **remplacement décidé le
+  06/10**. C@W PANDA+. **Pierre reste sur le JMS 523547**, comme la veille.
 - **La nuit du jeudi 08 au vendredi 09/10 sur le PW pont de Tihange se fait avec
   Mattiuz Pierre, et non avec Mike Wilvers.** Elle figure donc sur les deux lignes, à cheval
   sur les deux journées, avec les pastilles de partage. **Mike Wilvers disparaît de la
   semaine.**
 - **Johan et Pierre en RÉCUP le vendredi 09/10**, après cette nuit.
+
+⚠️ **Question ouverte sur Monday — le 622272 et le 622268 ont deux occurrences.** Leur
+colonne Jointage porte le **15/10**, posée pour la **nuit du 15 au 16/10** (S42). Johan les
+fait désormais aussi **de jour le 07/10**. Une colonne date ne peut porter qu'une seule
+valeur : **je n'ai rien modifié**, pour ne pas effacer la nuit. À trancher — faut-il que la
+date suive toujours la **prochaine** intervention, quitte à perdre la trace de la suivante ?
+C'est la même question que la convention multi-jours, restée en suspens.
 
 **Monday.com : aucune modification nécessaire pour ces changements.** Le 635054 porte déjà
 son Soufflage au 07/10, premier jour de la série ; les jointages du 599588 et du 523547 sont
