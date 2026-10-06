@@ -522,7 +522,7 @@ frontière, convention de la semaine 37).
 | Mar 22/09 → mer 23/09 | S39 | **EUP8756W0 — WELK OTS 5131 M** | Meurisse Johan | PANDA+ · **intégré** |
 | Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
 | Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
-| Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
+| Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | PANDA+ · **intégré** |
 | Jeu 22/10 → ven 23/10 | S43 | **JMS 675238** — BBN 12310B, Ciney-Jemelle | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
 
 **Points ouverts sur ces nuits :**
@@ -1280,11 +1280,52 @@ de l'Équipe 1 en S40.
 
 ---
 
+## Semaine 42 (12/10 au 16/10/2026) — créée le 06/10/2026
+
+Script `_modele_planning_s42.py`, copié de la S41. PDF
+`Grille Planning/Planning WILBOW - S42 - 12-16 oct 2026.pdf`, 2 pages.
+
+**Ce qui était déjà prévu et a été repris** — c'est tout ce que le mémo et Monday
+contenaient pour cette semaine :
+
+- **Mardi 13/10 — HT1673A — Meurisse Johan.** Deux réserves, maintenues après arbitrage de
+  Geoffrey le 06/10 :
+  - **Code C@W : « À DÉTERMINER »**, affiché tel quel sur la page secrétariat. Cette mention
+    ne correspond à aucune entrée de `CODES`, **aucun code n'est donc imprimé sous le
+    titre** : c'est volontaire, le secrétariat voit qu'il manque l'information. **À
+    remplacer dès que le code est connu.**
+  - **Aucun item Monday sous cette référence** (recherches des 25/09, 30/09 et 06/10) : le
+    titre n'est pas cliquable et **rien n'a été encodé**. Geoffrey a choisi de le laisser
+    ainsi plutôt que de le rattacher à HT1827A ou HT1796G.
+- **Nuit du jeudi 15 au vendredi 16/10 — BBN Fexhe — Meurisse Johan + Mattiuz Pierre**,
+  22h00–06h00, C@W **PANDA+**. Affichée en case à cheval sur les deux lignes.
+  **Deux JMS pour une seule nuit** (622272 et 622268) : le moteur ne sait afficher qu'un
+  bloc de nuit par case — deux blocs se superposeraient, tous deux étant en position
+  absolue. Le titre porte donc **les deux numéros** et **le lien pointe sur le 622272**.
+  À me dire si tu préfères un autre arrangement.
+- **Dan, Florian et Andreï : BTO les cinq jours** (reconduction de la règle des semaines
+  précédentes).
+
+**Vérification faite sur Monday.com** : aucun chantier n'a de date de Soufflage ni de
+Jointage entre le 12 et le 16/10. Rien d'autre à reprendre. **Tout le reste de la semaine
+est grisé** : les deux équipes de soufflage n'ont rien, Johan et Pierre n'ont que leur nuit
+(et le HT1673A pour Johan).
+
+Monday.com mis à jour :
+
+- **2958713654** (622272) : Jointage → **15/10**, **Johan et Pierre**.
+- **2924899531** (622268) : Jointage → **15/10**, **Johan et Pierre**.
+
+**L'absence de Mickael Bolmain est terminée** (1, 2, 5 et 6 octobre) : aucune substitution
+d'équipe cette semaine, `NOMS_OVERRIDE` est vide.
+
+---
+
 ## Rendez-vous à venir (à reprendre dans les semaines concernées)
 
 | Date | Semaine | Chantier | Qui | C@W | Monday |
 |------|---------|----------|-----|-----|--------|
-| Mar 13/10/2026 | S42 | **HT1673A** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
+| Mar 13/10/2026 | S42 | **HT1673A** | Meurisse Johan | **À DÉTERMINER** · intégré | ⚠️ **item introuvable** |
 | Jeu 29/10/2026 | S44 | **Liège Expo** | Dominguez Miguel + Feller Sam | **à préciser** | ⚠️ **item introuvable** |
 | Ven 30/10/2026 | S44 | **Liège Expo** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
 
