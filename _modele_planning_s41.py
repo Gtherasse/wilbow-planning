@@ -68,6 +68,7 @@ LIENS = {
     "622386": "https://wilbow.monday.com/boards/5089236279/pulses/3183700075",
     "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
     "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
+    "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
@@ -127,6 +128,11 @@ PLANNING = {
     ],
     ("PM", 1): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
                   caw="PANDA+")],
+    # Mercredi 07 et jeudi 08/10 : l Equipe 1 au complet sur le 685230,
+    # Bolmain etant de retour.
+    ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    ("E1", 3): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+
     # Mardi 06/10 : Petit Gauthier en BTO avec Panait Dan. Bolmain etant
     # absent, l entete Equipe 1 ne porte deja que le nom de Gauthier.
     ("E1", 1): [X("BTO", "+ D. Panait", "commun", caw="BTO")],

@@ -1193,12 +1193,17 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
   - **Équipe 2 : JMS 675043** (Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche).
     **Le FH 44 ne tient donc plus que le lundi matin.**
 - **Mercredi 07/10** : **Équipe 2 sur le JMS 635054** (Feed-out Eupen FH01 — Raeren FH06).
+- **Mercredi 07 et jeudi 08/10** : **Équipe 1 sur le JMS 685230** (Remplacement 12641
+  WELK — DOL), C@W PANDA+. Bolmain est de retour, l'entête redevient « Bolmain Mickael /
+  Petit Gauthier ». Ajouté le 06/10.
 - **Codes C@W** : les trois nouveaux chantiers (523547, 675043, 635054) en **PANDA+**,
   arbitrage de Geoffrey.
 
 Monday.com mis à jour :
 
 - **2987880677** (675043) : Soufflage → **06/10**, **Miguel et Sam** (colonnes vides).
+- **3055683760** (685230) : Soufflage → **07/10** (premier jour des deux), **Mickael Bolmain
+  et Gauthier Petit**.
 - **3262247942** (635054) : Soufflage → **07/10**, **Miguel et Sam** (colonnes vides).
 - **2987923297** (523547) : Jointage → **06/10**, **Pierre Mattiuz** (colonnes vides ; la
   date de Soufflage traînait au 19/06, laissée telle quelle — elle ne concerne pas ce
