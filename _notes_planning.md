@@ -1199,6 +1199,24 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
 - **Codes C@W** : les trois nouveaux chantiers (523547, 675043, 635054) en **PANDA+**,
   arbitrage de Geoffrey.
 
+**06/10/2026 — fin de la semaine complétée :**
+
+- **Équipe 2 : le JMS 635054** (Feed-out Eupen FH01 — Raeren FH06) **court du mercredi au
+  vendredi**.
+- **Mercredi 07/10** : **Johan sur le JMS 599588**, **Pierre sur le JMS 523547** — chacun
+  poursuit son chantier de la veille.
+- **La nuit du jeudi 08 au vendredi 09/10 sur le PW pont de Tihange se fait avec
+  Mattiuz Pierre, et non avec Mike Wilvers.** Elle figure donc sur les deux lignes, à cheval
+  sur les deux journées, avec les pastilles de partage. **Mike Wilvers disparaît de la
+  semaine.**
+- **Johan et Pierre en RÉCUP le vendredi 09/10**, après cette nuit.
+
+**Monday.com : aucune modification nécessaire pour ces changements.** Le 635054 porte déjà
+son Soufflage au 07/10, premier jour de la série ; les jointages du 599588 et du 523547 sont
+déjà au 06/10, premier jour de leurs deux journées ; le **PW pont de Tihange n'a toujours
+aucun item**, et Mike Wilvers n'était de toute façon jamais encodé dans la colonne Jointage
+(décision du mémo : il est au bureau, l'y mettre fausserait Rentabilité_Chantiers).
+
 Monday.com mis à jour :
 
 - **2987880677** (675043) : Soufflage → **06/10**, **Miguel et Sam** (colonnes vides).

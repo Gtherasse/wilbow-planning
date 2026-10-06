@@ -128,6 +128,13 @@ PLANNING = {
     ],
     ("PM", 1): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
                   caw="PANDA+")],
+    # Mercredi 07/10 : Johan reste sur le 599588, Pierre sur le 523547 —
+    # chacun poursuit son chantier de la veille.
+    ("JM", 2): [J("599588", "Rue des Soeurs Grises/Montmorency/Av. du Condroz — Liège",
+                  caw="PANDA+")],
+    ("PM", 2): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+                  caw="PANDA+")],
+
     # Mercredi 07 et jeudi 08/10 : l Equipe 1 au complet sur le 685230,
     # Bolmain etant de retour.
     ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
@@ -162,6 +169,8 @@ PLANNING = {
     ("E2", 1): [J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
                   caw="PANDA+")],
     ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
+    ("E2", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
+    ("E2", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en
     # EQUANS-CAMERA-CCTV. Johan enchaine la nuit du jeudi au vendredi sur le
@@ -169,10 +178,16 @@ PLANNING = {
     ("JM", 3): [
         X("4020 Leman/Digneffe CA120", "+ P. Mattiuz", "commun", url=DIGN,
           caw="EQUANS-CAMERA-CCTV"),
-        X("PW pont de Tihange", "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
+        X("PW pont de Tihange", "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
     ],
-    ("PM", 3): [X("4020 Leman/Digneffe CA120", "+ J. Meurisse", "commun", url=DIGN,
-                  caw="EQUANS-CAMERA-CCTV")],
+    ("PM", 3): [
+        X("4020 Leman/Digneffe CA120", "+ J. Meurisse", "commun", url=DIGN,
+          caw="EQUANS-CAMERA-CCTV"),
+        X("PW pont de Tihange", "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
+    ],
+    # Vendredi 09/10 : recuperation apres la nuit du jeudi au vendredi.
+    ("JM", 4): ABS("RÉCUP"),
+    ("PM", 4): ABS("RÉCUP"),
 
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 2, 3, 4)},
