@@ -36,8 +36,8 @@ RESSOURCES = [
 ]
 
 # ------------------------------------------------------------------- DONNEES
-SEMAINE = 42
-LUNDI = datetime.date(2026, 10, 12)
+SEMAINE = 43
+LUNDI = datetime.date(2026, 10, 19)
 # Horodatage automatique : date + heure de generation (heure belge)
 MAJ = datetime.datetime.now(ZoneInfo("Europe/Brussels"))
 
@@ -59,6 +59,8 @@ LIENS = {
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
     "553176": "https://wilbow.monday.com/boards/5089236279/pulses/3166049312",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
+    "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
+    "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
@@ -116,22 +118,20 @@ CODES = {
 NOMS_OVERRIDE = {}
 
 PLANNING = {
-    # Mardi 13/10 : HT1673A pour Meurisse Johan. Aucun item Monday n a jamais
-    # ete trouve sous cette reference : le titre n est pas cliquable et rien
-    # n est encode. Code C@W non communique -> mention "A DETERMINER", qui ne
-    # correspond a aucune entree de CODES et n affiche donc aucun code.
-    ("JM", 1): [X("HT1673A", caw="À DÉTERMINER")],
+    # Lundi 19 et mardi 20/10 : Meurisse Johan avec Mike Wilvers. Mike Wilvers
+    # n a pas de ligne RESSOURCES (bureau, volontairement hors de la colonne
+    # Jointage de Monday) : il apparait en pastille de partage.
+    ("JM", 0): [J("688836", "FQ ROP endommagé 85AMAC/311",
+                  "+ M. Wilvers", "commun", caw="PANDA+")],
+    ("JM", 1): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
+                  "+ M. Wilvers", "commun", caw="PANDA+")],
 
-    # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
-    # Mattiuz Pierre. Deux JMS (622272 et 622268) pour un seul bloc de nuit :
-    # le titre les porte tous les deux et le lien pointe sur le 622272.
-    ("JM", 3): [X("JMS 622272 · 622268 — BBN Fexhe", "+ P. Mattiuz", "commun",
-                  url=FEXHE, q=NUIT, caw="PANDA+")],
-    ("PM", 3): [X("JMS 622272 · 622268 — BBN Fexhe", "+ J. Meurisse", "commun",
-                  url=FEXHE, q=NUIT, caw="PANDA+")],
-
-    # Mercredi 14/10 : l Equipe 2 en BTO.
-    ("E2", 2): [X("BTO", caw="BTO")],
+    # Nuit du jeudi 22 au vendredi 23/10 : JMS 675238 (BBN 12310B,
+    # Ciney-Jemelle), Meurisse Johan et Mattiuz Pierre.
+    ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
+                  "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+")],
+    ("PM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
+                  "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
@@ -349,7 +349,7 @@ PIED_JMS = ('<b style="color:#1d4ed8;">JMS en bleu ↗</b>'
 
 def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
   return f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
-@page {{  /* S42 : polices reduites de 2% le 15/09/2026
+@page {{  /* S43 : polices reduites de 2% le 15/09/2026
    pour absorber les nuits et les recups sans rien supprimer. */
  size:A4 landscape; margin:4mm 7mm 3mm 7mm; }}
 * {{ box-sizing:border-box; }}
@@ -467,9 +467,9 @@ import math
 def hauteur_page(rows, badge, soustitre, pied2, quoi):
     """Cherche la hauteur de ligne la plus confortable qui tienne sur UNE page."""
     def pages(h):
-        open("/tmp/_pl42.html", "w", encoding="utf-8").write(
+        open("/tmp/_pl43.html", "w", encoding="utf-8").write(
             build(h, rows, badge, soustitre, pied2))
-        return len(W(filename="/tmp/_pl42.html").render().pages)
+        return len(W(filename="/tmp/_pl43.html").render().pages)
     lo, hi = 4.0, 40.0
     if pages(lo) > 1:
         raise SystemExit(f"Contenu trop dense pour une page : {quoi}")
@@ -506,8 +506,8 @@ def document(a, b):
 # demander une troisieme. On resserre alors la plus haute des deux jusqu a
 # obtenir exactement deux pages.
 for _ in range(80):
-    open("/tmp/_pl42.html", "w", encoding="utf-8").write(document(h1, h2))
-    rendu = W(filename="/tmp/_pl42.html").render()
+    open("/tmp/_pl43.html", "w", encoding="utf-8").write(document(h1, h2))
+    rendu = W(filename="/tmp/_pl43.html").render()
     if len(rendu.pages) == 2:
         break
     if h1 >= h2 and h1 > 4.0:
@@ -519,6 +519,6 @@ for _ in range(80):
 else:
     raise SystemExit("Convergence impossible vers deux pages.")
 
-sortie = sys.argv[1] if len(sys.argv) > 1 else "Planning WILBOW - S42.pdf"
+sortie = sys.argv[1] if len(sys.argv) > 1 else "Planning WILBOW - S43.pdf"
 rendu.write_pdf(sortie)
 print(f"OK -> {sortie}  (2 pages ; hauteurs de ligne {h1:.1f}mm et {h2:.1f}mm)")

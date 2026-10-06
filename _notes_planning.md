@@ -523,7 +523,7 @@ frontière, convention de la semaine 37).
 | Jeu 01/10 → ven 02/10 | S40 | **BBN Seille** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
 | Jeu 08/10 → ven 09/10 | S41 | **PW pont de Tihange** | Meurisse Johan + Mike Wilvers | PANDA+ · **intégré** |
 | Jeu 15/10 → ven 16/10 | S42 | **622272 + 622268 BBN Fexhe** | Meurisse Johan + Mattiuz Pierre | PANDA+ · **intégré** |
-| Jeu 22/10 → ven 23/10 | S43 | **JMS 675238** — BBN 12310B, Ciney-Jemelle | Meurisse Johan + Mattiuz Pierre | PANDA+ · script à créer |
+| Jeu 22/10 → ven 23/10 | S43 | **JMS 675238** — BBN 12310B, Ciney-Jemelle | Meurisse Johan + Mattiuz Pierre | PANDA+ · **intégré** |
 
 **Points ouverts sur ces nuits :**
 
@@ -1305,6 +1305,7 @@ contenaient pour cette semaine :
   À me dire si tu préfères un autre arrangement.
 - **Dan, Florian et Andreï : BTO les cinq jours** (reconduction de la règle des semaines
   précédentes).
+- **Mercredi 14/10 : l'Équipe 2 en BTO** (ajouté le 06/10).
 
 **Vérification faite sur Monday.com** : aucun chantier n'a de date de Soufflage ni de
 Jointage entre le 12 et le 16/10. Rien d'autre à reprendre. **Tout le reste de la semaine
@@ -1318,6 +1319,33 @@ Monday.com mis à jour :
 
 **L'absence de Mickael Bolmain est terminée** (1, 2, 5 et 6 octobre) : aucune substitution
 d'équipe cette semaine, `NOMS_OVERRIDE` est vide.
+
+---
+
+## Semaine 43 (19/10 au 23/10/2026) — créée le 06/10/2026
+
+Script `_modele_planning_s43.py`, copié de la S42. PDF
+`Grille Planning/Planning WILBOW - S43 - 19-23 oct 2026.pdf`, 2 pages.
+
+- **Lundi 19/10** : **JMS 688836** (FQ ROP endommagé 85AMAC/311) — **Meurisse Johan +
+  Mike Wilvers**, C@W **PANDA+**.
+- **Mardi 20/10** : **JMS 690640** (RRROP C/123 — Rue Sabaré, Visé) — **Johan +
+  Mike Wilvers**, C@W **PANDA+**.
+  Mike Wilvers n'ayant pas de ligne `RESSOURCES`, il apparaît en pastille « + M. Wilvers »
+  sur la ligne de Johan, et **n'est pas encodé dans la colonne Jointage de Monday**
+  (décision du mémo : il est au bureau, l'y mettre fausserait Rentabilité_Chantiers).
+- **Nuit du jeudi 22 au vendredi 23/10 — JMS 675238** (BBN 12310B, Ciney-Jemelle) —
+  **Johan et Pierre**, 22h00–06h00, PANDA+. Enregistrée le 05/10, intégrée ici.
+- **Dan, Florian et Andreï : BTO les cinq jours.**
+
+Monday.com mis à jour :
+
+- **3211258684** (688836) : Jointage → **19/10**, **Meurisse Johan** (colonnes vides).
+- **3263534972** (690640) : Jointage → **20/10**, **Meurisse Johan** (colonnes vides).
+- Le **675238** portait déjà son Jointage au 22/10 avec Johan et Pierre, posé le 05/10.
+
+**Reste à compléter** : les deux équipes de soufflage n'ont rien de la semaine, Johan n'a
+rien du mercredi au vendredi hors sa nuit, Pierre n'a que sa nuit.
 
 ---
 
