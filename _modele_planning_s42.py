@@ -62,7 +62,6 @@ LIENS = {
     "688116": "https://wilbow.monday.com/boards/5089236279/pulses/3206269235",
     "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622268": "https://wilbow.monday.com/boards/5089236279/pulses/2924899531",
-    "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
@@ -142,6 +141,12 @@ PLANNING = {
     # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
     # Mattiuz Pierre. Deux JMS (622272 et 622268) pour un seul bloc de nuit :
     # le titre les porte tous les deux et le lien pointe sur le 622272.
+    # Mercredi 14/10 : Johan sur le 675043, Pierre sur le 656373, tous deux a
+    # Orp-Jauche mais sur des dossiers distincts.
+    ("JM", 2): [J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
+                  caw="PANDA+")],
+    ("PM", 2): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
+
     # Le jeudi 15/10, ils font d abord le 688116 le matin.
     ("JM", 3): [
         J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",

@@ -1317,6 +1317,9 @@ contenaient pour cette semaine :
   HT1673A annulé. **Pierre sur le JMS 523547** (Hermalle-sous-Argenteau, Bloc G) — « le même
   chantier qu'hier », Geoffrey ayant confirmé qu'il s'agit du **mardi 06/10**, son dernier
   chantier avant sa maladie du 07/10, et non du lundi 12/10.
+- **Mercredi 14/10** : **Johan sur le JMS 675043** (Assoc. Eugène Malève, Orp-Jauche),
+  **Pierre sur le JMS 656373** (FMROP C/107, Rue d'Orp 62, Orp-Jauche). Deux dossiers
+  distincts dans la même commune. C@W PANDA+ pour les deux, codes déjà établis.
 - **Jeudi 15/10 matin** : **JMS 688116** (FQ — Remplacement câble Antenne Orange
   LL03703136), **Johan et Pierre**, C@W **PANDA+**. Ajouté le 07/10 ; il précède leur nuit
   du même jour.
@@ -1348,6 +1351,10 @@ Monday.com mis à jour :
 - **2958713654** (622272) : Jointage → **15/10**, **Johan et Pierre**.
 - **2924899531** (622268) : Jointage → **15/10**, **Johan et Pierre**.
 - **3206269235** (688116) : Jointage → **15/10**, **Johan et Pierre** (colonnes vides).
+- **2987880677** (675043) : Jointage → **14/10**, **Meurisse Johan** (colonne vide ; le
+  Soufflage reste au 06/10, c'est le passage de l'Équipe 2 en S41).
+- **2987894869** (656373) : Jointage → **14/10**, **Mattiuz Pierre**. Sa date précédente
+  (29/09) correspondait à un passage déjà effectué : l'écraser ne perd aucune information.
 
 **L'absence de Mickael Bolmain est terminée** (1, 2, 5 et 6 octobre) : aucune substitution
 d'équipe cette semaine, `NOMS_OVERRIDE` est vide.
