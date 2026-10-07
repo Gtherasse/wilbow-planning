@@ -1310,6 +1310,13 @@ contenaient pour cette semaine :
   communiqué, aucun item Monday sous cette référence malgré trois recherches — **deviennent
   sans objet**. Rien n'avait été encodé sur Monday, il n'y a donc rien à y défaire. Son
   historique : annoncé le 25/09 pour le 06/10, reporté au 13/10 le 30/09, annulé le 07/10.
+- **Lundi 12/10** : **Johan et Pierre sur les JMS 622272 et 622268** (BBN Fexhe), le
+  chantier de Johan du mercredi 07/10. C@W PANDA+. Ils y reviennent **de nuit le jeudi
+  15/10**.
+- **Mardi 13/10** : **Johan sur le JMS 675238** (BBN 12310B, Ciney-Jemelle), à la place du
+  HT1673A annulé. **Pierre sur le JMS 523547** (Hermalle-sous-Argenteau, Bloc G) — « le même
+  chantier qu'hier », Geoffrey ayant confirmé qu'il s'agit du **mardi 06/10**, son dernier
+  chantier avant sa maladie du 07/10, et non du lundi 12/10.
 - **Jeudi 15/10 matin** : **JMS 688116** (FQ — Remplacement câble Antenne Orange
   LL03703136), **Johan et Pierre**, C@W **PANDA+**. Ajouté le 07/10 ; il précède leur nuit
   du même jour.
@@ -1327,6 +1334,14 @@ contenaient pour cette semaine :
 Jointage entre le 12 et le 16/10. Rien d'autre à reprendre. **Tout le reste de la semaine
 est grisé** : les deux équipes de soufflage n'ont rien, Johan et Pierre n'ont que leur nuit
 (et le HT1673A pour Johan).
+
+⚠️ **Dates Monday à occurrences multiples — la question reste ouverte.** Trois chantiers
+portent désormais deux passages à des dates différentes, et une colonne date n'en retient
+qu'un : le **622272/622268** (jour le 12/10, nuit le 15/10), le **675238** (jour le 13/10,
+nuit le 22/10 en S43) et le **523547** (fait le 06/10, repris le 13/10). **Je n'ai pas
+modifié ces dates**, pour ne pas effacer les nuits déjà encodées. Il faut une règle : la
+date suit-elle toujours la **prochaine** intervention ? la **dernière** ? Dis-le-moi et
+j'alignerai tout d'un coup.
 
 Monday.com mis à jour :
 

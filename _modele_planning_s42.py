@@ -60,6 +60,9 @@ LIENS = {
     "553176": "https://wilbow.monday.com/boards/5089236279/pulses/3166049312",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "688116": "https://wilbow.monday.com/boards/5089236279/pulses/3206269235",
+    "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
+    "622268": "https://wilbow.monday.com/boards/5089236279/pulses/2924899531",
+    "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
@@ -117,7 +120,24 @@ CODES = {
 NOMS_OVERRIDE = {}
 
 PLANNING = {
-    # Le HT1673A du mardi 13/10 a ete annule le 07/10 : la case redevient vide.
+    # Le HT1673A du mardi 13/10 a ete annule le 07/10.
+
+    # Lundi 12/10 : Johan et Pierre reprennent les deux JMS du BBN Fexhe, le
+    # chantier du mercredi 07/10. Ils y reviennent de nuit le jeudi 15/10.
+    ("JM", 0): [
+        J("622272", "IS MP — Câble définitif branche 12835", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("622268", "IS MP — Câble définitif branche 12352", "+ P. Mattiuz", "commun", caw="PANDA+"),
+    ],
+    ("PM", 0): [
+        J("622272", "IS MP — Câble définitif branche 12835", "+ J. Meurisse", "commun", caw="PANDA+"),
+        J("622268", "IS MP — Câble définitif branche 12352", "+ J. Meurisse", "commun", caw="PANDA+"),
+    ],
+
+    # Mardi 13/10 : Johan sur le 675238, a la place du HT1673A annule. Pierre
+    # reprend le 523547, son dernier chantier avant sa maladie du 07/10.
+    ("JM", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    ("PM", 1): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+                  caw="PANDA+")],
 
     # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
     # Mattiuz Pierre. Deux JMS (622272 et 622268) pour un seul bloc de nuit :
