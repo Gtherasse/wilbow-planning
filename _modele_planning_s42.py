@@ -59,6 +59,7 @@ LIENS = {
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
     "553176": "https://wilbow.monday.com/boards/5089236279/pulses/3166049312",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
+    "688116": "https://wilbow.monday.com/boards/5089236279/pulses/3206269235",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
@@ -125,10 +126,19 @@ PLANNING = {
     # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
     # Mattiuz Pierre. Deux JMS (622272 et 622268) pour un seul bloc de nuit :
     # le titre les porte tous les deux et le lien pointe sur le 622272.
-    ("JM", 3): [X("JMS 622272 · 622268 — BBN Fexhe", "+ P. Mattiuz", "commun",
-                  url=FEXHE, q=NUIT, caw="PANDA+")],
-    ("PM", 3): [X("JMS 622272 · 622268 — BBN Fexhe", "+ J. Meurisse", "commun",
-                  url=FEXHE, q=NUIT, caw="PANDA+")],
+    # Le jeudi 15/10, ils font d abord le 688116 le matin.
+    ("JM", 3): [
+        J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",
+          "+ P. Mattiuz", "commun", q=MATIN, caw="PANDA+"),
+        X("JMS 622272 · 622268 — BBN Fexhe", "+ P. Mattiuz", "commun",
+          url=FEXHE, q=NUIT, caw="PANDA+"),
+    ],
+    ("PM", 3): [
+        J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",
+          "+ J. Meurisse", "commun", q=MATIN, caw="PANDA+"),
+        X("JMS 622272 · 622268 — BBN Fexhe", "+ J. Meurisse", "commun",
+          url=FEXHE, q=NUIT, caw="PANDA+"),
+    ],
 
     # Mercredi 14/10 : l Equipe 2 en BTO.
     ("E2", 2): [X("BTO", caw="BTO")],

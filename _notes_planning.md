@@ -1314,6 +1314,9 @@ contenaient pour cette semaine :
   - **Aucun item Monday sous cette référence** (recherches des 25/09, 30/09 et 06/10) : le
     titre n'est pas cliquable et **rien n'a été encodé**. Geoffrey a choisi de le laisser
     ainsi plutôt que de le rattacher à HT1827A ou HT1796G.
+- **Jeudi 15/10 matin** : **JMS 688116** (FQ — Remplacement câble Antenne Orange
+  LL03703136), **Johan et Pierre**, C@W **PANDA+**. Ajouté le 07/10 ; il précède leur nuit
+  du même jour.
 - **Nuit du jeudi 15 au vendredi 16/10 — BBN Fexhe — Meurisse Johan + Mattiuz Pierre**,
   22h00–06h00, C@W **PANDA+**. Affichée en case à cheval sur les deux lignes.
   **Deux JMS pour une seule nuit** (622272 et 622268) : le moteur ne sait afficher qu'un
@@ -1333,6 +1336,7 @@ Monday.com mis à jour :
 
 - **2958713654** (622272) : Jointage → **15/10**, **Johan et Pierre**.
 - **2924899531** (622268) : Jointage → **15/10**, **Johan et Pierre**.
+- **3206269235** (688116) : Jointage → **15/10**, **Johan et Pierre** (colonnes vides).
 
 **L'absence de Mickael Bolmain est terminée** (1, 2, 5 et 6 octobre) : aucune substitution
 d'équipe cette semaine, `NOMS_OVERRIDE` est vide.
