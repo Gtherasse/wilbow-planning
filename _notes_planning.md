@@ -1305,15 +1305,11 @@ Script `_modele_planning_s42.py`, copié de la S41. PDF
 **Ce qui était déjà prévu et a été repris** — c'est tout ce que le mémo et Monday
 contenaient pour cette semaine :
 
-- **Mardi 13/10 — HT1673A — Meurisse Johan.** Deux réserves, maintenues après arbitrage de
-  Geoffrey le 06/10 :
-  - **Code C@W : « À DÉTERMINER »**, affiché tel quel sur la page secrétariat. Cette mention
-    ne correspond à aucune entrée de `CODES`, **aucun code n'est donc imprimé sous le
-    titre** : c'est volontaire, le secrétariat voit qu'il manque l'information. **À
-    remplacer dès que le code est connu.**
-  - **Aucun item Monday sous cette référence** (recherches des 25/09, 30/09 et 06/10) : le
-    titre n'est pas cliquable et **rien n'a été encodé**. Geoffrey a choisi de le laisser
-    ainsi plutôt que de le rattacher à HT1827A ou HT1796G.
+- ~~**Mardi 13/10 — HT1673A — Meurisse Johan.**~~ **ANNULÉ le 07/10.** Le mardi de Johan
+  redevient une case grisée. Les deux réserves qui pesaient dessus — code C@W jamais
+  communiqué, aucun item Monday sous cette référence malgré trois recherches — **deviennent
+  sans objet**. Rien n'avait été encodé sur Monday, il n'y a donc rien à y défaire. Son
+  historique : annoncé le 25/09 pour le 06/10, reporté au 13/10 le 30/09, annulé le 07/10.
 - **Jeudi 15/10 matin** : **JMS 688116** (FQ — Remplacement câble Antenne Orange
   LL03703136), **Johan et Pierre**, C@W **PANDA+**. Ajouté le 07/10 ; il précède leur nuit
   du même jour.
@@ -1374,7 +1370,6 @@ rien du mercredi au vendredi hors sa nuit, Pierre n'a que sa nuit.
 
 | Date | Semaine | Chantier | Qui | C@W | Monday |
 |------|---------|----------|-----|-----|--------|
-| Mar 13/10/2026 | S42 | **HT1673A** | Meurisse Johan | **À DÉTERMINER** · intégré | ⚠️ **item introuvable** |
 | Jeu 29/10/2026 | S44 | **Liège Expo** | Dominguez Miguel + Feller Sam | **à préciser** | ⚠️ **item introuvable** |
 | Ven 30/10/2026 | S44 | **Liège Expo** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
 
@@ -1392,7 +1387,8 @@ de ces deux scripts n'existe encore** ; le chantier sera repris à la création 
   encodé sur Monday**, et le titre ne sera pas cliquable tant qu'un item n'est pas identifié.
 - ⚠️ **Code C@W non précisé** — à donner avant la génération du PDF S44.
 
-Deux points bloquants avant de pouvoir le porter au planning :
+**ANNULÉ le 07/10/2026** — le chantier ne figure plus nulle part. Les deux points
+ci-dessous, restés sans réponse, sont donc clos sans objet :
 
 - **Aucun item « HT1673A » sur Monday.com.** Recherche faite sur le nom *et* sur la colonne
   Référence du board Chantiers (5089236279), plus une recherche globale : rien. Les

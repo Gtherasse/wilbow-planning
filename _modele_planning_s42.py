@@ -117,11 +117,7 @@ CODES = {
 NOMS_OVERRIDE = {}
 
 PLANNING = {
-    # Mardi 13/10 : HT1673A pour Meurisse Johan. Aucun item Monday n a jamais
-    # ete trouve sous cette reference : le titre n est pas cliquable et rien
-    # n est encode. Code C@W non communique -> mention "A DETERMINER", qui ne
-    # correspond a aucune entree de CODES et n affiche donc aucun code.
-    ("JM", 1): [X("HT1673A", caw="À DÉTERMINER")],
+    # Le HT1673A du mardi 13/10 a ete annule le 07/10 : la case redevient vide.
 
     # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
     # Mattiuz Pierre. Deux JMS (622272 et 622268) pour un seul bloc de nuit :
