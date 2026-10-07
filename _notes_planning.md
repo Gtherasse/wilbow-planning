@@ -1205,7 +1205,14 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
   vendredi**.
 - **Mercredi 07/10** : ~~Johan sur le JMS 599588~~ → **Johan sur les JMS 622272 et 622268**
   (IS MP — Câble définitif branches 12835 et 12352, le BBN Fexhe), **remplacement décidé le
-  06/10**. C@W PANDA+. ~~Pierre reste sur le JMS 523547~~ → **Mattiuz Pierre est MALADE le mercredi 07/10**
+  06/10**. C@W PANDA+. **Johan est ensuite RETOURNÉ MALADE en cours de journée** (signalé le
+  07/10).
+
+  _Lecture d'instruction : « retourné malade » impliquant qu'il était bien sur chantier, les
+  **deux JMS restent affichés** et la mention est ajoutée **en fin de case**, en rouge comme
+  une maladie. La page C@W conserve donc son code PANDA+ pour la partie travaillée. Nouveau
+  motif `RETOURNÉ MALADE` ajouté à `ABS_STYLE`. À corriger si tu préférais une case
+  entièrement grisée, sans chantier._ ~~Pierre reste sur le JMS 523547~~ → **Mattiuz Pierre est MALADE le mercredi 07/10**
   (signalé le 07/10) : le 523547, qu'il devait poursuivre, **sort de la journée**. Il l'a
   fait le mardi, la date de son Jointage sur Monday (06/10) reste donc juste.
 - **La nuit du jeudi 08 au vendredi 09/10 sur le PW pont de Tihange se fait avec

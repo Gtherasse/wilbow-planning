@@ -133,9 +133,12 @@ PLANNING = {
     # Mercredi 07/10 : Johan reste sur le 599588, Pierre sur le 523547 —
     # chacun poursuit son chantier de la veille.
     # Mercredi 07/10 : le 599588 est remplace par les deux JMS du BBN Fexhe.
+    # Johan est parti malade en cours de journee : les chantiers restent, il y
+    # est alle, et la mention est ajoutee en fin de case.
     ("JM", 2): [
         J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+"),
         J("622268", "IS MP — Câble définitif branche 12352", caw="PANDA+"),
+        A("RETOURNÉ MALADE"),
     ],
     # Mercredi 07/10 : Pierre est malade. Le 523547, qu il devait poursuivre,
     # sort donc de la journee.
@@ -213,6 +216,8 @@ LARG = 100 / NB_JOURS
 ABS_STYLE = {
     "CONGÉ":     ("#e2e8f0", "#475569"),
     "MALADIE":   ("#fee2e2", "#b91c1c"),
+    # Parti malade en cours de journee : meme code couleur que MALADIE.
+    "RETOURNÉ MALADE": ("#fee2e2", "#b91c1c"),
     "FORMATION": ("#ede9fe", "#5b21b6"),
     # Prestation sans code C@W : rendue comme un statut, elle ne genere aucune
     # ligne sur le tableau secretariat.
