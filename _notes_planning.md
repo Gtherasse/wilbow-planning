@@ -1317,6 +1317,10 @@ contenaient pour cette semaine :
   HT1673A annulé. **Pierre sur le JMS 523547** (Hermalle-sous-Argenteau, Bloc G) — « le même
   chantier qu'hier », Geoffrey ayant confirmé qu'il s'agit du **mardi 06/10**, son dernier
   chantier avant sa maladie du 07/10, et non du lundi 12/10.
+- **Mardi 13/10** : **Équipe 2 sur le JMS 683464** (GB BUILD — Route du Condroz 211,
+  Neupré), C@W **PANDA+**. Le même chantier revient **chez Johan le jeudi 15/10
+  l'après-midi**, en plus de son 688116 du matin — placement de l'après-midi confirmé par
+  Geoffrey, le matin étant déjà pris.
 - **Mercredi 14/10** : **Johan sur le JMS 675043** (Assoc. Eugène Malève, Orp-Jauche),
   **Pierre sur le JMS 656373** (FMROP C/107, Rue d'Orp 62, Orp-Jauche). Deux dossiers
   distincts dans la même commune. C@W PANDA+ pour les deux, codes déjà établis.
@@ -1353,7 +1357,11 @@ Monday.com mis à jour :
 - **3206269235** (688116) : Jointage → **15/10**, **Johan et Pierre** (colonnes vides).
 - **2987880677** (675043) : Jointage → **14/10**, **Meurisse Johan** (colonne vide ; le
   Soufflage reste au 06/10, c'est le passage de l'Équipe 2 en S41).
-- **2987894869** (656373) : Jointage → **14/10**, **Mattiuz Pierre**. Sa date précédente
+- **2987894869** (656373) : Jointage → **14/10**, **Mattiuz Pierre**.
+- **3195329407** (683464) : **Soufflage → 13/10** avec **Miguel et Sam**, **Jointage →
+  15/10** avec **Meurisse Johan**. Les quatre colonnes étaient vides — c'est le premier
+  chantier de la semaine dont les deux métiers sont encodés sur des jours différents, et
+  Monday les porte sans conflit puisqu'il s'agit de deux colonnes distinctes. Sa date précédente
   (29/09) correspondait à un passage déjà effectué : l'écraser ne perd aucune information.
 
 **L'absence de Mickael Bolmain est terminée** (1, 2, 5 et 6 octobre) : aucune substitution

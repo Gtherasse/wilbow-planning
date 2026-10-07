@@ -60,6 +60,7 @@ LIENS = {
     "553176": "https://wilbow.monday.com/boards/5089236279/pulses/3166049312",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "688116": "https://wilbow.monday.com/boards/5089236279/pulses/3206269235",
+    "683464": "https://wilbow.monday.com/boards/5089236279/pulses/3195329407",
     "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622268": "https://wilbow.monday.com/boards/5089236279/pulses/2924899531",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
@@ -151,6 +152,7 @@ PLANNING = {
     ("JM", 3): [
         J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",
           "+ P. Mattiuz", "commun", q=MATIN, caw="PANDA+"),
+        J("683464", "GB BUILD — Route du Condroz 211, Neupré", q=AM, caw="PANDA+"),
         X("JMS 622272 · 622268 — BBN Fexhe", "+ P. Mattiuz", "commun",
           url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
@@ -160,6 +162,9 @@ PLANNING = {
         X("JMS 622272 · 622268 — BBN Fexhe", "+ J. Meurisse", "commun",
           url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
+
+    # Mardi 13/10 : l Equipe 2 sur le 683464 (GB BUILD, Neupre).
+    ("E2", 1): [J("683464", "GB BUILD — Route du Condroz 211, Neupré", caw="PANDA+")],
 
     # Mercredi 14/10 : l Equipe 2 en BTO.
     ("E2", 2): [X("BTO", caw="BTO")],
