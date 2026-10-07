@@ -137,8 +137,9 @@ PLANNING = {
         J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+"),
         J("622268", "IS MP — Câble définitif branche 12352", caw="PANDA+"),
     ],
-    ("PM", 2): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
-                  caw="PANDA+")],
+    # Mercredi 07/10 : Pierre est malade. Le 523547, qu il devait poursuivre,
+    # sort donc de la journee.
+    ("PM", 2): ABS("MALADIE"),
 
     # Mercredi 07 et jeudi 08/10 : l Equipe 1 au complet sur le 685230,
     # Bolmain etant de retour.
