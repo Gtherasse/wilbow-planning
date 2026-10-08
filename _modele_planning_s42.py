@@ -117,6 +117,10 @@ CODES = {
 
 # Wilson, etudiant en stage : il accompagne une equipe chaque jour. Il n a pas
 # de ligne RESSOURCES propre et figure donc dans l entete de celle qu il suit.
+# Noms surlignes dans l entete : les renforts ponctuels qui ne font pas
+# partie de l equipe et qu il ne faut pas oublier d emmener.
+MISE_EN_EVIDENCE = {"Wilson (stage)"}
+
 NOMS_OVERRIDE = {
     ("E1", 0): ["Bolmain Mickael", "Petit Gauthier", "Wilson (stage)"],
     ("E1", 1): ["Bolmain Mickael", "Petit Gauthier", "Wilson (stage)"],
@@ -202,12 +206,18 @@ ABS_STYLE = {
 
 def cellule(r, i, DATA=None, mode="site"):
     noms_jour = NOMS_OVERRIDE.get((r["id"], i), r["noms"])
+
+    def _nom(n):
+        """Un renfort ponctuel est surligne pour qu il ne passe pas inapercu."""
+        e = H.escape(n)
+        return f'<span class="renfort">{e}</span>' if n in MISE_EN_EVIDENCE else e
+
     if len(noms_jour) > 1:   # equipe : label sur sa ligne + noms en dessous
-        noms = "<br>".join(H.escape(n) for n in noms_jour)
+        noms = "<br>".join(_nom(n) for n in noms_jour)
         hdr = (f'<div class="rlabel" style="color:{r["c"]};">{H.escape(r["label"])}</div>'
                f'<div class="rname">{noms}</div>')
     else:                    # individuel : nom + role sur la meme ligne
-        hdr = (f'<div class="rname">{H.escape(noms_jour[0])}'
+        hdr = (f'<div class="rname">{_nom(noms_jour[0])}'
                f'<span class="rtag" style="color:{r["c"]};">{H.escape(r["label"])}</span></div>')
     v = (DATA if DATA is not None else PLANNING).get((r["id"], i))
     # Une nuit deborde sur la journee suivante. Pour qu elle ne masque rien,
@@ -438,6 +448,9 @@ tr:last-child td {{ border-bottom:1.43pt solid #0f172a; }}
    porte la nuit : jamais visible. */
 .absspacer {{ visibility:hidden; border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
 .absl {{ font-size:7.6pt; font-weight:800; letter-spacing:1.072pt; }}
+/* Renfort ponctuel dans une equipe : surligne pour ne pas l oublier. */
+.renfort {{ background:#fde047; color:#713f12; padding:0 1mm; border-radius:.6mm;
+           box-shadow:0 0 0 0.537pt #ca8a04; }}
 .job {{ line-height:1.2; }}
 .job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.537pt dashed #94a3b8; }}
 .jms {{ font-size:7.243pt; font-weight:800; color:#0f172a; }}

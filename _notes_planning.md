@@ -1430,6 +1430,13 @@ rien du mercredi au vendredi hors sa nuit, Pierre n'a que sa nuit.
 `RESSOURCES` propre**. Convention retenue : il figure **dans l'entête de l'équipe qu'il
 suit**, sous la forme « Wilson (stage) », via `NOMS_OVERRIDE`.
 
+**Son nom est surligné en jaune vif** dans l'entête (depuis le 08/10), pour qu'on ne puisse
+pas le manquer — ni l'oublier par inadvertance. Le mécanisme est générique : la constante
+`MISE_EN_EVIDENCE`, en tête de script à côté de `NOMS_OVERRIDE`, liste les noms à surligner.
+Y ajouter quelqu'un suffit à le faire ressortir partout, sur les deux pages du PDF. Le
+surlignage est volontairement contrasté (fond ambre, cerné d'un filet) pour rester visible
+**même imprimé en noir et blanc**.
+
 ⚠️ **Pourquoi l'entête et non une pastille** — contrairement à Mike Wilvers et Fabrice
 Gaspard, qui apparaissent en pastille « + Nom » sur une prestation : une pastille est
 attachée à un **chantier**, or Wilson suit des équipes dont **plusieurs journées n'ont
