@@ -1193,6 +1193,7 @@ Script `_modele_planning_s41.py`, copié de la S40. PDF
   - **Équipe 2 : JMS 675043** (Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche).
     **Le FH 44 ne tient donc plus que le lundi matin.**
 - **Mercredi 07/10** : **Équipe 2 sur le JMS 635054** (Feed-out Eupen FH01 — Raeren FH06).
+  _C@W passé de PANDA+ à **GO FIBER** le 08/10._
 - **Mercredi 07 et jeudi 08/10** : **Équipe 1 sur le JMS 685230** (Remplacement 12641
   WELK — DOL), C@W PANDA+. Bolmain est de retour, l'entête redevient « Bolmain Mickael /
   Petit Gauthier ». Ajouté le 06/10.
@@ -1341,6 +1342,17 @@ contenaient pour cette semaine :
 Jointage entre le 12 et le 16/10. Rien d'autre à reprendre. **Tout le reste de la semaine
 est grisé** : les deux équipes de soufflage n'ont rien, Johan et Pierre n'ont que leur nuit
 (et le HT1673A pour Johan).
+
+**08/10/2026 — Le JMS 635054 passe en GO FIBER.** Son code C@W était **PANDA+** depuis
+sa création le 05/10 ; il devient **GO FIBER** (`1Y102XHX3W2MZ`) sur ses **trois journées**
+(mercredi, jeudi et vendredi). Vérification faite à partir de la capture envoyée par
+Geoffrey : le code s'y affiche `1Y1-02XHX3W-2M-Z`, soit exactement la valeur déjà
+enregistrée. ⚠️ Chez le client il s'écrit **« GOFIBER »** en un mot, la liste porte
+**« GO FIBER »** en deux — sans incidence technique, mais c'est ce libellé qui s'imprime
+sur la page secrétariat. **Alignement à trancher.**
+
+**08/10/2026 — Vendredi 09/10 : l'Équipe 1 reste sur le JMS 685230** (Remplacement 12641
+WELK — DOL), comme le jeudi. Sa dernière case vide de la semaine est donc comblée.
 
 **08/10/2026 — jeudi :**
 

@@ -183,16 +183,19 @@ PLANNING = {
     # plus que le lundi matin.
     ("E2", 1): [J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
                   caw="PANDA+")],
-    ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
+    ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     # Jeudi 08/10 : Fabrice Gaspard rejoint l Equipe 2 sur le 635054. Il n a
     # pas de ligne RESSOURCES : il apparait en pastille de partage.
     ("E2", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
-                  "+ F. Gaspard", "commun", caw="PANDA+")],
+                  "+ F. Gaspard", "commun", caw="GO FIBER")],
+
+    # Vendredi 09/10 : l Equipe 1 reste sur le 685230, comme le jeudi.
+    ("E1", 4): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
 
     # Jeudi 08/10 : le magasinier sur le 682678 (BB NEURON).
     ("GA", 3): [J("682678", "BB NEURON — Nouveau BBN câble 61TLB-63LAV (part 2)",
                   caw="PANDA+")],
-    ("E2", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
+    ("E2", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en
     # EQUANS-CAMERA-CCTV. Johan enchaine la nuit du jeudi au vendredi sur le
