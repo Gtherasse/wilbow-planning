@@ -71,6 +71,7 @@ LIENS = {
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
     "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622268": "https://wilbow.monday.com/boards/5089236279/pulses/2924899531",
+    "682678": "https://wilbow.monday.com/boards/5089236279/pulses/3175334233",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
@@ -178,7 +179,14 @@ PLANNING = {
     ("E2", 1): [J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
                   caw="PANDA+")],
     ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
-    ("E2", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
+    # Jeudi 08/10 : Fabrice Gaspard rejoint l Equipe 2 sur le 635054. Il n a
+    # pas de ligne RESSOURCES : il apparait en pastille de partage.
+    ("E2", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+                  "+ F. Gaspard", "commun", caw="PANDA+")],
+
+    # Jeudi 08/10 : le magasinier sur le 682678 (BB NEURON).
+    ("GA", 3): [J("682678", "BB NEURON — Nouveau BBN câble 61TLB-63LAV (part 2)",
+                  caw="PANDA+")],
     ("E2", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="PANDA+")],
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en

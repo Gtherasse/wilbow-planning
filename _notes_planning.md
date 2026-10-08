@@ -1342,6 +1342,22 @@ Jointage entre le 12 et le 16/10. Rien d'autre à reprendre. **Tout le reste de 
 est grisé** : les deux équipes de soufflage n'ont rien, Johan et Pierre n'ont que leur nuit
 (et le HT1673A pour Johan).
 
+**08/10/2026 — jeudi :**
+
+- **Avenia Geoffrey sur le JMS 682678** (BB NEURON — Nouveau BBN câble 61TLB-63LAV, part 2),
+  C@W **PANDA+**. Il quitte donc le « Dépôt » par défaut pour ce jeudi.
+- **Fabrice Gaspard rejoint l'Équipe 2** sur le **JMS 635054**, le chantier de Miguel et Sam.
+  Comme Mike Wilvers, il n'a pas de ligne `RESSOURCES` : il apparaît en **pastille
+  « + F. Gaspard »** sur la ligne de l'Équipe 2. **Lui, en revanche, est bien encodé sur
+  Monday** — contrairement à Mike Wilvers, aucune règle ne l'en exclut.
+
+Monday.com mis à jour :
+
+- **3175334233** (682678) : Soufflage → **08/10**, **Geoffrey Avenia**. Les quatre colonnes
+  étaient vides.
+- **3262247942** (635054) : **Fabrice Gaspard ajouté** au Soufflage, à côté de Miguel et Sam.
+  La date reste au 07/10, premier jour de la série mercredi-jeudi-vendredi.
+
 ⚠️ **Dates Monday à occurrences multiples — la question reste ouverte.** Trois chantiers
 portent désormais deux passages à des dates différentes, et une colonne date n'en retient
 qu'un : le **622272/622268** (jour le 12/10, nuit le 15/10), le **675238** (jour le 13/10,
