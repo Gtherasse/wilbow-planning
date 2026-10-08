@@ -115,9 +115,15 @@ CODES = {
     "CATERPILLAR":        "1Y102SV8BK22Z",
 }
 
-# Aucune substitution d equipe cette semaine : les entetes restent ceux de
-# RESSOURCES.
-NOMS_OVERRIDE = {}
+# Wilson, etudiant en stage : il accompagne une equipe chaque jour. Il n a pas
+# de ligne RESSOURCES propre et figure donc dans l entete de celle qu il suit.
+NOMS_OVERRIDE = {
+    ("E1", 0): ["Bolmain Mickael", "Petit Gauthier", "Wilson (stage)"],
+    ("E1", 1): ["Bolmain Mickael", "Petit Gauthier", "Wilson (stage)"],
+    ("E1", 2): ["Bolmain Mickael", "Petit Gauthier", "Wilson (stage)"],
+    ("E2", 3): ["Dominguez Miguel", "Feller Sam", "Wilson (stage)"],
+    ("E2", 4): ["Dominguez Miguel", "Feller Sam", "Wilson (stage)"],
+}
 
 PLANNING = {
     # Le HT1673A du mardi 13/10 a ete annule le 07/10.

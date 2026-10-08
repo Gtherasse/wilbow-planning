@@ -118,6 +118,11 @@ CODES = {
 NOMS_OVERRIDE = {
     ("E1", 0): ["Petit Gauthier"],
     ("E1", 1): ["Petit Gauthier"],
+    # Wilson, etudiant en stage : il accompagne quelqu un chaque jour. Il n a
+    # pas de ligne RESSOURCES propre et figure donc dans l entete de la
+    # personne ou de l equipe qu il suit.
+    ("GA", 3): ["Avenia Geoffrey", "Wilson (stage)"],
+    ("E2", 4): ["Dominguez Miguel", "Feller Sam", "Wilson (stage)"],
 }
 
 PLANNING = {

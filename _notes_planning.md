@@ -1412,6 +1412,36 @@ rien du mercredi au vendredi hors sa nuit, Pierre n'a que sa nuit.
 
 ---
 
+## Wilson — étudiant en stage (arrivé le 08/10/2026)
+
+**Il accompagne chaque jour une personne ou une équipe**, et n'a donc **pas de ligne
+`RESSOURCES` propre**. Convention retenue : il figure **dans l'entête de l'équipe qu'il
+suit**, sous la forme « Wilson (stage) », via `NOMS_OVERRIDE`.
+
+⚠️ **Pourquoi l'entête et non une pastille** — contrairement à Mike Wilvers et Fabrice
+Gaspard, qui apparaissent en pastille « + Nom » sur une prestation : une pastille est
+attachée à un **chantier**, or Wilson suit des équipes dont **plusieurs journées n'ont
+encore aucun chantier confirmé** (l'Équipe 1 toute la S42, l'Équipe 2 les jeudi et
+vendredi). Une pastille n'y apparaîtrait pas du tout, alors que l'entête s'affiche
+toujours. **À me dire si tu préfères la pastille** une fois ces journées remplies.
+
+⚠️ **Nom de famille inconnu** — comme pour Andreï, la ligne affiche un prénom seul. Donne-le
+moi et je complète.
+
+Son planning :
+
+| Jour | Avec |
+|------|------|
+| Jeu 08/10 (S41) | **Avenia Geoffrey** (JMS 682678) |
+| Ven 09/10 (S41) | **Équipe 2** — Miguel et Sam (JMS 635054) |
+| Lun 12, mar 13, mer 14/10 (S42) | **Équipe 1** — Bolmain et Petit |
+| Jeu 15, ven 16/10 (S42) | **Équipe 2** — Miguel et Sam |
+
+**Rien n'est encodé sur Monday pour Wilson** : il n'a pas de compte utilisateur identifié
+sur le board. À me dire s'il faut l'ajouter aux colonnes Soufflage.
+
+---
+
 ## Rendez-vous à venir (à reprendre dans les semaines concernées)
 
 | Date | Semaine | Chantier | Qui | C@W | Monday |
