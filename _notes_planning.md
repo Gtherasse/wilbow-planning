@@ -1343,6 +1343,32 @@ Jointage entre le 12 et le 16/10. Rien d'autre à reprendre. **Tout le reste de 
 est grisé** : les deux équipes de soufflage n'ont rien, Johan et Pierre n'ont que leur nuit
 (et le HT1673A pour Johan).
 
+**09/10/2026 — corrections du jeudi et vendredi :**
+
+- **Mattiuz Pierre est MALADE le jeudi 08 et le vendredi 09/10.** Il perd donc le 4020
+  Leman/Digneffe du jeudi ainsi que la nuit, et sa RÉCUP du vendredi devient une MALADIE.
+  **Johan fait le Digneffe seul** (pastille « + P. Mattiuz » retirée).
+- **La nuit du jeudi 08 au vendredi 09/10 sur le PW pont de Tihange s'est faite avec
+  Panait Dan, et non Pierre.** Correction rétroactive : la nuit figure désormais sur la
+  ligne de Dan, en plus de son BTO de journée, et **Dan passe en RÉCUP le vendredi**.
+  Troisième changement d'équipier pour cette nuit : Mike Wilvers à l'origine, puis Pierre
+  le 06/10, et finalement Dan.
+- **Vendredi 09/10 : Dominguez Miguel absent** (motif retenu `ABSENT`, non précisé), et
+  **Feller Sam part en renfort de l'Équipe 1** sur le 685230. L'Équipe 2 est donc en
+  **ABSENT** ce jour-là, le 635054 ne tournant plus.
+- **Vendredi 09/10 : Avenia Geoffrey reste sur le 682678** (BB NEURON), **avec Wilson** —
+  qui quitte l'Équipe 2 initialement prévue pour accompagner le magasinier deux jours de
+  suite.
+
+Monday.com mis à jour :
+
+- **2725054102** (4020 Leman/Digneffe) : **Pierre retiré du Jointage**, Johan reste seul.
+- **3055683760** (685230) : **Feller Sam ajouté** au Soufflage, à côté de Bolmain et Petit.
+- **3175334233** (682678) : non modifié, le Soufflage est déjà au 08/10 avec Geoffrey —
+  premier des deux jours.
+- **PW pont de Tihange** : toujours aucun item Monday, le changement d'équipier n'y est donc
+  pas reflété.
+
 **08/10/2026 — Le JMS 635054 passe en GO FIBER.** Son code C@W était **PANDA+** depuis
 sa création le 05/10 ; il devient **GO FIBER** (`1Y102XHX3W2MZ`) sur ses **trois journées**
 (mercredi, jeudi et vendredi). Vérification faite à partir de la capture envoyée par

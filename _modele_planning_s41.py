@@ -126,7 +126,11 @@ NOMS_OVERRIDE = {
     # pas de ligne RESSOURCES propre et figure donc dans l entete de la
     # personne ou de l equipe qu il suit.
     ("GA", 3): ["Avenia Geoffrey", "Wilson (stage)"],
-    ("E2", 4): ["Dominguez Miguel", "Feller Sam", "Wilson (stage)"],
+    # Vendredi 09/10 : Miguel absent, Sam part en renfort de l Equipe 1 et
+    # Wilson accompagne le magasinier.
+    ("E2", 4): ["Dominguez Miguel"],
+    ("E1", 4): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
+    ("GA", 4): ["Avenia Geoffrey", "Wilson (stage)"],
 }
 
 PLANNING = {
@@ -196,30 +200,35 @@ PLANNING = {
     # Vendredi 09/10 : l Equipe 1 reste sur le 685230, comme le jeudi.
     ("E1", 4): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
 
-    # Jeudi 08/10 : le magasinier sur le 682678 (BB NEURON).
+    # Jeudi 08 et vendredi 09/10 : le magasinier sur le 682678 (BB NEURON).
     ("GA", 3): [J("682678", "BB NEURON — Nouveau BBN câble 61TLB-63LAV (part 2)",
                   caw="PANDA+")],
-    ("E2", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    ("GA", 4): [J("682678", "BB NEURON — Nouveau BBN câble 61TLB-63LAV (part 2)",
+                  caw="PANDA+")],
+    ("E2", 4): ABS("ABSENT"),
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en
     # EQUANS-CAMERA-CCTV. Johan enchaine la nuit du jeudi au vendredi sur le
     # PW pont de Tihange, avec Mike Wilvers (qui n a pas de ligne RESSOURCES).
+    # Pierre etant malade le jeudi, Johan fait le Digneffe seul et c est
+    # Panait Dan qui prend la nuit du PW pont de Tihange avec lui.
     ("JM", 3): [
-        X("4020 Leman/Digneffe CA120", "+ P. Mattiuz", "commun", url=DIGN,
-          caw="EQUANS-CAMERA-CCTV"),
-        X("PW pont de Tihange", "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
+        X("4020 Leman/Digneffe CA120", url=DIGN, caw="EQUANS-CAMERA-CCTV"),
+        X("PW pont de Tihange", "+ D. Panait", "commun", q=NUIT, caw="PANDA+"),
     ],
-    ("PM", 3): [
-        X("4020 Leman/Digneffe CA120", "+ J. Meurisse", "commun", url=DIGN,
-          caw="EQUANS-CAMERA-CCTV"),
-        X("PW pont de Tihange", "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
-    ],
+    # Jeudi 08 et vendredi 09/10 : Mattiuz Pierre malade.
+    ("PM", 3): ABS("MALADIE"),
+    ("PM", 4): ABS("MALADIE"),
     # Vendredi 09/10 : recuperation apres la nuit du jeudi au vendredi.
     ("JM", 4): ABS("RÉCUP"),
-    ("PM", 4): ABS("RÉCUP"),
 
-    # Dan, Florian et Andrei : BTO les cinq jours.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 2, 3, 4)},
+    # Dan : BTO, plus la nuit du jeudi avec Johan, puis recup le vendredi.
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 2)},
+    ("DP", 3): [
+        X("BTO", caw="BTO"),
+        X("PW pont de Tihange", "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
+    ],
+    ("DP", 4): ABS("RÉCUP"),
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
     # Andrei : BTO du lundi au jeudi, absent le vendredi 09/10 (motif a
     # confirmer).
