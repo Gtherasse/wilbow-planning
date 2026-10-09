@@ -144,10 +144,9 @@ PLANNING = {
     ],
 
     # Mardi 13/10 : Johan sur le 675238, a la place du HT1673A annule. Pierre
-    # reprend le 523547, son dernier chantier avant sa maladie du 07/10.
+    # passe sur le FH 44 Feed-in ; son 523547 est reporte au jeudi apres-midi.
     ("JM", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
-    ("PM", 1): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
-                  caw="PANDA+")],
+    ("PM", 1): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
 
     # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
     # Mattiuz Pierre. Deux JMS (622272 et 622268) pour un seul bloc de nuit :
@@ -169,6 +168,8 @@ PLANNING = {
     ("PM", 3): [
         J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",
           "+ J. Meurisse", "commun", q=MATIN, caw="PANDA+"),
+        J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+          q=AM, caw="PANDA+"),
         X("JMS 622272 · 622268 — BBN Fexhe", "+ J. Meurisse", "commun",
           url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
