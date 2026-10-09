@@ -1241,9 +1241,12 @@ Monday.com mis à jour :
 - **3055683760** (685230) : Soufflage → **07/10** (premier jour des deux), **Mickael Bolmain
   et Gauthier Petit**.
 - **3262247942** (635054) : Soufflage → **07/10**, **Miguel et Sam** (colonnes vides).
-- **2987923297** (523547) : Jointage → **06/10**, **Pierre Mattiuz** (colonnes vides ; la
-  date de Soufflage traînait au 19/06, laissée telle quelle — elle ne concerne pas ce
-  passage).
+- **2987923297** (523547) : Jointage posé au **06/10** avec **Pierre Mattiuz**, puis
+  **déplacé au 15/10** le 09/10, son nouveau passage. Le 06/10 étant déjà fait, la trace
+  perdue n'a pas de valeur opérationnelle. La date de Soufflage traîne toujours au 19/06,
+  laissée telle quelle — elle ne concerne aucun de ces passages.
+- **3241665311** (FH 44 Feed-in) : Jointage → **13/10**, **Pierre Mattiuz**. La colonne était
+  vide depuis le 28/09, quand Pierre avait quitté ce chantier.
 - **3006164733** (599588) : **Jointage → 06/10**. Johan y était déjà assigné, mais la
   colonne n'avait aucune date. Le Soufflage reste au 14/09, c'est un autre passage.
 - **3183700075** (622386) : **Soufflage vidé** — Gauthier y avait été mis le matin même pour
