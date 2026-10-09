@@ -1447,6 +1447,9 @@ Script `_modele_planning_s43.py`, copié de la S42. PDF
   Mike Wilvers n'ayant pas de ligne `RESSOURCES`, il apparaît en pastille « + M. Wilvers »
   sur la ligne de Johan, et **n'est pas encodé dans la colonne Jointage de Monday**
   (décision du mémo : il est au bureau, l'y mettre fausserait Rentabilité_Chantiers).
+- **Mardi 20/10** : **Équipe 2 sur le JMS 687759** (Zone de Police 5305 Des Arches — Rue de
+  la Papeterie 1, Andenne), C@W **PANDA+**. Ajouté le 09/10 ; c'est le premier chantier de
+  l'Équipe 2 de cette semaine.
 - **Nuit du jeudi 22 au vendredi 23/10 — JMS 675238** (BBN 12310B, Ciney-Jemelle) —
   **Johan et Pierre**, 22h00–06h00, PANDA+. Enregistrée le 05/10, intégrée ici.
 - **Dan, Florian et Andreï : BTO les cinq jours.**
@@ -1456,9 +1459,10 @@ Monday.com mis à jour :
 - **3211258684** (688836) : Jointage → **19/10**, **Meurisse Johan** (colonnes vides).
 - **3263534972** (690640) : Jointage → **20/10**, **Meurisse Johan** (colonnes vides).
 - Le **675238** portait déjà son Jointage au 22/10 avec Johan et Pierre, posé le 05/10.
+- **3208811718** (687759) : Soufflage → **20/10**, **Miguel et Sam** (colonnes vides).
 
-**Reste à compléter** : les deux équipes de soufflage n'ont rien de la semaine, Johan n'a
-rien du mercredi au vendredi hors sa nuit, Pierre n'a que sa nuit.
+**Reste à compléter** : l'Équipe 1 n'a rien de la semaine, l'Équipe 2 rien hors le mardi,
+Johan rien du mercredi au vendredi hors sa nuit, Pierre n'a que sa nuit.
 
 ---
 

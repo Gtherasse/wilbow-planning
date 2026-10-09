@@ -61,6 +61,7 @@ LIENS = {
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
     "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
+    "687759": "https://wilbow.monday.com/boards/5089236279/pulses/3208811718",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
     "586382": "https://wilbow.monday.com/boards/5089236279/pulses/2987797757",
     "656373": "https://wilbow.monday.com/boards/5089236279/pulses/2987894869",
@@ -125,6 +126,10 @@ PLANNING = {
                   "+ M. Wilvers", "commun", caw="PANDA+")],
     ("JM", 1): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
                   "+ M. Wilvers", "commun", caw="PANDA+")],
+
+    # Mardi 20/10 : l Equipe 2 sur le 687759 (Zone de Police, Andenne).
+    ("E2", 1): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
+                  caw="PANDA+")],
 
     # Nuit du jeudi 22 au vendredi 23/10 : JMS 675238 (BBN 12310B,
     # Ciney-Jemelle), Meurisse Johan et Mattiuz Pierre.
