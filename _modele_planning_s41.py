@@ -126,10 +126,9 @@ NOMS_OVERRIDE = {
     # pas de ligne RESSOURCES propre et figure donc dans l entete de la
     # personne ou de l equipe qu il suit.
     ("GA", 3): ["Avenia Geoffrey", "Wilson (stage)"],
-    # Vendredi 09/10 : Miguel absent, Sam part en renfort de l Equipe 1 et
-    # Wilson accompagne le magasinier.
-    ("E2", 4): ["Dominguez Miguel"],
-    ("E1", 4): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
+    # Vendredi 09/10 : Wilson accompagne le magasinier. L entete de l Equipe 2
+    # reste "Miguel / Sam" : Miguel est absent, mais son absence est portee
+    # nominativement dans la case, Sam y travaillant avec Fabrice Gaspard.
     ("GA", 4): ["Avenia Geoffrey", "Wilson (stage)"],
 }
 
@@ -205,7 +204,13 @@ PLANNING = {
                   caw="PANDA+")],
     ("GA", 4): [J("682678", "BB NEURON — Nouveau BBN câble 61TLB-63LAV (part 2)",
                   caw="PANDA+")],
-    ("E2", 4): ABS("ABSENT"),
+    # Vendredi 09/10 : Feller Sam et Fabrice Gaspard sur le 635054. Miguel est
+    # absent : son absence est nominative, pour que la case reste utilisable.
+    ("E2", 4): [
+        J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+          "+ F. Gaspard", "commun", caw="GO FIBER"),
+        A("ABSENT", q="M. Dominguez"),
+    ],
 
     # Jeudi 08/10 : Johan et Pierre sur le 4020 Leman/Digneffe CA120, en
     # EQUANS-CAMERA-CCTV. Johan enchaine la nuit du jeudi au vendredi sur le

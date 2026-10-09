@@ -1353,9 +1353,18 @@ est grisé** : les deux équipes de soufflage n'ont rien, Johan et Pierre n'ont 
   ligne de Dan, en plus de son BTO de journée, et **Dan passe en RÉCUP le vendredi**.
   Troisième changement d'équipier pour cette nuit : Mike Wilvers à l'origine, puis Pierre
   le 06/10, et finalement Dan.
-- **Vendredi 09/10 : Dominguez Miguel absent** (motif retenu `ABSENT`, non précisé), et
-  **Feller Sam part en renfort de l'Équipe 1** sur le 685230. L'Équipe 2 est donc en
-  **ABSENT** ce jour-là, le 635054 ne tournant plus.
+- **Vendredi 09/10 : Dominguez Miguel absent** (motif retenu `ABSENT`, non précisé).
+  ~~Feller Sam en renfort de l'Équipe 1~~ → **corrigé dans la foulée : Sam reste sur le
+  JMS 635054, avec Fabrice Gaspard.**
+
+  **Nouveau procédé pour cette case** : l'Équipe 2 garde son entête « Dominguez Miguel /
+  Feller Sam », porte le **635054 avec la pastille « + F. Gaspard »**, et l'absence de
+  Miguel y figure **nominativement** sous la forme « M. Dominguez — ABSENT », grâce à
+  `A("ABSENT", q="M. Dominguez")`. C'est le rendu « absence nominative » déjà présent dans
+  le moteur mais jamais utilisé jusqu'ici. Il évite d'avoir à choisir entre afficher le
+  chantier **ou** l'absence : **une seule case porte les deux**, ce qui n'était pas
+  possible avec un `ABS()` pleine case. À réutiliser chaque fois qu'un seul membre d'une
+  équipe manque.
 - **Vendredi 09/10 : Avenia Geoffrey reste sur le 682678** (BB NEURON), **avec Wilson** —
   qui quitte l'Équipe 2 initialement prévue pour accompagner le magasinier deux jours de
   suite.
@@ -1363,7 +1372,10 @@ est grisé** : les deux équipes de soufflage n'ont rien, Johan et Pierre n'ont 
 Monday.com mis à jour :
 
 - **2725054102** (4020 Leman/Digneffe) : **Pierre retiré du Jointage**, Johan reste seul.
-- **3055683760** (685230) : **Feller Sam ajouté** au Soufflage, à côté de Bolmain et Petit.
+- **3055683760** (685230) : Feller Sam y avait été ajouté au Soufflage, puis **retiré** dans
+  la foulée — il reste sur le 635054. Le Soufflage porte donc de nouveau Bolmain et Petit.
+- **3262247942** (635054) : non modifié. Miguel, Sam et Fabrice y figurent déjà au Soufflage,
+  et la date reste au 07/10, premier jour de la série.
 - **3175334233** (682678) : non modifié, le Soufflage est déjà au 08/10 avec Geoffrey —
   premier des deux jours.
 - **PW pont de Tihange** : toujours aucun item Monday, le changement d'équipier n'y est donc
