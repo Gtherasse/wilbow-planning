@@ -1314,6 +1314,10 @@ contenaient pour cette semaine :
   communiqué, aucun item Monday sous cette référence malgré trois recherches — **deviennent
   sans objet**. Rien n'avait été encodé sur Monday, il n'y a donc rien à y défaire. Son
   historique : annoncé le 25/09 pour le 06/10, reporté au 13/10 le 30/09, annulé le 07/10.
+- **Lundi 12, mardi 13 et mercredi 14/10** : **Équipe 1 sur le JMS 685230** (Remplacement
+  12641 WELK — DOL), **poursuite de son chantier de la S41**. C@W PANDA+. Ajouté le 11/10.
+- **Lundi 12/10** : **Équipe 2 sur le JMS 656346** (FMROP C/312 — Rue Trou du Loup 254,
+  Ohey), C@W **PANDA+**. Ajouté le 11/10.
 - **Lundi 12/10** : **Johan et Pierre sur les JMS 622272 et 622268** (BBN Fexhe), le
   chantier de Johan du mercredi 07/10. C@W PANDA+. Ils y reviennent **de nuit le jeudi
   15/10**.
@@ -1466,6 +1470,10 @@ Monday.com mis à jour :
 - **3263534972** (690640) : Jointage → **20/10**, **Meurisse Johan** (colonnes vides).
 - Le **675238** portait déjà son Jointage au 22/10 avec Johan et Pierre, posé le 05/10.
 - **3208811718** (687759) : Soufflage → **20/10**, **Miguel et Sam** (colonnes vides).
+- **3012484645** (656346) : Soufflage → **12/10**, **Miguel et Sam** (colonnes vides).
+- **3055683760** (685230) : Soufflage **laissé au 07/10**, premier jour de la série qui
+  court désormais du 07 au 14/10 — Bolmain et Petit y figurent déjà.
+
 - **3029422694** (682463) : Soufflage → **22/10** (premier des deux jours), **Miguel et
   Sam**.
 

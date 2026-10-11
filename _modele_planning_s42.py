@@ -61,6 +61,7 @@ LIENS = {
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "688116": "https://wilbow.monday.com/boards/5089236279/pulses/3206269235",
     "683464": "https://wilbow.monday.com/boards/5089236279/pulses/3195329407",
+    "656346": "https://wilbow.monday.com/boards/5089236279/pulses/3012484645",
     "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622268": "https://wilbow.monday.com/boards/5089236279/pulses/2924899531",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
@@ -173,6 +174,15 @@ PLANNING = {
         X("JMS 622272 · 622268 — BBN Fexhe", "+ J. Meurisse", "commun",
           url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
+
+    # Lundi 12, mardi 13 et mercredi 14/10 : l Equipe 1 poursuit le 685230,
+    # son chantier de la semaine precedente.
+    ("E1", 0): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    ("E1", 1): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+
+    # Lundi 12/10 : l Equipe 2 sur le 656346 (FMROP C/312, Ohey).
+    ("E2", 0): [J("656346", "FMROP C/312 — Rue Trou du Loup 254, Ohey", caw="PANDA+")],
 
     # Mardi 13/10 : l Equipe 2 sur le 683464 (GB BUILD, Neupre).
     ("E2", 1): [J("683464", "GB BUILD — Route du Condroz 211, Neupré", caw="PANDA+")],
