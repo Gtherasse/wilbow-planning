@@ -1439,8 +1439,44 @@ Monday.com mis à jour :
   Monday les porte sans conflit puisqu'il s'agit de deux colonnes distinctes. Sa date précédente
   (29/09) correspondait à un passage déjà effectué : l'écraser ne perd aucune information.
 
-**L'absence de Mickael Bolmain est terminée** (1, 2, 5 et 6 octobre) : aucune substitution
-d'équipe cette semaine, `NOMS_OVERRIDE` est vide.
+**L'absence de Mickael Bolmain est terminée** (1, 2, 5 et 6 octobre). ~~Aucune substitution
+d'équipe cette semaine, `NOMS_OVERRIDE` est vide.~~ — **périmé le 11/10**, voir ci-dessous.
+
+**11/10/2026 — Petit Gauthier blessé, Hanikenne Florian le remplace lundi et mardi :**
+
+- **Gauthier Petit est BLESSÉ les lundi 12 et mardi 13/10.** Nouveau motif `BLESSÉ` ajouté
+  à `ABS_STYLE` (rouge, même famille que `MALADIE`). Il est affiché **nominativement**
+  dans la case de l'Équipe 1 (`A("BLESSÉ", q="G. Petit")`) : la case garde donc à la fois
+  le chantier et l'absence, comme pour Miguel le 09/10.
+- **Hanikenne Florian prend sa place en Équipe 1** le lundi et le mardi
+  (`NOMS_OVERRIDE` sur `("E1", 0)` et `("E1", 1)` → Bolmain · Hanikenne · Wilson). Sa
+  propre ligne porte **« → ÉQUIPE 1 »** ces deux jours ; il **reste en BTO** du mercredi
+  au vendredi.
+- **Gauthier revient le mercredi 14/10**, l'Équipe 1 reprend sa composition normale.
+  Rien n'a été modifié pour jeudi et vendredi : en l'absence d'indication, sa blessure est
+  supposée terminée. **À me confirmer si elle se prolonge.**
+- **Monday.com mis à jour** (Soufflage uniquement, BTO jamais touché) :
+  - `656374` (12/10) — Soufflage : Bolmain + **Hanikenne**, Petit retiré.
+  - `685230` (13 et 14/10) — Soufflage : Bolmain + **Hanikenne + Petit**. Le chantier
+    court sur deux jours avec deux compositions différentes et la colonne ne porte qu'une
+    seule date : les **trois** personnes qui y passent réellement y sont encodées, pour
+    que la rentabilité du chantier reste juste. **À valider** — c'est le même point que la
+    convention de date en suspens pour les chantiers multi-jours.
+- **Densité** : l'ajout de la ligne « G. Petit — BLESSÉ » a fait dépasser la page 1
+  (`Contenu trop dense pour une page`). Toutes les tailles en `pt` du CSS du script S42 ont
+  été **réduites de 5 %** (44 valeurs). Les deux pages passent à nouveau, hauteurs de ligne
+  12.6 mm et 14.5 mm, aucun contenu coupé (vérifié visuellement sur les deux pages).
+
+**Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
+Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
+`.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
+silencieusement** la propriété : l'interlettrage est donc désactivé sur `.title .wk`, le
+badge, `th.day`, `.rlabel` et `.rtag`. Le `git diff` prouve que ces valeurs sont
+**antérieures** à la réduction de 5 % du 11/10 — elles viennent du défaut du 09/09 et se
+sont propagées par copie S39 → S40 → S41 → S42 → S43. **Non corrigé, en attente de ta
+validation** : la correction consiste à rétablir des valeurs saines (`.04em` par exemple)
+dans les trois scripts actifs, ce qui **modifiera légèrement le rendu** des titres et
+entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
