@@ -62,6 +62,7 @@ LIENS = {
     "688116": "https://wilbow.monday.com/boards/5089236279/pulses/3206269235",
     "683464": "https://wilbow.monday.com/boards/5089236279/pulses/3195329407",
     "656346": "https://wilbow.monday.com/boards/5089236279/pulses/3012484645",
+    "656374": "https://wilbow.monday.com/boards/5089236279/pulses/2987817331",
     "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622268": "https://wilbow.monday.com/boards/5089236279/pulses/2924899531",
     "680608": "https://wilbow.monday.com/boards/5089236279/pulses/3181043528",
@@ -175,9 +176,9 @@ PLANNING = {
           url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
 
-    # Lundi 12, mardi 13 et mercredi 14/10 : l Equipe 1 poursuit le 685230,
-    # son chantier de la semaine precedente.
-    ("E1", 0): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    # Lundi 12/10 : l Equipe 1 sur le 656374 (FMROP C/304, Ohey). Elle reprend
+    # le 685230, son chantier de la semaine precedente, les mardi et mercredi.
+    ("E1", 0): [J("656374", "FMROP C/304 — Rue Bois d'Ohey 295, Ohey", caw="PANDA+")],
     ("E1", 1): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
     ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
 

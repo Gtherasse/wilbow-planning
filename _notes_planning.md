@@ -1314,8 +1314,10 @@ contenaient pour cette semaine :
   communiqué, aucun item Monday sous cette référence malgré trois recherches — **deviennent
   sans objet**. Rien n'avait été encodé sur Monday, il n'y a donc rien à y défaire. Son
   historique : annoncé le 25/09 pour le 06/10, reporté au 13/10 le 30/09, annulé le 07/10.
-- **Lundi 12, mardi 13 et mercredi 14/10** : **Équipe 1 sur le JMS 685230** (Remplacement
-  12641 WELK — DOL), **poursuite de son chantier de la S41**. C@W PANDA+. Ajouté le 11/10.
+- **Lundi 12/10** : **Équipe 1 sur le JMS 656374** (FMROP C/304 — Rue Bois d'Ohey 295,
+  Ohey), C@W **PANDA+**. Correction du 11/10 : le 685230 y avait d'abord été porté.
+- **Mardi 13 et mercredi 14/10** : **Équipe 1 sur le JMS 685230** (Remplacement 12641
+  WELK — DOL), **poursuite de son chantier de la S41**. C@W PANDA+.
 - **Lundi 12/10** : **Équipe 2 sur le JMS 656346** (FMROP C/312 — Rue Trou du Loup 254,
   Ohey), C@W **PANDA+**. Ajouté le 11/10.
 - **Lundi 12/10** : **Johan et Pierre sur les JMS 622272 et 622268** (BBN Fexhe), le
@@ -1471,8 +1473,9 @@ Monday.com mis à jour :
 - Le **675238** portait déjà son Jointage au 22/10 avec Johan et Pierre, posé le 05/10.
 - **3208811718** (687759) : Soufflage → **20/10**, **Miguel et Sam** (colonnes vides).
 - **3012484645** (656346) : Soufflage → **12/10**, **Miguel et Sam** (colonnes vides).
-- **3055683760** (685230) : Soufflage **laissé au 07/10**, premier jour de la série qui
-  court désormais du 07 au 14/10 — Bolmain et Petit y figurent déjà.
+- **2987817331** (656374) : Soufflage → **12/10**, **Bolmain et Petit** (colonnes vides).
+- **3055683760** (685230) : Soufflage → **13/10**, premier jour de sa reprise. Il était au
+  07/10 pour le passage de la S41, déjà effectué — Bolmain et Petit y figurent déjà.
 
 - **3029422694** (682463) : Soufflage → **22/10** (premier des deux jours), **Miguel et
   Sam**.
