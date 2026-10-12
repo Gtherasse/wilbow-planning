@@ -1490,6 +1490,33 @@ les deux, fusionné en une seule ligne sur la page Check in @ Work.
 Hanikenne, que j'y avais mis la veille quand le chantier était encore à l'Équipe 1, en ont
 été retirés.
 
+**12/10/2026 — réorganisation du mardi, du mercredi et de la nuit :**
+
+- **Mardi 13/10 — Équipe 1 sur le 683464** (GB BUILD, Route du Condroz 211, Neupré),
+  repris à l'Équipe 2. Elle **retrouve le 685230 le mercredi** : son chantier n'est donc
+  plus continu sur les trois jours. Gauthier reste BLESSÉ, Florian toujours à sa place.
+- **Mardi 13/10 — Équipe 2 poursuit les deux chantiers d'Ohey du lundi** (656346 et
+  656374).
+- **Mercredi 14/10 — Équipe 2 sur le 635054** (Feed-out Eupen FH01 — Raeren FH06), C@W
+  **GO FIBER**. Le **BTO** qu'elle avait ce jour-là **passe à Avenia Geoffrey avec Fabrice
+  Gaspard** (pastille « + F. Gaspard » : Fabrice n'a pas de ligne RESSOURCES).
+- **Nuit du jeudi 15 au vendredi 16/10 — BBN Fexhe : Johan avec M. Wilvers, Pierre
+  retiré.** Sa case du vendredi redevient grise. **Hypothèse d'interprétation à
+  confirmer** : la consigne parlait du « PW de jeudi à vendredi », or **aucun PW ne figure
+  en S42** — le seul élément jeudi→vendredi est cette nuit BBN Fexhe (le PW pont de
+  Tihange était en S41, nuit du 08 au 09/10, déjà passée). Si tu visais autre chose,
+  dis-le-moi et je rectifie.
+- **Monday.com** :
+  - `683464` — Soufflage 13/10 → **Bolmain + Hanikenne** (Dominguez et Feller retirés).
+    Sa colonne Jointage (Johan, 15/10) n'a pas bougé.
+  - `635054` — Soufflage : date **07/10 → 14/10**. Les trois personnes déjà encodées
+    (Dominguez, Feller, Gaspard) ont été **conservées** : toutes y sont réellement
+    passées, la date écrasée correspondant à un passage déjà effectué. **À valider.**
+  - `622272` et `622268` — Jointage de la nuit du 15/10 : **Pierre Mattiuz retiré**, Johan
+    seul. Mike Wilvers n'y est pas encodé, conformément à la règle.
+  - `656346` et `656374` inchangés (déjà Dominguez + Feller au 12/10, le chantier
+    s'étendant simplement au mardi).
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore

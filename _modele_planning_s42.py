@@ -166,7 +166,7 @@ PLANNING = {
         J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",
           "+ P. Mattiuz", "commun", q=MATIN, caw="PANDA+"),
         J("683464", "GB BUILD — Route du Condroz 211, Neupré", q=AM, caw="PANDA+"),
-        X("JMS 622272 · 622268 — BBN Fexhe", "+ P. Mattiuz", "commun",
+        X("JMS 622272 · 622268 — BBN Fexhe", "+ M. Wilvers", "commun",
           url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
     ("PM", 3): [
@@ -174,8 +174,6 @@ PLANNING = {
           "+ J. Meurisse", "commun", q=MATIN, caw="PANDA+"),
         J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
           q=AM, caw="PANDA+"),
-        X("JMS 622272 · 622268 — BBN Fexhe", "+ J. Meurisse", "commun",
-          url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
 
     # Lundi 12/10 : l Equipe 1 reprend des le lundi le 685230, son chantier de la
@@ -185,8 +183,10 @@ PLANNING = {
         J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+"),
         A("BLESSÉ", q="G. Petit"),
     ],
+    # Mardi 13/10 : l Equipe 1 passe sur le 683464 (GB BUILD, Neupre), repris a
+    # l Equipe 2. Elle retrouve le 685230 le mercredi.
     ("E1", 1): [
-        J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+"),
+        J("683464", "GB BUILD — Route du Condroz 211, Neupré", caw="PANDA+"),
         A("BLESSÉ", q="G. Petit"),
     ],
     ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
@@ -201,11 +201,16 @@ PLANNING = {
     # Lundi 12/10 : Avenia Geoffrey absent.
     ("GA", 0): ABS("ABSENT"),
 
-    # Mardi 13/10 : l Equipe 2 sur le 683464 (GB BUILD, Neupre).
-    ("E2", 1): [J("683464", "GB BUILD — Route du Condroz 211, Neupré", caw="PANDA+")],
+    # Mardi 13/10 : l Equipe 2 poursuit les deux chantiers d Ohey du lundi.
+    ("E2", 1): [
+        J("656346", "FMROP C/312 — Rue Trou du Loup 254, Ohey", caw="PANDA+"),
+        J("656374", "FMROP C/304 — Rue Bois d'Ohey 295, Ohey", caw="PANDA+"),
+    ],
 
-    # Mercredi 14/10 : l Equipe 2 en BTO.
-    ("E2", 2): [X("BTO", caw="BTO")],
+    # Mercredi 14/10 : l Equipe 2 sur le 635054 (Feed-out Eupen). Le BTO qu elle
+    # avait ce jour-la passe a Avenia Geoffrey avec Fabrice Gaspard.
+    ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    ("GA", 2): [X("BTO", "+ F. Gaspard", "commun", caw="BTO")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
