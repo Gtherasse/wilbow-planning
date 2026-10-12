@@ -191,8 +191,12 @@ PLANNING = {
     ],
     ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
 
-    # Lundi 12/10 : l Equipe 2 sur le 656346 (FMROP C/312, Ohey).
-    ("E2", 0): [J("656346", "FMROP C/312 — Rue Trou du Loup 254, Ohey", caw="PANDA+")],
+    # Lundi 12/10 : l Equipe 2 sur le 656346 (FMROP C/312, Ohey) ET sur le 656374
+    # (FMROP C/304, Ohey) libere par l Equipe 1. Deux chantiers voisins.
+    ("E2", 0): [
+        J("656346", "FMROP C/312 — Rue Trou du Loup 254, Ohey", caw="PANDA+"),
+        J("656374", "FMROP C/304 — Rue Bois d'Ohey 295, Ohey", caw="PANDA+"),
+    ],
 
     # Lundi 12/10 : Avenia Geoffrey absent.
     ("GA", 0): ABS("ABSENT"),

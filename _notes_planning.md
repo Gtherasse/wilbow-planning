@@ -1481,12 +1481,14 @@ d'équipe cette semaine, `NOMS_OVERRIDE` est vide.~~ — **périmé le 11/10**, 
   simplement reporté, il faudra au contraire **retirer Bolmain et Hanikenne** et libérer
   la date du 12/10 que j'y avais mise hier.
 
-**Question en suspens — Équipe 2 du lundi 12/10.** Consigne reçue : « pour l'équipe 2 tu
-peux ajouter avec le jms existant pour ce lundi : 656346 ». Or **le 656346 est déjà le
-chantier de l'Équipe 2 ce lundi** — rien n'a donc été ajouté, en attente de précision.
-Hypothèse la plus probable : il s'agit du **656374** libéré par l'Équipe 1, à ajouter à
-côté du 656346. Les deux chantiers sont voisins (Ohey, FMROP C/312 et C/304), ce qui rend
-le regroupement cohérent. **Non appliqué sans confirmation.**
+**Équipe 2 du lundi 12/10 — tranché le 12/10 : les deux chantiers.** La consigne « ajouter
+avec le jms existant : 656346 » était ambiguë, le 656346 étant déjà le chantier du lundi.
+Geoffrey a confirmé : l'Équipe 2 porte **le 656346 ET le 656374** ce lundi — deux FMROP
+voisins à Ohey (C/312 Rue Trou du Loup 254 et C/304 Rue Bois d'Ohey 295). C@W PANDA+ pour
+les deux, fusionné en une seule ligne sur la page Check in @ Work.
+**Monday.com** : Soufflage du **656374** → **Dominguez + Feller au 12/10** ; Bolmain et
+Hanikenne, que j'y avais mis la veille quand le chantier était encore à l'Équipe 1, en ont
+été retirés.
 
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
