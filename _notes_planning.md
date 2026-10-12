@@ -1532,6 +1532,18 @@ Hanikenne, que j'y avais mis la veille quand le chantier était encore à l'Équ
 - **« C'est bon pour les PW »** — l'interprétation de la nuit du 15 au 16/10 (BBN Fexhe,
   Johan + M. Wilvers, Pierre retiré) est **confirmée par Geoffrey**.
 
+**12/10/2026 — Johan reste sur ses dossiers du lundi le mardi 13/10 :**
+
+- **Johan porte le 622272 et le 622268** (BBN Fexhe) le mardi, à la suite du lundi.
+  Le **675238** (BBN 12310B, Ciney-Jemelle) qui y était prévu **est retiré**.
+- **Pas de pastille « + P. Mattiuz » le mardi** : Pierre est sur le FH 44 Feed-in ce
+  jour-là, Johan est donc seul sur ces deux dossiers. **À me corriger si Pierre y est
+  aussi.**
+- **Monday.com — rien à modifier.** Le Jointage du `675238` est daté du **22/10** (la nuit
+  de la S43 avec Johan et Pierre) : supprimer son passage du 13/10 n'y touche pas. Le
+  Jointage du `622272` et du `622268` reste daté du 15/10, nuit comprise — même point de
+  convention multi-occurrences, toujours en suspens.
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore

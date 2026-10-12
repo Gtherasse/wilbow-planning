@@ -147,9 +147,13 @@ PLANNING = {
         J("622268", "IS MP — Câble définitif branche 12352", "+ J. Meurisse", "commun", caw="PANDA+"),
     ],
 
-    # Mardi 13/10 : Johan sur le 675238, a la place du HT1673A annule. Pierre
-    # passe sur le FH 44 Feed-in ; son 523547 est reporte au jeudi apres-midi.
-    ("JM", 1): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    # Mardi 13/10 : Johan poursuit ses deux dossiers du lundi (BBN Fexhe). Le
+    # 675238 qui etait prevu ce jour-la est retire. Pierre passe sur le FH 44
+    # Feed-in ; son 523547 est reporte au jeudi apres-midi.
+    ("JM", 1): [
+        J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+"),
+        J("622268", "IS MP — Câble définitif branche 12352", caw="PANDA+"),
+    ],
     ("PM", 1): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
 
     # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
