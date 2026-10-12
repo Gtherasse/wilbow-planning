@@ -190,6 +190,9 @@ PLANNING = {
         A("BLESSÉ", q="G. Petit"),
     ],
     ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    # Jeudi 15 et vendredi 16/10 : l Equipe 1 reste sur le 685230.
+    ("E1", 3): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    ("E1", 4): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
 
     # Lundi 12/10 : l Equipe 2 sur le 656346 (FMROP C/312, Ohey) ET sur le 656374
     # (FMROP C/304, Ohey) libere par l Equipe 1. Deux chantiers voisins.
@@ -210,6 +213,9 @@ PLANNING = {
     # Mercredi 14/10 : l Equipe 2 sur le 635054 (Feed-out Eupen). Le BTO qu elle
     # avait ce jour-la passe a Avenia Geoffrey avec Fabrice Gaspard.
     ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    # Jeudi 15 et vendredi 16/10 : l Equipe 2 reste sur le 635054.
+    ("E2", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    ("E2", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("GA", 2): [X("BTO", "+ F. Gaspard", "commun", caw="BTO")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.

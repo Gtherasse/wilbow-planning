@@ -1517,6 +1517,21 @@ Hanikenne, que j'y avais mis la veille quand le chantier était encore à l'Équ
   - `656346` et `656374` inchangés (déjà Dominguez + Feller au 12/10, le chantier
     s'étendant simplement au mardi).
 
+**12/10/2026 — fin de semaine complétée (jeudi 15 et vendredi 16/10) :**
+
+- **Équipe 1 sur le 685230** (Remplacement 12641 WELK — DOL) les deux jours. Elle le fait
+  donc lundi, mercredi, jeudi et vendredi ; seul le mardi coupe (683464). Gauthier Petit
+  y figure normalement : sa blessure n'était signalée que pour lundi et mardi.
+- **Équipe 2 sur le 635054** (Feed-out Eupen FH01 — Raeren FH06, C@W **GO FIBER**) les
+  deux jours, à la suite du mercredi. Wilson reste affiché avec elle jeudi et vendredi.
+- **Plus aucune case grisée pour les deux équipes de soufflage** sur la semaine.
+- **Monday.com — rien à modifier** : le Soufflage du `685230` est déjà daté du 12/10 et
+  celui du `635054` du 14/10, chacun au premier jour de son chantier. Les personnes
+  encodées sont inchangées. C'est le **point de convention toujours en suspens** : un
+  chantier étalé sur plusieurs jours n'est porté qu'à une seule date.
+- **« C'est bon pour les PW »** — l'interprétation de la nuit du 15 au 16/10 (BBN Fexhe,
+  Johan + M. Wilvers, Pierre retiré) est **confirmée par Geoffrey**.
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
