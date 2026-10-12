@@ -1615,9 +1615,19 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**12/10/2026 — Bolmain Mickael en CONGÉ le lundi 19/10.** Affiché en **absence
+nominative** (`A("CONGÉ", q="M. Bolmain")`) dans la case de l'Équipe 1 : Gauthier Petit
+reste disponible, la case n'est donc pas barrée en entier. L'Équipe 1 n'ayant aucun
+chantier confirmé ce jour-là, la case ne porte que cette ligne.
+**Rien à faire sur Monday.com** : une absence sans chantier n'y est pas encodée.
+**Un seul jour a été traité** — si le congé se prolonge sur la semaine, dis-le-moi.
+
 ---
 
 ## Absences à venir (à reprendre dans les semaines concernées)
+
+- **Mickael Bolmain en CONGÉ le lundi 19/10/2026** (semaine 43) — déjà porté au script
+  S43 le 12/10. Durée au-delà de ce lundi non précisée.
 
 - **Mickael Bolmain absent les 1, 2, 5 et 6 octobre 2026**
   (jeudi 01/10 + vendredi 02/10 = fin de la semaine 40 ; lundi 05/10 + mardi 06/10 =

@@ -128,6 +128,10 @@ PLANNING = {
     ("JM", 1): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
                   "+ M. Wilvers", "commun", caw="PANDA+")],
 
+    # Lundi 19/10 : Bolmain Mickael en conge. Absence nominative : Gauthier Petit
+    # reste disponible, la case de l Equipe 1 n est donc pas barree en entier.
+    ("E1", 0): [A("CONGÉ", q="M. Bolmain")],
+
     # Mardi 20/10 : l Equipe 2 sur le 687759 (Zone de Police, Andenne).
     ("E2", 1): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
                   caw="PANDA+")],
