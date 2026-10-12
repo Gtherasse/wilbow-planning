@@ -1467,6 +1467,27 @@ d'équipe cette semaine, `NOMS_OVERRIDE` est vide.~~ — **périmé le 11/10**, 
   été **réduites de 5 %** (44 valeurs). Les deux pages passent à nouveau, hauteurs de ligne
   12.6 mm et 14.5 mm, aucun contenu coupé (vérifié visuellement sur les deux pages).
 
+**12/10/2026 — corrections du lundi 12/10 :**
+
+- **Équipe 1 — le 685230 remplace le 656374 dès le lundi.** L'équipe fait donc le
+  **même chantier lundi, mardi et mercredi** (Remplacement 12641 WELK — DOL). Le 656374
+  (FMROP C/304, Ohey) **sort du planning** — il n'est attribué à personne pour l'instant.
+- **Avenia Geoffrey est ABSENT le lundi 12/10** (motif non précisé). Sa case passe de
+  « Dépôt » à `ABS("ABSENT")`. Aucun item Monday concerné : le magasinier n'est pas encodé.
+- **Monday.com** : la date de **Soufflage du 685230 passe du 13 au 12/10** (début réel du
+  chantier) ; les trois personnes (Bolmain, Hanikenne, Petit) restent encodées.
+  **Le 656374 n'a volontairement pas été touché** — voir la question en suspens juste
+  en dessous : s'il revient à l'Équipe 2, la date et les personnes changeront ; s'il est
+  simplement reporté, il faudra au contraire **retirer Bolmain et Hanikenne** et libérer
+  la date du 12/10 que j'y avais mise hier.
+
+**Question en suspens — Équipe 2 du lundi 12/10.** Consigne reçue : « pour l'équipe 2 tu
+peux ajouter avec le jms existant pour ce lundi : 656346 ». Or **le 656346 est déjà le
+chantier de l'Équipe 2 ce lundi** — rien n'a donc été ajouté, en attente de précision.
+Hypothèse la plus probable : il s'agit du **656374** libéré par l'Équipe 1, à ajouter à
+côté du 656346. Les deux chantiers sont voisins (Ohey, FMROP C/312 et C/304), ce qui rend
+le regroupement cohérent. **Non appliqué sans confirmation.**
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore

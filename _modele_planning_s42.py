@@ -178,10 +178,11 @@ PLANNING = {
           url=FEXHE, q=NUIT, caw="PANDA+"),
     ],
 
-    # Lundi 12/10 : l Equipe 1 sur le 656374 (FMROP C/304, Ohey). Elle reprend
-    # le 685230, son chantier de la semaine precedente, les mardi et mercredi.
+    # Lundi 12/10 : l Equipe 1 reprend des le lundi le 685230, son chantier de la
+    # semaine precedente, et le garde jusqu au mercredi (correction du 12/10 :
+    # le 656374 qui y figurait est retire).
     ("E1", 0): [
-        J("656374", "FMROP C/304 — Rue Bois d'Ohey 295, Ohey", caw="PANDA+"),
+        J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+"),
         A("BLESSÉ", q="G. Petit"),
     ],
     ("E1", 1): [
@@ -192,6 +193,9 @@ PLANNING = {
 
     # Lundi 12/10 : l Equipe 2 sur le 656346 (FMROP C/312, Ohey).
     ("E2", 0): [J("656346", "FMROP C/312 — Rue Trou du Loup 254, Ohey", caw="PANDA+")],
+
+    # Lundi 12/10 : Avenia Geoffrey absent.
+    ("GA", 0): ABS("ABSENT"),
 
     # Mardi 13/10 : l Equipe 2 sur le 683464 (GB BUILD, Neupre).
     ("E2", 1): [J("683464", "GB BUILD — Route du Condroz 211, Neupré", caw="PANDA+")],
