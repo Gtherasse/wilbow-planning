@@ -75,6 +75,7 @@ LIENS = {
     "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
     "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
+    "600220": "https://wilbow.monday.com/boards/5089236279/pulses/3256796305",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
@@ -154,16 +155,29 @@ PLANNING = {
         J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+"),
         J("622268", "IS MP — Câble définitif branche 12352", caw="PANDA+"),
     ],
-    ("PM", 1): [X("FH 44 Feed-in", url=FH44, caw="FIFTHNET")],
+    ("PM", 1): [
+        X("FH 44 Feed-in", url=FH44, caw="FIFTHNET"),
+        J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+          q=AM, caw="PANDA+"),
+    ],
 
     # Nuit du jeudi 15 au vendredi 16/10 : BBN Fexhe, Meurisse Johan et
     # Mattiuz Pierre. Deux JMS (622272 et 622268) pour un seul bloc de nuit :
     # le titre les porte tous les deux et le lien pointe sur le 622272.
     # Mercredi 14/10 : Johan sur le 675043, Pierre sur le 656373, tous deux a
     # Orp-Jauche mais sur des dossiers distincts.
-    ("JM", 2): [J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
-                  caw="PANDA+")],
-    ("PM", 2): [J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+")],
+    # Mercredi 14/10 : chacun enchaine sur le 600220 (Ougree) apres son chantier.
+    ("JM", 2): [
+        J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
+          caw="PANDA+"),
+        J("600220", "RZ FTTH DIST — Rue de l'Égalité 216-218, Ougrée FH10",
+          "+ P. Mattiuz", "commun", caw="PANDA+"),
+    ],
+    ("PM", 2): [
+        J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+"),
+        J("600220", "RZ FTTH DIST — Rue de l'Égalité 216-218, Ougrée FH10",
+          "+ J. Meurisse", "commun", caw="PANDA+"),
+    ],
 
     # Le jeudi 15/10, ils font d abord le 688116 le matin.
     ("JM", 3): [

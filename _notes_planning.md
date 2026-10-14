@@ -1544,6 +1544,22 @@ Hanikenne, que j'y avais mis la veille quand le chantier était encore à l'Équ
   Jointage du `622272` et du `622268` reste daté du 15/10, nuit comprise — même point de
   convention multi-occurrences, toujours en suspens.
 
+**14/10/2026 — ajout du 600220 et de l'après-midi du mardi :**
+
+- **Mercredi 14/10 — Johan et Pierre enchaînent sur le JMS 600220** (RZ FTTH DIST — Rue
+  de l'Égalité 216-218, Ougrée FH10), chacun **après son chantier du matin** (675043 pour
+  Johan, 656373 pour Pierre). Pastille de partage croisée entre les deux.
+  **C@W : PANDA+**, code confirmé par Geoffrey le 14/10 (je ne l'ai pas deviné — même
+  famille que le 523547, également RZ FTTH).
+- **Mardi 13/10 — Pierre : 523547 l'après-midi, après son FH 44 Feed-in.** Correction
+  **rétroactive** confirmée par Geoffrey : c'est ce qu'il a réellement fait. Son 523547 du
+  **jeudi 15/10 après-midi reste en place** — le chantier a donc deux passages.
+- **Monday.com** :
+  - `600220` — Jointage : **Johan + Pierre au 14/10** (les colonnes étaient vides).
+  - `523547` — Jointage **inchangé** : Pierre, daté du 15/10. Le passage du 13/10 n'y est
+    pas distinguable, la colonne ne portant qu'une date — **même point de convention
+    multi-occurrences, toujours en suspens.**
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
