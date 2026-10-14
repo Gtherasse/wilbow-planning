@@ -76,6 +76,7 @@ LIENS = {
     "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
     "600220": "https://wilbow.monday.com/boards/5089236279/pulses/3256796305",
+    "690397": "https://wilbow.monday.com/boards/5089236279/pulses/3282876027",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
@@ -190,6 +191,15 @@ PLANNING = {
     ("PM", 3): [
         J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",
           "+ J. Meurisse", "commun", q=MATIN, caw="PANDA+"),
+        J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+          q=AM, caw="PANDA+"),
+    ],
+
+    # Vendredi 16/10 : Pierre sur le 690397 le matin avec Fabrice Gaspard (qui n a
+    # pas de ligne RESSOURCES), puis seul sur le 523547 l apres-midi.
+    ("PM", 4): [
+        J("690397", "OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z, "
+                    "Saint-Nicolas", "+ F. Gaspard", "commun", q=MATIN, caw="PANDA+"),
         J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
           q=AM, caw="PANDA+"),
     ],

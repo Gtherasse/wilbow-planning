@@ -1560,6 +1560,19 @@ Hanikenne, que j'y avais mis la veille quand le chantier était encore à l'Équ
     pas distinguable, la colonne ne portant qu'une date — **même point de convention
     multi-occurrences, toujours en suspens.**
 
+**14/10/2026 — vendredi 16/10 pour Pierre :**
+
+- **Matin — JMS 690397** (OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z,
+  Saint-Nicolas) **avec Fabrice Gaspard** (pastille, il n'a pas de ligne RESSOURCES).
+  **C@W : PANDA+**, code confirmé par Geoffrey le 14/10.
+- **Après-midi — JMS 523547**, **Pierre seul**. Sa case du vendredi n'est donc plus grise.
+- **Trois passages sur le 523547 cette semaine** — mardi 13 après-midi, jeudi 15
+  après-midi et vendredi 16 après-midi. Geoffrey a confirmé le 14/10 de **garder celui du
+  jeudi** : ce n'est pas une erreur de saisie.
+- **Monday.com** : `690397` — Jointage **Pierre Mattiuz + Fabrice Gaspard au 16/10** (les
+  colonnes étaient vides). `523547` reste daté du 15/10, une seule date pour trois
+  passages — **point de convention multi-occurrences toujours en suspens.**
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
