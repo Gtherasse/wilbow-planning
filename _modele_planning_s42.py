@@ -257,7 +257,15 @@ PLANNING = {
     ("E2", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     # Jeudi 15 et vendredi 16/10 : l Equipe 2 reste sur le 635054.
     ("E2", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
-    ("E2", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    # Vendredi 16/10 : l Equipe 2 fait d abord le soufflage de mutubes et le
+    # FH 44 loop2 (tous deux en FIFTHNET, sans JMS), puis garde son 635054
+    # l apres-midi. Les deux prestations du matin sont reunies en une seule
+    # entree : meme demi-journee, meme code C@W, un seul badge MATIN.
+    ("E2", 4): [
+        X("Soufflage µtubes bloc 3222-3223 · FH 44 (loop2)",
+          url=FH44, q=MATIN, caw="FIFTHNET"),
+        J("635054", "Feed-out Eupen FH01 — Raeren FH06", q=AM, caw="GO FIBER"),
+    ],
     ("GA", 2): [X("BTO", "+ F. Gaspard", "commun", caw="BTO")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
@@ -491,64 +499,64 @@ def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
 * {{ box-sizing:border-box; }}
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
-        border-bottom:2.12325pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:14.44pt; font-weight:800; letter-spacing:2.12325pt; color:#0f172a; line-height:1;
+        border-bottom:1.975pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
+.brand {{ font-size:13.429pt; font-weight:800; letter-spacing:1.975pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:5.1813pt; font-weight:600; letter-spacing:1.10485pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:4.819pt; font-weight:600; letter-spacing:1.028pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:11.0428pt; font-weight:800; color:#0f172a; letter-spacing:.4.471pt; }}
-.title .dt {{ font-size:7.0509pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:10.27pt; font-weight:800; color:#0f172a; letter-spacing:.4.471pt; }}
+.title .dt {{ font-size:6.557pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:6.6253pt; font-weight:800;
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:6.162pt; font-weight:800;
               padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.5.364pt; }}
-.badge .maj {{ font-size:5.60595pt; color:#64748b; margin-top:1.1mm; }}
+.badge .maj {{ font-size:5.214pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:7.9002pt; font-weight:800; letter-spacing:.6.258pt;
-         padding:1mm 1mm; border:0.5947pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:6.4562pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day {{ background:#0f172a; color:#fff; font-size:7.347pt; font-weight:800; letter-spacing:.6.258pt;
+         padding:1mm 1mm; border:0.553pt solid #0f172a; text-transform:uppercase; text-align:center; }}
+th.day span {{ display:block; font-size:6.004pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
-td {{ border:0.5947pt solid #cbd5e1; border-left-width:2.0387pt; border-left-style:solid;
-     border-bottom:1.3585pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
-tr.grp-end td {{ border-bottom:2.54885pt solid #0f172a; }}
+td {{ border:0.553pt solid #cbd5e1; border-left-width:1.896pt; border-left-style:solid;
+     border-bottom:1.263pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
+tr.grp-end td {{ border-bottom:2.37pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
-tr:last-child td {{ border-bottom:1.3585pt solid #0f172a; }}
-.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.5947pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:4.9267pt; font-weight:800; letter-spacing:.7.154pt; text-transform:uppercase; }}
-.rtag {{ font-size:4.75665pt; font-weight:800; letter-spacing:.6.258pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:6.4562pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+tr:last-child td {{ border-bottom:1.263pt solid #0f172a; }}
+.hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.553pt solid rgba(15,23,42,.18); }}
+.rlabel {{ font-size:4.582pt; font-weight:800; letter-spacing:.7.154pt; text-transform:uppercase; }}
+.rtag {{ font-size:4.424pt; font-weight:800; letter-spacing:.6.258pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:6.004pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
-.body.empty {{ background:#eef2f6; border:0.51015pt solid #d5dde5; border-radius:.8mm;
+.body.empty {{ background:#eef2f6; border:0.474pt solid #d5dde5; border-radius:.8mm;
               text-align:center; padding:.8mm 0; }}
 .body.abs {{ border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
 /* Bandeau "aucun dossier" d une case vide qui doit en plus reserver la
    hauteur d une nuit de la veille : meme aspect que .body.empty. */
-.dashbar {{ background:#eef2f6; border:0.51015pt solid #d5dde5; border-radius:.8mm;
+.dashbar {{ background:#eef2f6; border:0.474pt solid #d5dde5; border-radius:.8mm;
            text-align:center; padding:.8mm 0; }}
 /* Hauteur reservee pour la pastille d absence du lendemain, dans la case qui
    porte la nuit : jamais visible. */
 .absspacer {{ visibility:hidden; border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:7.22pt; font-weight:800; letter-spacing:1.0184pt; }}
+.absl {{ font-size:6.715pt; font-weight:800; letter-spacing:0.947pt; }}
 /* Renfort ponctuel dans une equipe : surligne pour ne pas l oublier. */
 .renfort {{ background:#fde047; color:#713f12; padding:0 1mm; border-radius:.6mm;
-           box-shadow:0 0 0 0.51015pt #ca8a04; }}
+           box-shadow:0 0 0 0.474pt #ca8a04; }}
 .job {{ line-height:1.2; }}
-.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.51015pt dashed #94a3b8; }}
-.jms {{ font-size:6.88085pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:6.7108pt; line-height:1.18; letter-spacing:.25pt; }}
+.job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.474pt dashed #94a3b8; }}
+.jms {{ font-size:6.399pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:6.241pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:5.60595pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:5.86055pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.ext {{ font-size:5.214pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:5.45pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
 .lib.code {{ letter-spacing:.2.683pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:5.1813pt; font-weight:700; padding:.35mm 1.2mm;
+.note {{ display:inline-block; font-size:4.819pt; font-weight:700; padding:.35mm 1.2mm;
         border-radius:.8mm; margin-top:.6mm; letter-spacing:.2.683pt; }}
-.n-renfort {{ background:#fef3c7; color:#92400e; border:0.42465pt solid #fcd34d; }}
-.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.42465pt solid #a5b4fc; }}
-.n-prov {{ background:#fff7ed; color:#c2410c; border:0.51015pt dashed #fb923c; }}
-.n-alt {{ background:#f1f5f9; color:#475569; border:0.51015pt dashed #94a3b8; }}
+.n-renfort {{ background:#fef3c7; color:#92400e; border:0.395pt solid #fcd34d; }}
+.n-commun {{ background:#e0e7ff; color:#3730a3; border:0.395pt solid #a5b4fc; }}
+.n-prov {{ background:#fff7ed; color:#c2410c; border:0.474pt dashed #fb923c; }}
+.n-alt {{ background:#f1f5f9; color:#475569; border:0.474pt dashed #94a3b8; }}
 .note.inline {{ margin-top:0; margin-left:1.2mm; }}
 /* Prestation de nuit : bloc a cheval sur la frontiere des deux journees.
    Le bloc visible est en position absolue ; le spacer, invisible mais dans le
@@ -561,26 +569,26 @@ tr:last-child td {{ border-bottom:1.3585pt solid #0f172a; }}
 .job.cheval .per.nuit {{ background:#334155; color:#fff; }}
 .job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:4.75665pt; font-weight:800; letter-spacing:.5.364pt;
+.per {{ display:inline-block; font-size:4.424pt; font-weight:800; letter-spacing:.5.364pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:6.2852pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:5.26585pt; font-weight:800; letter-spacing:.5.364pt; padding:.35mm 1.4mm;
+.qui {{ font-size:5.845pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:4.897pt; font-weight:800; letter-spacing:.5.364pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:6.2852pt; font-weight:800; letter-spacing:.8.048pt; text-align:center;
+.ligneabs {{ font-size:5.845pt; font-weight:800; letter-spacing:.8.048pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:6.4562pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:6.004pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:0.8493pt solid #cbd5e1; font-size:5.60595pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.79pt solid #cbd5e1; font-size:5.214pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
-.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.51015pt solid #d5dde5;
+.key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.474pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}
 </style></head><body>
 <div class="head">

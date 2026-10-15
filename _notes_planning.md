@@ -1614,6 +1614,26 @@ BBN Fexhe. La pastille RÉCUP s'affiche en haut de sa case du vendredi, le bloc 
 restant visible en dessous — vérifié sur le rendu, rien n'est recouvert.
 **Rien à encoder sur Monday.com** : une récupération n'y figure pas.
 
+**15/10/2026 — vendredi 16/10 matin pour l'Équipe 2 :**
+
+- **Matin — Soufflage µtubes bloc 3222-3223 et FH 44 (loop2)**, tous deux en **FIFTHNET**
+  (code confirmé par Geoffrey : « 5 net les 2 »). **Aucun des deux n'a de JMS** ; le lien
+  du bloc pointe sur l'item Monday « FH 44 Feed-in ».
+- **Après-midi — le 635054 est conservé**, comme demandé.
+- **Toute l'Équipe 2 part le matin** (Miguel, Sam et Wilson), point confirmé par Geoffrey :
+  la consigne disait « pour Miguel » mais la ligne porte l'équipe entière.
+- **Les deux prestations du matin sont réunies en une seule entrée** (« Soufflage µtubes
+  bloc 3222-3223 · FH 44 (loop2) ») : même demi-journée, même code C@W, un seul badge
+  MATIN. Deux entrées séparées faisaient **déborder la page 1**.
+- **Densité** : même ainsi, la page ne passait plus. Les tailles `pt` du CSS ont été
+  **réduites de 7 %** (44 valeurs), en plus des réductions antérieures. Les deux pages
+  passent, hauteurs de ligne 12.0 mm et 12.9 mm, rendu vérifié visuellement et toujours
+  lisible. **La S42 est désormais à saturation** : tout nouvel ajout imposera soit une
+  nouvelle réduction, soit un regroupement d'entrées.
+- **Monday.com** : `FH 44 Feed-in` — Soufflage **re-daté du 05 au 16/10** (Dominguez et
+  Feller y étaient déjà encodés) ; le passage du 05/10 était déjà effectué, l'écraser ne
+  perd rien. Le soufflage de µtubes n'a pas d'item, rien à y encoder.
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
