@@ -1622,9 +1622,11 @@ restant visible en dessous — vérifié sur le rendu, rien n'est recouvert.
 - **Après-midi — le 635054 est conservé**, comme demandé.
 - **Toute l'Équipe 2 part le matin** (Miguel, Sam et Wilson), point confirmé par Geoffrey :
   la consigne disait « pour Miguel » mais la ligne porte l'équipe entière.
-- **Les deux prestations du matin sont réunies en une seule entrée** (« Soufflage µtubes
-  bloc 3222-3223 · FH 44 (loop2) ») : même demi-journée, même code C@W, un seul badge
-  MATIN. Deux entrées séparées faisaient **déborder la page 1**.
+- ~~Les deux prestations du matin réunies en une seule entrée.~~ **Séparées à nouveau le
+  15/10** à la demande de Geoffrey : chacune porte **son propre lien Monday** et reste
+  donc cliquable — le **µtubes** existe bien comme item (`3282275717`), il n'était pas
+  simplement « sans JMS ». Les deux gardent le badge MATIN, ce qui les fait **fusionner en
+  une seule ligne FIFTHNET sur la page Check in @ Work**.
 - **Densité** : même ainsi, la page ne passait plus. Les tailles `pt` du CSS ont été
   **réduites de 7 %** (44 valeurs), en plus des réductions antérieures. Les deux pages
   passent, hauteurs de ligne 12.0 mm et 12.9 mm, rendu vérifié visuellement et toujours
@@ -1632,7 +1634,18 @@ restant visible en dessous — vérifié sur le rendu, rien n'est recouvert.
   nouvelle réduction, soit un regroupement d'entrées.
 - **Monday.com** : `FH 44 Feed-in` — Soufflage **re-daté du 05 au 16/10** (Dominguez et
   Feller y étaient déjà encodés) ; le passage du 05/10 était déjà effectué, l'écraser ne
-  perd rien. Le soufflage de µtubes n'a pas d'item, rien à y encoder.
+  perd rien. `Soufflage µtubes bloc 3222-3223` — Soufflage **Dominguez + Feller au
+  16/10**, les colonnes étaient vides.
+
+**Correction du moteur — le bloc de nuit mordait sur la dernière ligne de la journée.**
+Le bloc en position absolue porte un **halo blanc** (`box-shadow: 0 0 0 .6mm`) que le
+spacer invisible ne réservait pas : il débordait donc de 0.6 mm vers le haut et recouvrait
+le bas du texte (visible le 15/10 sur « GB BUILD — Route du Condroz 211, Neupré »). Halo
+ramené à **0.3 mm** et réserve du spacer portée à **1.0 mm** — le texte est dégagé,
+vérifié au zoom. **Le même défaut existe dans `_modele_planning_s41.py` et
+`_modele_planning_s43.py`** : il n'y est pas visible aujourd'hui parce que leurs lignes
+sont moins denses, mais il resurgira. **À corriger de la même façon — dis-moi si je le
+fais.**
 
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,

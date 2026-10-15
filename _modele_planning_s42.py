@@ -91,6 +91,7 @@ HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE 
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
+UTUBES = "https://wilbow.monday.com/boards/5089236279/pulses/3282275717"  # Soufflage mutubes bloc 3222-3223
 DIGN = "https://wilbow.monday.com/boards/5089236279/pulses/2725054102"  # 4020 Leman/Digneffe CA120
 FEXHE = "https://wilbow.monday.com/boards/5089236279/pulses/2958713654"  # 622272 - IS_MP Cable definitif branche 12835
 
@@ -262,8 +263,8 @@ PLANNING = {
     # l apres-midi. Les deux prestations du matin sont reunies en une seule
     # entree : meme demi-journee, meme code C@W, un seul badge MATIN.
     ("E2", 4): [
-        X("Soufflage µtubes bloc 3222-3223 · FH 44 (loop2)",
-          url=FH44, q=MATIN, caw="FIFTHNET"),
+        X("Soufflage µtubes bloc 3222-3223", url=UTUBES, q=MATIN, caw="FIFTHNET"),
+        X("FH 44 (loop2)", url=FH44, q=MATIN, caw="FIFTHNET"),
         J("635054", "Feed-out Eupen FH01 — Raeren FH06", q=AM, caw="GO FIBER"),
     ],
     ("GA", 2): [X("BTO", "+ F. Gaspard", "commun", caw="BTO")],
@@ -563,11 +564,12 @@ tr:last-child td {{ border-bottom:1.263pt solid #0f172a; }}
    flux, reserve exactement la meme hauteur pour que la ligne ne deborde pas. */
 .job.cheval {{ position:absolute; left:50%; width:100%; bottom:0.8mm; z-index:5; margin-top:0;
         background:#0f172a; border-radius:1.2mm; padding:0.7mm 1.4mm; border-top:0;
-        box-shadow:0 0 0 .6mm #ffffff; }}
+        box-shadow:0 0 0 .3mm #ffffff; }}
 .job.cheval .jms {{ color:#93c5fd; }}
 .job.cheval .lib {{ color:#cbd5e1; }}
 .job.cheval .per.nuit {{ background:#334155; color:#fff; }}
-.job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
+.job.chevalspacer {{ visibility:hidden; padding:1.0mm 1.4mm; border-top:0; margin-top:0; }}  /* 0.7mm de padding + 0.6mm de halo blanc (box-shadow) de part et d autre :
+     sans cette reserve le bloc de nuit mord sur la derniere ligne du jour. */
 .perline {{ margin-bottom:.2mm; }}
 .per {{ display:inline-block; font-size:4.424pt; font-weight:800; letter-spacing:.5.364pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
