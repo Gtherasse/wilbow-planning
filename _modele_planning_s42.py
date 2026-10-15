@@ -126,11 +126,13 @@ CODES = {
 MISE_EN_EVIDENCE = {"Wilson (stage)"}
 
 NOMS_OVERRIDE = {
-    # Lundi et mardi : Gauthier blesse, Hanikenne Florian prend sa place en
-    # Equipe 1.
+    # Gauthier malade toute la semaine : Hanikenne Florian prend sa place en
+    # Equipe 1 les cinq jours. Wilson n est avec elle que du lundi au mercredi.
     ("E1", 0): ["Bolmain Mickael", "Hanikenne Florian", "Wilson (stage)"],
     ("E1", 1): ["Bolmain Mickael", "Hanikenne Florian", "Wilson (stage)"],
-    ("E1", 2): ["Bolmain Mickael", "Petit Gauthier", "Wilson (stage)"],
+    ("E1", 2): ["Bolmain Mickael", "Hanikenne Florian", "Wilson (stage)"],
+    ("E1", 3): ["Bolmain Mickael", "Hanikenne Florian"],
+    ("E1", 4): ["Bolmain Mickael", "Hanikenne Florian"],
     ("E2", 3): ["Dominguez Miguel", "Feller Sam", "Wilson (stage)"],
     ("E2", 4): ["Dominguez Miguel", "Feller Sam", "Wilson (stage)"],
 }
@@ -171,8 +173,8 @@ PLANNING = {
     ("JM", 2): [
         J("675043", "Assoc. Eugène Malève — Place de Maret 1, Orp-Jauche",
           caw="PANDA+"),
-        J("600220", "RZ FTTH DIST — Rue de l'Égalité 216-218, Ougrée FH10",
-          "+ P. Mattiuz", "commun", caw="PANDA+"),
+        J("685230", "Remplacement 12641 WELK — DOL", "(dépannage)",
+          caw="PANDA+"),
     ],
     ("PM", 2): [
         J("656373", "FMROP C/107 — Rue d'Orp 62, Orp-Jauche", caw="PANDA+"),
@@ -209,18 +211,27 @@ PLANNING = {
     # le 656374 qui y figurait est retire).
     ("E1", 0): [
         J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+"),
-        A("BLESSÉ", q="G. Petit"),
+        A("MALADIE", q="G. Petit"),
     ],
     # Mardi 13/10 : l Equipe 1 passe sur le 683464 (GB BUILD, Neupre), repris a
     # l Equipe 2. Elle retrouve le 685230 le mercredi.
     ("E1", 1): [
         J("683464", "GB BUILD — Route du Condroz 211, Neupré", caw="PANDA+"),
-        A("BLESSÉ", q="G. Petit"),
+        A("MALADIE", q="G. Petit"),
     ],
-    ("E1", 2): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    ("E1", 2): [
+        J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+"),
+        A("MALADIE", q="G. Petit"),
+    ],
     # Jeudi 15 et vendredi 16/10 : l Equipe 1 reste sur le 685230.
-    ("E1", 3): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
-    ("E1", 4): [J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+")],
+    ("E1", 3): [
+        J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+"),
+        A("MALADIE", q="G. Petit"),
+    ],
+    ("E1", 4): [
+        J("685230", "Remplacement 12641 WELK — DOL", caw="PANDA+"),
+        A("MALADIE", q="G. Petit"),
+    ],
 
     # Lundi 12/10 : l Equipe 2 sur le 656346 (FMROP C/312, Ohey) ET sur le 656374
     # (FMROP C/304, Ohey) libere par l Equipe 1. Deux chantiers voisins.
@@ -250,9 +261,7 @@ PLANNING = {
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     # Florian renforce l Equipe 1 le lundi et le mardi ; BTO le reste de la
     # semaine.
-    ("FH", 0): ABS("→ ÉQUIPE 1"),
-    ("FH", 1): ABS("→ ÉQUIPE 1"),
-    **{("FH", i): [X("BTO", caw="BTO")] for i in (2, 3, 4)},
+    **{("FH", i): ABS("→ ÉQUIPE 1") for i in range(5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 
     # Le reste de la semaine est a confirmer : cases grisees.

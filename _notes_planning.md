@@ -1585,6 +1585,30 @@ Pierre y retourne donc le lendemain de son passage du mercredi avec Johan.
   Johan et Pierre — son second passage du 15/10 n'y est pas distinguable, **point de
   convention multi-occurrences toujours en suspens.**
 
+**15/10/2026 — Gauthier malade toute la semaine, Florian en Équipe 1 les cinq jours :**
+
+- **Petit Gauthier — MALADIE du lundi 12 au vendredi 16/10.** L'absence nominative
+  figure dans la case de l'Équipe 1 les cinq jours. **Le motif `BLESSÉ` des lundi et
+  mardi a été remplacé par `MALADIE`** pour que la semaine soit cohérente — dis-le-moi
+  si tu veux garder « blessé » sur ces deux jours.
+- **Hanikenne Florian en Équipe 1 les cinq jours** (il était en BTO du mercredi au
+  vendredi). Sa ligne porte « → ÉQUIPE 1 » toute la semaine. Wilson ne figure avec
+  l'Équipe 1 que du lundi au mercredi, il passe à l'Équipe 2 jeudi et vendredi comme
+  prévu.
+- **Mercredi 14/10 — Johan : le 600220 est retiré et remplacé par le 685230
+  (dépannage)**, le chantier de l'Équipe 1. Sa pastille « + P. Mattiuz » disparaît avec
+  le 600220 : Pierre, lui, a bien fait le 600220 ce jour-là.
+- **Monday.com** :
+  - `685230` — Soufflage : **Bolmain + Hanikenne**, Petit retiré (malade toute la
+    semaine). Jointage : Johan y figurait déjà, **daté du 14/10** pour son dépannage.
+  - `600220` — Jointage : **Johan retiré**, Pierre seul. Le chantier reste daté du 14/10
+    alors que Pierre y est aussi passé le 15 — **convention multi-occurrences toujours en
+    suspens.**
+  - `683464` — Soufflage du mardi déjà sur Bolmain + Hanikenne, rien à changer.
+- **Semaine visée** : j'ai appliqué « toute la semaine » à la **S42 en cours**. Si tu
+  pensais à la S43, dis-le-moi — mais Bolmain y est en congé le lundi 19, ce qui rendrait
+  la consigne contradictoire.
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
