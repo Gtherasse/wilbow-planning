@@ -1573,6 +1573,18 @@ Hanikenne, que j'y avais mis la veille quand le chantier était encore à l'Équ
   colonnes étaient vides). `523547` reste daté du 15/10, une seule date pour trois
   passages — **point de convention multi-occurrences toujours en suspens.**
 
+**15/10/2026 — jeudi après-midi : Pierre sur le 600220 à la place d'Oupeye.**
+« Oupeye » désigne le **523547** (RZ FTTH RFT — Hermalle-sous-Argenteau, qui fait partie
+de la commune d'**Oupeye**) ; c'est lui qui est remplacé par le **600220** (Ougrée).
+Pierre y retourne donc le lendemain de son passage du mercredi avec Johan.
+
+- Le 523547 n'est plus fait que **deux fois** cette semaine : mardi 13 après-midi (déjà
+  fait) et vendredi 16 après-midi.
+- **Monday.com** : Jointage du `523547` **re-daté du 15 au 16/10**, le seul passage encore
+  à venir ; Pierre reste la personne encodée. Le `600220` garde sa date du 14/10 avec
+  Johan et Pierre — son second passage du 15/10 n'y est pas distinguable, **point de
+  convention multi-occurrences toujours en suspens.**
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore

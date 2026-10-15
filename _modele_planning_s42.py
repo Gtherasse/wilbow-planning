@@ -191,7 +191,7 @@ PLANNING = {
     ("PM", 3): [
         J("688116", "FQ — Remplacement câble Antenne Orange LL03703136",
           "+ J. Meurisse", "commun", q=MATIN, caw="PANDA+"),
-        J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+        J("600220", "RZ FTTH DIST — Rue de l'Égalité 216-218, Ougrée FH10",
           q=AM, caw="PANDA+"),
     ],
 
