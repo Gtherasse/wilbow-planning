@@ -206,8 +206,7 @@ PLANNING = {
     ("PM", 4): [
         J("690397", "OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z, "
                     "Saint-Nicolas", "+ F. Gaspard", "commun", q=MATIN, caw="PANDA+"),
-        J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
-          q=AM, caw="PANDA+"),
+        X("FH 44", "+ F. Gaspard", "commun", url=FH44, q=AM, caw="FIFTHNET"),
     ],
 
     # Lundi 12/10 : l Equipe 1 reprend des le lundi le 685230, son chantier de la
@@ -263,9 +262,8 @@ PLANNING = {
     # l apres-midi. Les deux prestations du matin sont reunies en une seule
     # entree : meme demi-journee, meme code C@W, un seul badge MATIN.
     ("E2", 4): [
-        X("Soufflage µtubes bloc 3222-3223", url=UTUBES, q=MATIN, caw="FIFTHNET"),
         X("FH 44 (loop2)", url=FH44, q=MATIN, caw="FIFTHNET"),
-        J("635054", "Feed-out Eupen FH01 — Raeren FH06", q=AM, caw="GO FIBER"),
+        X("Soufflage µtubes bloc 3222-3223", url=UTUBES, q=MATIN, caw="FIFTHNET"),
     ],
     ("GA", 2): [X("BTO", "+ F. Gaspard", "commun", caw="BTO")],
 

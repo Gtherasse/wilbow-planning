@@ -1647,6 +1647,23 @@ vérifié au zoom. **Le même défaut existe dans `_modele_planning_s41.py` et
 sont moins denses, mais il resurgira. **À corriger de la même façon — dis-moi si je le
 fais.**
 
+**15/10/2026 (seconde modification) — vendredi 16/10 remanié :**
+
+- **Pierre — l'après-midi : FH 44 avec Fabrice Gaspard**, à la place du 523547. Son matin
+  (690397, également avec Fabrice) ne bouge pas : il passe donc la journée entière avec
+  lui. C@W **FIFTHNET** pour le FH 44.
+- **Équipe 2 — le 635054 est retiré** et le **FH 44 (loop2) passe en premier**, devant le
+  soufflage de µtubes. Les deux gardent le badge MATIN : l'**après-midi de l'équipe est
+  donc sans dossier confirmé**. Dis-moi si elle doit reprendre quelque chose.
+- **Le 523547 n'est plus fait qu'une fois cette semaine** : le mardi 13/10 après-midi.
+- **Monday.com** :
+  - `FH 44 Feed-in` — Jointage **Mattiuz + Gaspard au 16/10** (Pierre seul au 13/10
+    auparavant) ; Soufflage déjà sur Dominguez + Feller au 16/10 pour la loop2. Le
+    chantier porte donc les **deux métiers le même jour**, sans conflit : deux colonnes
+    distinctes.
+  - `523547` — Jointage **re-daté du 16 au 13/10**, son unique passage réel.
+  - `635054` — Soufflage inchangé au 14/10, l'équipe l'a bien fait les 14 et 15.
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
