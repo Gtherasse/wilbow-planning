@@ -197,6 +197,9 @@ PLANNING = {
           q=AM, caw="PANDA+"),
     ],
 
+    # Vendredi 16/10 : Johan en recuperation apres sa nuit du jeudi.
+    ("JM", 4): ABS("RÉCUP"),
+
     # Vendredi 16/10 : Pierre sur le 690397 le matin avec Fabrice Gaspard (qui n a
     # pas de ligne RESSOURCES), puis seul sur le 523547 l apres-midi.
     ("PM", 4): [

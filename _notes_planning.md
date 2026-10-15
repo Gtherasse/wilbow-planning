@@ -1609,6 +1609,11 @@ Pierre y retourne donc le lendemain de son passage du mercredi avec Johan.
   pensais à la S43, dis-le-moi — mais Bolmain y est en congé le lundi 19, ce qui rendrait
   la consigne contradictoire.
 
+**15/10/2026 — Johan en RÉCUP le vendredi 16/10**, après sa nuit du jeudi au vendredi sur
+BBN Fexhe. La pastille RÉCUP s'affiche en haut de sa case du vendredi, le bloc de nuit
+restant visible en dessous — vérifié sur le rendu, rien n'est recouvert.
+**Rien à encoder sur Monday.com** : une récupération n'y figure pas.
+
 **Défaut repéré au passage — `letter-spacing` corrompu dans tous les scripts actifs.**
 Plusieurs valeurs sont invalides : `letter-spacing:.4.471pt`, `.6.258pt`, `.7.154pt`,
 `.5.364pt` (deux points décimaux). Le CSS étant invalide, le navigateur **ignore
