@@ -1789,6 +1789,34 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**18/10/2026 (seconde modification) — semaine 43 largement remplie :**
+
+- **Petit Gauthier — MALADIE les cinq jours**, en absence nominative dans la case de
+  l'Équipe 1. Sa maladie de la S42 se prolonge donc sur toute la S43.
+- **Hanikenne Florian avec Bolmain du mardi au vendredi** (`NOMS_OVERRIDE` sur
+  `("E1", 1..4)`), BTO le lundi. **Le lundi, l'Équipe 1 ne part pas** : Bolmain est en
+  congé et Gauthier malade, la case ne porte que les deux absences.
+- **Équipe 1 — 635054 mardi et mercredi** (Feed-out Eupen, C@W GO FIBER), puis **682463
+  le jeudi** (E.T.N.I.C., Huy) **avec l'Équipe 2** — les deux équipes y vont ensemble.
+  **Son vendredi reste sans dossier confirmé.**
+- **Équipe 2 — le 682463 est retiré du vendredi**, elle ne le fait plus que le jeudi. Son
+  vendredi est donc grisé lui aussi.
+- **Pierre — lundi le 523547** (Hermalle-sous-Argenteau), **mardi le 690397**
+  (Saint-Nicolas), C@W PANDA+ pour les deux. Son mercredi reste vide, sa nuit du jeudi
+  ne bouge pas.
+- **Johan — mercredi le 675238 de jour** (BBN 12310B, Ciney-Jemelle), le chantier qu'il
+  refait **de nuit le jeudi 22** avec Pierre.
+- **Monday.com** :
+  - `635054` — Soufflage : **Bolmain et Hanikenne ajoutés** à Dominguez, Feller et
+    Gaspard ; date au 19/10, premier jour de la série.
+  - `682463` — Soufflage : **Bolmain et Hanikenne ajoutés**, date déjà au 22/10.
+  - `523547` — Jointage **re-daté du 13 au 19/10**, Pierre toujours seul.
+  - `690397` — Jointage **re-daté du 16 au 20/10**. Fabrice Gaspard y reste encodé : il y
+    est réellement passé le 16/10, même si Pierre y va seul le 20. **À valider.**
+  - `675238` — Jointage **inchangé** (Johan + Pierre au 22/10) : le passage de jour du
+    mercredi 21 ne s'y distingue pas — **convention multi-occurrences toujours en
+    suspens.**
+
 **18/10/2026 — Équipe 2 : lundi et mercredi complétés.**
 
 - **Lundi 19/10 — JMS 635054** (Feed-out Eupen FH01 — Raeren FH06), C@W **GO FIBER**,

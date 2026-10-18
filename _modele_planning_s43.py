@@ -74,6 +74,7 @@ LIENS = {
     "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
+    "690397": "https://wilbow.monday.com/boards/5089236279/pulses/3282876027",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
     "656346": "https://wilbow.monday.com/boards/5089236279/pulses/3012484645",
@@ -119,7 +120,12 @@ CODES = {
 
 # Aucune substitution d equipe cette semaine : les entetes restent ceux de
 # RESSOURCES.
-NOMS_OVERRIDE = {}
+NOMS_OVERRIDE = {
+    # Gauthier malade toute la semaine ; Hanikenne Florian prend sa place en
+    # Equipe 1 a partir du mardi. Le lundi, Bolmain etant en conge, l equipe ne
+    # part pas : la case ne porte que les deux absences.
+    **{("E1", i): ["Bolmain Mickael", "Hanikenne Florian"] for i in range(1, 5)},
+}
 
 PLANNING = {
     # Lundi 19 et mardi 20/10 : Meurisse Johan avec Mike Wilvers. Mike Wilvers
@@ -132,7 +138,27 @@ PLANNING = {
 
     # Lundi 19/10 : Bolmain Mickael en conge. Absence nominative : Gauthier Petit
     # reste disponible, la case de l Equipe 1 n est donc pas barree en entier.
-    ("E1", 0): [A("CONGÉ", q="M. Bolmain")],
+    ("E1", 0): [
+        A("CONGÉ", q="M. Bolmain"),
+        A("MALADIE", q="G. Petit"),
+    ],
+
+    # Mardi 20 et mercredi 21/10 : l Equipe 1 sur le 635054 (Feed-out Eupen).
+    ("E1", 1): [
+        J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER"),
+        A("MALADIE", q="G. Petit"),
+    ],
+    ("E1", 2): [
+        J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER"),
+        A("MALADIE", q="G. Petit"),
+    ],
+
+    # Jeudi 22/10 : l Equipe 1 rejoint l Equipe 2 sur le 682463 (E.T.N.I.C.).
+    ("E1", 3): [
+        J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+"),
+        A("MALADIE", q="G. Petit"),
+    ],
+    ("E1", 4): [A("MALADIE", q="G. Petit")],
 
     # Lundi 19/10 : l Equipe 2 sur le 635054 (Feed-out Eupen), suite de la S42.
     ("E2", 0): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
@@ -147,20 +173,29 @@ PLANNING = {
     ("E2", 1): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
                   caw="PANDA+")],
 
-    # Jeudi 22 et vendredi 23/10 : l Equipe 2 sur le 682463 (E.T.N.I.C., Huy).
+    # Jeudi 22/10 : l Equipe 2 sur le 682463 (E.T.N.I.C., Huy), avec l Equipe 1.
     ("E2", 3): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+")],
-    ("E2", 4): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+")],
 
     # Nuit du jeudi 22 au vendredi 23/10 : JMS 675238 (BBN 12310B,
     # Ciney-Jemelle), Meurisse Johan et Mattiuz Pierre.
     ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
                   "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+")],
+    # Lundi 19 et mardi 20/10 : Pierre sur le 523547 puis le 690397.
+    ("PM", 0): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
+                  caw="PANDA+")],
+    ("PM", 1): [J("690397", "OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z, "
+                            "Saint-Nicolas", caw="PANDA+")],
+
+    # Mercredi 21/10 : Johan sur le 675238, de jour.
+    ("JM", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+
     ("PM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
                   "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
-    **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
+    ("FH", 0): [X("BTO", caw="BTO")],
+    **{("FH", i): ABS("→ ÉQUIPE 1") for i in range(1, 5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 
     # Le reste de la semaine est a confirmer : cases grisees.
