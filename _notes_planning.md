@@ -1789,6 +1789,19 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**18/10/2026 — Équipe 2 : lundi et mercredi complétés.**
+
+- **Lundi 19/10 — JMS 635054** (Feed-out Eupen FH01 — Raeren FH06), C@W **GO FIBER**,
+  suite de son chantier de la S42.
+- **Mercredi 21/10 — JMS 656346 et 656374**, les deux FMROP d'Ohey, C@W **PANDA+**.
+  L'équipe y revient après les avoir faits les 12 et 13/10.
+- Sa semaine est désormais complète : 635054 lundi, 687759 mardi, les deux Ohey mercredi,
+  682463 jeudi et vendredi.
+- **Monday.com** — dates de Soufflage avancées sur les passages à venir, les précédentes
+  correspondant à des passages déjà effectués : `635054` du 14 au **19/10**, `656346` et
+  `656374` du 12 au **21/10**. Les personnes encodées (Dominguez + Feller) sont déjà les
+  bonnes. Même réserve que d'habitude sur la **convention multi-occurrences**.
+
 **12/10/2026 — Bolmain Mickael en CONGÉ le lundi 19/10.** Affiché en **absence
 nominative** (`A("CONGÉ", q="M. Bolmain")`) dans la case de l'Équipe 1 : Gauthier Petit
 reste disponible, la case n'est donc pas barrée en entier. L'Équipe 1 n'ayant aucun

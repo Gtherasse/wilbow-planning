@@ -76,6 +76,8 @@ LIENS = {
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
+    "656346": "https://wilbow.monday.com/boards/5089236279/pulses/3012484645",
+    "656374": "https://wilbow.monday.com/boards/5089236279/pulses/2987817331",
     "582528": "https://wilbow.monday.com/boards/5089236279/pulses/3202011232",
 }
 # Liens des chantiers sans numero JMS
@@ -131,6 +133,15 @@ PLANNING = {
     # Lundi 19/10 : Bolmain Mickael en conge. Absence nominative : Gauthier Petit
     # reste disponible, la case de l Equipe 1 n est donc pas barree en entier.
     ("E1", 0): [A("CONGÉ", q="M. Bolmain")],
+
+    # Lundi 19/10 : l Equipe 2 sur le 635054 (Feed-out Eupen), suite de la S42.
+    ("E2", 0): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+
+    # Mercredi 21/10 : l Equipe 2 revient sur les deux FMROP d Ohey.
+    ("E2", 2): [
+        J("656346", "FMROP C/312 — Rue Trou du Loup 254, Ohey", caw="PANDA+"),
+        J("656374", "FMROP C/304 — Rue Bois d'Ohey 295, Ohey", caw="PANDA+"),
+    ],
 
     # Mardi 20/10 : l Equipe 2 sur le 687759 (Zone de Police, Andenne).
     ("E2", 1): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
