@@ -1789,6 +1789,11 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**18/10/2026 (troisième modification) — Johan et Pierre en RÉCUP le vendredi 23/10**,
+après leur nuit du jeudi au vendredi sur le 675238. Les deux pastilles RÉCUP et les deux
+blocs de nuit cohabitent sans se recouvrir — vérifié au zoom, le défaut de halo corrigé
+en S42 ne se manifeste pas ici. **Rien à encoder sur Monday.com.**
+
 **18/10/2026 (seconde modification) — semaine 43 largement remplie :**
 
 - **Petit Gauthier — MALADIE les cinq jours**, en absence nominative dans la case de

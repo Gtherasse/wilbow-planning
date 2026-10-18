@@ -192,6 +192,10 @@ PLANNING = {
     ("PM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
                   "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+")],
 
+    # Vendredi 23/10 : Johan et Pierre en recuperation apres leur nuit.
+    ("JM", 4): ABS("RÉCUP"),
+    ("PM", 4): ABS("RÉCUP"),
+
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     ("FH", 0): [X("BTO", caw="BTO")],
