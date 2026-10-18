@@ -1789,6 +1789,11 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**18/10/2026 (quatrième modification) — Pierre : le JMS 554869 en premier chantier du
+lundi 19/10** (RW BF — Rue de Visé, 41JUP0), devant le 523547. C@W **PANDA+**, confirmé
+par Geoffrey. **Monday.com** : Jointage **Pierre Mattiuz au 19/10**, les colonnes étaient
+vides.
+
 **18/10/2026 (troisième modification) — Johan et Pierre en RÉCUP le vendredi 23/10**,
 après leur nuit du jeudi au vendredi sur le 675238. Les deux pastilles RÉCUP et les deux
 blocs de nuit cohabitent sans se recouvrir — vérifié au zoom, le défaut de halo corrigé

@@ -75,6 +75,7 @@ LIENS = {
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "690397": "https://wilbow.monday.com/boards/5089236279/pulses/3282876027",
+    "554869": "https://wilbow.monday.com/boards/5089236279/pulses/3286712772",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
     "656346": "https://wilbow.monday.com/boards/5089236279/pulses/3012484645",
@@ -180,9 +181,12 @@ PLANNING = {
     # Ciney-Jemelle), Meurisse Johan et Mattiuz Pierre.
     ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
                   "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+")],
-    # Lundi 19 et mardi 20/10 : Pierre sur le 523547 puis le 690397.
-    ("PM", 0): [J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G",
-                  caw="PANDA+")],
+    # Lundi 19 et mardi 20/10 : Pierre sur le 554869 puis le 523547, et le 690397
+    # le mardi.
+    ("PM", 0): [
+        J("554869", "RW BF — Rue de Visé, 41JUP0", caw="PANDA+"),
+        J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G", caw="PANDA+"),
+    ],
     ("PM", 1): [J("690397", "OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z, "
                             "Saint-Nicolas", caw="PANDA+")],
 
