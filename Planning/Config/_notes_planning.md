@@ -1789,6 +1789,13 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**19/10/2026 (troisième modification) — jeudi 22/10 : Soufflage Val Benoît et
+Grosses-Battes CCTV.** **Avenia Geoffrey avec Fabrice Gaspard** (pastille, il n'a pas de
+ligne RESSOURCES). C@W **EQUANS-CAMERA-CCTV** (`1Y100001PT2KZ`). Le chantier existe comme
+item Monday unique — pas de numéro JMS, le titre est donc cliquable tel quel. La case du
+magasinier passe de « Dépôt » au chantier ce jour-là seulement.
+**Monday.com** : Soufflage **Avenia + Gaspard au 22/10**, les colonnes étaient vides.
+
 **19/10/2026 (seconde modification) — Johan malade TOUTE la semaine 43 :**
 
 - Sa ligne porte **MALADIE les cinq jours**.

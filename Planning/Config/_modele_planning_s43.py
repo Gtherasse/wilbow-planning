@@ -92,6 +92,7 @@ MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vér
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
 HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
+VALBENOIT = "https://wilbow.monday.com/boards/5089236279/pulses/3292906173"  # Val Benoit et Grosses-Battes CCTV
 DIGN = "https://wilbow.monday.com/boards/5089236279/pulses/2725054102"  # 4020 Leman/Digneffe CA120
 FEXHE = "https://wilbow.monday.com/boards/5089236279/pulses/2958713654"  # 622272 - IS_MP Cable definitif branche 12835
 
@@ -192,6 +193,12 @@ PLANNING = {
     ("PM", 2): [X("HT 1517C", url=HT1517C, caw="PANDA+")],
 
 
+
+    # Jeudi 22/10 : Avenia Geoffrey avec Fabrice Gaspard (qui n a pas de ligne
+    # RESSOURCES) sur le soufflage Val Benoit et Grosses-Battes CCTV.
+    ("GA", 3): [X("Soufflage Val Benoît et Grosses-Battes CCTV",
+                  "+ F. Gaspard", "commun", url=VALBENOIT,
+                  caw="EQUANS-CAMERA-CCTV")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
