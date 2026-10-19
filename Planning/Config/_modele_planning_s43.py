@@ -132,8 +132,8 @@ PLANNING = {
     # Lundi 19 et mardi 20/10 : Meurisse Johan avec Mike Wilvers. Mike Wilvers
     # n a pas de ligne RESSOURCES (bureau, volontairement hors de la colonne
     # Jointage de Monday) : il apparait en pastille de partage.
-    ("JM", 0): [J("688836", "FQ ROP endommagé 85AMAC/311",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
+    # Lundi 19/10 : Johan malade. Son 688836 avec Mike Wilvers tombe.
+    ("JM", 0): ABS("MALADIE"),
     ("JM", 1): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
                   "+ M. Wilvers", "commun", caw="PANDA+")],
 

@@ -1789,6 +1789,19 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**19/10/2026 — Meurisse Johan MALADIE le lundi 19/10.** Sa case porte l'absence pleine
+case. **Son JMS 688836** (FQ ROP endommagé 85AMAC/311), qu'il devait faire avec Mike
+Wilvers, **tombe** : Mike n'a pas de ligne RESSOURCES, le chantier disparaît donc
+entièrement de la grille du lundi.
+
+- **Monday.com** : la **date de Jointage du `688836` a été vidée** — le passage n'a pas eu
+  lieu. Johan y reste encodé comme personne. **À me dire à quelle date le reporter**, je
+  la remets aussitôt. **À me dire aussi si Mike Wilvers le fait seul** ce lundi : dans ce
+  cas le chantier doit réapparaître, et il faudra décider comment l'afficher puisqu'il
+  n'a pas de ligne propre.
+- **Durée inconnue** : seul le lundi est traité. Si la maladie se prolonge, dis-le-moi —
+  sa nuit du jeudi 22 avec Pierre est en jeu.
+
 **18/10/2026 (quatrième modification) — Pierre : le JMS 554869 en premier chantier du
 lundi 19/10** (RW BF — Rue de Visé, 41JUP0), devant le 523547. C@W **PANDA+**, confirmé
 par Geoffrey. **Monday.com** : Jointage **Pierre Mattiuz au 19/10**, les colonnes étaient
