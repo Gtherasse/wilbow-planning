@@ -1789,6 +1789,26 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**19/10/2026 (seconde modification) — Johan malade TOUTE la semaine 43 :**
+
+- Sa ligne porte **MALADIE les cinq jours**.
+- **Tombent avec lui** : le `688836` du lundi et le `690640` du mardi (tous deux avec
+  Mike Wilvers), le `675238` **de jour** du mercredi, et la **nuit du jeudi 22 au
+  vendredi 23**.
+- **La nuit du 675238 est annulée**, choix confirmé par Geoffrey : elle ne se fait pas
+  avec Pierre seul. **Le jeudi et le vendredi de Pierre redeviennent donc libres**, et sa
+  RÉCUP du vendredi — qui découlait de cette nuit — est retirée.
+- **Mercredi 21/10 — Pierre sur le HT 1517C** (pas de numéro JMS, item Monday existant).
+  C@W **PANDA+**, confirmé par Geoffrey.
+- **Monday.com** :
+  - `HT 1517C` — Jointage **Pierre Mattiuz au 21/10**, les colonnes étaient vides.
+  - `690640` — **date de Jointage vidée**, le passage n'a pas lieu. Johan y reste encodé.
+  - `675238` — **date de Jointage vidée** (nuit annulée). Johan et Pierre y restent
+    encodés.
+  - `688836` — déjà vidé ce matin.
+- **Trois chantiers sont à replanifier** : `688836`, `690640` et la nuit du `675238`.
+  Dis-moi les nouvelles dates, je remets les colonnes Monday à jour.
+
 **19/10/2026 — Meurisse Johan MALADIE le lundi 19/10.** Sa case porte l'absence pleine
 case. **Son JMS 688836** (FQ ROP endommagé 85AMAC/311), qu'il devait faire avec Mike
 Wilvers, **tombe** : Mike n'a pas de ligne RESSOURCES, le chantier disparaît donc

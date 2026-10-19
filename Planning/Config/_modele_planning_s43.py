@@ -91,6 +91,7 @@ HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE 
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
+HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
 DIGN = "https://wilbow.monday.com/boards/5089236279/pulses/2725054102"  # 4020 Leman/Digneffe CA120
 FEXHE = "https://wilbow.monday.com/boards/5089236279/pulses/2958713654"  # 622272 - IS_MP Cable definitif branche 12835
 
@@ -132,10 +133,11 @@ PLANNING = {
     # Lundi 19 et mardi 20/10 : Meurisse Johan avec Mike Wilvers. Mike Wilvers
     # n a pas de ligne RESSOURCES (bureau, volontairement hors de la colonne
     # Jointage de Monday) : il apparait en pastille de partage.
-    # Lundi 19/10 : Johan malade. Son 688836 avec Mike Wilvers tombe.
-    ("JM", 0): ABS("MALADIE"),
-    ("JM", 1): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
+    # Johan malade toute la semaine. Tombent avec lui : le 688836 et le 690640
+    # (tous deux avec Mike Wilvers), le 675238 de jour du mercredi, et la nuit
+    # du jeudi au vendredi, annulee faute de binome.
+    **{("JM", i): ABS("MALADIE") for i in range(5)},
+
 
     # Lundi 19/10 : Bolmain Mickael en conge. Absence nominative : Gauthier Petit
     # reste disponible, la case de l Equipe 1 n est donc pas barree en entier.
@@ -177,10 +179,6 @@ PLANNING = {
     # Jeudi 22/10 : l Equipe 2 sur le 682463 (E.T.N.I.C., Huy), avec l Equipe 1.
     ("E2", 3): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+")],
 
-    # Nuit du jeudi 22 au vendredi 23/10 : JMS 675238 (BBN 12310B,
-    # Ciney-Jemelle), Meurisse Johan et Mattiuz Pierre.
-    ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
-                  "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+")],
     # Lundi 19 et mardi 20/10 : Pierre sur le 554869 puis le 523547, et le 690397
     # le mardi.
     ("PM", 0): [
@@ -190,15 +188,10 @@ PLANNING = {
     ("PM", 1): [J("690397", "OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z, "
                             "Saint-Nicolas", caw="PANDA+")],
 
-    # Mercredi 21/10 : Johan sur le 675238, de jour.
-    ("JM", 2): [J("675238", "BBN 12310B — Ciney-Jemelle", caw="PANDA+")],
+    # Mercredi 21/10 : Pierre sur le HT 1517C (pas de numero JMS).
+    ("PM", 2): [X("HT 1517C", url=HT1517C, caw="PANDA+")],
 
-    ("PM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
-                  "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+")],
 
-    # Vendredi 23/10 : Johan et Pierre en recuperation apres leur nuit.
-    ("JM", 4): ABS("RÉCUP"),
-    ("PM", 4): ABS("RÉCUP"),
 
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
