@@ -76,6 +76,7 @@ LIENS = {
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "690397": "https://wilbow.monday.com/boards/5089236279/pulses/3282876027",
     "554869": "https://wilbow.monday.com/boards/5089236279/pulses/3286712772",
+    "655649": "https://wilbow.monday.com/boards/5089236279/pulses/3295103650",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
     "656346": "https://wilbow.monday.com/boards/5089236279/pulses/3012484645",
@@ -128,6 +129,9 @@ NOMS_OVERRIDE = {
     # Equipe 1 a partir du mardi. Le lundi, Bolmain etant en conge, l equipe ne
     # part pas : la case ne porte que les deux absences.
     **{("E1", i): ["Bolmain Mickael", "Hanikenne Florian"] for i in range(1, 5)},
+    # Mardi 20/10 : Pierre malade, Florian reprend son chantier seul. Bolmain
+    # part donc a trois avec l Equipe 2 sur le 635054.
+    ("E1", 1): ["Bolmain Mickael", "Dominguez Miguel", "Feller Sam"],
 }
 
 PLANNING = {
@@ -174,8 +178,13 @@ PLANNING = {
     ],
 
     # Mardi 20/10 : l Equipe 2 sur le 687759 (Zone de Police, Andenne).
-    ("E2", 1): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
-                  caw="PANDA+")],
+    ("E2", 1): ABS("→ ÉQUIPE 1"),
+
+    # Vendredi 23/10 : le 687759 du mardi, reporte, avec Pierre en renfort.
+    ("E2", 4): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
+                  "+ P. Mattiuz", "commun", caw="PANDA+")],
+    ("PM", 4): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
+                  "+ Équipe 2", "commun", caw="PANDA+")],
 
     # Jeudi 22/10 : l Equipe 2 sur le 682463 (E.T.N.I.C., Huy), avec l Equipe 1.
     ("E2", 3): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+")],
@@ -186,8 +195,7 @@ PLANNING = {
         J("554869", "RW BF — Rue de Visé, 41JUP0", caw="PANDA+"),
         J("523547", "RZ FTTH RFT — Hermalle-sous-Argenteau, Bloc G", caw="PANDA+"),
     ],
-    ("PM", 1): [J("690397", "OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z, "
-                            "Saint-Nicolas", caw="PANDA+")],
+    ("PM", 1): ABS("MALADIE"),
 
     # Mercredi 21/10 : Pierre sur le HT 1517C (pas de numero JMS).
     ("PM", 2): [X("HT 1517C", url=HT1517C, caw="PANDA+")],
@@ -203,7 +211,14 @@ PLANNING = {
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     ("FH", 0): [X("BTO", caw="BTO")],
-    **{("FH", i): ABS("→ ÉQUIPE 1") for i in range(1, 5)},
+    # Mardi 20/10 : Florian quitte l Equipe 1 et reprend seul le chantier de
+    # Pierre, avec le 655649 en plus.
+    ("FH", 1): [
+        J("690397", "OL — Ass. Intercom. Démerg. & Épurat., Quai du Halage 37 Z, "
+                    "Saint-Nicolas", caw="PANDA+"),
+        J("655649", "RZ FTTH DIST — Rue Bertrand 79-83, Andenne", caw="PANDA+"),
+    ],
+    **{("FH", i): ABS("→ ÉQUIPE 1") for i in (2, 3, 4)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 
     # Le reste de la semaine est a confirmer : cases grisees.

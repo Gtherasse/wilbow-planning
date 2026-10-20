@@ -1789,6 +1789,27 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**20/10/2026 — remaniement du mardi 20/10 :**
+
+- **Mattiuz Pierre MALADIE** ce mardi. Il s'ajoute à Johan, malade toute la semaine :
+  **les deux jointeurs historiques sont absents le même jour.**
+- **Hanikenne Florian quitte l'Équipe 1 et reprend seul le chantier de Pierre**, le
+  `690397` (OL — Quai du Halage 37 Z, Saint-Nicolas), **avec le `655649` en plus**
+  (RZ FTTH DIST — Rue Bertrand 79-83, Andenne). C@W **PANDA+** pour les deux, code du
+  655649 confirmé par Geoffrey.
+- **L'Équipe 2 monte en Équipe 1** : Bolmain, Dominguez et Feller partent **à trois** sur
+  le `635054`, point tranché par Geoffrey (« ils y vont à 3, équipe 2 + Bolmain »). La
+  ligne de l'Équipe 2 porte « → ÉQUIPE 1 ».
+- **Le `687759` du mardi est reporté au vendredi 23/10**, avec **Pierre en renfort** de
+  l'Équipe 2. Le vendredi de Pierre, jusque-là vide, est donc pris.
+- **Monday.com** :
+  - `655649` — Jointage **Hanikenne au 20/10**, les colonnes étaient vides.
+  - `690397` — Jointage : **Hanikenne ajouté** à Mattiuz et Gaspard, qui y sont
+    réellement passés le 16/10. Date inchangée au 20/10.
+  - `687759` — Soufflage **repoussé du 20 au 23/10** (Dominguez + Feller), et **Jointage
+    créé : Mattiuz au 23/10** pour son renfort.
+  - `635054` — inchangé : Bolmain, Dominguez et Feller y figuraient déjà tous les trois.
+
 **19/10/2026 (troisième modification) — jeudi 22/10 : Soufflage Val Benoît et
 Grosses-Battes CCTV.** **Avenia Geoffrey avec Fabrice Gaspard** (pastille, il n'a pas de
 ligne RESSOURCES). C@W **EQUANS-CAMERA-CCTV** (`1Y100001PT2KZ`). Le chantier existe comme
