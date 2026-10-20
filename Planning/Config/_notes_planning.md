@@ -1789,6 +1789,13 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**20/10/2026 (seconde modification) — vendredi 23/10 : Pierre fait le `682463` avant le
+`687759`.** Sa journée enchaîne donc l'E.T.N.I.C. de Huy puis la Zone de Police
+d'Andenne, où il rejoint l'Équipe 2. C@W PANDA+ pour les deux.
+**Monday.com** : `682463` — **Jointage Mattiuz au 23/10** (colonne vide auparavant) ; son
+Soufflage reste au 22/10 avec les deux équipes, les deux métiers tombant sur des jours
+différents, sans conflit.
+
 **20/10/2026 — remaniement du mardi 20/10 :**
 
 - **Mattiuz Pierre MALADIE** ce mardi. Il s'ajoute à Johan, malade toute la semaine :

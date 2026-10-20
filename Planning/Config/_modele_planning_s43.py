@@ -183,8 +183,11 @@ PLANNING = {
     # Vendredi 23/10 : le 687759 du mardi, reporte, avec Pierre en renfort.
     ("E2", 4): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
                   "+ P. Mattiuz", "commun", caw="PANDA+")],
-    ("PM", 4): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
-                  "+ Équipe 2", "commun", caw="PANDA+")],
+    ("PM", 4): [
+        J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+"),
+        J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
+          "+ Équipe 2", "commun", caw="PANDA+"),
+    ],
 
     # Jeudi 22/10 : l Equipe 2 sur le 682463 (E.T.N.I.C., Huy), avec l Equipe 1.
     ("E2", 3): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+")],
