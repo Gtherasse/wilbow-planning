@@ -1761,6 +1761,17 @@ sur le board. À me dire s'il faut l'ajouter aux colonnes Soufflage.
 |------|---------|----------|-----|-----|--------|
 | Jeu 29/10/2026 | S44 | **Liège Expo** | Dominguez Miguel + Feller Sam | **à préciser** | ⚠️ **item introuvable** |
 | Ven 30/10/2026 | S44 | **Liège Expo** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
+| Mar 03/11/2026 | S45 | **Bornes Liège Expo** | Équipe 2 (Dominguez + Feller) | **à préciser** | item `3297165250`, Soufflage encodé |
+
+**20/10/2026 — Bornes Liège Expo, mardi 03/11** (semaine 45, **script à créer**),
+**Équipe 2**. L'item Monday existe bien sous le nom « Bornes Liège Expo » : son
+**Soufflage est encodé au 03/11 avec Dominguez et Feller**. Le **code C@W reste à me
+donner** avant la génération du PDF de la S45.
+
+**À rapprocher des deux Liège Expo des 29 et 30/10** notés juste au-dessus, dont l'item
+était resté introuvable : il s'agit très probablement **du même chantier**. À confirmer —
+si oui, les trois dates portent sur le même item Monday et il faudra trancher la
+convention de date, comme pour les autres chantiers multi-occurrences.
 
 **25/09/2026, déplacé le 30/09** — **HT1673A pour Meurisse Johan, reporté du mardi 06/10 au
 mardi 13/10** : il change donc de semaine, de la **S41 à la S42**. Enregistré ici, **aucun
