@@ -1759,8 +1759,8 @@ sur le board. À me dire s'il faut l'ajouter aux colonnes Soufflage.
 
 | Date | Semaine | Chantier | Qui | C@W | Monday |
 |------|---------|----------|-----|-----|--------|
-| Jeu 29/10/2026 | S44 | **Liège Expo** | Dominguez Miguel + Feller Sam | **à préciser** | ⚠️ **item introuvable** |
-| Ven 30/10/2026 | S44 | **Liège Expo** | Meurisse Johan | **à préciser** | ⚠️ **item introuvable** |
+| ~~Jeu 29/10/2026~~ | S44 | ~~Liège Expo~~ | — | — | **ANNULÉ le 20/10 — congé** |
+| ~~Ven 30/10/2026~~ | S44 | ~~Liège Expo~~ | — | — | **ANNULÉ le 20/10 — congé** |
 | Mar 03/11/2026 | S45 | **Bornes Liège Expo** | Équipe 2 (Dominguez + Feller) | **à préciser** | item `3297165250`, Soufflage encodé |
 
 **20/10/2026 — Bornes Liège Expo, mardi 03/11** (semaine 45, **script à créer**),
@@ -1768,16 +1768,21 @@ sur le board. À me dire s'il faut l'ajouter aux colonnes Soufflage.
 **Soufflage est encodé au 03/11 avec Dominguez et Feller**. Le **code C@W reste à me
 donner** avant la génération du PDF de la S45.
 
-**À rapprocher des deux Liège Expo des 29 et 30/10** notés juste au-dessus, dont l'item
-était resté introuvable : il s'agit très probablement **du même chantier**. À confirmer —
-si oui, les trois dates portent sur le même item Monday et il faudra trancher la
-convention de date, comme pour les autres chantiers multi-occurrences.
+**Les deux Liège Expo des 29 et 30/10 sont annulés** (voir ci-dessous) : le chantier est
+**reporté sur cette seule date du 03/11**. La question du rapprochement entre les trois
+dates devient donc sans objet, et celle de la convention multi-occurrences aussi : l'item
+`3297165250` ne porte plus qu'un seul passage.
 
 **25/09/2026, déplacé le 30/09** — **HT1673A pour Meurisse Johan, reporté du mardi 06/10 au
 mardi 13/10** : il change donc de semaine, de la **S41 à la S42**. Enregistré ici, **aucun
 de ces deux scripts n'existe encore** ; le chantier sera repris à la création de la S42.
 
-**04/10/2026 — Liège Expo, jeudi 29 et vendredi 30/10** (semaine 44, **script à créer**) :
+**~~04/10/2026 — Liège Expo, jeudi 29 et vendredi 30/10~~ — ANNULÉ le 20/10 : l'équipe
+est en congé ces deux jours.** Le chantier est reporté au **mardi 03/11** (voir
+ci-dessus). Les deux réserves qui pesaient dessus — item Monday introuvable, code C@W
+jamais communiqué — **deviennent sans objet pour ces dates** ; l'item a depuis été
+identifié sous le nom « Bornes Liège Expo ». Rien n'avait été encodé sur Monday pour le
+29 ni le 30, il n'y a donc rien à y défaire. Détail d'origine conservé ci-dessous :
 
 - **Jeudi 29/10** : **Dominguez Miguel et Feller Sam**.
 - **Vendredi 30/10** : **Meurisse Johan**.
