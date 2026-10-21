@@ -1805,6 +1805,23 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**21/10/2026 (seconde modification) — jeudi 22 et vendredi 23/10 :**
+
+- **Avenia Geoffrey et Fabrice Gaspard passent sur le soufflage E25 E40** le jeudi, **à
+  la place** du Val Benoît / Grosses-Battes CCTV (choix confirmé par Geoffrey). C@W
+  **EQUANS-CAMERA-CCTV**, le même que le chantier remplacé.
+  ⚠️ **Aucun item Monday sous le nom « E25 E40 »** : recherche faite sur E25 et sur E40,
+  rien sur le board Chantiers. Le titre n'est donc **pas cliquable** et **rien n'y est
+  encodé**. Donne-moi la référence si elle existe.
+- **`Val Benoit et Grosses-Battes CCTV` — date de Soufflage vidée** sur Monday, le
+  passage du 22/10 n'ayant plus lieu. Avenia et Gaspard y restent encodés comme personnes.
+  **À me dire s'il est reporté à une autre date ou annulé** ; je remets la date aussitôt.
+- **L'Équipe 1 reste sur le `682463`** (E.T.N.I.C., Huy) **le vendredi 23/10** en plus du
+  jeudi. Sa dernière case grise de la semaine est donc comblée. Gauthier y figure toujours
+  en MALADIE.
+  **Monday.com — rien à changer** : le Soufflage du `682463` est déjà daté du 22/10 avec
+  les quatre personnes (Bolmain, Hanikenne, Dominguez, Feller), premier jour de la série.
+
 **21/10/2026 — Mattiuz Pierre toujours MALADE ce mercredi 21/10** (deuxième jour
 consécutif). **Son HT 1517C est reporté au jeudi 22/10**, sa journée du jeudi étant libre.
 Son vendredi (682463 puis 687759) ne bouge pas.

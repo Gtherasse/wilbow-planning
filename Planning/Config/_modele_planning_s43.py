@@ -166,7 +166,11 @@ PLANNING = {
         J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+"),
         A("MALADIE", q="G. Petit"),
     ],
-    ("E1", 4): [A("MALADIE", q="G. Petit")],
+    # Vendredi 23/10 : l Equipe 1 reste sur le 682463.
+    ("E1", 4): [
+        J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+"),
+        A("MALADIE", q="G. Petit"),
+    ],
 
     # Lundi 19/10 : l Equipe 2 sur le 635054 (Feed-out Eupen), suite de la S42.
     ("E2", 0): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
@@ -207,9 +211,10 @@ PLANNING = {
 
 
     # Jeudi 22/10 : Avenia Geoffrey avec Fabrice Gaspard (qui n a pas de ligne
-    # RESSOURCES) sur le soufflage Val Benoit et Grosses-Battes CCTV.
-    ("GA", 3): [X("Soufflage Val Benoît et Grosses-Battes CCTV",
-                  "+ F. Gaspard", "commun", url=VALBENOIT,
+    # RESSOURCES) sur le soufflage E25 E40. Pas d item Monday : titre non
+    # cliquable.
+    # Le Val Benoit / Grosses-Battes CCTV qui y figurait a ete remplace le 21/10.
+    ("GA", 3): [X("Soufflage E25 E40", "+ F. Gaspard", "commun",
                   caw="EQUANS-CAMERA-CCTV")],
 
     # Dan, Florian et Andrei : BTO les cinq jours.
