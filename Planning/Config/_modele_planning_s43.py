@@ -166,9 +166,9 @@ PLANNING = {
         J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+"),
         A("MALADIE", q="G. Petit"),
     ],
-    # Vendredi 23/10 : l Equipe 1 reste sur le 682463.
+    # Vendredi 23/10 : l Equipe 1 revient sur le 635054, pas sur l E.T.N.I.C.
     ("E1", 4): [
-        J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+"),
+        J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER"),
         A("MALADIE", q="G. Petit"),
     ],
 

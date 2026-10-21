@@ -1816,11 +1816,14 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
 - **`Val Benoit et Grosses-Battes CCTV` — date de Soufflage vidée** sur Monday, le
   passage du 22/10 n'ayant plus lieu. Avenia et Gaspard y restent encodés comme personnes.
   **À me dire s'il est reporté à une autre date ou annulé** ; je remets la date aussitôt.
-- **L'Équipe 1 reste sur le `682463`** (E.T.N.I.C., Huy) **le vendredi 23/10** en plus du
-  jeudi. Sa dernière case grise de la semaine est donc comblée. Gauthier y figure toujours
-  en MALADIE.
-  **Monday.com — rien à changer** : le Soufflage du `682463` est déjà daté du 22/10 avec
-  les quatre personnes (Bolmain, Hanikenne, Dominguez, Feller), premier jour de la série.
+- **L'Équipe 1 le vendredi 23/10** : ~~682463~~ → **corrigé dans la foulée le 21/10, elle
+  revient sur le `635054`** (Feed-out Eupen, C@W GO FIBER) et **pas sur l'E.T.N.I.C.**
+  Précision donnée par Geoffrey : le changement ne vaut **que pour le vendredi**, elle
+  reste bien sur le `682463` le jeudi avec l'Équipe 2. Sa dernière case grise de la
+  semaine est comblée ; Gauthier y figure toujours en MALADIE.
+  **Monday.com — rien à changer.** Le Soufflage du `682463` reste daté du 22/10 avec les
+  quatre personnes, qui y vont bien ce jour-là. Celui du `635054` reste daté du 19/10,
+  premier jour de sa série, et Bolmain comme Hanikenne y sont déjà encodés.
 
 **21/10/2026 — Mattiuz Pierre toujours MALADE ce mercredi 21/10** (deuxième jour
 consécutif). **Son HT 1517C est reporté au jeudi 22/10**, sa journée du jeudi étant libre.
