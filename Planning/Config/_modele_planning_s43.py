@@ -200,8 +200,9 @@ PLANNING = {
     ],
     ("PM", 1): ABS("MALADIE"),
 
-    # Mercredi 21/10 : Pierre sur le HT 1517C (pas de numero JMS).
-    ("PM", 2): [X("HT 1517C", url=HT1517C, caw="PANDA+")],
+    # Mercredi 21/10 : Pierre toujours malade ; son HT 1517C part au jeudi.
+    ("PM", 2): ABS("MALADIE"),
+    ("PM", 3): [X("HT 1517C", url=HT1517C, caw="PANDA+")],
 
 
 

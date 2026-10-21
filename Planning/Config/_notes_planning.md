@@ -1805,6 +1805,13 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**21/10/2026 — Mattiuz Pierre toujours MALADE ce mercredi 21/10** (deuxième jour
+consécutif). **Son HT 1517C est reporté au jeudi 22/10**, sa journée du jeudi étant libre.
+Son vendredi (682463 puis 687759) ne bouge pas.
+**Monday.com** : Jointage du `HT 1517C` **re-daté du 21 au 22/10**.
+**Sa durée reste inconnue** : si la maladie se prolonge, son jeudi et son vendredi sont
+en jeu. Avec Johan absent toute la semaine, **Florian serait alors seul jointeur**.
+
 **20/10/2026 (seconde modification) — vendredi 23/10 : Pierre fait le `682463` avant le
 `687759`.** Sa journée enchaîne donc l'E.T.N.I.C. de Huy puis la Zone de Police
 d'Andenne, où il rejoint l'Équipe 2. C@W PANDA+ pour les deux.
