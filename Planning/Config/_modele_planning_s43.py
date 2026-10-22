@@ -217,6 +217,11 @@ PLANNING = {
     ("GA", 3): [X("Soufflage E25 E40", "+ F. Gaspard", "commun",
                   caw="EQUANS-CAMERA-CCTV")],
 
+    # Vendredi 23/10 : Avenia Geoffrey et Fabrice Gaspard sur le 656374 (FMROP
+    # C/304, Ohey), deja fait par l Equipe 2 le mercredi.
+    ("GA", 4): [J("656374", "FMROP C/304 — Rue Bois d'Ohey 295, Ohey",
+                  "+ F. Gaspard", "commun", caw="PANDA+")],
+
     # Dan, Florian et Andrei : BTO les cinq jours.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     ("FH", 0): [X("BTO", caw="BTO")],

@@ -1834,6 +1834,15 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
 
+**22/10/2026 (seconde modification) — vendredi 23/10 : Avenia Geoffrey et Fabrice Gaspard
+sur le `656374`** (FMROP C/304 — Rue Bois d'Ohey 295, Ohey), C@W PANDA+. Le chantier a
+déjà été fait par l'Équipe 2 le mercredi 21 ; **ils y retournent donc**. La case du
+magasinier passe de « Dépôt » au chantier ce jour-là, comme le jeudi pour l'E25 E40.
+**Monday.com** : Soufflage du `656374` **re-daté du 21 au 23/10**, et **Avenia + Gaspard
+ajoutés** à Dominguez et Feller. Les quatre y sont réellement passés ; la date écrasée
+correspondait à un passage déjà effectué. **À valider**, c'est encore le point de
+convention multi-occurrences.
+
 **22/10/2026 — vendredi 23/10 : le `682463` de Pierre est remplacé par le `655649`**
 (RZ FTTH DIST — Rue Bertrand 79-83, Andenne), le chantier que Florian avait fait le mardi.
 Sa journée devient donc 655649 puis 687759 avec l'Équipe 2. C@W PANDA+ pour les deux.
