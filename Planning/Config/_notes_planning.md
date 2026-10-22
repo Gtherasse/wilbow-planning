@@ -1677,6 +1677,35 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
+## Semaine 44 (26/10 au 30/10/2026) — créée le 22/10/2026
+
+Script `Planning/Config/_modele_planning_s44.py`, copié de la S43. PDF
+`Planning/Planning WILBOW - S44 - 26-30 oct 2026.pdf`, 2 pages.
+
+**SEMAINE DE CONGÉ COMPLÈTE.** Confirmé par Geoffrey le 22/10 : **toutes les lignes sont
+en CONGÉ les cinq jours**, du lundi 26 au vendredi 30/10. Le `PLANNING` tient donc en une
+seule ligne, générée depuis `RESSOURCES` — aucune case ne porte de chantier, et la page
+Check in @ Work ne porte aucun code : **rien à encoder pour le secrétariat.**
+
+**Vérification faite sur Monday.com le 22/10** : les 183 items du board Chantiers ont été
+passés en revue. **Aucun ne porte de date de Soufflage ni de Jointage entre le 26 et le
+30/10.** La seule date à venir est le **03/11** pour les Bornes Liège Expo (S45). Rien
+n'a donc eu besoin d'être déplacé.
+
+**Les deux Liège Expo des 29 et 30/10 avaient déjà été annulés le 20/10** et reportés au
+mardi 03/11, précisément à cause de ce congé.
+
+**Trois chantiers restent à replanifier**, tombés avec la maladie de Johan en S43 :
+`688836`, `690640` et la nuit du `675238`. La S44 étant en congé, **ils ne peuvent pas y
+aller** : ils iront en S45 ou plus tard. Leurs dates Monday sont vides en attendant.
+
+**`NOMS_OVERRIDE` est vide** : pas de substitution d'équipe à prévoir. Les absences de la
+S43 — Gauthier malade toute la semaine, Johan malade toute la semaine, Pierre malade les
+mardi et mercredi — **n'ont pas été reconduites** : elles sont sans objet pendant un
+congé, et leur état au retour n'est pas connu.
+
+---
+
 ## Semaine 43 (19/10 au 23/10/2026) — créée le 06/10/2026
 
 Script `_modele_planning_s43.py`, copié de la S42. PDF
@@ -1804,6 +1833,14 @@ ci-dessous, restés sans réponse, sont donc clos sans objet :
   pas pu être encodée sur Monday non plus. À trancher : est-ce une
   référence à créer, ou une coquille pour l'une de celles-ci ?
 - **Code C@W non précisé** — à donner avant toute génération du PDF S42 (règle du mémo).
+
+**22/10/2026 — vendredi 23/10 : le `682463` de Pierre est remplacé par le `655649`**
+(RZ FTTH DIST — Rue Bertrand 79-83, Andenne), le chantier que Florian avait fait le mardi.
+Sa journée devient donc 655649 puis 687759 avec l'Équipe 2. C@W PANDA+ pour les deux.
+**Monday.com** : le Jointage du `655649` est déjà sur Hanikenne au 20/10 ; **je n'y ai
+pas touché** — dis-moi s'il faut y ajouter Pierre et avancer la date au 23/10, ou laisser
+le passage de Florian comme référence. Le Jointage du `682463`, que j'avais mis sur
+Mattiuz au 23/10 hier, **a été libéré** puisqu'il ne le fait plus.
 
 **21/10/2026 (seconde modification) — jeudi 22 et vendredi 23/10 :**
 

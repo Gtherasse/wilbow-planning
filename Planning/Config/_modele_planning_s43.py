@@ -188,7 +188,7 @@ PLANNING = {
     ("E2", 4): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
                   "+ P. Mattiuz", "commun", caw="PANDA+")],
     ("PM", 4): [
-        J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+"),
+        J("655649", "RZ FTTH DIST — Rue Bertrand 79-83, Andenne", caw="PANDA+"),
         J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
           "+ Équipe 2", "commun", caw="PANDA+"),
     ],
