@@ -1682,10 +1682,27 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 Script `Planning/Config/_modele_planning_s44.py`, copié de la S43. PDF
 `Planning/Planning WILBOW - S44 - 26-30 oct 2026.pdf`, 2 pages.
 
-**SEMAINE DE CONGÉ COMPLÈTE.** Confirmé par Geoffrey le 22/10 : **toutes les lignes sont
-en CONGÉ les cinq jours**, du lundi 26 au vendredi 30/10. Le `PLANNING` tient donc en une
-seule ligne, générée depuis `RESSOURCES` — aucune case ne porte de chantier, et la page
-Check in @ Work ne porte aucun code : **rien à encoder pour le secrétariat.**
+**SEMAINE DE CONGÉ AVEC EXCEPTIONS.** ~~Congé complet~~ — **révisé le 25/10.** La base
+reste « tout le monde en congé les cinq jours », générée en une ligne depuis `RESSOURCES`,
+puis les exceptions ci-dessous l'écrasent :
+
+- **Bolmain Mickael et Dominguez Miguel travaillent du lundi au mercredi.** L'entête de
+  l'**Équipe 1** porte ces deux noms ces trois jours (`NOMS_OVERRIDE`) ; Gauthier Petit,
+  en congé, en disparaît et ne réapparaît que jeudi et vendredi, où toute l'équipe est en
+  congé. L'**Équipe 2** se réduit alors à **Feller Sam, en congé**.
+  - **Lundi 26/10 : JMS 687759** (Zone de Police, Andenne), C@W PANDA+.
+  - **Mardi 27 et mercredi 28/10 : JMS 635054** (Feed-out Eupen), C@W GO FIBER.
+- **Panait Dan et Andreï : BTO les cinq jours.**
+- **Hanikenne Florian : BTO les cinq jours**, **avec Fabrice Gaspard le mardi et le
+  mercredi** (pastille, Fabrice n'a pas de ligne RESSOURCES).
+- **Tout le reste est en congé** : Johan, Pierre, Avenia Geoffrey, et les deux équipes
+  les jeudi et vendredi.
+
+**Monday.com** : `687759` — Soufflage **re-daté du 23 au 26/10** et **Bolmain ajouté** à
+Dominguez et Feller ; `635054` — Soufflage **re-daté du 19 au 27/10**, les cinq personnes
+déjà encodées restent, Bolmain et Dominguez en font partie. Dans les deux cas la date
+écrasée correspondait à un passage déjà effectué. **Même réserve de convention
+multi-occurrences.**
 
 **Vérification faite sur Monday.com le 22/10** : les 183 items du board Chantiers ont été
 passés en revue. **Aucun ne porte de date de Soufflage ni de Jointage entre le 26 et le

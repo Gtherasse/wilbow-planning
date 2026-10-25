@@ -124,16 +124,36 @@ CODES = {
 
 # Semaine de conge : aucune substitution d equipe, les entetes restent ceux
 # de RESSOURCES.
-NOMS_OVERRIDE = {}
+NOMS_OVERRIDE = {
+    # Du lundi au mercredi, Dominguez Miguel travaille avec Bolmain Mickael :
+    # l entete de l Equipe 1 porte ces deux noms. Gauthier Petit, en conge, en
+    # disparait ces trois jours ; il reapparait jeudi et vendredi, ou toute
+    # l equipe est en conge.
+    **{("E1", i): ["Bolmain Mickael", "Dominguez Miguel"] for i in range(3)},
+    # L Equipe 2 se reduit alors a Feller Sam, en conge.
+    **{("E2", i): ["Feller Sam"] for i in range(3)},
+}
 
 
 PLANNING = {
-    # SEMAINE DE CONGE COMPLETE (26 au 30/10/2026), confirmee par Geoffrey le
-    # 22/10 : toutes les lignes sont en CONGE les cinq jours. Verification faite
-    # sur Monday.com le 22/10 : aucun chantier n y porte de date de Soufflage ni
-    # de Jointage entre le 26 et le 30/10. Le Liege Expo des 29 et 30/10 a ete
-    # annule le 20/10 et reporte au mardi 03/11.
+    # Semaine de conge (26 au 30/10/2026) AVEC EXCEPTIONS, arretees par Geoffrey
+    # le 25/10. Tout le monde est en conge sauf les lignes ci-dessous.
     **{(r["id"], i): ABS("CONGÉ") for r in RESSOURCES for i in range(5)},
+
+    # Bolmain et Dominguez travaillent du lundi au mercredi.
+    ("E1", 0): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
+                  caw="PANDA+")],
+    ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    ("E1", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+
+    # Panait Dan et Andrei : BTO les cinq jours.
+    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
+
+    # Hanikenne Florian : BTO les cinq jours, avec Fabrice Gaspard le mardi et
+    # le mercredi. Fabrice n a pas de ligne RESSOURCES : il apparait en pastille.
+    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 3, 4)},
+    **{("FH", i): [X("BTO", "+ F. Gaspard", "commun", caw="BTO")] for i in (1, 2)},
 }
 
 # --------------------------------------------------------------------- RENDU
