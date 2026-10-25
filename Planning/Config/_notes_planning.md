@@ -1693,8 +1693,10 @@ puis les exceptions ci-dessous l'écrasent :
   - **Lundi 26/10 : JMS 687759** (Zone de Police, Andenne), C@W PANDA+.
   - **Mardi 27 et mercredi 28/10 : JMS 635054** (Feed-out Eupen), C@W GO FIBER.
 - **Panait Dan et Andreï : BTO les cinq jours.**
-- **Hanikenne Florian : BTO les cinq jours**, **avec Fabrice Gaspard le mardi et le
-  mercredi** (pastille, Fabrice n'a pas de ligne RESSOURCES).
+- **Hanikenne Florian : BTO du lundi au mercredi**, **avec Fabrice Gaspard le mardi et
+  le mercredi** (pastille, Fabrice n'a pas de ligne RESSOURCES). ~~BTO les cinq jours~~ —
+  **corrigé le 25/10 : il est en CONGÉ le jeudi et le vendredi**, comme la majorité de
+  l'équipe. Dan et Andreï, eux, restent bien en BTO les cinq jours.
 - **Tout le reste est en congé** : Johan, Pierre, Avenia Geoffrey, et les deux équipes
   les jeudi et vendredi.
 

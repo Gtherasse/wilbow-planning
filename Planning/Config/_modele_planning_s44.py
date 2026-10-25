@@ -150,9 +150,10 @@ PLANNING = {
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 
-    # Hanikenne Florian : BTO les cinq jours, avec Fabrice Gaspard le mardi et
-    # le mercredi. Fabrice n a pas de ligne RESSOURCES : il apparait en pastille.
-    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 3, 4)},
+    # Hanikenne Florian : BTO du lundi au mercredi, avec Fabrice Gaspard le mardi
+    # et le mercredi (Fabrice n a pas de ligne RESSOURCES : pastille). Il est en
+    # conge le jeudi et le vendredi, donc couvert par la base.
+    ("FH", 0): [X("BTO", caw="BTO")],
     **{("FH", i): [X("BTO", "+ F. Gaspard", "commun", caw="BTO")] for i in (1, 2)},
 }
 
