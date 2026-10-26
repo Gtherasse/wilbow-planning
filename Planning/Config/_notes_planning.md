@@ -2027,6 +2027,10 @@ chantier confirmé ce jour-là, la case ne porte que cette ligne.
 
 ## Absences à venir (à reprendre dans les semaines concernées)
 
+- **Andreï en CONGÉ le vendredi 06/11/2026** (semaine 45, **script à créer**). Noté le
+  26/10. Sa ligne porte habituellement BTO : elle passera en CONGÉ ce jour-là. Durée au
+  delà de ce vendredi non précisée.
+
 - **Mickael Bolmain en CONGÉ le lundi 19/10/2026** (semaine 43) — déjà porté au script
   S43 le 12/10. Durée au-delà de ce lundi non précisée.
 
