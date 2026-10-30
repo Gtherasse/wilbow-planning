@@ -1686,6 +1686,12 @@ Script `Planning/Config/_modele_planning_s46.py`, copié de la S45. PDF
 et Mike Wilvers comme à l'origine (Mike n'a pas de ligne RESSOURCES : il figure en
 pastille) :
 
+- **Lundi 09/11 — JMS `635054`** (Feed-out Eupen FH01 — Raeren FH06), **Johan seul**,
+  mention « (mesures + corrections) », C@W **GO FIBER**. Il revient donc sur le chantier
+  de Raeren qu'il fait déjà les 03, 04 et 05/11 en S45.
+  **Monday.com — rien à changer** : le Jointage du `635054` porte déjà Johan et Pierre,
+  daté du 03/11, premier jour de la série. Ce quatrième passage ne s'y distingue pas —
+  **convention multi-occurrences toujours en suspens.**
 - **Mardi 10/11 — JMS `688836`** (FQ ROP endommagé 85AMAC/311), C@W PANDA+.
 - ~~Mercredi 11/11~~ **Jeudi 12/11 — JMS `690640`** (RRROP C/123 — Rue Sabaré, Visé),
   C@W PANDA+. **Déplacé le 30/10** : le mercredi 11/11 est férié, Geoffrey l'avait oublié
