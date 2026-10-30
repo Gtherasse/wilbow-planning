@@ -146,7 +146,13 @@ PLANNING = {
                   "+ J. Meurisse", "commun", caw="GO FIBER")],
     ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
                   "+ Équipe 1", "commun", caw="GO FIBER")],
-    ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+                  "+ P. Mattiuz", "commun", caw="GO FIBER")],
+
+    # Mercredi 04 et jeudi 05/11 : Pierre sur le meme chantier de Raeren. Le
+    # jeudi, il enchaine sur la nuit du Jemelle.
+    ("PM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+                  "+ J. Meurisse", "commun", caw="GO FIBER")],
 
     # Jeudi 05/11 : Johan prepare le Jemelle seul en journee, puis le fait de
     # nuit avec Pierre. Tous deux en recuperation le vendredi.
@@ -155,8 +161,11 @@ PLANNING = {
         J("675238", "BBN 12310B — Ciney-Jemelle",
           "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
     ],
-    ("PM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
-                  "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+")],
+    ("PM", 3): [
+        J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER"),
+        J("675238", "BBN 12310B — Ciney-Jemelle",
+          "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
+    ],
     ("JM", 4): ABS("RÉCUP"),
     ("PM", 4): ABS("RÉCUP"),
 

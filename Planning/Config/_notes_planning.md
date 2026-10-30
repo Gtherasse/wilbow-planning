@@ -1752,6 +1752,14 @@ contenaient pour cette semaine :
   Jointage **re-daté du 23/10 au 03/11**, Pierre y était déjà encodé. Dans les deux cas
   la date écrasée correspondait à un passage déjà effectué.
 
+**30/10/2026 (troisième modification) — Pierre sur le chantier de Raeren le mercredi 04
+et le jeudi 05/11.** Le `635054` n'est donc plus porté par Johan seul le mercredi : les
+deux y sont, pastilles croisées. **Le jeudi, Pierre enchaîne** le Raeren en journée puis
+la **nuit du Jemelle** avec Johan — sa case du jeudi porte les deux. Johan, lui, prépare
+le Jemelle en journée ce jeudi-là, ils ne sont donc ensemble que la nuit.
+**Monday.com** : Jointage du `635054` — **Pierre ajouté** à Johan, date inchangée au
+03/11, premier jour de la série.
+
 **30/10/2026 (seconde modification) — le Jemelle revient, jeudi 05 et nuit du 05 au
 06/11 :**
 
