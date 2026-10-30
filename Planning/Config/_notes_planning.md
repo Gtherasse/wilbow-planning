@@ -1698,6 +1698,14 @@ contenaient pour cette semaine :
   **Florian perd donc son BTO du lundi** ; il le garde du mardi au vendredi.
 - **Mardi 03/11 — Équipe 1 sur le `635054`** (Feed-out Eupen FH01 — Raeren FH06), C@W
   **GO FIBER**. C'est le « chantier de Raeren ».
+- **Johan sur le `635054` le mardi ET le mercredi.** Le mardi **avec l'Équipe 1**
+  (pastilles croisées) ; le **mercredi seul**, point tranché par Geoffrey : l'Équipe 1
+  n'a rien de confirmé ce jour-là, sa case reste grisée. C'est le premier chantier de
+  Johan depuis sa maladie de la S43.
+  **Monday.com** : le `635054` porte maintenant **les deux métiers** — Soufflage
+  (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
+  Son passage du mercredi 04 ne s'y distingue pas — **convention multi-occurrences
+  toujours en suspens.**
 - **Mardi 03/11 — Pierre sur le `687759`** (Zone de Police 5305 Des Arches, Andenne), son
   chantier du vendredi de la S43. **Précision demandée et obtenue** : il avait ce
   vendredi-là **deux** chantiers à Andenne, le `687759` et le `655649` ; c'est bien le

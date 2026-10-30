@@ -139,8 +139,14 @@ PLANNING = {
     # "PAS DE CODE C@W" sans reference a encoder.
     ("E2", 1): [X("Bornes Liège Expo", url=BORNESLG, caw="PAS DE CODE C@W")],
 
-    # Mardi 03/11 : l Equipe 1 sur le 635054 (Feed-out Eupen - Raeren).
-    ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    # Mardi 03/11 : l Equipe 1 sur le 635054 (Feed-out Eupen - Raeren). Johan
+    # est avec elle le mardi, puis seul sur le meme chantier le mercredi :
+    # l Equipe 1 n a rien de confirme ce jour-la.
+    ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+                  "+ J. Meurisse", "commun", caw="GO FIBER")],
+    ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+                  "+ Équipe 1", "commun", caw="GO FIBER")],
+    ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
 
     # Mardi 03/11 : Pierre reprend le 687759 (Zone de Police, Andenne), son
     # chantier du vendredi de la S43.
