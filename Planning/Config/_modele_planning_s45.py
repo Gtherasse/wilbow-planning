@@ -139,10 +139,22 @@ PLANNING = {
     # "PAS DE CODE C@W" sans reference a encoder.
     ("E2", 1): [X("Bornes Liège Expo", url=BORNESLG, caw="PAS DE CODE C@W")],
 
+    # Mardi 03/11 : l Equipe 1 sur le 635054 (Feed-out Eupen - Raeren).
+    ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+
+    # Mardi 03/11 : Pierre reprend le 687759 (Zone de Police, Andenne), son
+    # chantier du vendredi de la S43.
+    ("PM", 1): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",
+                  caw="PANDA+")],
+
+    # Lundi 02/11 : tout le monde en conge sauf Panait Dan et Andrei, qui
+    # restent en BTO.
+    **{(r["id"], 0): ABS("CONGÉ") for r in RESSOURCES if r["id"] not in ("DP", "AN")},
+
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction de la regle
     # habituelle. Andrei est en conge le vendredi 06/11.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
-    **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
+    **{("FH", i): [X("BTO", caw="BTO")] for i in range(1, 5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(4)},
     ("AN", 4): ABS("CONGÉ"),
 

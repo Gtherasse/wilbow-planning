@@ -1692,6 +1692,20 @@ contenaient pour cette semaine :
   en CONGÉ ce jour-là.
 - **Dan, Florian et Andreï : BTO les cinq jours**, reconduction de la règle habituelle.
 
+**30/10/2026 — premiers ajouts :**
+
+- **Lundi 02/11 : tout le monde en CONGÉ sauf Panait Dan et Andreï**, qui restent en BTO.
+  **Florian perd donc son BTO du lundi** ; il le garde du mardi au vendredi.
+- **Mardi 03/11 — Équipe 1 sur le `635054`** (Feed-out Eupen FH01 — Raeren FH06), C@W
+  **GO FIBER**. C'est le « chantier de Raeren ».
+- **Mardi 03/11 — Pierre sur le `687759`** (Zone de Police 5305 Des Arches, Andenne), son
+  chantier du vendredi de la S43. **Précision demandée et obtenue** : il avait ce
+  vendredi-là **deux** chantiers à Andenne, le `687759` et le `655649` ; c'est bien le
+  `687759` qu'il reprend.
+- **Monday.com** : `635054` — Soufflage **re-daté du 27/10 au 03/11** ; `687759` —
+  Jointage **re-daté du 23/10 au 03/11**, Pierre y était déjà encodé. Dans les deux cas
+  la date écrasée correspondait à un passage déjà effectué.
+
 **Aucun code Check in @ Work pour les Bornes Liège Expo** — confirmé par Geoffrey le
 30/10 : **il n'en existe pas**. La page secrétariat porte donc **« PAS DE CODE C@W »**
 sans référence à encoder, plutôt qu'une case vide ou un « ? » ambigu. Une entrée
