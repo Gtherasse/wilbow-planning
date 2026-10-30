@@ -1759,6 +1759,11 @@ contenaient pour cette semaine :
   (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
   Son passage du mercredi 04 ne s'y distingue pas — **convention multi-occurrences
   toujours en suspens.**
+- **Jeudi 05 et vendredi 06/11 — Équipe 1 sur le `FH 40 Feed-In`**, C@W **FIFTHNET**
+  (« 5net »). Pas de numéro JMS ; l'item Monday existe (`3288631715`), le titre est donc
+  cliquable. **La semaine de l'Équipe 1 est complète** : Raeren mardi et mercredi,
+  FH 40 jeudi et vendredi, congé le lundi.
+  **Monday.com** : Soufflage **Bolmain + Petit au 05/11**, les colonnes étaient vides.
 - **Mercredi 04 et jeudi 05/11 — Équipe 2 sur le `682463`** (Avenue du Condroz 3 — Huy,
   E.T.N.I.C.), mention **« (détection de gaines) »**, C@W PANDA+. **Prolongé au jeudi le
   30/10.** Il ne lui reste que le vendredi de grisé.

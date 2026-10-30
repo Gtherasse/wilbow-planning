@@ -94,6 +94,7 @@ VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
 HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
 BORNESLG = "https://wilbow.monday.com/boards/5089236279/pulses/3297165250"  # Bornes Liege Expo
+FH40 = "https://wilbow.monday.com/boards/5089236279/pulses/3288631715"  # FH 40 Feed-In
 VALBENOIT = "https://wilbow.monday.com/boards/5089236279/pulses/3292906173"  # Val Benoit et Grosses-Battes CCTV
 DIGN = "https://wilbow.monday.com/boards/5089236279/pulses/2725054102"  # 4020 Leman/Digneffe CA120
 FEXHE = "https://wilbow.monday.com/boards/5089236279/pulses/2958713654"  # 622272 - IS_MP Cable definitif branche 12835
@@ -146,6 +147,9 @@ PLANNING = {
     # chantier mais ne travaillent pas ensemble.
     ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("E1", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+
+    # Jeudi 05 et vendredi 06/11 : l Equipe 1 sur le FH 40 Feed-In (pas de JMS).
+    **{("E1", i): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")] for i in (3, 4)},
 
     # Mercredi 04/11 : l Equipe 2 sur l E.T.N.I.C. pour la detection de gaines.
     ("E2", 2): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
