@@ -1687,17 +1687,20 @@ et Mike Wilvers comme à l'origine (Mike n'a pas de ligne RESSOURCES : il figure
 pastille) :
 
 - **Mardi 10/11 — JMS `688836`** (FQ ROP endommagé 85AMAC/311), C@W PANDA+.
-- **Mercredi 11/11 — JMS `690640`** (RRROP C/123 — Rue Sabaré, Visé), C@W PANDA+.
+- ~~Mercredi 11/11~~ **Jeudi 12/11 — JMS `690640`** (RRROP C/123 — Rue Sabaré, Visé),
+  C@W PANDA+. **Déplacé le 30/10** : le mercredi 11/11 est férié, Geoffrey l'avait oublié
+  et a demandé de le passer au jour suivant.
 
 L'ordre mardi/mercredi n'était pas précisé : j'ai repris **leur ordre d'origine en S43**
 (le 688836 d'abord). À inverser si tu préfères.
 
-⚠️ **Le mercredi 11 novembre est un jour férié légal en Belgique (Armistice).** Le
-`690640` y est placé comme demandé, mais **à confirmer** — s'il doit bouger, dis-moi vers
-quel jour.
+⚠️ **Le mercredi 11 novembre est un jour férié légal en Belgique (Armistice).** Plus
+aucun chantier n'y figure. **En revanche Dan, Florian et Andreï y sont toujours en BTO**,
+par simple reconduction de la règle habituelle : **à confirmer** — s'ils ne travaillent
+pas ce jour-là, dis-le-moi et je passe la journée en CONGÉ pour tout le monde.
 
 - **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
-- **Monday.com** : Jointage du `688836` daté du **10/11** et du `690640` du **11/11** ;
+- **Monday.com** : Jointage du `688836` daté du **10/11** et du `690640` du **12/11** ;
   les deux colonnes avaient été vidées le 19/10, Johan y était resté encodé.
 - **Plus aucun chantier en attente de replanification.**
 

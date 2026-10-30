@@ -138,7 +138,8 @@ PLANNING = {
     # Mike Wilvers, qui n a pas de ligne RESSOURCES et apparait en pastille.
     ("JM", 1): [J("688836", "FQ ROP endommagé 85AMAC/311",
                   "+ M. Wilvers", "commun", caw="PANDA+")],
-    ("JM", 2): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
+    # Le 690640 est passe au jeudi : le mercredi 11/11 est ferie (Armistice).
+    ("JM", 3): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
                   "+ M. Wilvers", "commun", caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
