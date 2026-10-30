@@ -1759,8 +1759,9 @@ contenaient pour cette semaine :
   (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
   Son passage du mercredi 04 ne s'y distingue pas — **convention multi-occurrences
   toujours en suspens.**
-- **Mercredi 04/11 — Équipe 2 sur le `682463`** (Avenue du Condroz 3 — Huy, E.T.N.I.C.),
-  mention **« (détection de gaines) »**, C@W PANDA+. Son mercredi n'est donc plus grisé.
+- **Mercredi 04 et jeudi 05/11 — Équipe 2 sur le `682463`** (Avenue du Condroz 3 — Huy,
+  E.T.N.I.C.), mention **« (détection de gaines) »**, C@W PANDA+. **Prolongé au jeudi le
+  30/10.** Il ne lui reste que le vendredi de grisé.
   **Monday.com** : Soufflage du `682463` **re-daté du 22/10 au 04/11**. **Bolmain et
   Hanikenne y restent encodés** en plus de Dominguez et Feller : ils y sont réellement
   passés le 22/10, mais **ce 04/11 c'est l'Équipe 2 seule**. À me dire si tu préfères
