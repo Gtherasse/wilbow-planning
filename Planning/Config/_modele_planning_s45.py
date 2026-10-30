@@ -148,6 +148,18 @@ PLANNING = {
                   "+ Équipe 1", "commun", caw="GO FIBER")],
     ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
 
+    # Jeudi 05/11 : Johan prepare le Jemelle seul en journee, puis le fait de
+    # nuit avec Pierre. Tous deux en recuperation le vendredi.
+    ("JM", 3): [
+        J("675238", "BBN 12310B — Ciney-Jemelle", "(préparation)", caw="PANDA+"),
+        J("675238", "BBN 12310B — Ciney-Jemelle",
+          "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
+    ],
+    ("PM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
+                  "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+")],
+    ("JM", 4): ABS("RÉCUP"),
+    ("PM", 4): ABS("RÉCUP"),
+
     # Mardi 03/11 : Pierre reprend le 687759 (Zone de Police, Andenne), son
     # chantier du vendredi de la S43.
     ("PM", 1): [J("687759", "Zone de Police 5305 Des Arches — Rue de la Papeterie 1, Andenne",

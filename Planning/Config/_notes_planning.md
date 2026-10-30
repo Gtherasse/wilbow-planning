@@ -1714,6 +1714,22 @@ contenaient pour cette semaine :
   Jointage **re-daté du 23/10 au 03/11**, Pierre y était déjà encodé. Dans les deux cas
   la date écrasée correspondait à un passage déjà effectué.
 
+**30/10/2026 (seconde modification) — le Jemelle revient, jeudi 05 et nuit du 05 au
+06/11 :**
+
+- **Jeudi 05/11 — Johan prépare le `675238` seul en journée** (BBN 12310B,
+  Ciney-Jemelle), mention « (préparation) » sous le chantier.
+- **Nuit du jeudi 05 au vendredi 06/11 — Johan et Pierre** sur le même `675238`,
+  22h00–06h00, bloc à cheval sur les deux journées. C@W PANDA+.
+- **Vendredi 06/11 — Johan et Pierre en RÉCUP** après cette nuit. Pierre n'a donc rien
+  d'autre de la semaine en dehors de son mardi et de cette nuit.
+- **C'est la nuit annulée le 19/10** faute de binôme, pendant la maladie de Johan :
+  **elle est replanifiée.** Il reste donc **deux** chantiers sans date, le `688836` et
+  le `690640`, tous deux avec Mike Wilvers.
+- **Monday.com** : `675238` — Jointage **Johan + Pierre au 05/11**, la date avait été
+  vidée le 19/10. La préparation de jour et la nuit tombent le même jour, elles ne
+  posent donc aucun problème de convention.
+
 **Aucun code Check in @ Work pour les Bornes Liège Expo** — confirmé par Geoffrey le
 30/10 : **il n'en existe pas**. La page secrétariat porte donc **« PAS DE CODE C@W »**
 sans référence à encoder, plutôt qu'une case vide ou un « ? » ambigu. Une entrée
