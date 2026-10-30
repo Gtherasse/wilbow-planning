@@ -142,10 +142,10 @@ PLANNING = {
     # Mardi 03/11 : l Equipe 1 sur le 635054 (Feed-out Eupen - Raeren). Johan
     # est avec elle le mardi, puis seul sur le meme chantier le mercredi :
     # l Equipe 1 n a rien de confirme ce jour-la.
-    ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
-                  "+ J. Meurisse", "commun", caw="GO FIBER")],
-    ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
-                  "+ Équipe 1", "commun", caw="GO FIBER")],
+    # Pas de pastille de partage le mardi : l Equipe 1 et Johan sont sur le meme
+    # chantier mais ne travaillent pas ensemble.
+    ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+    ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
                   "+ P. Mattiuz", "commun", caw="GO FIBER")],
 

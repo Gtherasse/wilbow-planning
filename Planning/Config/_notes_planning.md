@@ -1742,9 +1742,14 @@ contenaient pour cette semaine :
   **Florian perd donc son BTO du lundi** ; il le garde du mardi au vendredi.
 - **Mardi 03/11 — Équipe 1 sur le `635054`** (Feed-out Eupen FH01 — Raeren FH06), C@W
   **GO FIBER**. C'est le « chantier de Raeren ».
-- **Johan sur le `635054` le mardi ET le mercredi.** Le mardi **avec l'Équipe 1**
-  (pastilles croisées) ; le **mercredi seul**, point tranché par Geoffrey : l'Équipe 1
-  n'a rien de confirmé ce jour-là, sa case reste grisée. C'est le premier chantier de
+- **Johan sur le `635054` le mardi ET le mercredi.** Le mardi, l'Équipe 1 y est aussi
+  mais **sans pastille de partage** : ~~pastilles croisées~~ — **corrigé le 30/10**, ils
+  sont **sur le même chantier sans travailler ensemble**, la pastille laissait croire
+  l'inverse. Le **mercredi**, l'Équipe 1 n'a rien de confirmé, sa case reste grisée ;
+  Johan y est avec Pierre, et là la pastille croisée est bien justifiée.
+
+  **À retenir pour la suite** : la pastille « + Nom » signifie **travailler ensemble**,
+  pas « être sur le même dossier ». Deux lignes peuvent porter le même JMS sans pastille. C'est le premier chantier de
   Johan depuis sa maladie de la S43.
   **Monday.com** : le `635054` porte maintenant **les deux métiers** — Soufflage
   (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
