@@ -1759,6 +1759,12 @@ contenaient pour cette semaine :
   (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
   Son passage du mercredi 04 ne s'y distingue pas — **convention multi-occurrences
   toujours en suspens.**
+- **Mercredi 04/11 — Équipe 2 sur le `682463`** (Avenue du Condroz 3 — Huy, E.T.N.I.C.),
+  mention **« (détection de gaines) »**, C@W PANDA+. Son mercredi n'est donc plus grisé.
+  **Monday.com** : Soufflage du `682463` **re-daté du 22/10 au 04/11**. **Bolmain et
+  Hanikenne y restent encodés** en plus de Dominguez et Feller : ils y sont réellement
+  passés le 22/10, mais **ce 04/11 c'est l'Équipe 2 seule**. À me dire si tu préfères
+  n'y laisser que les deux.
 - **Mardi 03/11 — Pierre sur le `687759`** (Zone de Police 5305 Des Arches, Andenne), son
   chantier du vendredi de la S43. **Précision demandée et obtenue** : il avait ce
   vendredi-là **deux** chantiers à Andenne, le `687759` et le `655649` ; c'est bien le

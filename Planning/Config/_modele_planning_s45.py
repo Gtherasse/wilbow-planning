@@ -146,6 +146,10 @@ PLANNING = {
     # chantier mais ne travaillent pas ensemble.
     ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("E1", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+
+    # Mercredi 04/11 : l Equipe 2 sur l E.T.N.I.C. pour la detection de gaines.
+    ("E2", 2): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
+                  "(détection de gaines)", caw="PANDA+")],
     ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
                   "+ P. Mattiuz", "commun", caw="GO FIBER")],
