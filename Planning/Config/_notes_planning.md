@@ -1677,6 +1677,38 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
+## Semaine 45 (02/11 au 06/11/2026) — créée le 30/10/2026
+
+Script `Planning/Config/_modele_planning_s45.py`, copié de la S44. PDF
+`Planning/Planning WILBOW - S45 - 02-06 nov 2026.pdf`, 2 pages.
+
+**Ce qui était déjà prévu et a été repris** — c'est tout ce que le mémo et Monday
+contenaient pour cette semaine :
+
+- **Mardi 03/11 — Équipe 2 sur les Bornes Liège Expo.** Chantier reporté des 29 et 30/10,
+  annulés pour cause de congé. Soufflage déjà encodé sur Monday (Dominguez + Feller au
+  03/11, item `3297165250`).
+- **Vendredi 06/11 — Andreï en CONGÉ.** Sa ligne, en BTO les quatre autres jours, passe
+  en CONGÉ ce jour-là.
+- **Dan, Florian et Andreï : BTO les cinq jours**, reconduction de la règle habituelle.
+
+**Aucun code Check in @ Work pour les Bornes Liège Expo** — confirmé par Geoffrey le
+30/10 : **il n'en existe pas**. La page secrétariat porte donc **« PAS DE CODE C@W »**
+sans référence à encoder, plutôt qu'une case vide ou un « ? » ambigu. Une entrée
+`"PAS DE CODE C@W": ""` a été ajoutée au dict `CODES` pour cela ; **elle est réutilisable
+telle quelle** chaque fois qu'un chantier n'a pas de code.
+
+**Vérification faite sur Monday.com le 30/10** : un seul item porte une date entre le 02
+et le 06/11, les Bornes Liège Expo. **Rien d'autre à reprendre.** Tout le reste de la
+semaine est grisé : les deux équipes de soufflage n'ont rien hors le mardi, Johan et
+Pierre n'ont rien du tout.
+
+**Les trois chantiers tombés avec la maladie de Johan** — `688836`, `690640` et la nuit
+du `675238` — **n'ont toujours pas de date** et ne sont donc pas dans cette semaine. À
+replanifier.
+
+---
+
 ## Semaine 44 (26/10 au 30/10/2026) — créée le 22/10/2026
 
 Script `Planning/Config/_modele_planning_s44.py`, copié de la S43. PDF
