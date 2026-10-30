@@ -1677,6 +1677,34 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
+## Semaine 46 (09/11 au 13/11/2026) — créée le 30/10/2026
+
+Script `Planning/Config/_modele_planning_s46.py`, copié de la S45. PDF
+`Planning/Planning WILBOW - S46 - 09-13 nov 2026.pdf`, 2 pages.
+
+**Les deux derniers chantiers tombés avec la maladie de Johan sont replanifiés**, à Johan
+et Mike Wilvers comme à l'origine (Mike n'a pas de ligne RESSOURCES : il figure en
+pastille) :
+
+- **Mardi 10/11 — JMS `688836`** (FQ ROP endommagé 85AMAC/311), C@W PANDA+.
+- **Mercredi 11/11 — JMS `690640`** (RRROP C/123 — Rue Sabaré, Visé), C@W PANDA+.
+
+L'ordre mardi/mercredi n'était pas précisé : j'ai repris **leur ordre d'origine en S43**
+(le 688836 d'abord). À inverser si tu préfères.
+
+⚠️ **Le mercredi 11 novembre est un jour férié légal en Belgique (Armistice).** Le
+`690640` y est placé comme demandé, mais **à confirmer** — s'il doit bouger, dis-moi vers
+quel jour.
+
+- **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
+- **Monday.com** : Jointage du `688836` daté du **10/11** et du `690640` du **11/11** ;
+  les deux colonnes avaient été vidées le 19/10, Johan y était resté encodé.
+- **Plus aucun chantier en attente de replanification.**
+
+Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'ont rien.
+
+---
+
 ## Semaine 45 (02/11 au 06/11/2026) — créée le 30/10/2026
 
 Script `Planning/Config/_modele_planning_s45.py`, copié de la S44. PDF
