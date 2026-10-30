@@ -1745,12 +1745,16 @@ contenaient pour cette semaine :
 - **Johan sur le `635054` le mardi ET le mercredi.** Le mardi, l'Équipe 1 y est aussi
   mais **sans pastille de partage** : ~~pastilles croisées~~ — **corrigé le 30/10**, ils
   sont **sur le même chantier sans travailler ensemble**, la pastille laissait croire
-  l'inverse. Le **mercredi**, l'Équipe 1 n'a rien de confirmé, sa case reste grisée ;
-  Johan y est avec Pierre, et là la pastille croisée est bien justifiée.
+  l'inverse. **Le mercredi 04/11, l'Équipe 1 est elle aussi sur le Raeren** (ajouté le
+  30/10, ~~rien de confirmé~~), **sans pastille** non plus. Johan y est avec Pierre, et
+  là la pastille croisée entre eux deux est bien justifiée. **Quatre personnes sur le
+  `635054` ce mercredi** — Bolmain, Petit, Johan et Pierre — **en deux groupes
+  distincts.**
 
   **À retenir pour la suite** : la pastille « + Nom » signifie **travailler ensemble**,
-  pas « être sur le même dossier ». Deux lignes peuvent porter le même JMS sans pastille. C'est le premier chantier de
-  Johan depuis sa maladie de la S43.
+  pas « être sur le même dossier ». Deux lignes peuvent porter le même JMS sans pastille.
+
+  C'est le premier chantier de Johan depuis sa maladie de la S43.
   **Monday.com** : le `635054` porte maintenant **les deux métiers** — Soufflage
   (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
   Son passage du mercredi 04 ne s'y distingue pas — **convention multi-occurrences
