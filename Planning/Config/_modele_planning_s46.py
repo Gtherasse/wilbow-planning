@@ -55,6 +55,7 @@ AM    = "Après-midi"
 
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
+    "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
     "553176": "https://wilbow.monday.com/boards/5089236279/pulses/3166049312",
@@ -141,6 +142,12 @@ PLANNING = {
     # Le 690640 est passe au jeudi : le mercredi 11/11 est ferie (Armistice).
     ("JM", 3): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
                   "+ M. Wilvers", "commun", caw="PANDA+")],
+
+    # Vendredi 13/11 : Johan et Pierre sur le 681226, sous reserve du client.
+    ("JM", 4): [J("681226", "GB — Cup Pasta Médiacité",
+                  "+ P. Mattiuz · sous réserve du client", "commun", caw="PANDA+")],
+    ("PM", 4): [J("681226", "GB — Cup Pasta Médiacité",
+                  "+ J. Meurisse · sous réserve du client", "commun", caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},

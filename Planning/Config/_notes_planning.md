@@ -1699,6 +1699,13 @@ aucun chantier n'y figure. **En revanche Dan, Florian et Andreï y sont toujours
 par simple reconduction de la règle habituelle : **à confirmer** — s'ils ne travaillent
 pas ce jour-là, dis-le-moi et je passe la journée en CONGÉ pour tout le monde.
 
+- **Vendredi 13/11 — JMS `681226`** (GB — Cup Pasta Médiacité), **Johan et Pierre**,
+  C@W **PANDA+**. **Sous réserve du client** : la mention figure dans la pastille de
+  partage, « + P. Mattiuz · sous réserve du client » et réciproquement. C'est la
+  **première fois qu'un chantier non ferme apparaît dans la grille** — la règle veut que
+  seul le confirmé y figure ; il y est **à la demande expresse de Geoffrey**, avec la
+  réserve rendue visible. À retirer si le client ne confirme pas.
+  **Monday.com** : Jointage **Johan + Pierre au 13/11**, les colonnes étaient vides.
 - **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
 - **Monday.com** : Jointage du `688836` daté du **10/11** et du `690640` du **12/11** ;
   les deux colonnes avaient été vidées le 19/10, Johan y était resté encodé.
