@@ -1759,6 +1759,11 @@ contenaient pour cette semaine :
   (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
   Son passage du mercredi 04 ne s'y distingue pas — **convention multi-occurrences
   toujours en suspens.**
+- **Mercredi 04/11 — Avenia Geoffrey et Fabrice Gaspard sur le `FH 32 Feed-In`**, C@W
+  **FIFTHNET** (code déjà établi en S37 et S38 pour ce chantier, pas besoin de le
+  redemander). Pas de JMS, mais l'item Monday existe : titre cliquable. La case du
+  magasinier passe de « Dépôt » au chantier ce jour-là.
+  **Monday.com** : Soufflage **Avenia + Gaspard au 04/11**, les colonnes étaient vides.
 - **Jeudi 05 et vendredi 06/11 — Équipe 1 sur le `FH 40 Feed-In`**, C@W **FIFTHNET**
   (« 5net »). Pas de numéro JMS ; l'item Monday existe (`3288631715`), le titre est donc
   cliquable. **La semaine de l'Équipe 1 est complète** : Raeren mardi et mercredi,

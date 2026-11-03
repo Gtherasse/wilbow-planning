@@ -151,6 +151,10 @@ PLANNING = {
     # Jeudi 05 et vendredi 06/11 : l Equipe 1 sur le FH 40 Feed-In (pas de JMS).
     **{("E1", i): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")] for i in (3, 4)},
 
+    # Mercredi 04/11 : Avenia Geoffrey avec Fabrice Gaspard sur le FH 32 Feed-In.
+    ("GA", 2): [X("FH 32 Feed-In", "+ F. Gaspard", "commun",
+                  url=FH32, caw="FIFTHNET")],
+
     # Mercredi 04/11 : l Equipe 2 sur l E.T.N.I.C. pour la detection de gaines.
     ("E2", 2): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
                   "(détection de gaines)", caw="PANDA+")],
