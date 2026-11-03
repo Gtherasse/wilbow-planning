@@ -1677,14 +1677,35 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
+## Semaine 47 (16/11 au 20/11/2026) — créée le 03/11/2026
+
+Script `Planning/Config/_modele_planning_s47.py`, copié de la S46. PDF
+`Planning/Planning WILBOW - S47 - 16-20 nov 2026.pdf`, 2 pages.
+
+**Les deux chantiers de Johan et Mike Wilvers y sont déplacés depuis la S46** (demande du
+03/11) :
+
+- **Mercredi 18/11 — JMS `688836`** (FQ ROP endommagé 85AMAC/311), C@W PANDA+.
+- **Jeudi 19/11 — JMS `690640`** (RRROP C/123 — Rue Sabaré, Visé), C@W PANDA+.
+
+Ils ont donc changé deux fois de date : d'abord mardi 10 et mercredi 11/11, puis mardi 10
+et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
+
+- **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
+- **Monday.com** : Jointage du `688836` daté du **18/11** et du `690640` du **19/11**.
+- Tout le reste de la semaine est grisé : les deux équipes, Pierre, et Johan hors ces
+  deux jours.
+
+---
+
 ## Semaine 46 (09/11 au 13/11/2026) — créée le 30/10/2026
 
 Script `Planning/Config/_modele_planning_s46.py`, copié de la S45. PDF
 `Planning/Planning WILBOW - S46 - 09-13 nov 2026.pdf`, 2 pages.
 
-**Les deux derniers chantiers tombés avec la maladie de Johan sont replanifiés**, à Johan
-et Mike Wilvers comme à l'origine (Mike n'a pas de ligne RESSOURCES : il figure en
-pastille) :
+**~~Les deux derniers chantiers tombés avec la maladie de Johan sont replanifiés~~ —
+DÉPLACÉS EN S47 le 03/11**, aux mercredi 18 et jeudi 19/11. Ils ne figurent plus dans
+cette semaine. Leur passage ici, conservé pour mémoire :
 
 - **Lundi 09/11 — JMS `635054`** (Feed-out Eupen FH01 — Raeren FH06), **Johan seul**,
   mention « (mesures + corrections) », C@W **GO FIBER**. Il revient donc sur le chantier

@@ -134,19 +134,13 @@ NOMS_OVERRIDE = {}
 
 
 PLANNING = {
-    # Les deux chantiers tombes avec la maladie de Johan en S43 sont
-    # replanifies : le 688836 le mardi, le 690640 le mercredi. Tous deux avec
-    # Mike Wilvers, qui n a pas de ligne RESSOURCES et apparait en pastille.
+    # Le 688836 et le 690640, un temps poses ici, sont partis en S47 (mercredi
+    # 18 et jeudi 19/11) : deplacement du 03/11.
+
     # Lundi 09/11 : Johan sur le chantier de Raeren pour les mesures et les
     # corrections.
     ("JM", 0): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
                   "(mesures + corrections)", caw="GO FIBER")],
-
-    ("JM", 1): [J("688836", "FQ ROP endommagé 85AMAC/311",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
-    # Le 690640 est passe au jeudi : le mercredi 11/11 est ferie (Armistice).
-    ("JM", 3): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
 
     # Vendredi 13/11 : Johan et Pierre sur le 681226, sous reserve du client.
     ("JM", 4): [J("681226", "GB — Cup Pasta Médiacité",
