@@ -176,18 +176,20 @@ PLANNING = {
 
     # Jeudi 05/11 : Johan prepare le Jemelle seul en journee, puis le fait de
     # nuit avec Pierre. Tous deux en recuperation le vendredi.
-    ("JM", 3): [
-        J("675238", "BBN 12310B — Ciney-Jemelle", "(préparation)", caw="PANDA+"),
+    # Jeudi 05/11 : Johan prepare le Jemelle seul en journee. La nuit qui suit
+    # est passee a Mike Wilvers et Panait Dan (changement du 03/11) : Johan et
+    # Pierre ne la font plus, leurs recuperations du vendredi tombent donc.
+    ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
+                  "(préparation)", caw="PANDA+")],
+    ("PM", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+
+    # La nuit du Jemelle est portee par la ligne de Panait Dan, avec Mike
+    # Wilvers en pastille : Mike n a pas de ligne RESSOURCES.
+    ("DP", 3): [
+        X("BTO", caw="BTO"),
         J("675238", "BBN 12310B — Ciney-Jemelle",
-          "+ P. Mattiuz", "commun", q=NUIT, caw="PANDA+"),
+          "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
     ],
-    ("PM", 3): [
-        J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER"),
-        J("675238", "BBN 12310B — Ciney-Jemelle",
-          "+ J. Meurisse", "commun", q=NUIT, caw="PANDA+"),
-    ],
-    ("JM", 4): ABS("RÉCUP"),
-    ("PM", 4): ABS("RÉCUP"),
 
     # Mardi 03/11 : Pierre reprend le 687759 (Zone de Police, Andenne), son
     # chantier du vendredi de la S43.
@@ -200,7 +202,7 @@ PLANNING = {
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction de la regle
     # habituelle. Andrei est en conge le vendredi 06/11.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 2, 4)},
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(1, 5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(4)},
     ("AN", 4): ABS("CONGÉ"),

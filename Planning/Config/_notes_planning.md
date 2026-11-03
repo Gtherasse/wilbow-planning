@@ -1787,6 +1787,33 @@ contenaient pour cette semaine :
   Jointage **re-daté du 23/10 au 03/11**, Pierre y était déjà encodé. Dans les deux cas
   la date écrasée correspondait à un passage déjà effectué.
 
+**03/11/2026 — la nuit du Jemelle change d'équipe : Mike Wilvers et Panait Dan.**
+~~Johan et Pierre~~ — la nuit du jeudi 05 au vendredi 06/11 sur le `675238` leur est
+retirée. Conséquences :
+
+- **Johan garde la préparation du jeudi en journée**, seul. Il ne fait plus la nuit.
+- **Pierre garde son Raeren du jeudi** en journée, rien d'autre.
+- **Leurs RÉCUP du vendredi tombent**, elles découlaient de cette nuit. Leurs deux cases
+  du vendredi sont donc **grisées** : à remplir.
+- **La nuit est portée par la ligne de Panait Dan**, avec **Mike Wilvers en pastille**
+  (il n'a pas de ligne RESSOURCES). Dan garde son BTO de journée ce jeudi-là.
+- **Rendu** : la nuit n'est **pas affichée à cheval** sur les deux jours ici, contrairement
+  aux précédentes. Le moteur ne la met à cheval que si le lendemain est vide ou porte une
+  simple absence ; or Dan est en BTO le vendredi. Elle apparaît donc **dans le flux de la
+  case du jeudi**, sous son BTO — lisible, mais d'un style différent des autres nuits.
+  **Si Dan passe en RÉCUP le vendredi, elle reprendra sa forme à cheval.**
+- **Défaut corrigé au passage** : la clé `("DP", 3)` était **écrasée** par la
+  compréhension `{("DP", i): BTO for i in range(5)}` définie plus bas dans le même dict —
+  la nuit disparaissait silencieusement du PDF. La compréhension exclut désormais le
+  jeudi. **Le même piège existe partout où une compréhension couvre `range(5)` après une
+  clé individuelle** : en Python, c'est la dernière définition qui gagne.
+- **Monday.com** : Jointage du `675238` — **Pierre retiré, Dan Panait ajouté** ; Johan
+  reste pour la préparation. Mike Wilvers n'y est pas encodé, conformément à la règle.
+
+**Question en suspens — le vendredi 06/11 de Dan.** Il reste en **BTO** après sa nuit,
+alors que l'usage jusqu'ici a toujours été une **RÉCUP** le lendemain d'une nuit. Dis-moi
+si je le passe en récup.
+
 **30/10/2026 (troisième modification) — Pierre sur le chantier de Raeren le mercredi 04
 et le jeudi 05/11.** Le `635054` n'est donc plus porté par Johan seul le mercredi : les
 deux y sont, pastilles croisées. **Le jeudi, Pierre enchaîne** le Raeren en journée puis
