@@ -55,6 +55,7 @@ AM    = "Après-midi"
 
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
+    "663004": "https://wilbow.monday.com/boards/5089236279/pulses/3257058329",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
     "553176": "https://wilbow.monday.com/boards/5089236279/pulses/3166049312",
@@ -154,6 +155,10 @@ PLANNING = {
     # Mercredi 04/11 : Avenia Geoffrey avec Fabrice Gaspard sur le FH 32 Feed-In.
     ("GA", 2): [X("FH 32 Feed-In", "+ F. Gaspard", "commun",
                   url=FH32, caw="FIFTHNET")],
+
+    # Vendredi 06/11 : les memes sur le 663004 (RW Tychyb C/315, Andenne).
+    ("GA", 4): [J("663004", "RW Tychyb C/315 — Rue Vaudaigle 1A, Andenne (GPW)",
+                  "+ F. Gaspard", "commun", caw="PANDA+")],
 
     # Mercredi 04/11 : l Equipe 2 sur l E.T.N.I.C. pour la detection de gaines.
     ("E2", 2): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",

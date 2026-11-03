@@ -1764,6 +1764,9 @@ contenaient pour cette semaine :
   redemander). Pas de JMS, mais l'item Monday existe : titre cliquable. La case du
   magasinier passe de « Dépôt » au chantier ce jour-là.
   **Monday.com** : Soufflage **Avenia + Gaspard au 04/11**, les colonnes étaient vides.
+- **Vendredi 06/11 — Avenia Geoffrey et Fabrice Gaspard sur le `663004`** (RW Tychyb
+  C/315 — Rue Vaudaigle 1A, Andenne, GPW), C@W **PANDA+**, code confirmé par Geoffrey.
+  **Monday.com** : Soufflage **Avenia + Gaspard au 06/11**, les colonnes étaient vides.
 - **Jeudi 05 et vendredi 06/11 — Équipe 1 sur le `FH 40 Feed-In`**, C@W **FIFTHNET**
   (« 5net »). Pas de numéro JMS ; l'item Monday existe (`3288631715`), le titre est donc
   cliquable. **La semaine de l'Équipe 1 est complète** : Raeren mardi et mercredi,
