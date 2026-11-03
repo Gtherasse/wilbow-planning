@@ -126,6 +126,10 @@ CODES = {
     # Prestation sans code Check in @ Work : le secretariat ne doit rien
     # encoder. Rendue explicitement plutot que laissee vide.
     "PAS DE CODE C@W":    "",
+    # Code pas encore connu : le secretariat doit le reclamer avant
+    # d encoder. Distinct de "PAS DE CODE C@W", qui signifie qu il n en
+    # existe pas.
+    "C@W À DÉTERMINER":   "",
 }
 
 # Aucune substitution d equipe cette semaine : les entetes restent ceux de
@@ -182,6 +186,11 @@ PLANNING = {
     ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
                   "(préparation)", caw="PANDA+")],
     ("PM", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
+
+    # Vendredi 06/11 : Johan et Pierre sur le SWDE Andenne. Aucun item Monday
+    # sous ce nom : titre non cliquable. Code C@W a determiner avec M. Wilvers.
+    ("JM", 4): [X("SWDE Andenne", "+ P. Mattiuz", "commun", caw="C@W À DÉTERMINER")],
+    ("PM", 4): [X("SWDE Andenne", "+ J. Meurisse", "commun", caw="C@W À DÉTERMINER")],
 
     # La nuit du Jemelle est portee par la ligne de Panait Dan, avec Mike
     # Wilvers en pastille : Mike n a pas de ligne RESSOURCES.

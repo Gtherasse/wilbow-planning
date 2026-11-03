@@ -1787,6 +1787,22 @@ contenaient pour cette semaine :
   Jointage **re-daté du 23/10 au 03/11**, Pierre y était déjà encodé. Dans les deux cas
   la date écrasée correspondait à un passage déjà effectué.
 
+**03/11/2026 (seconde modification) — vendredi 06/11 : Johan et Pierre sur le SWDE
+Andenne.** Leurs deux cases du vendredi, libérées par le changement de nuit ci-dessous,
+sont donc remplies. Pastilles croisées : ils travaillent ensemble.
+
+- ⚠️ **Code C@W inconnu** — Geoffrey : « **à déterminer avec M. Wilvers** ». La page
+  secrétariat porte **« C@W À DÉTERMINER »** sans référence, pour que le secrétariat
+  sache qu'il doit le réclamer et ne croie pas à un oubli. Une entrée
+  `"C@W À DÉTERMINER": ""` a été ajoutée au dict `CODES`, **distincte de
+  `"PAS DE CODE C@W"`** qui signifie, elle, qu'il n'en existe pas. Les deux sont
+  réutilisables.
+- ⚠️ **Aucun item Monday sous « SWDE Andenne »** : recherche faite sur « SWDE » (deux
+  résultats, Bernissart et TEGEC Héron) et sur « Andenne » (quatre résultats, aucun
+  SWDE). Le titre n'est donc **pas cliquable** et **rien n'y est encodé**. Donne-moi la
+  référence si elle existe.
+- **La semaine 45 n'a plus qu'une case grise** : le vendredi de l'Équipe 2.
+
 **03/11/2026 — la nuit du Jemelle change d'équipe : Mike Wilvers et Panait Dan.**
 ~~Johan et Pierre~~ — la nuit du jeudi 05 au vendredi 06/11 sur le `675238` leur est
 retirée. Conséquences :
