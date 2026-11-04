@@ -1793,9 +1793,14 @@ contenaient pour cette semaine :
   cliquable. **La semaine de l'Équipe 1 est complète** : Raeren mardi et mercredi,
   FH 40 jeudi et vendredi, congé le lundi.
   **Monday.com** : Soufflage **Bolmain + Petit au 05/11**, les colonnes étaient vides.
-- **Mercredi 04 et jeudi 05/11 — Équipe 2 sur le `682463`** (Avenue du Condroz 3 — Huy,
-  E.T.N.I.C.), mention **« (détection de gaines) »**, C@W PANDA+. **Prolongé au jeudi le
-  30/10.** Il ne lui reste que le vendredi de grisé.
+- **Équipe 2 — ~~mercredi 04 et jeudi 05/11~~ : le `682463`** (Avenue du Condroz 3 — Huy,
+  E.T.N.I.C., « détection de gaines », C@W PANDA+) **n'est plus fait que le jeudi**.
+  **Changement du 04/11 : le mercredi, elle passe sur le `FH 40 Feed-In`**, C@W
+  **FIFTHNET** — le même chantier que l'Équipe 1 les jeudi et vendredi, mais un jour
+  avant elle. Il ne lui reste que le vendredi de grisé.
+  **Monday.com** : `FH 40 Feed-In` — Soufflage **re-daté du 05 au 04/11** (premier jour
+  de la série) et **Dominguez + Feller ajoutés** à Bolmain et Petit ; `682463` — Soufflage
+  **re-daté du 04 au 05/11**, son seul jour désormais.
   **Monday.com** : Soufflage du `682463` **re-daté du 22/10 au 04/11**. **Bolmain et
   Hanikenne y restent encodés** en plus de Dominguez et Feller : ils y sont réellement
   passés le 22/10, mais **ce 04/11 c'est l'Équipe 2 seule**. À me dire si tu préfères

@@ -164,9 +164,9 @@ PLANNING = {
     ("GA", 4): [J("663004", "RW Tychyb C/315 — Rue Vaudaigle 1A, Andenne (GPW)",
                   "+ F. Gaspard", "commun", caw="PANDA+")],
 
-    # Mercredi 04/11 : l Equipe 2 sur l E.T.N.I.C. pour la detection de gaines.
-    ("E2", 2): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
-                  "(détection de gaines)", caw="PANDA+")],
+    # Mercredi 04/11 : l Equipe 2 passe sur le FH 40 Feed-In (changement du
+    # 04/11). Elle ne fait l E.T.N.I.C. que le jeudi.
+    ("E2", 2): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")],
     ("E2", 3): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
                   "(détection de gaines)", caw="PANDA+")],
     ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
