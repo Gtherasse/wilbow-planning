@@ -1839,15 +1839,18 @@ fin de semaine :**
 
 - **Équipe 1 — jeudi 05 et vendredi 06/11 sur le `682463`** (E.T.N.I.C., Huy), à la
   place du FH 40.
-- **Équipe 2 — jeudi 05/11 sur le `FH 40 Feed-In`** (elle y était déjà le mercredi, elle
-  le poursuit donc), et **vendredi 06/11 sur le `622272`** (IS MP — Câble définitif
+- **Équipe 2 — jeudi 05/11 : le `554869` le MATIN** (RW BF — Rue de Visé, 41JUP0,
+  C@W PANDA+, ajouté le 04/11) **puis le `FH 40 Feed-In`** (elle y était déjà le
+  mercredi, elle le poursuit donc), et **vendredi 06/11 sur le `622272`** (IS MP — Câble définitif
   branche 12835), mention **« (retirer câble) »**, C@W PANDA+.
 - **La semaine 45 n'a plus aucune case grise.**
 - **Monday.com** : `682463` — Soufflage, **Gauthier Petit ajouté** (l'Équipe 1 complète
   y va maintenant), les quatre autres restent, date inchangée au 05/11 ; `622272` —
   Soufflage **re-daté du 03/06 au 06/11** et **Sam Feller ajouté** à Miguel Dominguez ;
   `FH 40 Feed-In` — **rien à changer**, les quatre personnes et la date du 04/11 sont
-  déjà bonnes.
+  déjà bonnes ; `554869` — **Soufflage Dominguez + Feller au 05/11**, colonne vide
+  jusqu'ici. Son **Jointage reste sur Mattiuz au 19/10**, passage distinct et déjà
+  effectué : les deux métiers ne se gênent pas.
 
 **04/11/2026 (troisième modification) — le vendredi de Johan et Pierre devient le
 `635054`, le SWDE Andenne part en S46.** Ils font donc le Raeren ensemble le vendredi

@@ -173,7 +173,10 @@ PLANNING = {
     ("E2", 2): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")],
     # Jeudi 05/11 : l Equipe 2 passe sur le FH 40 Feed-In ; vendredi 06/11,
     # sur le 622272 pour retirer le cable.
-    ("E2", 3): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")],
+    ("E2", 3): [
+        J("554869", "RW BF — Rue de Visé, 41JUP0", q=MATIN, caw="PANDA+"),
+        X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
+    ],
     ("E2", 4): [J("622272", "IS MP — Câble définitif branche 12835",
                   "(retirer câble)", caw="PANDA+")],
     ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
