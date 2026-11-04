@@ -55,6 +55,7 @@ AM    = "Après-midi"
 
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
+    "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -134,6 +135,13 @@ NOMS_OVERRIDE = {}
 
 
 PLANNING = {
+    # Lundi 16 et mardi 17/11 : l Equipe 2 sur le 687329 (DSTNY BE, Engis).
+    # Pierre y passe le mercredi 18/11.
+    **{("E2", i): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+                     caw="PANDA+")] for i in (0, 1)},
+    ("PM", 2): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+                  caw="PANDA+")],
+
     # Le 688836 et le 690640, deplaces depuis la S46 le 03/11. Tous deux avec
     # Mike Wilvers, qui n a pas de ligne RESSOURCES et apparait en pastille.
     ("JM", 2): [J("688836", "FQ ROP endommagé 85AMAC/311",

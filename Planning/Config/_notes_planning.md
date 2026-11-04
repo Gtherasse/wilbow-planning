@@ -1691,8 +1691,13 @@ Script `Planning/Config/_modele_planning_s47.py`, copié de la S46. PDF
 Ils ont donc changé deux fois de date : d'abord mardi 10 et mercredi 11/11, puis mardi 10
 et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 
+- **Lundi 16 et mardi 17/11 — Équipe 2 sur le `687329`** (OL — DSTNY BE, Rue du Parc
+  Industriel 3, Engis), C@W **PANDA+**. **Pierre y passe le mercredi 18/11.**
 - **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
-- **Monday.com** : Jointage du `688836` daté du **18/11** et du `690640` du **19/11**.
+- **Monday.com** : Jointage du `688836` daté du **18/11** et du `690640` du **19/11** ;
+  `687329` — **Soufflage Dominguez + Feller au 16/11** et **Jointage Mattiuz au 18/11**,
+  les quatre colonnes étaient vides. Les deux métiers tombent sur des jours différents,
+  sans conflit.
 - Tout le reste de la semaine est grisé : les deux équipes, Pierre, et Johan hors ces
   deux jours.
 
