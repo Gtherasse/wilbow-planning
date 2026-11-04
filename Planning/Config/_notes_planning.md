@@ -1780,11 +1780,13 @@ contenaient pour cette semaine :
   (5 personnes, 03/11) et **Jointage : Meurisse Johan au 03/11**, colonne jusqu'ici vide.
   Son passage du mercredi 04 ne s'y distingue pas — **convention multi-occurrences
   toujours en suspens.**
-- **Mercredi 04/11 — Avenia Geoffrey et Fabrice Gaspard sur le `FH 32 Feed-In`**, C@W
+- **~~Mercredi~~ Jeudi 05/11 — Avenia Geoffrey et Fabrice Gaspard sur le `FH 32
+  Feed-In`** (**déplacé du mercredi au jeudi le 04/11** ; le mercredi redevient
+  « Dépôt »), C@W
   **FIFTHNET** (code déjà établi en S37 et S38 pour ce chantier, pas besoin de le
   redemander). Pas de JMS, mais l'item Monday existe : titre cliquable. La case du
   magasinier passe de « Dépôt » au chantier ce jour-là.
-  **Monday.com** : Soufflage **Avenia + Gaspard au 04/11**, les colonnes étaient vides.
+  **Monday.com** : Soufflage **Avenia + Gaspard**, **re-daté du 04 au 05/11**.
 - **Vendredi 06/11 — Avenia Geoffrey et Fabrice Gaspard sur le `663004`** (RW Tychyb
   C/315 — Rue Vaudaigle 1A, Andenne, GPW), C@W **PANDA+**, code confirmé par Geoffrey.
   **Monday.com** : Soufflage **Avenia + Gaspard au 06/11**, les colonnes étaient vides.

@@ -156,8 +156,9 @@ PLANNING = {
     # Jeudi 05 et vendredi 06/11 : l Equipe 1 sur le FH 40 Feed-In (pas de JMS).
     **{("E1", i): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")] for i in (3, 4)},
 
-    # Mercredi 04/11 : Avenia Geoffrey avec Fabrice Gaspard sur le FH 32 Feed-In.
-    ("GA", 2): [X("FH 32 Feed-In", "+ F. Gaspard", "commun",
+    # Jeudi 05/11 : Avenia Geoffrey avec Fabrice Gaspard sur le FH 32 Feed-In
+    # (deplace du mercredi le 04/11).
+    ("GA", 3): [X("FH 32 Feed-In", "+ F. Gaspard", "commun",
                   url=FH32, caw="FIFTHNET")],
 
     # Vendredi 06/11 : les memes sur le 663004 (RW Tychyb C/315, Andenne).
