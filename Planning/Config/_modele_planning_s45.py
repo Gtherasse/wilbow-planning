@@ -259,8 +259,11 @@ def cellule(r, i, DATA=None, mode="site"):
     # de la ligne : si la case du lendemain est plus chargee, il recouvrirait
     # son texte. On ne l affiche donc a cheval que si le lendemain est vide ou
     # porte une simple absence, dont la hauteur est comparable.
-    peut_cheval = (suivant is None
-                   or (isinstance(suivant, dict) and "absence" in suivant))
+    # 04/11 : le bloc de nuit est desormais TOUJOURS a cheval, meme quand le
+    # lendemain porte des prestations. Le spacer invisible reserve sa hauteur
+    # dans les deux cases, il se pose donc sous les chantiers de jour sans
+    # recouvrir leur texte.
+    peut_cheval = True
     veille = (DATA if DATA is not None else PLANNING).get((r["id"], i - 1)) if i else None
     reports = [dict(d, _spacer=True) for d in veille
                if isinstance(d, dict) and str(d.get("q") or "").lower().startswith("nuit")

@@ -1841,11 +1841,16 @@ retirée. Conséquences :
   du vendredi sont donc **grisées** : à remplir.
 - **La nuit est portée par la ligne de Panait Dan**, avec **Mike Wilvers en pastille**
   (il n'a pas de ligne RESSOURCES). Dan garde son BTO de journée ce jeudi-là.
-- **Rendu** : la nuit n'est **pas affichée à cheval** sur les deux jours ici, contrairement
-  aux précédentes. Le moteur ne la met à cheval que si le lendemain est vide ou porte une
-  simple absence ; or Dan est en BTO le vendredi. Elle apparaît donc **dans le flux de la
-  case du jeudi**, sous son BTO — lisible, mais d'un style différent des autres nuits.
-  **Si Dan passe en RÉCUP le vendredi, elle reprendra sa forme à cheval.**
+- **Rendu — corrigé le 04/11 à la demande de Geoffrey : le bloc de nuit est désormais
+  TOUJOURS à cheval sur les deux journées**, y compris quand le lendemain porte des
+  prestations. `peut_cheval` ne teste plus rien : le spacer invisible réserve déjà la
+  hauteur du bloc dans les deux cases, il se pose donc **sous les chantiers de jour**
+  sans recouvrir leur texte — vérifié au zoom sur la nuit de Dan, posée sous ses deux
+  BTO. **Changement appliqué aux trois scripts actifs** (S45, S46, S47) pour qu'ils ne
+  divergent pas ; S46 et S47 n'ont aucune nuit pour l'instant, l'effet n'y est donc pas
+  visible aujourd'hui.
+  L'ancienne restriction datait de la crainte qu'un lendemain chargé soit recouvert —
+  crainte infondée, le spacer étant justement là pour ça.
 - **Défaut corrigé au passage** : la clé `("DP", 3)` était **écrasée** par la
   compréhension `{("DP", i): BTO for i in range(5)}` définie plus bas dans le même dict —
   la nuit disparaissait silencieusement du PDF. La compréhension exclut désormais le
