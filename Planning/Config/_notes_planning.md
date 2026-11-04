@@ -1829,6 +1829,21 @@ contenaient pour cette semaine :
   Jointage **re-daté du 23/10 au 03/11**, Pierre y était déjà encodé. Dans les deux cas
   la date écrasée correspondait à un passage déjà effectué.
 
+**04/11/2026 (quatrième modification) — les deux équipes échangent leurs chantiers de
+fin de semaine :**
+
+- **Équipe 1 — jeudi 05 et vendredi 06/11 sur le `682463`** (E.T.N.I.C., Huy), à la
+  place du FH 40.
+- **Équipe 2 — jeudi 05/11 sur le `FH 40 Feed-In`** (elle y était déjà le mercredi, elle
+  le poursuit donc), et **vendredi 06/11 sur le `622272`** (IS MP — Câble définitif
+  branche 12835), mention **« (retirer câble) »**, C@W PANDA+.
+- **La semaine 45 n'a plus aucune case grise.**
+- **Monday.com** : `682463` — Soufflage, **Gauthier Petit ajouté** (l'Équipe 1 complète
+  y va maintenant), les quatre autres restent, date inchangée au 05/11 ; `622272` —
+  Soufflage **re-daté du 03/06 au 06/11** et **Sam Feller ajouté** à Miguel Dominguez ;
+  `FH 40 Feed-In` — **rien à changer**, les quatre personnes et la date du 04/11 sont
+  déjà bonnes.
+
 **04/11/2026 (troisième modification) — le vendredi de Johan et Pierre devient le
 `635054`, le SWDE Andenne part en S46.** Ils font donc le Raeren ensemble le vendredi
 06/11 (pastilles croisées), et le **SWDE Andenne les lundi 09 et mardi 10/11**.

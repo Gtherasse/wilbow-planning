@@ -55,6 +55,7 @@ AM    = "Après-midi"
 
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
+    "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "663004": "https://wilbow.monday.com/boards/5089236279/pulses/3257058329",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -153,8 +154,10 @@ PLANNING = {
     ("E1", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("E1", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
 
-    # Jeudi 05 et vendredi 06/11 : l Equipe 1 sur le FH 40 Feed-In (pas de JMS).
-    **{("E1", i): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")] for i in (3, 4)},
+    # Jeudi 05 et vendredi 06/11 : l Equipe 1 sur le 682463 (E.T.N.I.C., Huy).
+    # Les deux equipes echangent leurs chantiers (changement du 04/11).
+    **{("E1", i): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
+                     caw="PANDA+")] for i in (3, 4)},
 
     # Jeudi 05/11 : Avenia Geoffrey avec Fabrice Gaspard sur le FH 32 Feed-In
     # (deplace du mercredi le 04/11).
@@ -168,8 +171,11 @@ PLANNING = {
     # Mercredi 04/11 : l Equipe 2 passe sur le FH 40 Feed-In (changement du
     # 04/11). Elle ne fait l E.T.N.I.C. que le jeudi.
     ("E2", 2): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")],
-    ("E2", 3): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
-                  "(détection de gaines)", caw="PANDA+")],
+    # Jeudi 05/11 : l Equipe 2 passe sur le FH 40 Feed-In ; vendredi 06/11,
+    # sur le 622272 pour retirer le cable.
+    ("E2", 3): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")],
+    ("E2", 4): [J("622272", "IS MP — Câble définitif branche 12835",
+                  "(retirer câble)", caw="PANDA+")],
     ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
                   "+ P. Mattiuz", "commun", caw="GO FIBER")],
