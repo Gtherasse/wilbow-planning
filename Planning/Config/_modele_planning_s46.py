@@ -122,6 +122,7 @@ CODES = {
     "SWDE HUCCORGNE":     "1Y102QZML7WGZ",
     "GO FIBER":           "1Y102XHX3W2MZ",
     "CATERPILLAR":        "1Y102SV8BK22Z",
+    "C@W À DÉTERMINER":   "",
     # Prestation sans code Check in @ Work : le secretariat ne doit rien
     # encoder. Rendue explicitement plutot que laissee vide.
     "PAS DE CODE C@W":    "",
@@ -137,10 +138,18 @@ PLANNING = {
     # Le 688836 et le 690640, un temps poses ici, sont partis en S47 (mercredi
     # 18 et jeudi 19/11) : deplacement du 03/11.
 
-    # Lundi 09/11 : Johan sur le chantier de Raeren pour les mesures et les
-    # corrections.
-    ("JM", 0): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
-                  "(mesures + corrections)", caw="GO FIBER")],
+    # Lundi 09 et mardi 10/11 : Johan et Pierre sur le SWDE Andenne. Aucun item
+    # Monday sous ce nom : titre non cliquable. Code C@W a determiner avec
+    # M. Wilvers. Le Raeren « mesures + corrections » que Johan avait le lundi
+    # est remplace (changement du 04/11).
+    **{("JM", i): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
+                     caw="C@W À DÉTERMINER")] for i in (0, 1)},
+    **{("PM", i): [X("SWDE Andenne", "+ J. Meurisse", "commun",
+                     caw="C@W À DÉTERMINER")] for i in (0, 1)},
+
+    # Mercredi 11/11 : Armistice. Ferie pour tout le monde sauf Panait Dan et
+    # Andrei, qui restent en BTO.
+    **{(r["id"], 2): ABS("FÉRIÉ") for r in RESSOURCES if r["id"] not in ("DP", "AN")},
 
     # Vendredi 13/11 : Johan et Pierre sur le 681226, sous reserve du client.
     ("JM", 4): [J("681226", "GB — Cup Pasta Médiacité",
@@ -162,6 +171,7 @@ LARG = 100 / NB_JOURS
 
 ABS_STYLE = {
     "CONGÉ":     ("#e2e8f0", "#475569"),
+    "FÉRIÉ":     ("#fef3c7", "#92400e"),
     "MALADIE":   ("#fee2e2", "#b91c1c"),
     "FORMATION": ("#ede9fe", "#5b21b6"),
     # Prestation sans code C@W : rendue comme un statut, elle ne genere aucune

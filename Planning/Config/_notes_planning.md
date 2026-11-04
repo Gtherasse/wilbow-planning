@@ -1742,6 +1742,20 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
 
 ---
 
+**04/11/2026 — trois ajouts à la semaine 46 :**
+
+- **Lundi 09 et mardi 10/11 — Johan et Pierre sur le SWDE Andenne**, déplacé depuis le
+  vendredi de la S45. Pastilles croisées. **Le `635054` « mesures + corrections » que
+  Johan avait le lundi est remplacé** par ce chantier. ⚠️ Toujours **aucun item Monday**
+  sous « SWDE Andenne » et **code C@W à déterminer avec M. Wilvers** : la page
+  secrétariat porte « C@W À DÉTERMINER ». L'entrée a été ajoutée au dict `CODES` de la
+  S46 comme en S45.
+- **Mercredi 11/11 — FÉRIÉ pour tout le monde sauf Panait Dan et Andreï**, qui restent
+  en BTO. **Nouveau motif `FÉRIÉ`** ajouté à `ABS_STYLE` (ambre, distinct du gris du
+  congé) : l'Armistice n'est ni un congé pris ni une absence individuelle, il méritait sa
+  propre couleur. Réutilisable pour les prochains fériés.
+- Le vendredi 13/11 (681226, sous réserve du client) ne bouge pas.
+
 ## Semaine 45 (02/11 au 06/11/2026) — créée le 30/10/2026
 
 Script `Planning/Config/_modele_planning_s45.py`, copié de la S44. PDF
@@ -1815,8 +1829,14 @@ contenaient pour cette semaine :
   Jointage **re-daté du 23/10 au 03/11**, Pierre y était déjà encodé. Dans les deux cas
   la date écrasée correspondait à un passage déjà effectué.
 
-**03/11/2026 (seconde modification) — vendredi 06/11 : Johan et Pierre sur le SWDE
-Andenne.** Leurs deux cases du vendredi, libérées par le changement de nuit ci-dessous,
+**04/11/2026 (troisième modification) — le vendredi de Johan et Pierre devient le
+`635054`, le SWDE Andenne part en S46.** Ils font donc le Raeren ensemble le vendredi
+06/11 (pastilles croisées), et le **SWDE Andenne les lundi 09 et mardi 10/11**.
+**Monday.com** : Jointage du `635054` **re-daté du 03 au 06/11** ; Johan et Pierre y
+étaient déjà encodés.
+
+**03/11/2026 (seconde modification) — ~~vendredi 06/11~~ : Johan et Pierre sur le SWDE
+Andenne**, déplacé le 04/11 aux lundi 09 et mardi 10/11 (S46). Leurs deux cases du vendredi, libérées par le changement de nuit ci-dessous,
 sont donc remplies. Pastilles croisées : ils travaillent ensemble.
 
 - ⚠️ **Code C@W inconnu** — Geoffrey : « **à déterminer avec M. Wilvers** ». La page

@@ -188,10 +188,12 @@ PLANNING = {
                   "(préparation)", caw="PANDA+")],
     ("PM", 3): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
 
-    # Vendredi 06/11 : Johan et Pierre sur le SWDE Andenne. Aucun item Monday
-    # sous ce nom : titre non cliquable. Code C@W a determiner avec M. Wilvers.
-    ("JM", 4): [X("SWDE Andenne", "+ P. Mattiuz", "commun", caw="C@W À DÉTERMINER")],
-    ("PM", 4): [X("SWDE Andenne", "+ J. Meurisse", "commun", caw="C@W À DÉTERMINER")],
+    # Vendredi 06/11 : Johan et Pierre sur le 635054 (Raeren). Le SWDE Andenne
+    # qui y figurait part aux lundi 09 et mardi 10/11, en S46.
+    ("JM", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+                  "+ P. Mattiuz", "commun", caw="GO FIBER")],
+    ("PM", 4): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
+                  "+ J. Meurisse", "commun", caw="GO FIBER")],
 
     # La nuit du Jemelle est portee par la ligne de Panait Dan, avec Mike
     # Wilvers en pastille : Mike n a pas de ligne RESSOURCES.
