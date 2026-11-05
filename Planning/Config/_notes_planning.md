@@ -1848,8 +1848,9 @@ fin de semaine :**
   y va maintenant), les quatre autres restent, date inchangée au 05/11 ; `622272` —
   Soufflage **re-daté du 03/06 au 06/11** et **Sam Feller ajouté** à Miguel Dominguez ;
   `FH 40 Feed-In` — **rien à changer**, les quatre personnes et la date du 04/11 sont
-  déjà bonnes ; `554869` — **Soufflage Dominguez + Feller au 05/11**, colonne vide
-  jusqu'ici. Son **Jointage reste sur Mattiuz au 19/10**, passage distinct et déjà
+  déjà bonnes ; `554869` — **Soufflage Dominguez + Feller**, colonne vide jusqu'ici,
+  **daté du 06/11** après l'inversion du 05/11 ; `622272` — Soufflage **re-daté du 06 au
+  05/11**. Son **Jointage reste sur Mattiuz au 19/10**, passage distinct et déjà
   effectué : les deux métiers ne se gênent pas.
 
 **04/11/2026 (troisième modification) — le vendredi de Johan et Pierre devient le
