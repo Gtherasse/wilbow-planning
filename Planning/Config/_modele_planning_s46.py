@@ -142,10 +142,14 @@ PLANNING = {
     # Monday sous ce nom : titre non cliquable. Code C@W a determiner avec
     # M. Wilvers. Le Raeren « mesures + corrections » que Johan avait le lundi
     # est remplace (changement du 04/11).
+    # Lundi 09/11 : Johan sur les Bornes Liege Expo. Le SWDE Andenne, qui
+    # occupait le lundi et le mardi, est repousse au mardi et au jeudi
+    # (changement du 05/11).
+    ("JM", 0): [X("Bornes Liège Expo", url=BORNESLG, caw="PAS DE CODE C@W")],
     **{("JM", i): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
-                     caw="C@W À DÉTERMINER")] for i in (0, 1)},
+                     caw="C@W À DÉTERMINER")] for i in (1, 3)},
     **{("PM", i): [X("SWDE Andenne", "+ J. Meurisse", "commun",
-                     caw="C@W À DÉTERMINER")] for i in (0, 1)},
+                     caw="C@W À DÉTERMINER")] for i in (1, 3)},
 
     # Mercredi 11/11 : Armistice. Ferie pour tout le monde sauf Panait Dan et
     # Andrei, qui restent en BTO.

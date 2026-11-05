@@ -1749,8 +1749,15 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
 
 **04/11/2026 — trois ajouts à la semaine 46 :**
 
-- **Lundi 09 et mardi 10/11 — Johan et Pierre sur le SWDE Andenne**, déplacé depuis le
-  vendredi de la S45. Pastilles croisées. **Le `635054` « mesures + corrections » que
+- **Lundi 09/11 — Johan sur les `Bornes Liège Expo`**, seul (ajouté le 05/11). Pas de
+  code C@W pour ce chantier : la page secrétariat porte « PAS DE CODE C@W ». C'est le
+  **deuxième passage** sur cet item, après l'Équipe 2 le 03/11.
+  **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
+  Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
+  différents, sans conflit.
+- **~~Lundi 09 et~~ Mardi 10 et jeudi 12/11 — Johan et Pierre sur le SWDE Andenne**
+  (**repoussé le 05/11**, il sautait le mercredi férié), déplacé depuis le
+  vendredi de la S45. **Le lundi de Pierre redevient donc gris** — à remplir. Pastilles croisées. **Le `635054` « mesures + corrections » que
   Johan avait le lundi est remplacé** par ce chantier. ⚠️ Toujours **aucun item Monday**
   sous « SWDE Andenne » et **code C@W à déterminer avec M. Wilvers** : la page
   secrétariat porte « C@W À DÉTERMINER ». L'entrée a été ajoutée au dict `CODES` de la
