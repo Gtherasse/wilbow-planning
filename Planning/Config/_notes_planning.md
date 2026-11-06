@@ -1846,10 +1846,20 @@ fin de semaine :**
 
 - **Équipe 1 — jeudi 05 et vendredi 06/11 sur le `682463`** (E.T.N.I.C., Huy), à la
   place du FH 40.
-- **Équipe 2 — jeudi 05/11 : le `554869` le MATIN** (RW BF — Rue de Visé, 41JUP0,
-  C@W PANDA+, ajouté le 04/11) **puis le `FH 40 Feed-In`** (elle y était déjà le
-  mercredi, elle le poursuit donc), et **vendredi 06/11 sur le `622272`** (IS MP — Câble définitif
-  branche 12835), mention **« (retirer câble) »**, C@W PANDA+.
+- **Équipe 2 — jeudi et vendredi, état final après l'inversion du 05/11 :**
+  - **Jeudi 05/11 : le `622272`** (IS MP — Câble définitif branche 12835), mention
+    **« (retirer câble) »**, C@W PANDA+.
+  - **Vendredi 06/11 : le `554869` le MATIN** (RW BF — Rue de Visé, 41JUP0, C@W PANDA+),
+    **puis le `FH 40 Feed-In`** (C@W FIFTHNET), **puis le `682463`** (E.T.N.I.C., Huy)
+    **en renfort de l'Équipe 1 pour terminer la journée** (ajouté le 06/11). Pastilles
+    croisées : « + Équipe 1 · renfort pour terminer » côté Équipe 2, « + Équipe 2 » côté
+    Équipe 1. **Trois chantiers dans la même case**, la journée la plus chargée de la
+    semaine.
+    **Monday.com — rien à changer** pour ce renfort : le Soufflage du `682463` porte déjà
+    les cinq personnes des deux équipes, daté du 05/11.
+
+  Le FH 40 n'est donc **pas continu** : l'Équipe 2 y est le mercredi et le vendredi, avec
+  le jeudi en coupure.
 - **La semaine 45 n'a plus aucune case grise.**
 - **Monday.com** : `682463` — Soufflage, **Gauthier Petit ajouté** (l'Équipe 1 complète
   y va maintenant), les quatre autres restent, date inchangée au 05/11 ; `622272` —
