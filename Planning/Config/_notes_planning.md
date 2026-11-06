@@ -1755,6 +1755,11 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+- **Lundi 09/11 — Avenia Geoffrey sur le `663004`** (RW Tychyb C/315 — Rue Vaudaigle 1A,
+  Andenne, GPW), **reporté du vendredi 06/11**, C@W PANDA+, **avec Giuseppe Caruso**.
+  **« Peponne » est le surnom de Giuseppe Caruso** — précision de Geoffrey le 06/11. Il
+  n'a **pas de ligne RESSOURCES** et **aucun compte Monday** sous ce nom : il apparaît en
+  pastille « + G. Caruso » et **n'est pas encodé**, exactement comme Mike Wilvers.
 - **Lundi 09/11 — Équipe 2 sur le `622272`** (IS MP — Câble définitif branche 12835),
   **son chantier du jeudi 05/11** qu'elle poursuit. C@W PANDA+. **La mention
   « (retirer câble) » n'a pas été reprise** : elle décrivait la tâche du jeudi, pas
@@ -1829,9 +1834,14 @@ contenaient pour cette semaine :
   redemander). Pas de JMS, mais l'item Monday existe : titre cliquable. La case du
   magasinier passe de « Dépôt » au chantier ce jour-là.
   **Monday.com** : Soufflage **Avenia + Gaspard**, **re-daté du 04 au 05/11**.
-- **Vendredi 06/11 — Avenia Geoffrey et Fabrice Gaspard sur le `663004`** (RW Tychyb
-  C/315 — Rue Vaudaigle 1A, Andenne, GPW), C@W **PANDA+**, code confirmé par Geoffrey.
-  **Monday.com** : Soufflage **Avenia + Gaspard au 06/11**, les colonnes étaient vides.
+- **Vendredi 06/11 — Avenia Geoffrey seul sur le `ROP BTV`**, C@W **PANDA+**.
+  ~~663004 avec Fabrice Gaspard~~ — **changement du 06/11 : le `663004` est reporté au
+  lundi 09/11** (S46), **avec Giuseppe Caruso** au lieu de Fabrice.
+  Quatre items Monday portaient « BTV » : Geoffrey a désigné **l'item générique
+  `ROP BTV`** (`2697093519`), déjà fait par Miguel Dominguez le 23/02, et non les trois
+  numérotés de Pépinster et de La Calamine.
+  **Monday.com** : `ROP BTV` — Soufflage **Avenia ajouté** à Dominguez, **daté du
+  06/11** ; `663004` — Soufflage **Avenia seul, re-daté du 06 au 09/11**, Gaspard retiré.
 - **Jeudi 05 et vendredi 06/11 — Équipe 1 sur le `FH 40 Feed-In`**, C@W **FIFTHNET**
   (« 5net »). Pas de numéro JMS ; l'item Monday existe (`3288631715`), le titre est donc
   cliquable. **La semaine de l'Équipe 1 est complète** : Raeren mardi et mercredi,

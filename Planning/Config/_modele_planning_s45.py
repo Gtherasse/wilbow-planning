@@ -97,6 +97,7 @@ FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 
 HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
 BORNESLG = "https://wilbow.monday.com/boards/5089236279/pulses/3297165250"  # Bornes Liege Expo
 FH40 = "https://wilbow.monday.com/boards/5089236279/pulses/3288631715"  # FH 40 Feed-In
+ROPBTV = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 VALBENOIT = "https://wilbow.monday.com/boards/5089236279/pulses/3292906173"  # Val Benoit et Grosses-Battes CCTV
 DIGN = "https://wilbow.monday.com/boards/5089236279/pulses/2725054102"  # 4020 Leman/Digneffe CA120
 FEXHE = "https://wilbow.monday.com/boards/5089236279/pulses/2958713654"  # 622272 - IS_MP Cable definitif branche 12835
@@ -166,9 +167,9 @@ PLANNING = {
     ("GA", 3): [X("FH 32 Feed-In", "+ F. Gaspard", "commun",
                   url=FH32, caw="FIFTHNET")],
 
-    # Vendredi 06/11 : les memes sur le 663004 (RW Tychyb C/315, Andenne).
-    ("GA", 4): [J("663004", "RW Tychyb C/315 — Rue Vaudaigle 1A, Andenne (GPW)",
-                  "+ F. Gaspard", "commun", caw="PANDA+")],
+    # Vendredi 06/11 : Avenia Geoffrey seul sur le ROP BTV. Le 663004 qui y
+    # figurait est reporte au lundi 09/11, en S46 (changement du 06/11).
+    ("GA", 4): [X("ROP BTV", url=ROPBTV, caw="PANDA+")],
 
     # Mercredi 04/11 : l Equipe 2 passe sur le FH 40 Feed-In (changement du
     # 04/11). Elle ne fait l E.T.N.I.C. que le jeudi.
