@@ -1760,6 +1760,10 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **« Peponne » est le surnom de Giuseppe Caruso** — précision de Geoffrey le 06/11. Il
   n'a **pas de ligne RESSOURCES** et **aucun compte Monday** sous ce nom : il apparaît en
   pastille « + G. Caruso » et **n'est pas encodé**, exactement comme Mike Wilvers.
+- **Lundi 09/11 — Équipe 1 sur le `693566`** (OTB — Rue Denis Lecocq, BBN 12342), C@W
+  **PANDA+**, code confirmé par Geoffrey. C'est son **premier chantier de la semaine** ;
+  le reste de sa semaine est encore gris.
+  **Monday.com** : Soufflage **Bolmain + Petit au 09/11**, les colonnes étaient vides.
 - **Lundi 09/11 — Équipe 2 sur le `622272`** (IS MP — Câble définitif branche 12835),
   **son chantier du jeudi 05/11** qu'elle poursuit. C@W PANDA+. **La mention
   « (retirer câble) » n'a pas été reprise** : elle décrivait la tâche du jeudi, pas
