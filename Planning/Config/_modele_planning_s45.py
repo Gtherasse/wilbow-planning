@@ -156,8 +156,10 @@ PLANNING = {
 
     # Jeudi 05 et vendredi 06/11 : l Equipe 1 sur le 682463 (E.T.N.I.C., Huy).
     # Les deux equipes echangent leurs chantiers (changement du 04/11).
-    **{("E1", i): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
-                     caw="PANDA+")] for i in (3, 4)},
+    ("E1", 3): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)", caw="PANDA+")],
+    # Vendredi 06/11 : l Equipe 2 vient en renfort pour terminer la journee.
+    ("E1", 4): [J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
+                  "+ Équipe 2", "commun", caw="PANDA+")],
 
     # Jeudi 05/11 : Avenia Geoffrey avec Fabrice Gaspard sur le FH 32 Feed-In
     # (deplace du mercredi le 04/11).
@@ -180,6 +182,8 @@ PLANNING = {
     ("E2", 4): [
         J("554869", "RW BF — Rue de Visé, 41JUP0", q=MATIN, caw="PANDA+"),
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
+        J("682463", "Avenue du Condroz 3 — Huy (E.T.N.I.C.)",
+          "+ Équipe 1 · renfort pour terminer", "commun", caw="PANDA+"),
     ],
     ("JM", 1): [J("635054", "Feed-out Eupen FH01 — Raeren FH06", caw="GO FIBER")],
     ("JM", 2): [J("635054", "Feed-out Eupen FH01 — Raeren FH06",
