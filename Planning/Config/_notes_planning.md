@@ -1755,6 +1755,12 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+- **Lundi 09/11 — Équipe 2 sur le `622272`** (IS MP — Câble définitif branche 12835),
+  **son chantier du jeudi 05/11** qu'elle poursuit. C@W PANDA+. **La mention
+  « (retirer câble) » n'a pas été reprise** : elle décrivait la tâche du jeudi, pas
+  forcément celle du lundi — à me dire si elle doit figurer.
+  **Monday.com** : Soufflage du `622272` **re-daté du 05 au 09/11**, Dominguez et Feller
+  y étaient déjà.
 - **Lundi 09/11 — Pierre : le MATIN, « Modification raccordement fibre Proximus —
   Éolienne Villers-le-Bouillet »**, puis le **`622262`** (IS MP — Câble définitif branche
   B09, Fexhe). Son lundi, laissé vide par le report du SWDE, est donc rempli.

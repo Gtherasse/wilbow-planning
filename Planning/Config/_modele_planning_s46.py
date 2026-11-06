@@ -55,6 +55,7 @@ AM    = "Après-midi"
 
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
+    "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622262": "https://wilbow.monday.com/boards/5089236279/pulses/2880039934",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
@@ -148,6 +149,9 @@ PLANNING = {
     # occupait le lundi et le mardi, est repousse au mardi et au jeudi
     # (changement du 05/11).
     ("JM", 0): [X("Bornes Liège Expo", url=BORNESLG, caw="PAS DE CODE C@W")],
+
+    # Lundi 09/11 : l Equipe 2 poursuit le 622272, son chantier du jeudi 05/11.
+    ("E2", 0): [J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+")],
 
     # Lundi 09/11 : Pierre sur l eolienne de Villers-le-Bouillet le matin, puis
     # sur le 622262 (B09 de Fexhe).
