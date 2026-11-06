@@ -55,6 +55,7 @@ AM    = "Après-midi"
 
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
+    "622262": "https://wilbow.monday.com/boards/5089236279/pulses/2880039934",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -95,6 +96,7 @@ VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
 HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
 BORNESLG = "https://wilbow.monday.com/boards/5089236279/pulses/3297165250"  # Bornes Liege Expo
+EOLVILLERS = "https://wilbow.monday.com/boards/5089236279/pulses/3336857329"  # Modification raccordement fibre Proximus - Eolienne Villers-le-Bouillet
 VALBENOIT = "https://wilbow.monday.com/boards/5089236279/pulses/3292906173"  # Val Benoit et Grosses-Battes CCTV
 DIGN = "https://wilbow.monday.com/boards/5089236279/pulses/2725054102"  # 4020 Leman/Digneffe CA120
 FEXHE = "https://wilbow.monday.com/boards/5089236279/pulses/2958713654"  # 622272 - IS_MP Cable definitif branche 12835
@@ -146,6 +148,14 @@ PLANNING = {
     # occupait le lundi et le mardi, est repousse au mardi et au jeudi
     # (changement du 05/11).
     ("JM", 0): [X("Bornes Liège Expo", url=BORNESLG, caw="PAS DE CODE C@W")],
+
+    # Lundi 09/11 : Pierre sur l eolienne de Villers-le-Bouillet le matin, puis
+    # sur le 622262 (B09 de Fexhe).
+    ("PM", 0): [
+        X("Modification raccordement fibre Proximus — Éolienne Villers-le-Bouillet",
+          url=EOLVILLERS, q=MATIN, caw="PAS DE CODE C@W"),
+        J("622262", "IS MP — Câble définitif branche B09 (Fexhe)", caw="PANDA+"),
+    ],
     **{("JM", i): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
                      caw="C@W À DÉTERMINER")] for i in (1, 3)},
     **{("PM", i): [X("SWDE Andenne", "+ J. Meurisse", "commun",

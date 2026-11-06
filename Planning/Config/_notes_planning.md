@@ -1755,6 +1755,16 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+- **Lundi 09/11 — Pierre : le MATIN, « Modification raccordement fibre Proximus —
+  Éolienne Villers-le-Bouillet »**, puis le **`622262`** (IS MP — Câble définitif branche
+  B09, Fexhe). Son lundi, laissé vide par le report du SWDE, est donc rempli.
+  - L'éolienne n'a **pas de numéro JMS** mais un item Monday (`3336857329`) : titre
+    cliquable. **Pas de code C@W** pour elle — la page secrétariat porte « PAS DE CODE
+    C@W ».
+  - Le « B09 de Fexhe » a été identifié comme le **JMS 622262**, même série que les
+    622272 et 622268 déjà connus ; **C@W PANDA+**, confirmé par Geoffrey.
+  - **Monday.com** : Jointage **Pierre Mattiuz au 09/11** sur les deux items, leurs
+    colonnes étaient vides.
 - **~~Lundi 09 et~~ Mardi 10 et jeudi 12/11 — Johan et Pierre sur le SWDE Andenne**
   (**repoussé le 05/11**, il sautait le mercredi férié), déplacé depuis le
   vendredi de la S45. **Le lundi de Pierre redevient donc gris** — à remplir. Pastilles croisées. **Le `635054` « mesures + corrections » que
