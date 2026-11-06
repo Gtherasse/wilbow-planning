@@ -2128,6 +2128,15 @@ sur le board. À me dire s'il faut l'ajouter aux colonnes Soufflage.
 | ~~Jeu 29/10/2026~~ | S44 | ~~Liège Expo~~ | — | — | **ANNULÉ le 20/10 — congé** |
 | ~~Ven 30/10/2026~~ | S44 | ~~Liège Expo~~ | — | — | **ANNULÉ le 20/10 — congé** |
 | Mar 03/11/2026 | S45 | **Bornes Liège Expo** | Équipe 2 (Dominguez + Feller) | **à préciser** | item `3297165250`, Soufflage encodé |
+| Lun 30/11/2026 | S49 | **679364 et 679363** (Neolegia, Liège) | Équipe 2 (Dominguez + Feller) | **à préciser** | items `3326307329` et `3157275187`, Soufflage encodé |
+
+**06/11/2026 — `679364` et `679363` pour l'Équipe 2 le lundi 30/11** (semaine 49,
+**script à créer** ; la S48 n'existe pas non plus). Deux chantiers Neolegia à Liège :
+`679364` — RZ 10SDU, Chemin des Confluences A2.2 ; `679363` — RZ 15SDU, Voie de
+l'Univers A1.2. **Monday.com** : Soufflage **Dominguez + Feller au 30/11** sur les deux ;
+le `679364` avait ses colonnes vides, le `679363` était daté du 27/08 avec les mêmes
+personnes — passage déjà effectué, la date est donc avancée sans rien perdre.
+**Le code C@W reste à me donner** avant la génération du PDF de la S49.
 
 **20/10/2026 — Bornes Liège Expo, mardi 03/11** (semaine 45, **script à créer**),
 **Équipe 2**. L'item Monday existe bien sous le nom « Bornes Liège Expo » : son
