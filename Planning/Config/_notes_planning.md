@@ -1760,6 +1760,15 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **« Peponne » est le surnom de Giuseppe Caruso** — précision de Geoffrey le 06/11. Il
   n'a **pas de ligne RESSOURCES** et **aucun compte Monday** sous ce nom : il apparaît en
   pastille « + G. Caruso » et **n'est pas encodé**, exactement comme Mike Wilvers.
+- **Nuit du mardi 10 au mercredi 11/11 — Johan seul sur le `693566`**, 22h00–06h00,
+  C@W PANDA+. Elle s'ajoute à son SWDE Andenne de la journée du mardi. Le bloc est à
+  cheval sur les deux jours, comme il se doit.
+  ⚠️ **Elle se termine au matin du 11/11, jour férié** : la case du mercredi porte FÉRIÉ
+  pour Johan. Date confirmée par Geoffrey le 06/11 — c'est bien cette nuit-là et pas
+  celle de la semaine suivante. **Aucune récupération n'est prévue** le jeudi, où il
+  reprend le SWDE Andenne avec Pierre ; dis-moi s'il en faut une.
+  **Monday.com** : Jointage du `693566` — **Meurisse Johan au 10/11**, colonne vide
+  jusqu'ici ; son Soufflage reste sur Bolmain + Petit au 09/11.
 - **Lundi 09/11 — Équipe 1 sur le `693566`** (OTB — Rue Denis Lecocq, BBN 12342), C@W
   **PANDA+**, code confirmé par Geoffrey. C'est son **premier chantier de la semaine** ;
   le reste de sa semaine est encore gris.

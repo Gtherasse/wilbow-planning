@@ -170,8 +170,13 @@ PLANNING = {
           url=EOLVILLERS, q=MATIN, caw="PAS DE CODE C@W"),
         J("622262", "IS MP — Câble définitif branche B09 (Fexhe)", caw="PANDA+"),
     ],
-    **{("JM", i): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
-                     caw="C@W À DÉTERMINER")] for i in (1, 3)},
+    ("JM", 1): [
+        X("SWDE Andenne", "+ P. Mattiuz", "commun", caw="C@W À DÉTERMINER"),
+        # Nuit du mardi 10 au mercredi 11/11, sur le 693566.
+        J("693566", "OTB — Rue Denis Lecocq, BBN 12342", q=NUIT, caw="PANDA+"),
+    ],
+    ("JM", 3): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
+                  caw="C@W À DÉTERMINER")],
     **{("PM", i): [X("SWDE Andenne", "+ J. Meurisse", "commun",
                      caw="C@W À DÉTERMINER")] for i in (1, 3)},
 
