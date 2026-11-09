@@ -1677,6 +1677,27 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
+## Semaine 49 (30/11 au 04/12/2026) — créée le 09/11/2026
+
+Script `Planning/Config/_modele_planning_s49.py`, copié de la S48. PDF
+`Planning/Planning WILBOW - S49 - 30 nov-04 dec 2026.pdf`, 2 pages. **Première semaine à
+cheval sur deux mois depuis la S40** : le nom du fichier suit la convention déjà
+établie (`30 nov-04 dec`), comme `31 aout-04 sept` pour la S36.
+
+- **Lundi 30/11 — Équipe 2 sur le `679364` et le `679363`** (Neolegia, Liège),
+  enregistrés le 06/11 :
+  - `679364` — RZ 10SDU, Chemin des Confluences A2.2 (item `3326307329`) ;
+  - `679363` — RZ 15SDU, Voie de l'Univers A1.2 (item `3157275187`).
+  C@W **PANDA+**, demandé et confirmé par Geoffrey le 09/11. Les deux lignes sont
+  **fusionnées en une seule** sur la page secrétariat, les codes étant identiques.
+  **Monday.com — rien à changer** : le Soufflage des deux items porte déjà
+  **Dominguez + Feller au 30/11**, posé le 06/11.
+- **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
+- **Tout le reste de la semaine est gris** : les deux équipes hors ce lundi, Johan et
+  Pierre les cinq jours.
+
+---
+
 ## Semaine 48 (23/11 au 27/11/2026) — créée le 09/11/2026
 
 Script `Planning/Config/_modele_planning_s48.py`, copié de la S47. PDF
@@ -1695,11 +1716,6 @@ Le dict `LIENS` a été vidé de tout ce qui ne sert pas en S48 ; les constantes
 chantiers sans JMS (FH 32, ROP BTV, Bornes Liège Expo…) sont conservées comme
 bibliothèque. L'entrée `C@W À DÉTERMINER` a été remise dans `CODES`, elle manquait en
 S47.
-
-⚠️ **Rappel — la S49 n'existe toujours pas** : les `679364` et `679363` de l'Équipe 2 au
-lundi 30/11 y attendent leur script, et leur code C@W reste à me donner.
-
----
 
 ## Semaine 47 (16/11 au 20/11/2026) — créée le 03/11/2026
 
@@ -2240,15 +2256,15 @@ sur le board. À me dire s'il faut l'ajouter aux colonnes Soufflage.
 | ~~Jeu 29/10/2026~~ | S44 | ~~Liège Expo~~ | — | — | **ANNULÉ le 20/10 — congé** |
 | ~~Ven 30/10/2026~~ | S44 | ~~Liège Expo~~ | — | — | **ANNULÉ le 20/10 — congé** |
 | Mar 03/11/2026 | S45 | **Bornes Liège Expo** | Équipe 2 (Dominguez + Feller) | **à préciser** | item `3297165250`, Soufflage encodé |
-| Lun 30/11/2026 | S49 | **679364 et 679363** (Neolegia, Liège) | Équipe 2 (Dominguez + Feller) | **à préciser** | items `3326307329` et `3157275187`, Soufflage encodé |
+| ~~Lun 30/11/2026~~ | S49 | ~~**679364 et 679363** (Neolegia, Liège)~~ | Équipe 2 (Dominguez + Feller) | PANDA+ | **INTÉGRÉ le 09/11 au script S49** |
 
-**06/11/2026 — `679364` et `679363` pour l'Équipe 2 le lundi 30/11** (semaine 49,
-**script à créer** ; la S48 n'existe pas non plus). Deux chantiers Neolegia à Liège :
+**06/11/2026 — `679364` et `679363` pour l'Équipe 2 le lundi 30/11** (semaine 49 —
+**script créé le 09/11, chantiers intégrés ; la S48 aussi**). Deux chantiers Neolegia à Liège :
 `679364` — RZ 10SDU, Chemin des Confluences A2.2 ; `679363` — RZ 15SDU, Voie de
 l'Univers A1.2. **Monday.com** : Soufflage **Dominguez + Feller au 30/11** sur les deux ;
 le `679364` avait ses colonnes vides, le `679363` était daté du 27/08 avec les mêmes
 personnes — passage déjà effectué, la date est donc avancée sans rien perdre.
-**Le code C@W reste à me donner** avant la génération du PDF de la S49.
+~~Le code C@W reste à me donner~~ — **C@W PANDA+ confirmé par Geoffrey le 09/11.**
 
 **20/10/2026 — Bornes Liège Expo, mardi 03/11** (semaine 45, **script à créer**),
 **Équipe 2**. L'item Monday existe bien sous le nom « Bornes Liège Expo » : son
