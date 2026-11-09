@@ -191,11 +191,10 @@ PLANNING = {
           url=EOLVILLERS, q=MATIN, caw="PAS DE CODE C@W"),
         J("622262", "IS MP — Câble définitif branche B09 (Fexhe)", caw="PANDA+"),
     ],
-    ("JM", 1): [
-        X("SWDE Andenne", "+ P. Mattiuz", "commun", caw="C@W À DÉTERMINER"),
-        # Nuit du mardi 10 au mercredi 11/11, sur le 693566.
-        J("693566", "OTB — Rue Denis Lecocq, BBN 12342", q=NUIT, caw="PANDA+"),
-    ],
+    # 09/11 : la nuit du mardi 10 au mercredi 11/11 passe de Johan a Dan.
+    # Johan ne garde donc que le SWDE Andenne du mardi.
+    ("JM", 1): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
+                  caw="C@W À DÉTERMINER")],
     ("JM", 3): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
                   caw="C@W À DÉTERMINER")],
     **{("PM", i): [X("SWDE Andenne", "+ J. Meurisse", "commun",
@@ -212,7 +211,16 @@ PLANNING = {
                   "+ J. Meurisse · sous réserve du client", "commun", caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    # ATTENTION : le mardi est exclu de la comprehension pour Dan, sinon elle
+    # ecraserait silencieusement sa nuit ci-dessous (piege deja rencontre).
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 2, 3, 4)},
+
+    # Mardi 10/11 : BTO la journee, puis la nuit du mardi au mercredi 11/11
+    # sur le 693566, reprise de Johan le 09/11.
+    ("DP", 1): [
+        X("BTO", caw="BTO"),
+        J("693566", "OTB — Rue Denis Lecocq, BBN 12342", q=NUIT, caw="PANDA+"),
+    ],
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 

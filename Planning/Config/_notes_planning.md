@@ -1762,6 +1762,28 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**09/11/2026 — la nuit du mardi 10 au mercredi 11/11 passe de Johan à Dan.**
+Geoffrey a demandé que « le PW de mardi soir » soit fait par **Panait Dan** et plus par
+Johan. Le seul travail de nuit du mardi est le **`693566`** (OTB — Rue Denis Lecocq,
+BBN 12342), 22h00–06h00, C@W PANDA+ : c'est donc celui-là. **Dan garde son BTO la
+journée du mardi**, exactement comme pour sa nuit du 05→06/11 en S45, et le bloc de nuit
+est à cheval sur mardi et mercredi dans sa ligne.
+
+⚠️ **Piège de dictionnaire évité** : la comprehension `("DP", i) for i in range(5)` qui
+donne le BTO des cinq jours aurait **écrasé silencieusement** la nuit du mardi, étant
+définie plus bas dans le même littéral. Le mardi en a été exclu — même correction qu'en
+S45. À refaire à chaque fois qu'une clé individuelle `("DP", j)` précède cette
+comprehension.
+
+**Johan ne garde que le SWDE Andenne du mardi.** La question de sa récupération après
+cette nuit **tombe d'elle-même** ; en revanche **elle se pose maintenant pour Dan** —
+sa nuit se termine au matin du **mercredi 11/11, jour férié**, et il est pour l'instant
+en BTO ce mercredi comme les autres jours. Dis-moi s'il faut lui mettre une
+récupération.
+
+**Monday.com** : Jointage du `693566` — **Johan remplacé par Panait Dan**, date du 10/11
+inchangée. Le Soufflage reste sur Bolmain + Petit au 09/11.
+
 **09/11/2026 — Équipe 2 sur le `646372` et le `646374` les jeudi 12 et vendredi 13/11.**
 Les deux JMS portent le même chantier : **OL — Bureau d'Électronique Appliquée, Rue Louis
 Plescia 31, Ougrée** (Ougrée est une section de Seraing — les items Monday disent
@@ -1797,7 +1819,8 @@ rentabilité du chantier ne comptera donc qu'une personne sur les deux. **À sig
   **« Peponne » est le surnom de Giuseppe Caruso** — précision de Geoffrey le 06/11. Il
   n'a **pas de ligne RESSOURCES** et **aucun compte Monday** sous ce nom : il apparaît en
   pastille « + G. Caruso » et **n'est pas encodé**, exactement comme Mike Wilvers.
-- **Nuit du mardi 10 au mercredi 11/11 — Johan seul sur le `693566`**, 22h00–06h00,
+- **~~Nuit du mardi 10 au mercredi 11/11 — Johan seul sur le `693566`~~ — REPRISE PAR
+  PANAIT DAN le 09/11** (voir l'entrée datée ci-dessus), 22h00–06h00,
   C@W PANDA+. Elle s'ajoute à son SWDE Andenne de la journée du mardi. Le bloc est à
   cheval sur les deux jours, comme il se doit.
   ⚠️ **Elle se termine au matin du 11/11, jour férié** : la case du mercredi porte FÉRIÉ
