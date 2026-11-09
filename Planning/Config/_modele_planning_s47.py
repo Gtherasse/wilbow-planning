@@ -149,6 +149,11 @@ PLANNING = {
     ("PM", 2): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
                   caw="PANDA+")],
 
+    # Lundi 16/11 : Johan sur le 675238 (Ciney-Jemelle), identification joint.
+    # C@W PANDA+, code deja etabli lors de ses passages precedents.
+    ("JM", 0): [J("675238", "BBN 12310B — Ciney-Jemelle",
+                  "(identification joint)", caw="PANDA+")],
+
     # Lundi 16/11 : Pierre sur le 535147 (feed-out FH44/FH45, rue de Vise,
     # Liege). C@W PANDA+ confirme par Geoffrey le 09/11.
     ("PM", 0): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",

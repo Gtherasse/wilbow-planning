@@ -1742,6 +1742,14 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **Lundi 16/11 — Johan sur le `675238`** (BBN 12310B — Ciney-Jemelle), mention
+  **« (identification joint) »**, ajouté le 09/11. C@W **PANDA+**, code déjà établi lors
+  de ses passages précédents (S36, S37, S38, S43, S45) — repris tel quel, pas deviné.
+  Sa case du lundi, jusque-là grise, est donc remplie.
+  **Monday.com** : Jointage **re-daté du 05 au 16/11, Johan seul**. La colonne portait
+  Johan + Dan + Mike Wilvers au 05/11, pour la nuit du 05→06/11 — **cette nuit a été
+  ANNULÉE** (Geoffrey, le 09/11), il n'y avait donc rien à préserver.
+
 - **Lundi 16/11 — Pierre sur le `535147`** (FTTH BF Liège — Feed-out FOx FH44/FH45, Rue
   de Visé), ajouté le 09/11. C@W **PANDA+**, demandé et confirmé par Geoffrey. Sa case du
   lundi, jusque-là grise, est donc remplie.
@@ -1937,6 +1945,25 @@ rentabilité du chantier ne comptera donc qu'une personne sur les deux. **À sig
   congé) : l'Armistice n'est ni un congé pris ni une absence individuelle, il méritait sa
   propre couleur. Réutilisable pour les prochains fériés.
 - Le vendredi 13/11 (681226, sous réserve du client) ne bouge pas.
+
+**09/11/2026 — la nuit du jeudi 05 au vendredi 06/11 sur le `675238` a été ANNULÉE.**
+Elle était portée par Panait Dan avec Mike Wilvers en pastille. **Geoffrey demande de la
+laisser visible** plutôt que de l'effacer : la pastille porte désormais
+« + M. Wilvers · ANNULÉ » et le bloc de nuit reste en place, sur les deux pages.
+C'est le **deuxième cas de prestation non ferme affichée dans la grille**, après le
+681226 « sous réserve du client » du 13/11 — la règle veut que seul le confirmé y
+figure ; l'exception est à chaque fois demandée explicitement.
+
+**Conséquences :**
+- La question de la **récupération de Dan le vendredi 06/11** tombe d'elle-même : il n'a
+  pas fait la nuit. Il reste en BTO ce vendredi, comme la grille le montre déjà.
+- **Monday.com** : le Jointage du `675238`, qui portait Johan + Dan + Mike Wilvers au
+  05/11, a été **re-daté au 16/11 avec Johan seul** pour son identification de joints
+  (S47). Rien n'est perdu puisque la nuit n'a pas eu lieu.
+- La **préparation de journée de Johan le jeudi 05/11** n'est pas touchée : Geoffrey n'a
+  parlé que de la nuit. **À me dire si elle tombe aussi.**
+
+---
 
 ## Semaine 45 (02/11 au 06/11/2026) — créée le 30/10/2026
 

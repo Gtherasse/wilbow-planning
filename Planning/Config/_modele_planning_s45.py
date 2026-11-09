@@ -213,10 +213,12 @@ PLANNING = {
 
     # La nuit du Jemelle est portee par la ligne de Panait Dan, avec Mike
     # Wilvers en pastille : Mike n a pas de ligne RESSOURCES.
+    # 09/11 : cette nuit a ete ANNULEE. Geoffrey demande de la laisser
+    # visible avec la mention, plutot que de l effacer.
     ("DP", 3): [
         X("BTO", caw="BTO"),
         J("675238", "BBN 12310B — Ciney-Jemelle",
-          "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
+          "+ M. Wilvers · ANNULÉ", "commun", q=NUIT, caw="PANDA+"),
     ],
 
     # Mardi 03/11 : Pierre reprend le 687759 (Zone de Police, Andenne), son
