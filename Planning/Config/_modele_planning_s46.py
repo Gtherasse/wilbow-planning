@@ -59,6 +59,7 @@ LIENS = {
     "646372": "https://wilbow.monday.com/boards/5089236279/pulses/3272058572",
     "693566": "https://wilbow.monday.com/boards/5089236279/pulses/3336892850",
     "684382": "https://wilbow.monday.com/boards/5089236279/pulses/3304688339",
+    "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
     "663004": "https://wilbow.monday.com/boards/5089236279/pulses/3257058329",
     "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622262": "https://wilbow.monday.com/boards/5089236279/pulses/2880039934",
@@ -181,6 +182,11 @@ PLANNING = {
 
     # Lundi 09/11 : l Equipe 1 sur le 693566 (OTB, Rue Denis Lecocq).
     ("E1", 0): [J("693566", "OTB — Rue Denis Lecocq, BBN 12342", caw="PANDA+")],
+
+    # Mardi 10 et jeudi 12/11 : l Equipe 1 sur le 680552 (le mercredi 11 est
+    # ferie, la serie saute donc un jour). C@W PANDA+ confirme le 09/11.
+    **{("E1", i): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
+                     caw="PANDA+")] for i in (1, 3)},
 
     # Lundi 09/11 : l Equipe 2 poursuit le 622272, son chantier du jeudi 05/11.
     ("E2", 0): [J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+")],

@@ -1762,6 +1762,16 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**09/11/2026 — Équipe 1 sur le `680552` les mardi 10 et jeudi 12/11.**
+**FQ — BB Neuron K12836, Huy (3-81CH90950)** (item Monday `3308918299`, donneur d'ordre
+Proximus). C@W **PANDA+**, demandé et confirmé par Geoffrey. **Le mercredi 11 étant
+férié, la série saute un jour** — mardi puis jeudi, ce qui correspond bien à la demande.
+Il ne reste à l'Équipe 1 que le vendredi en gris.
+
+**Monday.com** : **Soufflage Bolmain + Petit au 10/11**, premier jour de la série ; les
+quatre colonnes de l'item étaient vides. **Convention multi-occurrences toujours en
+suspens** : le second passage du jeudi ne s'y distingue pas.
+
 **09/11/2026 — Équipe 2 sur le `684382` le mardi 10/11.**
 **MP — Pose HDPE, Impasse Jonckeu, Liège** (item Monday `3304688339`, donneur d'ordre
 Proximus, type Soufflage, statut « À préparer »). C@W **PANDA+**, demandé et confirmé par
