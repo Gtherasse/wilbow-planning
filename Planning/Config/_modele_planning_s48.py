@@ -118,6 +118,10 @@ PLANNING = {
     ("E2", 1): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
                   caw="PANDA+")],
 
+    # Mercredi 25/11 : Pierre passe sur le meme 690165, apres l Equipe 2.
+    ("PM", 2): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
+                  caw="PANDA+")],
+
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},

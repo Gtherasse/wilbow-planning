@@ -1708,9 +1708,13 @@ Script `Planning/Config/_modele_planning_s48.py`, copié de la S47. PDF
   « À préparer »). C@W **PANDA+**, demandé et confirmé par Geoffrey.
   **Monday.com** : **Soufflage Dominguez + Feller au 24/11**, les quatre colonnes de
   l'item étaient vides.
+- **Mercredi 25/11 — Pierre sur le même `690165`**, ajouté le 09/11, après le passage de
+  l'Équipe 2 du mardi. Même C@W **PANDA+**.
+  **Monday.com** : **Jointage Mattiuz Pierre au 25/11**, colonne vide jusqu'ici. Les deux
+  métiers tombent sur des jours différents, sans conflit.
 - **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
-- **Tout le reste de la semaine est gris** : les deux équipes hors ce mardi, Johan et
-  Pierre les cinq jours. C'est **la seule prestation confirmée de la semaine** à ce jour.
+- **Le reste de la semaine est gris** : l'Équipe 1 les cinq jours, l'Équipe 2 hors ce
+  mardi, Johan les cinq jours, Pierre hors ce mercredi.
 
 Le dict `LIENS` a été vidé de tout ce qui ne sert pas en S48 ; les constantes de
 chantiers sans JMS (FH 32, ROP BTV, Bornes Liège Expo…) sont conservées comme
@@ -1738,6 +1742,19 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **Lundi 16/11 — Pierre sur le `535147`** (FTTH BF Liège — Feed-out FOx FH44/FH45, Rue
+  de Visé), ajouté le 09/11. C@W **PANDA+**, demandé et confirmé par Geoffrey. Sa case du
+  lundi, jusque-là grise, est donc remplie.
+  ⚠️ **L'item Monday ne porte pas le JMS dans son nom**, contrairement à tous les autres :
+  il s'appelle `- FTTH_BF_Liege_FEED_OUT_FOx_FH44_FH45_SB` (item `2777940249`) et le
+  numéro 535147 n'est que dans la colonne texte. Il est donc **introuvable par une
+  recherche sur le nom** — à signaler si quelqu'un peut corriger le titre.
+  **Monday.com** : **Jointage Mattiuz Pierre au 16/11**. ⚠️ **La colonne portait Meurisse
+  Johan sans aucune date** — vraisemblablement une pré-affectation restée en place : je
+  l'ai **remplacé par Pierre**, puisque la grille ne porte que lui. Dis-le moi s'ils
+  doivent y aller à deux. Le Soufflage reste sur Bolmain + Petit au 20/04, passage déjà
+  effectué.
+
 - **Lundi 16 et mardi 17/11 — Équipe 2 sur le `687329`** (OL — DSTNY BE, Rue du Parc
   Industriel 3, Engis), C@W **PANDA+**. **Pierre y passe le mercredi 18/11.**
 - **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.

@@ -58,6 +58,7 @@ LIENS = {
     "646374": "https://wilbow.monday.com/boards/5089236279/pulses/3263247085",
     "646372": "https://wilbow.monday.com/boards/5089236279/pulses/3272058572",
     "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
+    "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -146,6 +147,11 @@ PLANNING = {
     **{("E2", i): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
                      caw="PANDA+")] for i in (0, 1)},
     ("PM", 2): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+                  caw="PANDA+")],
+
+    # Lundi 16/11 : Pierre sur le 535147 (feed-out FH44/FH45, rue de Vise,
+    # Liege). C@W PANDA+ confirme par Geoffrey le 09/11.
+    ("PM", 0): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
                   caw="PANDA+")],
 
     # Mardi 17/11 : Pierre sur le 646372 et le 646374 (BEA, Ougree).
