@@ -1755,6 +1755,18 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**09/11/2026 — Avenia Geoffrey MALADE ce lundi ; le chantier se fait sans lui.**
+**Giuseppe Caruso et Fabrice Gaspard** font le `663004` à sa place. Aucun des deux n'a
+de ligne RESSOURCES : la case du magasinier **garde donc le chantier**, avec la pastille
+« + G. Caruso · F. Gaspard », et porte **l'absence nominative « G. Avenia — MALADIE »**
+en dessous. C'est le procédé déjà utilisé pour Miguel et pour Gauthier : une seule case
+porte le chantier **et** l'absence, au lieu de choisir entre les deux.
+**Monday.com** : Soufflage du `663004` — **Avenia retiré, Fabrice Gaspard seul**.
+Giuseppe Caruso **n'a aucun compte Monday**, il ne peut pas y être encodé : la
+rentabilité du chantier ne comptera donc qu'une personne sur les deux. **À signaler si
+ça pose problème** — la seule solution serait de lui créer un compte.
+**Durée inconnue** : seul le lundi est traité.
+
 - **Lundi 09/11 — Avenia Geoffrey sur le `663004`** (RW Tychyb C/315 — Rue Vaudaigle 1A,
   Andenne, GPW), **reporté du vendredi 06/11**, C@W PANDA+, **avec Giuseppe Caruso**.
   **« Peponne » est le surnom de Giuseppe Caruso** — précision de Geoffrey le 06/11. Il

@@ -154,8 +154,14 @@ PLANNING = {
 
     # Lundi 09/11 : Avenia Geoffrey sur le 663004, reporte du vendredi 06/11,
     # avec Giuseppe Caruso dit « Peponne » (pas de ligne RESSOURCES : pastille).
-    ("GA", 0): [J("663004", "RW Tychyb C/315 — Rue Vaudaigle 1A, Andenne (GPW)",
-                  "+ G. Caruso", "commun", caw="PANDA+")],
+    # Lundi 09/11 : Avenia Geoffrey est malade. Le chantier se fait quand meme,
+    # par Giuseppe Caruso et Fabrice Gaspard, qui n ont pas de ligne
+    # RESSOURCES : la case garde le chantier et porte l absence nominative.
+    ("GA", 0): [
+        J("663004", "RW Tychyb C/315 — Rue Vaudaigle 1A, Andenne (GPW)",
+          "+ G. Caruso · F. Gaspard", "commun", caw="PANDA+"),
+        A("MALADIE", q="G. Avenia"),
+    ],
 
     # Lundi 09/11 : l Equipe 1 sur le 693566 (OTB, Rue Denis Lecocq).
     ("E1", 0): [J("693566", "OTB — Rue Denis Lecocq, BBN 12342", caw="PANDA+")],
