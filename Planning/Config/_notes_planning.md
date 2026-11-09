@@ -1745,10 +1745,10 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 - **Lundi 16/11 — Pierre sur le `535147`** (FTTH BF Liège — Feed-out FOx FH44/FH45, Rue
   de Visé), ajouté le 09/11. C@W **PANDA+**, demandé et confirmé par Geoffrey. Sa case du
   lundi, jusque-là grise, est donc remplie.
-  ⚠️ **L'item Monday ne porte pas le JMS dans son nom**, contrairement à tous les autres :
-  il s'appelle `- FTTH_BF_Liege_FEED_OUT_FOx_FH44_FH45_SB` (item `2777940249`) et le
-  numéro 535147 n'est que dans la colonne texte. Il est donc **introuvable par une
-  recherche sur le nom** — à signaler si quelqu'un peut corriger le titre.
+  ~~L'item Monday ne porte pas le JMS dans son nom~~ — **CORRIGÉ le 09/11** : signalé à
+  Geoffrey, l'item `2777940249` s'appelle désormais
+  `535147 - FTTH_BF_Liege_FEED_OUT_FOx_FH44_FH45_SB` et se retrouve donc par une
+  recherche sur le nom, comme tous les autres.
   **Monday.com** : **Jointage Mattiuz Pierre au 16/11**. ⚠️ **La colonne portait Meurisse
   Johan sans aucune date** — vraisemblablement une pré-affectation restée en place : je
   l'ai **remplacé par Pierre**, puisque la grille ne porte que lui. Dis-le moi s'ils
