@@ -65,6 +65,23 @@ date prévue et personnes assignées :
 > **Exception absolue : les chantiers BTO ne sont JAMAIS modifiés sur
 > Monday.com.**
 
+### Statut chantier — passage en « Planifié »
+
+**Règle du 09/11/2026.** Dès qu'un dossier reçoit une date dans le planning,
+son **statut chantier** (`color_mkyvga45`) passe à **`Planifié`**. Une
+automatisation du board le déplace alors dans le répertoire « Planifié ».
+Cela fait partie de la mise à jour parallèle, au même titre que la date et
+les personnes — jamais une étape séparée à réclamer.
+
+**Ne jamais rétrograder un dossier déjà plus avancé.** Le passage en
+`Planifié` ne vaut que depuis un statut d'avant-planification :
+`À analyser`, `A Visiter`, `A préparer`, `À Planifier Soufflage`,
+`A Planifier Jointage`. Un dossier en `En cours Soufflage`,
+`En Cours Jointage`, `A Encoder`, `À Facturer` ou `Dossier Terminé` **n'est
+pas touché** : il a dépassé le stade de la planification.
+
+Le statut `BTO` relève de l'exception absolue ci-dessus : jamais modifié.
+
 Lors d'un ajout de personnes, **relire la valeur brute** de la colonne et
 reconstruire la liste complète : une écriture partielle écrase les personnes
 déjà assignées. Vérifier ensuite l'état réel sur le board, pas seulement le

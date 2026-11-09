@@ -1677,6 +1677,47 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
+**09/11/2026 — NOUVELLE RÈGLE PERMANENTE : statut Monday « Planifié ».**
+Dès qu'un dossier reçoit une date dans le planning, son **statut chantier**
+(`color_mkyvga45`) passe à **`Planifié`** — une automatisation du board le déplace
+ensuite dans le répertoire « Planifié ». La règle est consignée dans
+`Planning/Config/CLAUDE.md`, section Monday.com, et s'applique désormais à chaque
+affectation, en même temps que la date et les personnes.
+
+**Garde-fou que j'ai posé** (à corriger si ce n'est pas ce que tu veux) : on ne
+**rétrograde jamais** un dossier plus avancé. Le passage en `Planifié` ne se fait que
+depuis `À analyser`, `A Visiter`, `A préparer`, `À Planifier Soufflage` ou
+`A Planifier Jointage`. Les dossiers en `En cours Soufflage`, `En Cours Jointage`,
+`A Encoder`, `À Facturer` ou `Dossier Terminé` ne sont pas touchés. `BTO` reste couvert
+par l'exception absolue.
+
+**Application rétroactive le 09/11** — 10 dossiers passés en `Planifié`, tous vérifiés
+dans le répertoire « Planifié » après coup :
+
+| JMS | Chantier | Statut d'avant |
+|-----|----------|----------------|
+| 663004 | RW Tychyb C/315, Andenne | À Planifier Soufflage |
+| 680552 | FQ BB Neuron K12836, Huy | À analyser |
+| 684382 | MP Pose HDPE, Impasse Jonckeu | A préparer |
+| 681226 | GB Cup Pasta Médiacité | À Planifier Soufflage |
+| 535147 | FTTH BF Liège, Feed-out FH44/FH45 | A Planifier Jointage |
+| 688836 | FQ ROP endommagé 85AMAC/311 | À analyser |
+| 690640 | RRROP C/123, Visé | À analyser |
+| 690165 | OL MB GROUPE, Flémalle | A préparer |
+| 679364 | RZ 10SDU, Neolegia Liège | A préparer |
+| 679363 | RZ 15SDU, Neolegia Liège | À Planifier Soufflage |
+
+**Non touchés, déjà plus avancés** : `622272`, `622262`, `693566` (En cours Soufflage),
+`675238`, l'éolienne de Villers-le-Bouillet et les Bornes Liège Expo (En Cours Jointage).
+Les `646372`, `646374` et `687329` étaient **déjà en `Planifié`**.
+
+⚠️ **Le `681226` est passé en `Planifié` alors qu'il est « sous réserve du client »** :
+il a une date dans le planning, la règle s'applique mécaniquement. **Dis-le moi si tu
+préfères qu'un chantier non ferme reste dans son répertoire d'origine** jusqu'à
+confirmation.
+
+---
+
 ## Semaine 49 (30/11 au 04/12/2026) — créée le 09/11/2026
 
 Script `Planning/Config/_modele_planning_s49.py`, copié de la S48. PDF
