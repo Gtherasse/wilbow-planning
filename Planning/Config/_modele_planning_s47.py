@@ -55,6 +55,8 @@ AM    = "Après-midi"
 
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
+    "646374": "https://wilbow.monday.com/boards/5089236279/pulses/3263247085",
+    "646372": "https://wilbow.monday.com/boards/5089236279/pulses/3272058572",
     "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
@@ -123,6 +125,9 @@ CODES = {
     "SWDE HUCCORGNE":     "1Y102QZML7WGZ",
     "GO FIBER":           "1Y102XHX3W2MZ",
     "CATERPILLAR":        "1Y102SV8BK22Z",
+    # Releve sur la declaration de travaux affichee sur site (photo du
+    # 09/11) : Bureau d Electronique Appliquee, rue Louis Plescia, Ougree.
+    "BEA OUGRÉE":         "1Y102UW3PMQCZ",
     # Prestation sans code Check in @ Work : le secretariat ne doit rien
     # encoder. Rendue explicitement plutot que laissee vide.
     "PAS DE CODE C@W":    "",
@@ -141,6 +146,14 @@ PLANNING = {
                      caw="PANDA+")] for i in (0, 1)},
     ("PM", 2): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
                   caw="PANDA+")],
+
+    # Mardi 17/11 : Pierre sur le 646372 et le 646374 (BEA, Ougree).
+    ("PM", 1): [
+        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée",
+          caw="BEA OUGRÉE"),
+        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée",
+          caw="BEA OUGRÉE"),
+    ],
 
     # Le 688836 et le 690640, deplaces depuis la S46 le 03/11. Tous deux avec
     # Mike Wilvers, qui n a pas de ligne RESSOURCES et apparait en pastille.

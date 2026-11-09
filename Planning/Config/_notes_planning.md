@@ -1691,6 +1691,13 @@ Script `Planning/Config/_modele_planning_s47.py`, copié de la S46. PDF
 Ils ont donc changé deux fois de date : d'abord mardi 10 et mercredi 11/11, puis mardi 10
 et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 
+- **Mardi 17/11 — Pierre sur le `646372` et le `646374`** (OL — Bureau d'Électronique
+  Appliquée, Rue Louis Plescia 31, Ougrée), **après l'Équipe 2 qui y passe les 12 et
+  13/11 en S46**. C@W **`BEA OUGRÉE` = `1Y102UW3PMQCZ`**, relevé sur la déclaration de
+  travaux affichée sur site — **sous réserve de confirmation**, le poteau masquait la fin
+  de la ligne sur la photo (détail dans la section S46).
+  **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
+  jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
 - **Lundi 16 et mardi 17/11 — Équipe 2 sur le `687329`** (OL — DSTNY BE, Rue du Parc
   Industriel 3, Engis), C@W **PANDA+**. **Pierre y passe le mercredi 18/11.**
 - **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
@@ -1755,6 +1762,25 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**09/11/2026 — Équipe 2 sur le `646372` et le `646374` les jeudi 12 et vendredi 13/11.**
+Les deux JMS portent le même chantier : **OL — Bureau d'Électronique Appliquée, Rue Louis
+Plescia 31, Ougrée** (Ougrée est une section de Seraing — les items Monday disent
+« Seraing », c'est bien le même endroit). Les deux lignes sont fusionnées en une seule
+sur la page secrétariat, les codes étant identiques.
+
+**Nouveau code C@W — `BEA OUGRÉE` = `1Y102UW3PMQCZ`.** Il ne vient pas de PANDA+ mais a
+été **relevé sur la déclaration de travaux affichée sur site** (photo transmise par
+Geoffrey le 09/11) : donneur d'ordre « Bureau d'Electronique appliquée », rue Louis
+Plescia, 4102 Ougrée. ⚠️ **Le poteau masque en partie la fin de la ligne sur la photo** :
+le code est lu `1Y1-02UW3PM-QC-Z`, soit 13 caractères terminés par Z, ce qui correspond
+au format de tous les autres codes — **à confirmer par Geoffrey avant que le secrétariat
+l'utilise.** L'entrée a été ajoutée au dict `CODES` de la S46 **et** de la S47.
+
+**Monday.com** : `646372` (item `3272058572`) et `646374` (item `3263247085`) — les
+quatre colonnes étaient vides sur les deux items. **Soufflage Dominguez + Feller au
+12/11** (premier jour de la série jeudi/vendredi) et **Jointage Mattiuz au 17/11**. Les
+deux métiers tombent sur des jours différents, sans conflit.
+
 **09/11/2026 — Avenia Geoffrey MALADE ce lundi ; le chantier se fait sans lui.**
 **Giuseppe Caruso et Fabrice Gaspard** font le `663004` à sa place. Aucun des deux n'a
 de ligne RESSOURCES : la case du magasinier **garde donc le chantier**, avec la pastille
