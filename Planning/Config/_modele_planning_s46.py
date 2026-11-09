@@ -58,6 +58,7 @@ LIENS = {
     "646374": "https://wilbow.monday.com/boards/5089236279/pulses/3263247085",
     "646372": "https://wilbow.monday.com/boards/5089236279/pulses/3272058572",
     "693566": "https://wilbow.monday.com/boards/5089236279/pulses/3336892850",
+    "684382": "https://wilbow.monday.com/boards/5089236279/pulses/3304688339",
     "663004": "https://wilbow.monday.com/boards/5089236279/pulses/3257058329",
     "622272": "https://wilbow.monday.com/boards/5089236279/pulses/2958713654",
     "622262": "https://wilbow.monday.com/boards/5089236279/pulses/2880039934",
@@ -183,6 +184,11 @@ PLANNING = {
 
     # Lundi 09/11 : l Equipe 2 poursuit le 622272, son chantier du jeudi 05/11.
     ("E2", 0): [J("622272", "IS MP — Câble définitif branche 12835", caw="PANDA+")],
+
+    # Mardi 10/11 : l Equipe 2 sur le 684382 (pose HDPE, Impasse Jonckeu,
+    # Liege). C@W PANDA+ confirme par Geoffrey le 09/11.
+    ("E2", 1): [J("684382", "MP — Pose HDPE, Impasse Jonckeu, Liège",
+                  caw="PANDA+")],
 
     # Lundi 09/11 : Pierre sur l eolienne de Villers-le-Bouillet le matin, puis
     # sur le 622262 (B09 de Fexhe).

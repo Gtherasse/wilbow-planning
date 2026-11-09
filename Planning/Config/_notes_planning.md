@@ -1762,6 +1762,15 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**09/11/2026 — Équipe 2 sur le `684382` le mardi 10/11.**
+**MP — Pose HDPE, Impasse Jonckeu, Liège** (item Monday `3304688339`, donneur d'ordre
+Proximus, type Soufflage, statut « À préparer »). C@W **PANDA+**, demandé et confirmé par
+Geoffrey. Sa case du mardi, jusque-là grise, est donc remplie ; elle ne l'était plus
+depuis que son chantier du lundi ne se prolongeait pas.
+
+**Monday.com** : **Soufflage Dominguez + Feller au 10/11**, les quatre colonnes de l'item
+étaient vides.
+
 **09/11/2026 — la nuit du mardi 10 au mercredi 11/11 passe de Johan à Dan.**
 Geoffrey a demandé que « le PW de mardi soir » soit fait par **Panait Dan** et plus par
 Johan. Le seul travail de nuit du mardi est le **`693566`** (OTB — Rue Denis Lecocq,
