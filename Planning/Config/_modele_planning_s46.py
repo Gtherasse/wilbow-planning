@@ -132,6 +132,7 @@ CODES = {
     "C@W À DÉTERMINER":   "",
     # Releve sur la declaration de travaux affichee sur site (photo du
     # 09/11) : Bureau d Electronique Appliquee, rue Louis Plescia, Ougree.
+    # Code confirme par Geoffrey le 09/11.
     "BEA OUGRÉE":         "1Y102UW3PMQCZ",
     # Prestation sans code Check in @ Work : le secretariat ne doit rien
     # encoder. Rendue explicitement plutot que laissee vide.

@@ -1694,8 +1694,8 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 - **Mardi 17/11 — Pierre sur le `646372` et le `646374`** (OL — Bureau d'Électronique
   Appliquée, Rue Louis Plescia 31, Ougrée), **après l'Équipe 2 qui y passe les 12 et
   13/11 en S46**. C@W **`BEA OUGRÉE` = `1Y102UW3PMQCZ`**, relevé sur la déclaration de
-  travaux affichée sur site — **sous réserve de confirmation**, le poteau masquait la fin
-  de la ligne sur la photo (détail dans la section S46).
+  travaux affichée sur site et confirmé par Geoffrey le 09/11 (détail dans la section
+  S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
 - **Lundi 16 et mardi 17/11 — Équipe 2 sur le `687329`** (OL — DSTNY BE, Rue du Parc
@@ -1771,10 +1771,9 @@ sur la page secrétariat, les codes étant identiques.
 **Nouveau code C@W — `BEA OUGRÉE` = `1Y102UW3PMQCZ`.** Il ne vient pas de PANDA+ mais a
 été **relevé sur la déclaration de travaux affichée sur site** (photo transmise par
 Geoffrey le 09/11) : donneur d'ordre « Bureau d'Electronique appliquée », rue Louis
-Plescia, 4102 Ougrée. ⚠️ **Le poteau masque en partie la fin de la ligne sur la photo** :
-le code est lu `1Y1-02UW3PM-QC-Z`, soit 13 caractères terminés par Z, ce qui correspond
-au format de tous les autres codes — **à confirmer par Geoffrey avant que le secrétariat
-l'utilise.** L'entrée a été ajoutée au dict `CODES` de la S46 **et** de la S47.
+Plescia, 4102 Ougrée. Le poteau masquait en partie la fin de la ligne sur la photo — le
+code lu `1Y1-02UW3PM-QC-Z` a été **confirmé par Geoffrey le 09/11**. L'entrée a été
+ajoutée au dict `CODES` de la S46 **et** de la S47.
 
 **Monday.com** : `646372` (item `3272058572`) et `646374` (item `3263247085`) — les
 quatre colonnes étaient vides sur les deux items. **Soufflage Dominguez + Feller au
