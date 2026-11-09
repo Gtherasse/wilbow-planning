@@ -1677,6 +1677,30 @@ entêtes — raison pour laquelle je ne le fais pas d'initiative.
 
 ---
 
+## Semaine 48 (23/11 au 27/11/2026) — créée le 09/11/2026
+
+Script `Planning/Config/_modele_planning_s48.py`, copié de la S47. PDF
+`Planning/Planning WILBOW - S48 - 23-27 nov 2026.pdf`, 2 pages.
+
+- **Mardi 24/11 — Équipe 2 sur le `690165`** (OL — MB GROUPE, Rue de la Vieille Fosse 60,
+  Flémalle ; item Monday `3304713532`, donneur d'ordre Proximus, type « Mixte », statut
+  « À préparer »). C@W **PANDA+**, demandé et confirmé par Geoffrey.
+  **Monday.com** : **Soufflage Dominguez + Feller au 24/11**, les quatre colonnes de
+  l'item étaient vides.
+- **Dan, Florian et Andreï : BTO les cinq jours**, reconduction habituelle.
+- **Tout le reste de la semaine est gris** : les deux équipes hors ce mardi, Johan et
+  Pierre les cinq jours. C'est **la seule prestation confirmée de la semaine** à ce jour.
+
+Le dict `LIENS` a été vidé de tout ce qui ne sert pas en S48 ; les constantes de
+chantiers sans JMS (FH 32, ROP BTV, Bornes Liège Expo…) sont conservées comme
+bibliothèque. L'entrée `C@W À DÉTERMINER` a été remise dans `CODES`, elle manquait en
+S47.
+
+⚠️ **Rappel — la S49 n'existe toujours pas** : les `679364` et `679363` de l'Équipe 2 au
+lundi 30/11 y attendent leur script, et leur code C@W reste à me donner.
+
+---
+
 ## Semaine 47 (16/11 au 20/11/2026) — créée le 03/11/2026
 
 Script `Planning/Config/_modele_planning_s47.py`, copié de la S46. PDF
