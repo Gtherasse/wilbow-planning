@@ -164,10 +164,8 @@ PLANNING = {
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
     ],
 
-    # Vendredi 20/11 : Pierre revient sur le 535147 (feed-out FOx FH44/FH45),
-    # son chantier du lundi 16/11.
-    ("PM", 4): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
-                  caw="PANDA+")],
+    # Vendredi 20/11 : le retour de Pierre sur le 535147 est RETIRE le 10/11,
+    # a la demande de Geoffrey. Sa case du vendredi redevient grise.
 
     # Lundi 16/11 : Johan sur le 675238 (Ciney-Jemelle), identification joint.
     # C@W PANDA+, code deja etabli lors de ses passages precedents.

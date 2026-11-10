@@ -1805,10 +1805,12 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
     les ai pas marquées AM faute de précision.
   - **Jeudi 19/11** — il poursuit le **FH 32 Feed-In** et enchaîne sur le
     **FH 40 Feed-In** (C@W **FIFTHNET** tous les deux).
-  - **Vendredi 20/11** — il revient sur le **`535147`** (FTTH BF Liège — Feed-out FOx
-    FH44/FH45), son chantier du lundi. « FH44 45 » était ambigu entre ce dossier et
-    l'item « FH 44 Feed-in » : Geoffrey a confirmé qu'il s'agit du `535147`.
-  **Sa semaine est désormais complète**, les cinq jours.
+  - ~~**Vendredi 20/11** — il revient sur le `535147`~~ — **RETIRÉ le 10/11** à la
+    demande de Geoffrey. Sa case du vendredi **redevient grise**. (« FH44 45 » avait
+    été confirmé comme désignant le `535147` et non l'item « FH 44 Feed-in ».)
+  **Monday.com — rien à défaire** : le Jointage du `535147` porte le 16/11, jour de son
+  passage qui subsiste ; le vendredi n'y avait jamais été encodé séparément.
+  Sa semaine est donc remplie **du lundi au jeudi**, le vendredi reste à combler.
   **Monday.com** :
   - `Mesure FH 32 Supplémentaire` — **Jointage Mattiuz au 18/11**, colonnes vides,
     statut passé en **Planifié**.
