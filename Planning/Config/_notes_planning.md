@@ -1749,9 +1749,8 @@ Script `Planning/Config/_modele_planning_s48.py`, copié de la S47. PDF
   « À préparer »). C@W **PANDA+**, demandé et confirmé par Geoffrey.
   **Monday.com** : **Soufflage Dominguez + Feller au 24/11**, les quatre colonnes de
   l'item étaient vides.
-- **Lundi 23/11 — Pierre sur le `680993`** (RZ FTTH E2E 4 SDU — Rue du Bief 43-49,
-  Seraing/Ribeaucourt), après le passage de l'Équipe 2 du 18/11 en S47. C@W **PANDA+**.
-  Détail et Monday dans la section S47.
+- ~~**Lundi 23/11 — Pierre sur le `680993`**~~ — **DÉPLACÉ au vendredi 20/11** (S47) le
+  10/11, même jour que son ajout. Son lundi redevient gris.
 - **Mercredi 25/11 — Pierre sur le même `690165`**, ajouté le 09/11, après le passage de
   l'Équipe 2 du mardi. Même C@W **PANDA+**.
   **Monday.com** : **Jointage Mattiuz Pierre au 25/11**, colonne vide jusqu'ici. Les deux
@@ -1790,10 +1789,12 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   « Ribeaucourt » ; item `3285668548`, donneur d'ordre Proximus, type « Mixte ») :
   **Équipe 2 le mercredi 18/11** en S47, **Pierre le lundi 23/11** en S48. C@W
   **PANDA+**, demandé et confirmé.
-  ⚠️ **Geoffrey avait d'abord dit « le 19/11 » pour Pierre, puis s'est corrigé en
-  « 23/11 »** — son jeudi était déjà pris par les deux FH, qui ne bougent pas.
+  ⚠️ **La date de Pierre a bougé deux fois le 10/11** : d'abord « le 19/11 », corrigé en
+  « 23/11 » (son jeudi étant pris par les deux FH, qui n'ont pas bougé), puis **déplacé
+  au vendredi 20/11** une fois cette case libérée du `535147`. **C'est la date retenue** ;
+  son lundi 23/11 en S48 est redevenu gris.
   **Monday.com** : **Soufflage Dominguez + Feller au 18/11**, **Jointage Mattiuz au
-  23/11**, statut passé en **Planifié** ; les quatre colonnes étaient vides.
+  20/11**, statut passé en **Planifié** ; les quatre colonnes étaient vides.
 
 - **10/11 — la semaine de Pierre est remplie de mercredi à vendredi :**
   - **Mercredi 18/11** — le `687329` (DSTNY BE, Engis) devient son chantier du **MATIN**
@@ -1805,12 +1806,11 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
     les ai pas marquées AM faute de précision.
   - **Jeudi 19/11** — il poursuit le **FH 32 Feed-In** et enchaîne sur le
     **FH 40 Feed-In** (C@W **FIFTHNET** tous les deux).
-  - ~~**Vendredi 20/11** — il revient sur le `535147`~~ — **RETIRÉ le 10/11** à la
-    demande de Geoffrey. Sa case du vendredi **redevient grise**. (« FH44 45 » avait
-    été confirmé comme désignant le `535147` et non l'item « FH 44 Feed-in ».)
-  **Monday.com — rien à défaire** : le Jointage du `535147` porte le 16/11, jour de son
-  passage qui subsiste ; le vendredi n'y avait jamais été encodé séparément.
-  Sa semaine est donc remplie **du lundi au jeudi**, le vendredi reste à combler.
+  - **Vendredi 20/11** — ~~retour sur le `535147`~~ (retiré le 10/11 ; « FH44 45 » avait
+    été confirmé comme désignant ce dossier et non l'item « FH 44 Feed-in ») →
+    **le `680993`** (Ribeaucourt, Seraing) prend sa place le même jour, déplacé du lundi
+    23/11. Le Jointage du `535147` reste au 16/11, jour de son passage qui subsiste.
+  **Sa semaine est de nouveau complète**, les cinq jours.
   **Monday.com** :
   - `Mesure FH 32 Supplémentaire` — **Jointage Mattiuz au 18/11**, colonnes vides,
     statut passé en **Planifié**.

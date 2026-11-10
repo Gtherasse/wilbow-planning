@@ -114,10 +114,8 @@ NOMS_OVERRIDE = {}
 
 
 PLANNING = {
-    # Lundi 23/11 : Pierre sur le 680993 (Ribeaucourt, Seraing), apres le
-    # passage de l Equipe 2 du 18/11 en S47. C@W PANDA+ confirme le 10/11.
-    ("PM", 0): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
-                  caw="PANDA+")],
+    # Le 680993 de Pierre a ete DEPLACE au vendredi 20/11, en S47 (10/11) :
+    # son lundi redevient gris.
 
     # Mardi 24/11 : l Equipe 2 sur le 690165 (MB GROUPE, rue de la Vieille
     # Fosse 60, Flemalle). C@W PANDA+ confirme par Geoffrey le 09/11.

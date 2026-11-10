@@ -164,8 +164,10 @@ PLANNING = {
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
     ],
 
-    # Vendredi 20/11 : le retour de Pierre sur le 535147 est RETIRE le 10/11,
-    # a la demande de Geoffrey. Sa case du vendredi redevient grise.
+    # Vendredi 20/11 : le retour de Pierre sur le 535147 a ete retire le
+    # 10/11 ; le 680993 prend sa place le meme jour, deplace du lundi 23/11.
+    ("PM", 4): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
+                  caw="PANDA+")],
 
     # Lundi 16/11 : Johan sur le 675238 (Ciney-Jemelle), identification joint.
     # C@W PANDA+, code deja etabli lors de ses passages precedents.
