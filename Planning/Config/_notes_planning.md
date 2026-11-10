@@ -1783,6 +1783,35 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **10/11 — la semaine de Pierre est remplie de mercredi à vendredi :**
+  - **Mercredi 18/11** — le `687329` (DSTNY BE, Engis) devient son chantier du **MATIN**
+    (le quart est tiré de la formulation « en plus du chantier du matin » ; **à me dire
+    si c'est inexact**), puis **« Mesure FH 32 Supplémentaire »** (item `3304761656`,
+    C@W **PANDA+**, demandé et confirmé) et **« FH 32 Feed-In »** (C@W **FIFTHNET**,
+    code déjà établi). Les deux FH 32 n'ont pas de numéro JMS : leur intitulé est
+    cliquable. Les deux prestations de l'après-midi sont **sans quart déclaré** — je ne
+    les ai pas marquées AM faute de précision.
+  - **Jeudi 19/11** — il poursuit le **FH 32 Feed-In** et enchaîne sur le
+    **FH 40 Feed-In** (C@W **FIFTHNET** tous les deux).
+  - **Vendredi 20/11** — il revient sur le **`535147`** (FTTH BF Liège — Feed-out FOx
+    FH44/FH45), son chantier du lundi. « FH44 45 » était ambigu entre ce dossier et
+    l'item « FH 44 Feed-in » : Geoffrey a confirmé qu'il s'agit du `535147`.
+  **Sa semaine est désormais complète**, les cinq jours.
+  **Monday.com** :
+  - `Mesure FH 32 Supplémentaire` — **Jointage Mattiuz au 18/11**, colonnes vides,
+    statut passé en **Planifié**.
+  - `FH 32 FEED-IN` — **Jointage re-daté du 14/09 au 18/11, Mattiuz** à la place de
+    Johan. ✅ **Rien n'est perdu** : le relevé d'heures du chantier conserve la ligne
+    « 14/09 : JM : 8H ». **C'est la réponse à la question de convention
+    multi-occurrences restée en suspens** — l'historique réel vit dans la colonne
+    « Relevé des heures chantier », pas dans les colonnes de date, qui ne portent que le
+    *prochain* passage. Les re-datations sont donc sans risque tant que les heures sont
+    relevées.
+  - `FH 40 Feed-In` — **Jointage Mattiuz au 19/11**, colonne vide, statut passé en
+    **Planifié**. Son Soufflage reste sur les quatre souffleurs au 04/11.
+  - `535147` — **rien à changer** : son Jointage porte déjà Mattiuz au 16/11, premier
+    jour de ses deux passages.
+
 - **Lundi 16/11 — Johan sur le `675238`** (BBN 12310B — Ciney-Jemelle), mention
   **« (identification joint) »**, ajouté le 09/11. C@W **PANDA+**, code déjà établi lors
   de ses passages précédents (S36, S37, S38, S43, S45) — repris tel quel, pas deviné.

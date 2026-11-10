@@ -92,11 +92,13 @@ LIENS = {
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
 SIGN  = "https://wilbow.monday.com/boards/5089236279/pulses/2832088996"  # SignaDyn - Zone D - Soufflage et Soudage reste zone D
 FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32 FEED-IN
+MESFH32 = "https://wilbow.monday.com/boards/5089236279/pulses/3304761656"  # Mesure FH 32 Supplementaire
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
+FH40 = "https://wilbow.monday.com/boards/5089236279/pulses/3288631715"  # FH 40 Feed-In
 HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
 BORNESLG = "https://wilbow.monday.com/boards/5089236279/pulses/3297165250"  # Bornes Liege Expo
 VALBENOIT = "https://wilbow.monday.com/boards/5089236279/pulses/3292906173"  # Val Benoit et Grosses-Battes CCTV
@@ -146,7 +148,24 @@ PLANNING = {
     # Pierre y passe le mercredi 18/11.
     **{("E2", i): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
                      caw="PANDA+")] for i in (0, 1)},
-    ("PM", 2): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+    # Mercredi 18/11 : le DSTNY BE est le chantier du MATIN de Pierre ; il
+    # enchaine ensuite sur les deux FH 32 (ajout du 10/11).
+    ("PM", 2): [
+        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+          q=MATIN, caw="PANDA+"),
+        X("Mesure FH 32 Supplémentaire", url=MESFH32, caw="PANDA+"),
+        X("FH 32 Feed-In", url=FH32, caw="FIFTHNET"),
+    ],
+
+    # Jeudi 19/11 : Pierre poursuit le FH 32 Feed-In et enchaine sur le FH 40.
+    ("PM", 3): [
+        X("FH 32 Feed-In", url=FH32, caw="FIFTHNET"),
+        X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
+    ],
+
+    # Vendredi 20/11 : Pierre revient sur le 535147 (feed-out FOx FH44/FH45),
+    # son chantier du lundi 16/11.
+    ("PM", 4): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
                   caw="PANDA+")],
 
     # Lundi 16/11 : Johan sur le 675238 (Ciney-Jemelle), identification joint.
