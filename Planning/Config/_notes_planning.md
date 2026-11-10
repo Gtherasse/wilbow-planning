@@ -1909,6 +1909,34 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**10/11/2026 — vendredi 13/11 : Avenia Geoffrey monte dans l'Équipe 1, Gauthier Petit
+passe sur la documentation.**
+L'**Équipe 1 du vendredi devient « Bolmain Mickael / Avenia Geoffrey »** (via
+`NOMS_OVERRIDE`) sur le **`693566`** (OTB — Rue Denis Lecocq, BBN 12342), son chantier du
+lundi. **Gauthier Petit** quitte l'équipe ce jour-là pour la **« Doc. Manquante »**, C@W
+**PANDA+** (demandé et confirmé). Geoffrey a choisi de le faire figurer **dans la même
+case que l'Équipe 1, sous son nom** — badge « G. PETIT » au-dessus de l'intitulé —
+plutôt que sur une ligne à part.
+La ligne du **magasinier porte « → ÉQUIPE 1 »** ce vendredi : le motif existait déjà dans
+`ABS_STYLE`, il sert enfin.
+
+⚠️ **Monday.com — rien de changé sur le `693566`, et c'est volontaire.** Son Soufflage
+porte **Bolmain + Petit au 09/11** et son **relevé d'heures est VIDE**. Re-dater au 13/11
+avec Bolmain + Avenia effacerait la seule trace du passage du lundi. Contrairement au
+FH 32, où le relevé conservait l'historique, **ici il n'y a pas de filet**. Deux
+possibilités, à toi de trancher :
+1. **on encode d'abord les heures du 09/11** dans « Relevé des heures chantier », puis je
+   re-date sans risque ;
+2. **on laisse la colonne au 09/11** et le passage du vendredi n'apparaît pas sur Monday.
+
+Pour l'instant j'ai laissé en l'état. Le statut `En cours Soufflage` n'est pas touché non
+plus — il a dépassé le stade de la planification.
+
+**10/11/2026 — Avenia Geoffrey est malade le mardi 10/11 aussi** (deuxième jour, après le
+lundi 09). Sa case du mardi passe de « Dépôt » à **MALADIE**. Il est néanmoins **prévu
+avec l'Équipe 1 le vendredi** — à revoir s'il n'est pas rétabli. Durée au-delà du mardi
+inconnue.
+
 **10/11/2026 — le SWDE Andenne prend le code C@W de SWDE Villers.**
 Geoffrey n'a pas de code propre pour Andenne et demande d'y utiliser celui de Villers,
 **`1Y102NZJETTAZ`**, en **gardant l'intitulé « SWDE Andenne »**. J'ai donc ajouté au dict

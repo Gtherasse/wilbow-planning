@@ -144,9 +144,11 @@ CODES = {
     "PAS DE CODE C@W":    "",
 }
 
-# Aucune substitution d equipe cette semaine : les entetes restent ceux de
-# RESSOURCES.
-NOMS_OVERRIDE = {}
+# Vendredi 13/11 : Avenia Geoffrey monte dans l Equipe 1 a la place de
+# Gauthier Petit, qui reste sur la documentation manquante.
+NOMS_OVERRIDE = {
+    ("E1", 4): ["Bolmain Mickael", "Avenia Geoffrey"],
+}
 
 
 
@@ -173,6 +175,19 @@ PLANNING = {
           "+ G. Caruso · F. Gaspard", "commun", caw="PANDA+"),
         A("MALADIE", q="G. Avenia"),
     ],
+
+    # Vendredi 13/11 : l Equipe 1 devient Bolmain + Avenia sur le 693566
+    # (rue Denis Lecocq). Gauthier Petit quitte l equipe ce jour-la pour la
+    # documentation manquante : il figure dans la meme case, sous son nom.
+    ("E1", 4): [
+        J("693566", "OTB — Rue Denis Lecocq, BBN 12342", caw="PANDA+"),
+        X("Doc. Manquante", q="G. Petit", caw="PANDA+"),
+    ],
+    # Avenia Geoffrey part en Equipe 1 : sa propre ligne le dit.
+    ("GA", 4): ABS("→ ÉQUIPE 1"),
+
+    # Mardi 10/11 : Avenia Geoffrey toujours malade (deuxieme jour).
+    ("GA", 1): ABS("MALADIE"),
 
     # Jeudi 12 et vendredi 13/11 : l Equipe 2 sur le 646372 et le 646374
     # (Bureau d Electronique Appliquee, rue Louis Plescia 31, Ougree-Seraing).
