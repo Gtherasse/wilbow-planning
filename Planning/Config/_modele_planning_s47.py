@@ -59,6 +59,7 @@ LIENS = {
     "646372": "https://wilbow.monday.com/boards/5089236279/pulses/3272058572",
     "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
     "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
+    "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -176,6 +177,11 @@ PLANNING = {
     # Lundi 16/11 : Pierre sur le 535147 (feed-out FH44/FH45, rue de Vise,
     # Liege). C@W PANDA+ confirme par Geoffrey le 09/11.
     ("PM", 0): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
+                  caw="PANDA+")],
+
+    # Mercredi 18/11 : l Equipe 2 sur le 680993 (Ribeaucourt, Seraing).
+    # C@W PANDA+ confirme par Geoffrey le 10/11. Pierre y passe le 23/11, en S48.
+    ("E2", 2): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
                   caw="PANDA+")],
 
     # Mardi 17/11 : Pierre sur le 646372 et le 646374 (BEA, Ougree).

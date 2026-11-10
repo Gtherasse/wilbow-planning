@@ -56,6 +56,7 @@ AM    = "Après-midi"
 # Liens monday.com : n JMS -> URL de l item (https://wilbow.monday.com/boards/<board>/pulses/<item>)
 LIENS = {
     "690165": "https://wilbow.monday.com/boards/5089236279/pulses/3304713532",
+    "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -113,6 +114,11 @@ NOMS_OVERRIDE = {}
 
 
 PLANNING = {
+    # Lundi 23/11 : Pierre sur le 680993 (Ribeaucourt, Seraing), apres le
+    # passage de l Equipe 2 du 18/11 en S47. C@W PANDA+ confirme le 10/11.
+    ("PM", 0): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
+                  caw="PANDA+")],
+
     # Mardi 24/11 : l Equipe 2 sur le 690165 (MB GROUPE, rue de la Vieille
     # Fosse 60, Flemalle). C@W PANDA+ confirme par Geoffrey le 09/11.
     ("E2", 1): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",

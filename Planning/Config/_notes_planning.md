@@ -1749,6 +1749,9 @@ Script `Planning/Config/_modele_planning_s48.py`, copié de la S47. PDF
   « À préparer »). C@W **PANDA+**, demandé et confirmé par Geoffrey.
   **Monday.com** : **Soufflage Dominguez + Feller au 24/11**, les quatre colonnes de
   l'item étaient vides.
+- **Lundi 23/11 — Pierre sur le `680993`** (RZ FTTH E2E 4 SDU — Rue du Bief 43-49,
+  Seraing/Ribeaucourt), après le passage de l'Équipe 2 du 18/11 en S47. C@W **PANDA+**.
+  Détail et Monday dans la section S47.
 - **Mercredi 25/11 — Pierre sur le même `690165`**, ajouté le 09/11, après le passage de
   l'Équipe 2 du mardi. Même C@W **PANDA+**.
   **Monday.com** : **Jointage Mattiuz Pierre au 25/11**, colonne vide jusqu'ici. Les deux
@@ -1783,6 +1786,15 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **10/11 — le `680993`** (RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing,
+  « Ribeaucourt » ; item `3285668548`, donneur d'ordre Proximus, type « Mixte ») :
+  **Équipe 2 le mercredi 18/11** en S47, **Pierre le lundi 23/11** en S48. C@W
+  **PANDA+**, demandé et confirmé.
+  ⚠️ **Geoffrey avait d'abord dit « le 19/11 » pour Pierre, puis s'est corrigé en
+  « 23/11 »** — son jeudi était déjà pris par les deux FH, qui ne bougent pas.
+  **Monday.com** : **Soufflage Dominguez + Feller au 18/11**, **Jointage Mattiuz au
+  23/11**, statut passé en **Planifié** ; les quatre colonnes étaient vides.
+
 - **10/11 — la semaine de Pierre est remplie de mercredi à vendredi :**
   - **Mercredi 18/11** — le `687329` (DSTNY BE, Engis) devient son chantier du **MATIN**
     (le quart est tiré de la formulation « en plus du chantier du matin » ; **à me dire
