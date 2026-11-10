@@ -128,6 +128,9 @@ CODES = {
     "SWDE BIERSET":       "1Y102QB6APTGZ",
     "SWDE VIELSALM":      "1Y102LLQH64XZ",
     "SWDE VILLERS":       "1Y102NZJETTAZ",
+    # SWDE Andenne : pas de code propre. Geoffrey demande le 10/11 d y
+    # utiliser celui de SWDE Villers, en gardant l intitule « SWDE Andenne ».
+    "SWDE ANDENNE":       "1Y102NZJETTAZ",
     "SWDE HUCCORGNE":     "1Y102QZML7WGZ",
     "GO FIBER":           "1Y102XHX3W2MZ",
     "CATERPILLAR":        "1Y102SV8BK22Z",
@@ -206,11 +209,11 @@ PLANNING = {
     # 09/11 : la nuit du mardi 10 au mercredi 11/11 passe de Johan a Dan.
     # Johan ne garde donc que le SWDE Andenne du mardi.
     ("JM", 1): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
-                  caw="C@W À DÉTERMINER")],
+                  caw="SWDE ANDENNE")],
     ("JM", 3): [X("SWDE Andenne", "+ P. Mattiuz", "commun",
-                  caw="C@W À DÉTERMINER")],
+                  caw="SWDE ANDENNE")],
     **{("PM", i): [X("SWDE Andenne", "+ J. Meurisse", "commun",
-                     caw="C@W À DÉTERMINER")] for i in (1, 3)},
+                     caw="SWDE ANDENNE")] for i in (1, 3)},
 
     # Mercredi 11/11 : Armistice. Ferie pour tout le monde sauf Panait Dan et
     # Andrei, qui restent en BTO.

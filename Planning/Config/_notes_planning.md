@@ -1868,6 +1868,25 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**10/11/2026 — le SWDE Andenne prend le code C@W de SWDE Villers.**
+Geoffrey n'a pas de code propre pour Andenne et demande d'y utiliser celui de Villers,
+**`1Y102NZJETTAZ`**, en **gardant l'intitulé « SWDE Andenne »**. J'ai donc ajouté au dict
+`CODES` une entrée **`SWDE ANDENNE` portant la valeur du code Villers**, plutôt que de
+pointer les prestations sur `SWDE VILLERS` : le libellé reste celui du chantier réel sur
+les deux pages, et le secrétariat encode la bonne référence.
+
+Les **trois cases** concernées (Johan et Pierre, mardi 10 et jeudi 12/11) sont passées de
+« C@W À DÉTERMINER » à **« SWDE ANDENNE · 1Y102NZJETTAZ »**. L'intitulé du chantier sur
+la page planning n'a pas bougé.
+
+⚠️ **C'est un code emprunté, pas le code du chantier.** Si un code propre à Andenne
+apparaît un jour, il suffira de changer la valeur de cette entrée — rien d'autre. Et si
+le relevé d'heures ou la facturation se basent sur la référence C@W, les prestations
+d'Andenne seront comptées sous Villers : **à me dire si ça pose problème.**
+
+L'entrée `C@W À DÉTERMINER` reste dans le dict, inutilisée cette semaine mais toujours
+disponible.
+
 **09/11/2026 — Équipe 1 sur le `680552` les mardi 10 et jeudi 12/11.**
 **FQ — BB Neuron K12836, Huy (3-81CH90950)** (item Monday `3308918299`, donneur d'ordre
 Proximus). C@W **PANDA+**, demandé et confirmé par Geoffrey. **Le mercredi 11 étant
