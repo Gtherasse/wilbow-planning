@@ -1911,6 +1911,41 @@ Le reste de la semaine est grisé : les deux équipes de soufflage et Pierre n'o
   **Monday.com** : **Jointage Meurisse Johan au 09/11**, colonne vide jusqu'ici ; son
   Soufflage reste sur Dominguez + Feller au 03/11. Les deux métiers tombent sur des jours
   différents, sans conflit.
+**11/11/2026 — le `682463` (E.T.N.I.C., Avenue du Condroz 3, Huy) revient, et Peponne
+renforce l'Équipe 2.**
+
+- **Jeudi 12/11 — l'Équipe 1 ajoute le `682463`** après son `680552`.
+- **Vendredi 13/11 — Johan et Pierre enchaînent sur le `682463`** après le Cup Pasta
+  Médiacité, pastilles croisées.
+- **Jeudi 12/11 — Giuseppe Caruso (« Peponne ») renforce l'Équipe 2** sur les deux JMS
+  du BEA Ougrée : pastille « + G. Caruso » sur chacun. **Le vendredi n'est pas touché** —
+  la demande ne portait que sur demain. La comprehension `("E2", i) for i in (3, 4)` a
+  donc été éclatée en deux clés.
+
+⚠️ **Geoffrey avait écrit « 682468 », qui n'existe pas sur le board.** Le seul voisin est
+le `682463`, qu'il a confirmé. Les deux équipes l'ont déjà fait en S43 et en S45, C@W
+**PANDA+**, code déjà établi.
+
+**Monday.com** :
+- `682463` — **Jointage Johan + Pierre au 13/11**, colonne vide ; statut passé de
+  « À Planifier Soufflage » à **Planifié**.
+- ⚠️ **Son Soufflage n'a PAS été re-daté, volontairement.** Il porte **cinq personnes au
+  05/11** (Dominguez, Feller, Bolmain, Hanikenne, Petit — le passage de la S45) et son
+  **relevé d'heures est vide**. Re-dater au 12/11 avec Bolmain + Petit effacerait la
+  seule trace de ce passage. Même situation que le `693566` du 09/11 : **soit on encode
+  d'abord les heures, soit le passage de jeudi n'apparaît pas sur Monday.** À trancher.
+- `646372` et `646374` — **rien à changer** : Giuseppe Caruso **n'a aucun compte Monday**
+  et ne peut pas y être encodé. La rentabilité du jeudi comptera donc deux personnes au
+  lieu de trois. La seule solution reste de lui créer un compte.
+
+⚠️ **Densité — polices réduites de 14 % sur la S46.** L'ajout de ces trois prestations a
+fait sauter la garde « Contenu trop dense pour une page ». Il a fallu **trois paliers de
+−5 %** (soit ×0,857 au total) sur toutes les `font-size` du script pour que la page passe.
+C'est **la réduction la plus forte jamais appliquée** — la S42 s'était arrêtée à −7 %.
+Le PDF reste lisible, mais **la marge est épuisée pour cette semaine** : tout nouvel ajout
+au vendredi ou au jeudi demandera autre chose qu'une réduction de police. À réfléchir —
+par exemple raccourcir les libellés les plus longs, ou accepter une troisième page.
+
 **10/11/2026 — vendredi 13/11 : Avenia Geoffrey monte dans l'Équipe 1, Gauthier Petit
 passe sur la documentation.**
 L'**Équipe 1 du vendredi devient « Bolmain Mickael / Avenia Geoffrey »** (via
