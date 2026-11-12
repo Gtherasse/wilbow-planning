@@ -146,10 +146,18 @@ NOMS_OVERRIDE = {}
 
 
 PLANNING = {
-    # Lundi 16 et mardi 17/11 : l Equipe 2 sur le 687329 (DSTNY BE, Engis).
-    # Pierre y passe le mercredi 18/11.
-    **{("E2", i): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+    # 12/11 : les chantiers du lundi et du mardi sont INVERSES entre les deux
+    # equipes. Le 687329 (DSTNY BE, Engis) passe donc a l Equipe 1 ces deux
+    # jours ; Pierre y passe toujours le mercredi 18/11.
+    **{("E1", i): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
                      caw="PANDA+")] for i in (0, 1)},
+
+    # Lundi 16/11 : l Equipe 2 reprend son chantier du jeudi 12/11, le BEA
+    # d Ougree (demande du 12/11, sa case etant liberee par l inversion).
+    ("E2", 0): [
+        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
+        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
+    ],
     # Mercredi 18/11 : le DSTNY BE est le chantier du MATIN de Pierre ; il
     # enchaine ensuite sur les deux FH 32 (ajout du 10/11).
     ("PM", 2): [
@@ -180,12 +188,13 @@ PLANNING = {
     ("PM", 0): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
                   caw="PANDA+")],
 
-    # Mardi 17/11 : l Equipe 1 et Johan sur le 662190 (Herstal). L
-    # intervention doit se faire EN MEME TEMPS : pastilles croisees.
-    ("E1", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+    # Mardi 17/11 : le 662190 (Herstal) passe de l Equipe 1 a l Equipe 2 par
+    # l inversion du 12/11. L intervention se fait toujours EN MEME TEMPS que
+    # celle de Johan : pastilles croisees, mise a jour en consequence.
+    ("E2", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
                   "+ J. Meurisse", "commun", caw="PANDA+")],
     ("JM", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
-                  "+ Équipe 1", "commun", caw="PANDA+")],
+                  "+ Équipe 2", "commun", caw="PANDA+")],
 
     # Mercredi 18/11 : l Equipe 2 sur le 680993 (Ribeaucourt, Seraing).
     # C@W PANDA+ confirme par Geoffrey le 10/11. Pierre y passe le 23/11, en S48.

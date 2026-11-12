@@ -1785,6 +1785,29 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **12/11 — INVERSION des chantiers entre les deux équipes, lundi 16 et mardi 17/11 :**
+  | | avant | après |
+  |---|---|---|
+  | **Équipe 1** lundi | *(gris)* | **`687329`** DSTNY BE, Engis |
+  | **Équipe 1** mardi | `662190` Herstal | **`687329`** DSTNY BE, Engis |
+  | **Équipe 2** lundi | `687329` | **`646372` + `646374`** BEA Ougrée |
+  | **Équipe 2** mardi | `687329` | **`662190`** Herstal |
+
+  L'inversion vidait le lundi de l'Équipe 2 : Geoffrey l'a rempli avec **son chantier du
+  jeudi 12/11**, le BEA d'Ougrée — elle le poursuit donc le lundi.
+  **Les pastilles croisées du `662190` ont suivi** : Johan porte désormais
+  « + Équipe 2 » et l'Équipe 2 « + J. Meurisse ». L'intervention reste simultanée.
+  **Pierre n'est pas touché** : il passe toujours sur le `687329` le mercredi 18/11.
+  **Monday.com** :
+  - `687329` — **Soufflage : Dominguez + Feller remplacés par Bolmain + Petit**, date du
+    16/11 inchangée. Jointage Mattiuz au 18/11 intact.
+  - `662190` — **Soufflage : Bolmain + Petit remplacés par Dominguez + Feller**, date du
+    17/11 inchangée. Jointage Johan au 17/11 intact.
+  - `646372` et `646374` — **Soufflage laissé au 12/11**, avec les mêmes Dominguez +
+    Feller. C'est la **même équipe qui poursuit** : avancer la date au 16/11 ferait juste
+    perdre celle du passage d'aujourd'hui, dont les heures ne sont pas encore relevées.
+    À me dire si tu préfères qu'elle avance.
+
 - **12/11 — Mardi 17/11 : l'Équipe 1 ET Johan sur le `662190`** (RZ FTTH DIST Herstal —
   Rue Jean Vercheval 39, Bloc A ; item `3332057368`, donneur d'ordre Proximus, type
   « Mixte »). C@W **PANDA+**, demandé et confirmé. **L'intervention doit se faire en même
