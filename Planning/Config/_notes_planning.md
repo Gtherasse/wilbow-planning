@@ -1785,6 +1785,18 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **12/11 — Mardi 17/11 : l'Équipe 1 ET Johan sur le `662190`** (RZ FTTH DIST Herstal —
+  Rue Jean Vercheval 39, Bloc A ; item `3332057368`, donneur d'ordre Proximus, type
+  « Mixte »). C@W **PANDA+**, demandé et confirmé. **L'intervention doit se faire en même
+  temps** : les deux cases portent donc les **pastilles croisées** « + J. Meurisse » et
+  « + Équipe 1 » — c'est bien le sens de la pastille, travailler ensemble.
+  C'est **le premier chantier de l'Équipe 1 de la semaine**, dont le reste est encore
+  gris, et le mardi de Johan, qui l'était aussi.
+  **Monday.com** : **Soufflage Bolmain + Petit au 17/11** et **Jointage Meurisse Johan au
+  17/11** — même jour pour les deux métiers, ce qui traduit exactement l'intervention
+  simultanée sur un chantier « Mixte ». Les quatre colonnes étaient vides ; statut passé
+  de « A préparer » à **Planifié**.
+
 - **10/11 — le `680993`** (RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing,
   « Ribeaucourt » ; item `3285668548`, donneur d'ordre Proximus, type « Mixte ») :
   **Équipe 2 le mercredi 18/11** en S47, **Pierre le lundi 23/11** en S48. C@W

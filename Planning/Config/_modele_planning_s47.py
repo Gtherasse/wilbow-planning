@@ -60,6 +60,7 @@ LIENS = {
     "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
     "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
     "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
+    "662190": "https://wilbow.monday.com/boards/5089236279/pulses/3332057368",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -178,6 +179,13 @@ PLANNING = {
     # Liege). C@W PANDA+ confirme par Geoffrey le 09/11.
     ("PM", 0): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
                   caw="PANDA+")],
+
+    # Mardi 17/11 : l Equipe 1 et Johan sur le 662190 (Herstal). L
+    # intervention doit se faire EN MEME TEMPS : pastilles croisees.
+    ("E1", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+                  "+ J. Meurisse", "commun", caw="PANDA+")],
+    ("JM", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+                  "+ Équipe 1", "commun", caw="PANDA+")],
 
     # Mercredi 18/11 : l Equipe 2 sur le 680993 (Ribeaucourt, Seraing).
     # C@W PANDA+ confirme par Geoffrey le 10/11. Pierre y passe le 23/11, en S48.
