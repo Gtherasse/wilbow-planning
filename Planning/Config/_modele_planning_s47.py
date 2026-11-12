@@ -61,6 +61,7 @@ LIENS = {
     "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
     "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
     "662190": "https://wilbow.monday.com/boards/5089236279/pulses/3332057368",
+    "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -195,6 +196,12 @@ PLANNING = {
                   "+ J. Meurisse", "commun", caw="PANDA+")],
     ("JM", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
                   "+ Équipe 2", "commun", caw="PANDA+")],
+
+    # Jeudi 19 et vendredi 20/11 : l Equipe 2 sur le 680552 (BB Neuron,
+    # Huy), repris de l Equipe 1 qui l a fait les 10 et 12/11 en S46.
+    # C@W PANDA+, code deja etabli.
+    **{("E2", i): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
+                     caw="PANDA+")] for i in (3, 4)},
 
     # Mercredi 18/11 : l Equipe 2 sur le 680993 (Ribeaucourt, Seraing).
     # C@W PANDA+ confirme par Geoffrey le 10/11. Pierre y passe le 23/11, en S48.

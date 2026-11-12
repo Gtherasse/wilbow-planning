@@ -1785,6 +1785,31 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **12/11 — Jeudi 19 et vendredi 20/11 : l'Équipe 2 sur le `680552`** (FQ — BB Neuron
+  K12836, Huy), repris de l'Équipe 1 qui l'a fait les 10 et 12/11 en S46. C@W **PANDA+**,
+  code déjà établi. **Sa semaine est désormais complète**, les cinq jours.
+  ⚠️ **Monday.com — Soufflage laissé au 10/11 avec Bolmain + Petit.** Son relevé d'heures
+  est vide : re-dater au 19/11 avec Dominguez + Feller effacerait la trace du passage de
+  l'Équipe 1. **C'est la quatrième fois cette semaine** (après le `693566`, le `682463`
+  et le BEA d'Ougrée) — voir la proposition ci-dessous.
+
+**12/11/2026 — PROPOSITION : automatiser la reprise d'un chantier déjà passé.**
+Le même blocage revient à chaque fois qu'une nouvelle équipe reprend un chantier dont le
+passage précédent n'a pas ses heures relevées : re-dater la colonne efface la seule trace
+de ce passage, ne pas la re-dater laisse Monday en retard sur le planning.
+
+**Ce que je propose** : avant toute re-datation, j'inscris d'office la ligne du passage
+précédent dans « Relevé des heures chantier » — **date + initiales, heures laissées à
+compléter** (ex. `10/11 : MB + GP :`), exactement le format déjà utilisé sur le FH 32 et
+le 688116. La trace est préservée, la colonne de date peut avancer librement, et il ne
+reste qu'à remplir les heures.
+
+**Intérêt** : supprime un arbitrage qui s'est présenté quatre fois en une semaine, et
+rend Monday fidèle au planning sans rien perdre. **Coût** : une ligne écrite par reprise,
+et un relevé qui porte des heures manquantes visibles — ce qui est sans doute un progrès,
+puisqu'elles manquent déjà, mais sans que personne ne le voie.
+**En attente de ta validation** — je ne l'applique pas tant que tu n'as pas tranché.
+
 - **12/11 — INVERSION des chantiers entre les deux équipes, lundi 16 et mardi 17/11 :**
   | | avant | après |
   |---|---|---|
