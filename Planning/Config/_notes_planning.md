@@ -1764,6 +1764,27 @@ chantiers sans JMS (FH 32, ROP BTV, Bornes Liège Expo…) sont conservées comm
 bibliothèque. L'entrée `C@W À DÉTERMINER` a été remise dans `CODES`, elle manquait en
 S47.
 
+**13/11/2026 (bis) — la semaine 48 est reprise : le `631501` remplace le `667920`, et
+Fabrice Gaspard remplace Miguel le lundi.**
+
+- **Lundi 23 et mardi 24/11 — l'Équipe 2 poursuit le `631501`** (INTERCO BURGRE-01
+  BUR50), **son chantier du vendredi 20/11** en S47. C@W **PANDA+**. **Le `667920`
+  disparaît de la S48** : il n'y aura été posé que quelques heures.
+- **Lundi 23/11 — Fabrice Gaspard remplace Miguel Dominguez.** L'entête du lundi affiche
+  désormais **« Gaspard Fabrice / Feller Sam »** (via `NOMS_OVERRIDE`), et la case garde
+  l'**absence nominative « M. Dominguez — ABSENT »** en dessous : on voit d'un coup d'œil
+  qui travaille et pourquoi Miguel n'y est pas. **Durée inconnue** : seul le lundi est
+  traité, le mardi affiche de nouveau Miguel.
+- **Le `690165` ne bouge pas** : Équipe 1 le mardi 24, Pierre le mercredi 25.
+
+⚠️ **Monday.com n'a PAS pu être mis à jour : le connecteur est tombé** (erreurs de
+connexion sur tous les serveurs). **Restent à encoder dès qu'il revient :**
+- `631501` (item `3309938588`) — **Soufflage Gaspard + Feller au 23/11**, et la question
+  de son statut BTO reste ouverte (voir l'entrée précédente : groupe et statut BTO, mais
+  client Proximus et C@W PANDA+).
+- Vérifier que le `667920` (item `3051265437`) n'a rien reçu — normalement non, c'est un
+  chantier BTO que je n'ai jamais touché.
+
 **13/11/2026 — trois changements sur la semaine 48.**
 
 - **Lundi 23 et mardi 24/11 — l'Équipe 2 sur le `667920`** (FOX FEED OUT BUL 1 - BUL 2 ;

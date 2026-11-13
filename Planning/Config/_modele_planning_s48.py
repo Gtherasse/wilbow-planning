@@ -57,7 +57,7 @@ AM    = "Après-midi"
 LIENS = {
     "690165": "https://wilbow.monday.com/boards/5089236279/pulses/3304713532",
     "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
-    "667920": "https://wilbow.monday.com/boards/5089236279/pulses/3051265437",
+    "631501": "https://wilbow.monday.com/boards/5089236279/pulses/3309938588",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -110,7 +110,10 @@ CODES = {
 
 # Aucune substitution d equipe cette semaine : les entetes restent ceux de
 # RESSOURCES.
-NOMS_OVERRIDE = {}
+# Lundi 23/11 : Fabrice Gaspard remplace Miguel Dominguez, absent.
+NOMS_OVERRIDE = {
+    ("E2", 0): ["Gaspard Fabrice", "Feller Sam"],
+}
 
 
 
@@ -123,15 +126,16 @@ PLANNING = {
     ("E1", 1): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
                   caw="PANDA+")],
 
-    # Lundi 23 et mardi 24/11 : l Equipe 2 sur le 667920 (FOX FEED OUT
-    # BUL 1 - BUL 2). Chantier BTO : C@W BTO, et JAMAIS modifie sur Monday.
-    # Le lundi, Miguel est absent : la case garde le chantier et porte l
-    # absence nominative. Remplacant pas encore connu (13/11).
+    # Lundi 23 et mardi 24/11 : l Equipe 2 poursuit le 631501 (INTERCO
+    # BURGRE-01 BUR50), son chantier du vendredi 20/11 en S47. Le 667920,
+    # un temps pose ici, est retire (changement du 13/11). C@W PANDA+.
+    # Le lundi, Miguel est absent et remplace par Fabrice Gaspard : l entete
+    # du jour le dit, et la case porte l absence nominative en dessous.
     ("E2", 0): [
-        J("667920", "FOX FEED OUT BUL 1 - BUL 2", caw="BTO"),
+        J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+"),
         A("ABSENT", q="M. Dominguez"),
     ],
-    ("E2", 1): [J("667920", "FOX FEED OUT BUL 1 - BUL 2", caw="BTO")],
+    ("E2", 1): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")],
 
     # Mercredi 25/11 : Pierre passe sur le meme 690165, apres l Equipe 2.
     ("PM", 2): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
