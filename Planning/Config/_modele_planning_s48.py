@@ -57,6 +57,7 @@ AM    = "Après-midi"
 LIENS = {
     "690165": "https://wilbow.monday.com/boards/5089236279/pulses/3304713532",
     "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
+    "667920": "https://wilbow.monday.com/boards/5089236279/pulses/3051265437",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -117,10 +118,20 @@ PLANNING = {
     # Le 680993 de Pierre a ete DEPLACE au vendredi 20/11, en S47 (10/11) :
     # son lundi redevient gris.
 
-    # Mardi 24/11 : l Equipe 2 sur le 690165 (MB GROUPE, rue de la Vieille
-    # Fosse 60, Flemalle). C@W PANDA+ confirme par Geoffrey le 09/11.
-    ("E2", 1): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
+    # Mardi 24/11 : le 690165 (MB GROUPE, rue de la Vieille Fosse 60,
+    # Flemalle) passe de l Equipe 2 a l Equipe 1 le 13/11. C@W PANDA+.
+    ("E1", 1): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
                   caw="PANDA+")],
+
+    # Lundi 23 et mardi 24/11 : l Equipe 2 sur le 667920 (FOX FEED OUT
+    # BUL 1 - BUL 2). Chantier BTO : C@W BTO, et JAMAIS modifie sur Monday.
+    # Le lundi, Miguel est absent : la case garde le chantier et porte l
+    # absence nominative. Remplacant pas encore connu (13/11).
+    ("E2", 0): [
+        J("667920", "FOX FEED OUT BUL 1 - BUL 2", caw="BTO"),
+        A("ABSENT", q="M. Dominguez"),
+    ],
+    ("E2", 1): [J("667920", "FOX FEED OUT BUL 1 - BUL 2", caw="BTO")],
 
     # Mercredi 25/11 : Pierre passe sur le meme 690165, apres l Equipe 2.
     ("PM", 2): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",

@@ -62,6 +62,7 @@ LIENS = {
     "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
     "662190": "https://wilbow.monday.com/boards/5089236279/pulses/3332057368",
     "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
+    "631501": "https://wilbow.monday.com/boards/5089236279/pulses/3309938588",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -204,6 +205,10 @@ PLANNING = {
     # gris.
     **{("E2", i): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
                      caw="PANDA+")] for i in (2, 3)},
+
+    # Vendredi 20/11 : l Equipe 2 sur le 631501 (INTERCO BURGRE-01 BUR50).
+    # Chantier du groupe BTO du board, mais C@W PANDA+ (Geoffrey, 13/11).
+    ("E2", 4): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")],
 
     # Mercredi 18/11 : le 680993 (Ribeaucourt, Seraing) passe de l Equipe 2
     # a l Equipe 1 le 13/11. C@W PANDA+ confirme par Geoffrey le 10/11 ;

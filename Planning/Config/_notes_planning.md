@@ -1764,6 +1764,25 @@ chantiers sans JMS (FH 32, ROP BTV, Bornes Liège Expo…) sont conservées comm
 bibliothèque. L'entrée `C@W À DÉTERMINER` a été remise dans `CODES`, elle manquait en
 S47.
 
+**13/11/2026 — trois changements sur la semaine 48.**
+
+- **Lundi 23 et mardi 24/11 — l'Équipe 2 sur le `667920`** (FOX FEED OUT BUL 1 - BUL 2 ;
+  item `3051265437`). **Chantier BTO** : groupe BTO, client BTO, C@W **BTO** confirmé par
+  Geoffrey. **Rien n'est encodé sur Monday** — exception absolue.
+- **Mardi 24/11 — le `690165`** (MB GROUPE, Flémalle) **passe de l'Équipe 2 à
+  l'Équipe 1**, sa case étant prise par le `667920`. **Pierre n'est pas touché** : il y
+  passe toujours le mercredi 25/11.
+  **Monday.com** : Soufflage du `690165` — **Dominguez + Feller remplacés par Bolmain +
+  Petit**, date du 24/11 inchangée ; Jointage Mattiuz au 25/11 intact.
+- **Lundi 23/11 — Miguel Dominguez ABSENT.** La case de l'Équipe 2 **garde le chantier**
+  et porte l'**absence nominative « M. Dominguez — ABSENT »** en dessous, le procédé
+  habituel. ⚠️ **Son remplaçant n'est pas encore connu** : l'entête du lundi affiche
+  toujours « Dominguez Miguel / Feller Sam ». Dis-moi qui le remplace et je corrige
+  l'entête via `NOMS_OVERRIDE`. **Durée inconnue** : seul le lundi est traité.
+  **Rien à faire sur Monday** : le chantier de ce jour-là est BTO.
+
+---
+
 ## Semaine 47 (16/11 au 20/11/2026) — créée le 03/11/2026
 
 Script `Planning/Config/_modele_planning_s47.py`, copié de la S46. PDF
@@ -1785,6 +1804,17 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **13/11 — Vendredi 20/11 : l'Équipe 2 sur le `631501`** (INTERCO BURGRE-01 BUR50 ;
+  item `3309938588`). C@W **PANDA+**, donné par Geoffrey. Sa case du vendredi, libérée
+  par le rapprochement du `680552`, est donc remplie : **sa semaine est de nouveau
+  complète.**
+  ⚠️ **Statut mixte sur Monday** : l'item est dans le **groupe BTO** avec le **statut
+  BTO**, mais son **client est Proximus** et Geoffrey lui donne un C@W **PANDA+**, pas le
+  code BTO. **Je ne l'ai donc pas encodé sur Monday**, l'exception absolue sur les
+  chantiers BTO primant sur le reste. **À me dire si ce dossier doit être traité comme un
+  chantier normal** — dans ce cas j'encode Soufflage Dominguez + Feller au 20/11 et je
+  passe son statut en Planifié.
+
 - **13/11 — deux mouvements sur la fin de semaine :**
   - **Mercredi 18/11 — le `680993`** (Ribeaucourt, Seraing) **passe de l'Équipe 2 à
     l'Équipe 1**. Le mercredi de l'Équipe 1, jusque-là gris, est donc rempli ; celui de
