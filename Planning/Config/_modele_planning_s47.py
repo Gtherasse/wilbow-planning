@@ -197,15 +197,18 @@ PLANNING = {
     ("JM", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
                   "+ Équipe 2", "commun", caw="PANDA+")],
 
-    # Jeudi 19 et vendredi 20/11 : l Equipe 2 sur le 680552 (BB Neuron,
-    # Huy), repris de l Equipe 1 qui l a fait les 10 et 12/11 en S46.
-    # C@W PANDA+, code deja etabli.
+    # Mercredi 18 et jeudi 19/11 : l Equipe 2 sur le 680552 (BB Neuron, Huy),
+    # repris de l Equipe 1 qui l a fait les 10 et 12/11 en S46. C@W PANDA+,
+    # code deja etabli. Ces deux journees ont ete RAPPROCHEES d un jour le
+    # 13/11 : elles etaient au jeudi et au vendredi. Le vendredi redevient
+    # gris.
     **{("E2", i): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
-                     caw="PANDA+")] for i in (3, 4)},
+                     caw="PANDA+")] for i in (2, 3)},
 
-    # Mercredi 18/11 : l Equipe 2 sur le 680993 (Ribeaucourt, Seraing).
-    # C@W PANDA+ confirme par Geoffrey le 10/11. Pierre y passe le 23/11, en S48.
-    ("E2", 2): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
+    # Mercredi 18/11 : le 680993 (Ribeaucourt, Seraing) passe de l Equipe 2
+    # a l Equipe 1 le 13/11. C@W PANDA+ confirme par Geoffrey le 10/11 ;
+    # Pierre y passe le vendredi 20/11.
+    ("E1", 2): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
                   caw="PANDA+")],
 
     # Mardi 17/11 : Pierre sur le 646372 et le 646374 (BEA, Ougree).

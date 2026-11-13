@@ -1785,6 +1785,26 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **13/11 — deux mouvements sur la fin de semaine :**
+  - **Mercredi 18/11 — le `680993`** (Ribeaucourt, Seraing) **passe de l'Équipe 2 à
+    l'Équipe 1**. Le mercredi de l'Équipe 1, jusque-là gris, est donc rempli ; celui de
+    l'Équipe 2 se libère.
+  - **Les deux journées de l'Équipe 2 sur le `680552` sont rapprochées d'un jour** :
+    elles passent du **jeudi/vendredi** au **mercredi/jeudi**, occupant la case libérée.
+    **Son vendredi redevient gris.**
+
+  État final de la semaine pour les deux équipes :
+  | | lundi 16 | mardi 17 | mercredi 18 | jeudi 19 | vendredi 20 |
+  |---|---|---|---|---|---|
+  | **Équipe 1** | `687329` | `687329` | `680993` | *(gris)* | *(gris)* |
+  | **Équipe 2** | BEA Ougrée | `662190` | `680552` | `680552` | *(gris)* |
+
+  **Pierre n'est pas touché** : il garde le `687329` du mercredi matin et le `680993` du
+  vendredi 20/11.
+  **Monday.com** : `680993` — **Soufflage : Dominguez + Feller remplacés par Bolmain +
+  Petit**, date du 18/11 inchangée ; Jointage Mattiuz au 20/11 intact. Le `680552` reste
+  au 10/11 avec Bolmain + Petit, **en attente de l'arbitrage sur le relevé d'heures**.
+
 - **12/11 — Jeudi 19 et vendredi 20/11 : l'Équipe 2 sur le `680552`** (FQ — BB Neuron
   K12836, Huy), repris de l'Équipe 1 qui l'a fait les 10 et 12/11 en S46. C@W **PANDA+**,
   code déjà établi. **Sa semaine est désormais complète**, les cinq jours.
