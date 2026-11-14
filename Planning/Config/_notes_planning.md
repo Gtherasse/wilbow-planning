@@ -1776,7 +1776,12 @@ vides et statut « À Planifier Soufflage », bien qu'il soit au planning les 23
 
 **Le `631501` n'est pas concerné** : Geoffrey a confirmé le même jour que c'est un
 **chantier normal**, mal classé dans le groupe BTO. Il garde donc son statut `Planifié`
-et son Soufflage encodé. **À me dire si je me trompe sur ce point.**
+et son Soufflage encodé.
+
+✅ **Le critère de décision est désormais explicite** — « celui-ci est un PANDA+, tu peux
+le mettre en Planifié ». **C'est le code C@W qui tranche, pas le groupe du board** :
+C@W `BTO` → on ne touche à rien ; tout autre code → chantier normal, traité comme les
+autres même s'il est rangé dans le groupe BTO. Consigné dans `CLAUDE.md`.
 
 **13/11/2026 (bis) — la semaine 48 est reprise : le `631501` remplace le `667920`, et
 Fabrice Gaspard remplace Miguel le lundi.**

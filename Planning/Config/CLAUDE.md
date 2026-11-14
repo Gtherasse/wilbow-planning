@@ -86,6 +86,18 @@ même lorsqu'il reçoit une date dans le planning. La règle du passage en `Plan
 ci-dessus ne s'y applique pas, pas plus que la date et les personnes — rien n'est
 modifié sur un chantier BTO, c'est l'exception absolue.
 
+**C'est le code C@W qui tranche, pas le groupe du board.** Un item peut se trouver dans
+le groupe BTO sans être un chantier BTO. Règle donnée par Geoffrey le 14/11/2026 :
+
+| Code C@W de la prestation | Traitement |
+| --- | --- |
+| `BTO` | Chantier BTO : **rien n'est modifié**, il reste dans le groupe BTO. |
+| **Autre** (PANDA+, FIFTHNET…) | Chantier normal : date, personnes et passage en `Planifié` comme d'habitude, **même si l'item est classé dans le groupe BTO**. |
+
+En cas de doute sur la nature d'un dossier, demander — l'exception joue dans les deux
+sens, et un chantier normal laissé en BTO est une perte d'information autant qu'un BTO
+déplacé à tort.
+
 Lors d'un ajout de personnes, **relire la valeur brute** de la colonne et
 reconstruire la liste complète : une écriture partielle écrase les personnes
 déjà assignées. Vérifier ensuite l'état réel sur le board, pas seulement le
