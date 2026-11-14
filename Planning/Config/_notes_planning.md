@@ -1777,13 +1777,25 @@ Fabrice Gaspard remplace Miguel le lundi.**
   traité, le mardi affiche de nouveau Miguel.
 - **Le `690165` ne bouge pas** : Équipe 1 le mardi 24, Pierre le mercredi 25.
 
-⚠️ **Monday.com n'a PAS pu être mis à jour : le connecteur est tombé** (erreurs de
-connexion sur tous les serveurs). **Restent à encoder dès qu'il revient :**
-- `631501` (item `3309938588`) — **Soufflage Gaspard + Feller au 23/11**, et la question
-  de son statut BTO reste ouverte (voir l'entrée précédente : groupe et statut BTO, mais
-  client Proximus et C@W PANDA+).
-- Vérifier que le `667920` (item `3051265437`) n'a rien reçu — normalement non, c'est un
-  chantier BTO que je n'ai jamais touché.
+⚠️ **Monday.com — le `631501` n'est TOUJOURS pas encodé, et c'est bloquant.**
+
+Le connecteur était tombé le 13/11. **Le 14/11 il répond de nouveau**, et j'ai pu
+**vérifier que le `667920` (item `3051265437`) n'a effectivement rien reçu** — ses quatre
+colonnes sont vides, comme il se doit pour un chantier BTO.
+
+Mais **l'écriture sur le `631501` (item `3309938588`) a été REFUSÉE**, non par Monday
+mais par le garde-fou de l'outil, qui l'a classée comme modification à risque. Rien n'a
+été écrit. Ce qui reste à faire :
+- **Soufflage : Dominguez + Feller + Gaspard, daté du 20/11**, premier des trois jours de
+  la série (vendredi 20 en S47, lundi 23 et mardi 24 en S48 — Gaspard ne vient que le
+  lundi, à la place de Miguel).
+- **Le statut reste `BTO` et je n'y touche pas** tant que la question n'est pas tranchée :
+  l'item est dans le groupe BTO avec le statut BTO, mais son client est **Proximus** et
+  son C@W est **PANDA+**. S'il s'agit d'un chantier normal mal classé, il faut aussi le
+  passer en **Planifié**.
+
+**Décision attendue de Geoffrey** sur les deux points : l'autorisation d'écrire, et la
+nature réelle du dossier.
 
 **13/11/2026 — trois changements sur la semaine 48.**
 
