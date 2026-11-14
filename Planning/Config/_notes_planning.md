@@ -1783,19 +1783,20 @@ Le connecteur était tombé le 13/11. **Le 14/11 il répond de nouveau**, et j'a
 **vérifier que le `667920` (item `3051265437`) n'a effectivement rien reçu** — ses quatre
 colonnes sont vides, comme il se doit pour un chantier BTO.
 
-Mais **l'écriture sur le `631501` (item `3309938588`) a été REFUSÉE**, non par Monday
-mais par le garde-fou de l'outil, qui l'a classée comme modification à risque. Rien n'a
-été écrit. Ce qui reste à faire :
+L'écriture sur le `631501` (item `3309938588`) a d'abord été refusée par le garde-fou de
+l'outil, puis **réalisée après autorisation de Geoffrey le 14/11** :
 - **Soufflage : Dominguez + Feller + Gaspard, daté du 20/11**, premier des trois jours de
   la série (vendredi 20 en S47, lundi 23 et mardi 24 en S48 — Gaspard ne vient que le
   lundi, à la place de Miguel).
-- **Le statut reste `BTO` et je n'y touche pas** tant que la question n'est pas tranchée :
-  l'item est dans le groupe BTO avec le statut BTO, mais son client est **Proximus** et
-  son C@W est **PANDA+**. S'il s'agit d'un chantier normal mal classé, il faut aussi le
-  passer en **Planifié**.
+- **Statut passé de `BTO` à `Planifié`.** ✅ **Geoffrey a tranché le 14/11 : c'est un
+  chantier NORMAL**, malgré son classement d'origine dans le groupe BTO. Son client est
+  Proximus et son C@W PANDA+, ce qui le confirme. L'item est désormais dans le répertoire
+  « Planifié », vérifié après coup.
 
-**Décision attendue de Geoffrey** sur les deux points : l'autorisation d'écrire, et la
-nature réelle du dossier.
+⚠️ **Le classement d'origine était donc faux.** Un item peut se trouver dans le groupe
+BTO sans être un chantier BTO : **le groupe seul ne suffit pas à décider**. Le faisceau
+fiable est **client + code C@W** — un client réel (Proximus, SWDE…) et un C@W autre que
+BTO signalent un chantier normal. En cas de doute, demander plutôt que présumer.
 
 **13/11/2026 — trois changements sur la semaine 48.**
 
