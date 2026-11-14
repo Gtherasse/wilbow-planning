@@ -80,7 +80,11 @@ les personnes — jamais une étape séparée à réclamer.
 `En Cours Jointage`, `A Encoder`, `À Facturer` ou `Dossier Terminé` **n'est
 pas touché** : il a dépassé le stade de la planification.
 
-Le statut `BTO` relève de l'exception absolue ci-dessus : jamais modifié.
+**Les chantiers BTO ne bougent jamais.** Règle rappelée par Geoffrey le 14/11/2026 :
+un chantier BTO **reste dans le groupe BTO** et **n'est JAMAIS passé en `Planifié`**,
+même lorsqu'il reçoit une date dans le planning. La règle du passage en `Planifié`
+ci-dessus ne s'y applique pas, pas plus que la date et les personnes — rien n'est
+modifié sur un chantier BTO, c'est l'exception absolue.
 
 Lors d'un ajout de personnes, **relire la valeur brute** de la colonne et
 reconstruire la liste complète : une écriture partielle écrase les personnes

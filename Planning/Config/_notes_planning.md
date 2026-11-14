@@ -1764,6 +1764,20 @@ chantiers sans JMS (FH 32, ROP BTV, Bornes Liège Expo…) sont conservées comm
 bibliothèque. L'entrée `C@W À DÉTERMINER` a été remise dans `CODES`, elle manquait en
 S47.
 
+**14/11/2026 — RÈGLE RENFORCÉE : un chantier BTO reste dans le groupe BTO.**
+Geoffrey le précise explicitement : un chantier BTO **ne doit JAMAIS être passé en
+`Planifié`**, même lorsqu'il reçoit une date dans le planning. La règle du 09/11 sur le
+passage en `Planifié` **ne s'y applique pas** — pas plus que la date et les personnes.
+Rien n'est modifié sur un chantier BTO, dans aucune colonne : c'est l'exception absolue,
+désormais écrite noir sur blanc dans `CLAUDE.md`.
+
+Concrètement, le `667920` (FOX FEED OUT BUL 1 - BUL 2) reste tel qu'il est, colonnes
+vides et statut « À Planifier Soufflage », bien qu'il soit au planning les 23 et 24/11.
+
+**Le `631501` n'est pas concerné** : Geoffrey a confirmé le même jour que c'est un
+**chantier normal**, mal classé dans le groupe BTO. Il garde donc son statut `Planifié`
+et son Soufflage encodé. **À me dire si je me trompe sur ce point.**
+
 **13/11/2026 (bis) — la semaine 48 est reprise : le `631501` remplace le `667920`, et
 Fabrice Gaspard remplace Miguel le lundi.**
 
