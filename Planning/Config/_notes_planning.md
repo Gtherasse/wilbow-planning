@@ -1857,6 +1857,28 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **15/11 — Lundi 16/11 : les deux équipes de soufflage sont remaniées pour la
+  journée.**
+  - **Sam Feller passe à l'Équipe 1** : son entête du lundi devient « Bolmain Mickael /
+    Petit Gauthier / Feller Sam », à trois sur le `687329` (DSTNY BE, Engis).
+  - **Miguel reste seul en Équipe 2**, renforcé par **Giuseppe Caruso (« Peponne »)** sur
+    le BEA d'Ougrée : pastille « + G. Caruso » sur les deux JMS, puisqu'il n'a ni ligne
+    `RESSOURCES` ni compte Monday.
+  - Les deux changements passent par `NOMS_OVERRIDE`, et **ne valent que pour le lundi** :
+    dès le mardi les équipes reprennent leur composition habituelle.
+
+  ⚠️ **Rendu : l'Équipe 2 du lundi s'affiche différemment des autres jours.** Son entête
+  ne portant plus qu'un seul nom, le script bascule automatiquement sur la présentation
+  « individuelle » — « Dominguez Miguel · SOUFFLAGE — ÉQUIPE 2 » sur une seule ligne, au
+  lieu du libellé au-dessus des deux noms. C'est lisible, mais ça rompt l'alignement de
+  la ligne. **Dis-moi si tu préfères que je force la présentation d'équipe.**
+
+  **Monday.com** : `687329` — **Feller Sam ajouté au Soufflage**, aux côtés de Bolmain et
+  Petit, date du 16/11 inchangée. Les `646372` et `646374` **restent tels quels** : leur
+  Soufflage porte Dominguez + Feller au 12/11, le passage déjà effectué, et **Caruso ne
+  peut pas y être encodé faute de compte**. La rentabilité du lundi comptera donc une
+  personne au lieu de deux sur le BEA.
+
 - **15/11 — Lundi 16/11 : Pierre reprend le `682463`** (E.T.N.I.C., Avenue du Condroz 3,
   Huy) **en tête de journée**, et son chantier prévu, le `535147` (Feed-out FOx
   FH44/FH45), **passe à l'APRÈS-MIDI**. C@W **PANDA+** pour les deux.

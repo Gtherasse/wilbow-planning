@@ -143,7 +143,13 @@ CODES = {
 
 # Aucune substitution d equipe cette semaine : les entetes restent ceux de
 # RESSOURCES.
-NOMS_OVERRIDE = {}
+# Lundi 16/11 : Sam Feller passe a l Equipe 1 pour la journee ; Miguel reste
+# seul en Equipe 2, renforce par Giuseppe Caruso dit « Peponne », qui n a pas
+# de ligne RESSOURCES et apparait donc en pastille sur le chantier.
+NOMS_OVERRIDE = {
+    ("E1", 0): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
+    ("E2", 0): ["Dominguez Miguel"],
+}
 
 
 
@@ -157,8 +163,10 @@ PLANNING = {
     # Lundi 16/11 : l Equipe 2 reprend son chantier du jeudi 12/11, le BEA
     # d Ougree (demande du 12/11, sa case etant liberee par l inversion).
     ("E2", 0): [
-        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
-        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
+        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée",
+          "+ G. Caruso", "commun", caw="BEA OUGRÉE"),
+        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée",
+          "+ G. Caruso", "commun", caw="BEA OUGRÉE"),
     ],
     # Mercredi 18/11 : le DSTNY BE est le chantier du MATIN de Pierre ; il
     # enchaine ensuite sur les deux FH 32 (ajout du 10/11).
