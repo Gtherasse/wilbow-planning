@@ -187,8 +187,13 @@ PLANNING = {
 
     # Lundi 16/11 : Pierre sur le 535147 (feed-out FH44/FH45, rue de Vise,
     # Liege). C@W PANDA+ confirme par Geoffrey le 09/11.
-    ("PM", 0): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
-                  caw="PANDA+")],
+    # 15/11 : le 682463 (E.T.N.I.C., Huy) s ajoute en tete de sa journee ; le
+    # 535147, son chantier prevu, passe a l APRES-MIDI.
+    ("PM", 0): [
+        J("682463", "OL — E.T.N.I.C., Avenue du Condroz 3, Huy", caw="PANDA+"),
+        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
+          q=AM, caw="PANDA+"),
+    ],
 
     # Mardi 17/11 : le 662190 (Herstal) passe de l Equipe 1 a l Equipe 2 par
     # l inversion du 12/11. L intervention se fait toujours EN MEME TEMPS que

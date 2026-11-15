@@ -1857,6 +1857,19 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **15/11 — Lundi 16/11 : Pierre reprend le `682463`** (E.T.N.I.C., Avenue du Condroz 3,
+  Huy) **en tête de journée**, et son chantier prévu, le `535147` (Feed-out FOx
+  FH44/FH45), **passe à l'APRÈS-MIDI**. C@W **PANDA+** pour les deux.
+  Le `682463` est son troisième passage en trois jours ouvrables : jeudi 12 avec
+  l'Équipe 1, vendredi 13 avec Johan, et ce lundi seul.
+  ⚠️ Le `682463` n'est **pas marqué « matin »** : tu n'as précisé que l'après-midi, je
+  n'ai pas voulu ajouter une précision que tu n'as pas donnée. À me dire si tu la veux.
+  ⚠️ **Monday.com — Jointage laissé au 13/11 avec Johan + Pierre.** Son relevé d'heures
+  est vide : re-dater au 16/11 avec Pierre seul effacerait la trace du passage de
+  vendredi. **Cinquième occurrence du même blocage** — la proposition du 12/11 (inscrire
+  d'office la ligne du passage précédent dans le relevé, heures à compléter, puis
+  re-dater) **attend toujours ta validation**.
+
 - **13/11 — Vendredi 20/11 : l'Équipe 2 sur le `631501`** (INTERCO BURGRE-01 BUR50 ;
   item `3309938588`). C@W **PANDA+**, donné par Geoffrey. Sa case du vendredi, libérée
   par le rapprochement du `680552`, est donc remplie : **sa semaine est de nouveau
