@@ -1783,6 +1783,16 @@ le mettre en Planifié ». **C'est le code C@W qui tranche, pas le groupe du boa
 C@W `BTO` → on ne touche à rien ; tout autre code → chantier normal, traité comme les
 autres même s'il est rangé dans le groupe BTO. Consigné dans `CLAUDE.md`.
 
+**16/11/2026 — Andreï ABSENT le lundi 23/11.** Sa ligne, qui porte BTO les autres jours,
+passe en **ABSENT** ce lundi-là. **Durée inconnue** : seul le lundi est traité.
+⚠️ Geoffrey avait écrit « 23/03 » ; la date a été **confirmée comme étant le 23/11** —
+le 23 mars 2027 n'a pas de grille et le lundi 23/11 est déjà le jour de l'absence de
+Miguel. **Deux absences le même jour**, donc.
+**Piège de dictionnaire évité** : le lundi a été exclu de la comprehension
+`("AN", i) for i in range(5)`, sinon elle aurait écrasé l'absence — même correction que
+pour la nuit de Dan en S46.
+**Rien à faire sur Monday** : Andreï est en BTO, jamais encodé.
+
 **13/11/2026 (bis) — la semaine 48 est reprise : le `631501` remplace le `667920`, et
 Fabrice Gaspard remplace Miguel le lundi.**
 

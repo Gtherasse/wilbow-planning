@@ -144,7 +144,10 @@ PLANNING = {
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
-    **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
+    # Andrei : BTO, sauf le lundi 23/11 ou il est absent (16/11). Le lundi
+    # est exclu de la comprehension, sinon elle ecraserait son absence.
+    **{("AN", i): [X("BTO", caw="BTO")] for i in (1, 2, 3, 4)},
+    ("AN", 0): ABS("ABSENT"),
 
     # Tout le reste de la semaine est a confirmer : cases grisees.
 }
