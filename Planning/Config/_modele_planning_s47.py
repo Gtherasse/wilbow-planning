@@ -82,12 +82,12 @@ LIENS = {
     "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
     "691421": "https://wilbow.monday.com/boards/5089236279/pulses/3360104662",
     "655649": "https://wilbow.monday.com/boards/5089236279/pulses/3295103650",
+    "649647": "https://wilbow.monday.com/boards/5089236279/pulses/3301749306",
     "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
     "690397": "https://wilbow.monday.com/boards/5089236279/pulses/3282876027",
     "554869": "https://wilbow.monday.com/boards/5089236279/pulses/3286712772",
-    "655649": "https://wilbow.monday.com/boards/5089236279/pulses/3295103650",
     "675043": "https://wilbow.monday.com/boards/5089236279/pulses/2987880677",
     "635054": "https://wilbow.monday.com/boards/5089236279/pulses/3262247942",
     "656346": "https://wilbow.monday.com/boards/5089236279/pulses/3012484645",
@@ -254,10 +254,16 @@ PLANNING = {
         J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+"),
     ],
 
-    # Mardi 17/11 : le BEA d Ougree est REPORTE au jeudi 19/11 (16/11) ; le
-    # 535147 (FH 44/45), sorti de son lundi le meme jour, prend sa place.
-    ("PM", 1): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
-                  caw="PANDA+")],
+    # Mardi 17/11 : le 535147 passe a Johan (16/11 au soir) ; Pierre prend le
+    # 649647 (rue de Lexhy, Fexhe), que Johan le rejoint l APRES-MIDI.
+    ("PM", 1): [J("649647", "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
+                  "+ J. Meurisse · après-midi", "commun", caw="PANDA+")],
+    ("JM", 1): [
+        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
+          caw="PANDA+"),
+        J("649647", "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
+          "+ P. Mattiuz", "commun", q=AM, caw="PANDA+"),
+    ],
 
     # Le 688836 (mercredi) et le 690640 (jeudi), deplaces depuis la S46 le
     # 03/11, sont ANNULES le 16/11 : Johan passe en BTO ces deux jours.

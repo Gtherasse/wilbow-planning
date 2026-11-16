@@ -1867,6 +1867,27 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **16/11 (soir, bis) — le mardi 17/11 de Johan et de Pierre :**
+  - **Le `535147`** (FH 44/45, Rue de Visé) **passe de Pierre à Johan**, confirmé : il
+    **quitte Pierre**. Troisième déplacement de ce dossier en une semaine — vendredi,
+    puis lundi, puis mardi, et maintenant de main en main.
+  - **Pierre prend le `649647`** (IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy,
+    Fexhe-le-Haut-Clocher, Eloy ; item `3301749306`). C@W **PANDA+**, demandé et
+    confirmé.
+  - **Johan le rejoint sur le `649647` l'APRÈS-MIDI.** Pastilles croisées, avec la
+    précision du moment côté Pierre : « + J. Meurisse · après-midi », puisqu'il y est
+    toute la journée et Johan seulement l'après-midi.
+  - **Le mardi de Johan, redevenu gris il y a quelques minutes** avec le départ du
+    `662190`, est donc de nouveau rempli.
+  **Monday.com** : `649647` — **Jointage Mattiuz + Meurisse au 17/11**, les quatre
+  colonnes étaient vides, statut passé de « A préparer » à **Planifié**. `535147` —
+  **Jointage : Mattiuz remplacé par Meurisse**, date du 17/11 inchangée.
+
+  🔧 **Au passage** : le dict `LIENS` contenait **un second doublon**, la clé `655649`,
+  introduite ce matin alors qu'elle existait déjà. Corrigé, et j'ai passé tout le dict au
+  crible plutôt que de traiter le seul cas signalé. **Deux doublons en une journée** —
+  je vérifierai désormais avant d'ajouter une clé.
+
 - **16/11 (soir) — quatre mouvements qui redessinent la fin de semaine des deux
   équipes :**
   - **Le `662190` (Herstal) quitte le mardi et passe au VENDREDI 20/11**, repris par
