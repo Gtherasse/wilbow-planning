@@ -1867,6 +1867,16 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **16/11 (soir, ter) — le `680993` passe du vendredi au JEUDI pour l'Équipe 1.** Son
+  jeudi, le dernier jour gris de sa semaine, est donc rempli, et son **vendredi ne garde
+  que le `662190`**, avec Johan.
+  **Sa semaine est désormais complète**, les cinq jours.
+  ⚠️ **Pierre garde son `680993` du vendredi**, en jointage : l'Équipe 1 souffle le
+  jeudi, Pierre jointe le lendemain. L'enchaînement est cohérent, mais **dis-moi si
+  Pierre doit suivre au jeudi**.
+  **Monday.com** : `680993` — **Soufflage re-daté du 20 au 19/11**. Son Jointage garde
+  Mattiuz au 20/11.
+
 - **16/11 (soir, bis) — le mardi 17/11 de Johan et de Pierre :**
   - **Le `535147`** (FH 44/45, Rue de Visé) **passe de Pierre à Johan**, confirmé : il
     **quitte Pierre**. Troisième déplacement de ce dossier en une semaine — vendredi,

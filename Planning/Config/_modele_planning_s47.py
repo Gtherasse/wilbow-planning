@@ -249,10 +249,11 @@ PLANNING = {
     # 16/11 : le 680993 est decale du mercredi au VENDREDI, ou il rejoint le
     # 662190 repris a l Equipe 2. Le 655649 (Andenne) prend le mercredi.
     ("E1", 2): [J("655649", "RZ FTTH DIST double Sol — Rue Bertrand 79-83, Andenne (2 MDU, 16 LU)", caw="PANDA+")],
-    ("E1", 4): [
-        J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A", "+ J. Meurisse", "commun", caw="PANDA+"),
-        J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+"),
-    ],
+    # 16/11 (soir) : le 680993 passe du vendredi au JEUDI pour l Equipe 1.
+    # Son vendredi ne garde que le 662190, avec Johan.
+    ("E1", 3): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+")],
+    ("E1", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+                  "+ J. Meurisse", "commun", caw="PANDA+")],
 
     # Mardi 17/11 : le 535147 passe a Johan (16/11 au soir) ; Pierre prend le
     # 649647 (rue de Lexhy, Fexhe), que Johan le rejoint l APRES-MIDI.
