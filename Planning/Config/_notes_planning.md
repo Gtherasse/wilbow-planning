@@ -1867,6 +1867,21 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **16/11 — Johan : les chantiers du mercredi 18 et du jeudi 19/11 sont ANNULÉS**, il
+  passe en **BTO** ces deux jours. Il s'agissait du **`688836`** (FQ ROP endommagé
+  85AMAC/311) et du **`690640`** (RRROP C/123, Rue Sabaré, Visé), tous deux **avec Mike
+  Wilvers**, qui perd donc aussi ces deux journées.
+  Ces deux dossiers auront été déplacés trois fois pour rien : S43, puis S46 (10 et
+  12/11), puis S47 (18 et 19/11), et maintenant annulés.
+  ⚠️ **Contrairement à la nuit du 05/11, les chantiers annulés n'apparaissent PAS** dans
+  la grille : la case porte simplement BTO. **Dis-moi si tu veux qu'ils restent visibles
+  avec une mention « ANNULÉ »**, comme on l'a fait pour la nuit.
+  ⚠️ **Monday.com volontairement inchangé.** Le Jointage du `688836` porte toujours le
+  18/11 et celui du `690640` le 19/11, avec Johan, et leur statut reste `Planifié`.
+  **Je ne les ai pas vidés : « annulé » peut vouloir dire reporté.** Dis-moi où ils
+  partent et je les re-date ; s'ils tombent pour de bon, je vide les colonnes et je
+  remets leur statut d'avant.
+
 - **15/11 — Lundi 16/11 : les deux équipes de soufflage sont remaniées pour la
   journée.**
   - **Sam Feller passe à l'Équipe 1** : son entête du lundi devient « Bolmain Mickael /

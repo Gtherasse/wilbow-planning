@@ -237,12 +237,10 @@ PLANNING = {
           caw="BEA OUGRÉE"),
     ],
 
-    # Le 688836 et le 690640, deplaces depuis la S46 le 03/11. Tous deux avec
-    # Mike Wilvers, qui n a pas de ligne RESSOURCES et apparait en pastille.
-    ("JM", 2): [J("688836", "FQ ROP endommagé 85AMAC/311",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
-    ("JM", 3): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
+    # Le 688836 (mercredi) et le 690640 (jeudi), deplaces depuis la S46 le
+    # 03/11, sont ANNULES le 16/11 : Johan passe en BTO ces deux jours.
+    # Tous deux etaient avec Mike Wilvers, en pastille.
+    **{("JM", i): [X("BTO", caw="BTO")] for i in (2, 3)},
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
