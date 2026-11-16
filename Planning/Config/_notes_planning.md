@@ -1867,6 +1867,38 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **16/11 — la fin de semaine de Pierre est entièrement redistribuée :**
+
+  | | avant | après |
+  |---|---|---|
+  | **mardi 17** | `646372` + `646374` (BEA Ougrée) | **`535147`** (FH 44/45, Rue de Visé) |
+  | **mercredi 18** | `687329` (matin) + Mesure FH 32 + FH 32 Feed-In | **`687329`** (matin) seul |
+  | **jeudi 19** | FH 32 Feed-In + FH 40 Feed-In | **`646372` + `646374` au MATIN**, puis **FH 40 Feed-In** |
+
+  - **Le BEA d'Ougrée est reporté du mardi au jeudi**, et y passe **au matin**
+    (« le VHR au matin » — Geoffrey a précisé qu'il s'agissait de ces deux JMS).
+  - **Tous les FH 32 sont supprimés**, le mercredi comme le jeudi : la « Mesure FH 32
+    Supplémentaire » et le « FH 32 Feed-In ». Le **FH 40 est conservé** au jeudi.
+  - **Le `535147` retrouve une date** : il prend le mardi laissé libre. Il était sorti du
+    vendredi le 10/11, puis du lundi ce matin même.
+  - **Son mercredi ne porte plus que le `687329` du matin.** J'ai **gardé le quart
+    MATIN** alors qu'il est désormais seul dans la case — tu ne m'as pas dit de le
+    retirer, mais dis-le moi si l'après-midi n'est plus libre.
+
+  **Monday.com** :
+  - `535147` — Jointage Mattiuz **re-daté du 16 au 17/11**.
+  - `646372` et `646374` — Jointage Mattiuz **re-daté du 17 au 19/11**.
+  - `FH 40 Feed-In` — déjà au 19/11, rien à changer.
+  - ⚠️ **`FH 32 FEED-IN` (item `2986868036`) et `Mesure FH 32 Supplémentaire` (item
+    `3304761656`) ne sont plus au planning**, mais leur Jointage porte toujours Mattiuz
+    au 18/11 et leur statut reste `Planifié`. **Je ne les ai pas vidés** — comme pour le
+    `688836` et le `690640` de Johan, « supprimé » peut vouloir dire reporté. Dis-moi
+    quand ils reviennent, ou s'il faut les remettre en « À Planifier ».
+
+  ⚠️ **Détail de rendu** : le badge MATIN s'affiche **deux fois** le jeudi, une par JMS,
+  puisque le quart est porté par la prestation et non par la case. C'est correct mais
+  redondant — à me dire si tu veux que je le regroupe.
+
 - **16/11 — Lundi 16/11 : Johan et Pierre ensemble sur le `647240` l'après-midi**
   (RW — Renouvellement d'un pont PWC 25016576, GPW). C@W **PANDA+**, code déjà établi
   lors du passage de l'Équipe 2 le 05/10 en S41.

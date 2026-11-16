@@ -171,16 +171,18 @@ PLANNING = {
     ],
     # Mercredi 18/11 : le DSTNY BE est le chantier du MATIN de Pierre ; il
     # enchaine ensuite sur les deux FH 32 (ajout du 10/11).
+    # 16/11 : les deux FH 32 sont SUPPRIMES de son mercredi. Il ne garde que
+    # le DSTNY BE du matin.
     ("PM", 2): [
         J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
           q=MATIN, caw="PANDA+"),
-        X("Mesure FH 32 Supplémentaire", url=MESFH32, caw="PANDA+"),
-        X("FH 32 Feed-In", url=FH32, caw="FIFTHNET"),
     ],
 
-    # Jeudi 19/11 : Pierre poursuit le FH 32 Feed-In et enchaine sur le FH 40.
+    # Jeudi 19/11 (16/11) : le FH 32 est supprime, le FH 40 reste. Les deux
+    # JMS du BEA d Ougree, reportes de son mardi, passent au MATIN.
     ("PM", 3): [
-        X("FH 32 Feed-In", url=FH32, caw="FIFTHNET"),
+        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
+        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
     ],
 
@@ -238,13 +240,10 @@ PLANNING = {
     ("E1", 2): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
                   caw="PANDA+")],
 
-    # Mardi 17/11 : Pierre sur le 646372 et le 646374 (BEA, Ougree).
-    ("PM", 1): [
-        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée",
-          caw="BEA OUGRÉE"),
-        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée",
-          caw="BEA OUGRÉE"),
-    ],
+    # Mardi 17/11 : le BEA d Ougree est REPORTE au jeudi 19/11 (16/11) ; le
+    # 535147 (FH 44/45), sorti de son lundi le meme jour, prend sa place.
+    ("PM", 1): [J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
+                  caw="PANDA+")],
 
     # Le 688836 (mercredi) et le 690640 (jeudi), deplaces depuis la S46 le
     # 03/11, sont ANNULES le 16/11 : Johan passe en BTO ces deux jours.
