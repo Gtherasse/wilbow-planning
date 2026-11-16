@@ -63,6 +63,7 @@ LIENS = {
     "662190": "https://wilbow.monday.com/boards/5089236279/pulses/3332057368",
     "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
     "631501": "https://wilbow.monday.com/boards/5089236279/pulses/3309938588",
+    "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -190,17 +191,25 @@ PLANNING = {
 
     # Lundi 16/11 : Johan sur le 675238 (Ciney-Jemelle), identification joint.
     # C@W PANDA+, code deja etabli lors de ses passages precedents.
-    ("JM", 0): [J("675238", "BBN 12310B — Ciney-Jemelle",
-                  "(identification joint)", caw="PANDA+")],
+    # 16/11 : le 647240 s ajoute apres son dossier prevu ; il le fait avec
+    # Pierre, qui y laisse son 535147. Pastilles croisees.
+    ("JM", 0): [
+        J("675238", "BBN 12310B — Ciney-Jemelle",
+          "(identification joint)", caw="PANDA+"),
+        J("647240", "RW — Renouvellement d'un pont PWC 25016576 (GPW)",
+          "+ P. Mattiuz", "commun", q=AM, caw="PANDA+"),
+    ],
 
     # Lundi 16/11 : Pierre sur le 535147 (feed-out FH44/FH45, rue de Vise,
     # Liege). C@W PANDA+ confirme par Geoffrey le 09/11.
     # 15/11 : le 682463 (E.T.N.I.C., Huy) s ajoute en tete de sa journee ; le
     # 535147, son chantier prevu, passe a l APRES-MIDI.
+    # 16/11 : le 535147 de l apres-midi est REMPLACE par le 647240, qu il
+    # fait avec Johan. Pastilles croisees.
     ("PM", 0): [
         J("682463", "OL — E.T.N.I.C., Avenue du Condroz 3, Huy", caw="PANDA+"),
-        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
-          q=AM, caw="PANDA+"),
+        J("647240", "RW — Renouvellement d'un pont PWC 25016576 (GPW)",
+          "+ J. Meurisse", "commun", q=AM, caw="PANDA+"),
     ],
 
     # Mardi 17/11 : le 662190 (Herstal) passe de l Equipe 1 a l Equipe 2 par

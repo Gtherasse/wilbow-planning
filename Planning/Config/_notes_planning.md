@@ -1867,6 +1867,25 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **16/11 — Lundi 16/11 : Johan et Pierre ensemble sur le `647240` l'après-midi**
+  (RW — Renouvellement d'un pont PWC 25016576, GPW). C@W **PANDA+**, code déjà établi
+  lors du passage de l'Équipe 2 le 05/10 en S41.
+  - **Johan** l'ajoute **après son dossier prévu**, le `675238` du matin.
+  - **Pierre** y **remplace le `535147`** (Feed-out FOx FH44/FH45), qui occupait son
+    après-midi. Son `682463` du matin ne bouge pas.
+  - Pastilles croisées, l'intervention se faisant à deux.
+  ⚠️ **J'ai marqué les deux cases « APRÈS-MIDI ».** Pour Pierre c'est littéral — le
+  `647240` prend la place d'un chantier qui portait déjà ce quart. **Pour Johan c'est une
+  déduction** : tu as dit « après son dossier prévu » sans préciser le moment, mais ils
+  travaillent ensemble, donc le même quart. À me dire si c'est inexact.
+  ⚠️ **Le `535147` n'a plus aucune date cette semaine.** Il avait déjà été retiré du
+  vendredi 20/11 le 10/11, et le voilà sorti du lundi. **Dis-moi quand le replanifier** —
+  son Jointage Monday porte toujours Pierre au 16/11, que je n'ai pas touché.
+  **Monday.com** : `647240` — **Jointage Johan + Pierre au 16/11**, colonne vide
+  jusqu'ici, statut passé de « A Planifier Jointage » à **Planifié**. Son Soufflage reste
+  sur Dominguez + Feller au 05/10, dont les heures sont relevées (« 05/10 : MD + SF :
+  8H »).
+
 - **16/11 — Johan : les chantiers du mercredi 18 et du jeudi 19/11 sont ANNULÉS**, il
   passe en **BTO** ces deux jours. Il s'agissait du **`688836`** (FQ ROP endommagé
   85AMAC/311) et du **`690640`** (RRROP C/123, Rue Sabaré, Visé), tous deux **avec Mike
