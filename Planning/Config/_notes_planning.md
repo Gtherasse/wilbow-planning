@@ -1867,6 +1867,43 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **16/11 (soir) — quatre mouvements qui redessinent la fin de semaine des deux
+  équipes :**
+  - **Le `662190` (Herstal) quitte le mardi et passe au VENDREDI 20/11**, repris par
+    **l'Équipe 1** à la place de l'Équipe 2, **avec Johan**. Pastilles croisées mises à
+    jour : « + J. Meurisse » et « + Équipe 1 ». **Le mardi de Johan redevient gris.**
+  - **Le mardi de l'Équipe 2 reçoit le BEA d'Ougrée** (`646372` + `646374`), son chantier
+    du lundi : elle le poursuit.
+  - **Le `680993` (Ribeaucourt) est décalé du mercredi au vendredi** pour l'Équipe 1, où
+    il rejoint le `662190`. Son vendredi porte donc **deux chantiers**.
+  - **Le `655649`** (RZ FTTH DIST double Sol — Rue Bertrand 79-83, Andenne ; item
+    `3295103650`) **prend le mercredi de l'Équipe 1**. C@W **PANDA+**, demandé et
+    confirmé.
+
+  État final des deux équipes :
+  | | lundi 16 | mardi 17 | mercredi 18 | jeudi 19 | vendredi 20 |
+  |---|---|---|---|---|---|
+  | **Équipe 1** | `687329` | `687329` | `655649` | *(gris)* | `662190` + `680993` |
+  | **Équipe 2** | BEA Ougrée | BEA Ougrée | `680552` | `680552` | `631501` |
+
+  ⚠️ **Pierre est aussi sur le `680993` le vendredi**, en jointage. Les deux équipes s'y
+  croisent donc le même jour, chacune dans son métier — **je n'ai pas mis de pastille**,
+  tu n'as pas dit qu'ils y allaient ensemble. À me dire si c'est le cas.
+
+  **Monday.com** :
+  - `662190` — **Soufflage : Dominguez + Feller remplacés par Bolmain + Petit**, et les
+    **deux dates re-datées du 17 au 20/11** (Soufflage et Jointage).
+  - `680993` — **Soufflage re-daté du 18 au 20/11**. Son Jointage portait déjà Mattiuz au
+    20/11.
+  - `655649` — **Soufflage Bolmain + Petit au 18/11**, colonne vide, statut passé en
+    **Planifié**. Son Jointage garde Florian au 20/10, passage déjà effectué.
+  - `646372` et `646374` — **Soufflage laissé au 12/11** : même équipe qui poursuit, et
+    ils sont déjà en « En cours Soufflage ».
+
+  ⚠️ **Densité : polices de la S47 réduites de 4 %.** L'ajout du vendredi à deux
+  chantiers a fait sauter la garde d'une page. Un seul palier a suffi, contrairement à la
+  S46 qui en a demandé trois (−14 % au total).
+
 - **16/11 — Mercredi 18/11 : le `691421` prend le matin de Pierre, le `687329` passe à
   l'après-midi.** `691421` = **OL — Weerts Supply Chain, Rue du Trilogiport 4, Oupeye**
   (item `3360104662`, donneur d'ordre Proximus, type Jointage). C@W **PANDA+**, demandé
