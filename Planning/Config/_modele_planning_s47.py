@@ -63,7 +63,6 @@ LIENS = {
     "662190": "https://wilbow.monday.com/boards/5089236279/pulses/3332057368",
     "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
     "631501": "https://wilbow.monday.com/boards/5089236279/pulses/3309938588",
-    "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -81,6 +80,7 @@ LIENS = {
     "590458": "https://wilbow.monday.com/boards/5089236279/pulses/3174254132",
     "622386": "https://wilbow.monday.com/boards/5089236279/pulses/3183700075",
     "647240": "https://wilbow.monday.com/boards/5089236279/pulses/3139752774",
+    "691421": "https://wilbow.monday.com/boards/5089236279/pulses/3360104662",
     "599588": "https://wilbow.monday.com/boards/5089236279/pulses/3006164733",
     "685230": "https://wilbow.monday.com/boards/5089236279/pulses/3055683760",
     "523547": "https://wilbow.monday.com/boards/5089236279/pulses/2987923297",
@@ -171,11 +171,14 @@ PLANNING = {
     ],
     # Mercredi 18/11 : le DSTNY BE est le chantier du MATIN de Pierre ; il
     # enchaine ensuite sur les deux FH 32 (ajout du 10/11).
-    # 16/11 : les deux FH 32 sont SUPPRIMES de son mercredi. Il ne garde que
-    # le DSTNY BE du matin.
+    # 16/11 : les deux FH 32 sont SUPPRIMES de son mercredi, puis le 691421
+    # (Weerts Supply Chain, Oupeye) prend le MATIN et le DSTNY BE passe a
+    # l APRES-MIDI. C@W PANDA+ confirme pour le 691421.
     ("PM", 2): [
-        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+        J("691421", "OL — Weerts Supply Chain, Rue du Trilogiport 4, Oupeye",
           q=MATIN, caw="PANDA+"),
+        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+          q=AM, caw="PANDA+"),
     ],
 
     # Jeudi 19/11 (16/11) : le FH 32 est supprime, le FH 40 reste. Les deux

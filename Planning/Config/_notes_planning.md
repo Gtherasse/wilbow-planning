@@ -1867,6 +1867,18 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **16/11 — Mercredi 18/11 : le `691421` prend le matin de Pierre, le `687329` passe à
+  l'après-midi.** `691421` = **OL — Weerts Supply Chain, Rue du Trilogiport 4, Oupeye**
+  (item `3360104662`, donneur d'ordre Proximus, type Jointage). C@W **PANDA+**, demandé
+  et confirmé. Sa journée du mercredi, qui ne portait plus que le DSTNY BE du matin après
+  la suppression des FH 32, est donc de nouveau pleine.
+  **Monday.com** : `691421` — **Jointage Mattiuz au 18/11**, les quatre colonnes étaient
+  vides, statut passé de « A Planifier Jointage » à **Planifié**. Le `687329` garde sa
+  date du 18/11, seul son moment dans la journée change, ce que Monday ne distingue pas.
+
+  🔧 **Au passage** : le dict `LIENS` de la S47 contenait **deux fois la clé `647240`**,
+  avec la même valeur — doublon introduit ce matin, sans effet en Python mais corrigé.
+
 - **16/11 — la fin de semaine de Pierre est entièrement redistribuée :**
 
   | | avant | après |
