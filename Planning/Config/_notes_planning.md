@@ -1874,17 +1874,20 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   - **Vendredi 20/11 — le `631501`** (INTERCO BURGRE-01 BUR50), **avec Fabrice**.
   Caruso et Gaspard n'ayant pas de ligne `RESSOURCES`, ils figurent en pastille.
 
-  ⚠️ **Le `645656` est classé BTO sur le board** — groupe BTO, statut BTO, **client
+  ✅ **Le `645656` est classé BTO sur le board** — groupe BTO, statut BTO, **client
   BTO** — alors que Geoffrey lui donne un C@W **PANDA+**. En application de la règle du
-  14/11 (**c'est le code C@W qui tranche, pas le groupe**), je l'ai traité comme un
-  chantier normal : Soufflage encodé et statut passé en **Planifié**. **C'est le deuxième
-  cas après le `631501`** — à la différence que celui-ci a aussi *BTO* comme client, et
-  non Proximus. **Dis-moi si je me trompe** : je remets tout en l'état en une minute.
+  14/11 (**c'est le code C@W qui tranche, pas le groupe**), il a été traité comme un
+  chantier normal : Soufflage encodé et statut passé en **Planifié**. **Geoffrey a
+  confirmé ce traitement le 17/11.** C'est le deuxième cas après le `631501`, et le
+  premier dont le **client** lui-même est *BTO* : la règle tient donc même là, le code
+  C@W primant sur l'ensemble du classement du board.
 
-  ⚠️ **Le `631501` est déjà au planning de l'Équipe 2 ce vendredi.** Geoffrey et Fabrice
-  s'y ajoutent donc, ce qui fait **quatre personnes** sur le chantier. **Je n'ai pas mis
-  de pastille entre eux et l'Équipe 2** — tu n'as parlé que de Fabrice. À me dire s'ils
-  y travaillent ensemble.
+  ✅ **Le `631501` est déjà au planning de l'Équipe 2 ce vendredi**, et Geoffrey et
+  Fabrice s'y ajoutent : **quatre personnes** sur le chantier. **Aucune pastille entre
+  eux et l'Équipe 2** — Geoffrey a confirmé le 17/11 de **laisser ainsi**. Les deux
+  lignes portent donc le même chantier sans être reliées, ce qui est exactement le sens
+  de la règle : la pastille signifie « ensemble », pas « le même jour sur le même
+  dossier ».
 
   **Monday.com** :
   - `645656` — **Soufflage Avenia + Gaspard au 18/11**, premier des deux jours ; les
