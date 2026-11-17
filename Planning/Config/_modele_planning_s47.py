@@ -63,6 +63,7 @@ LIENS = {
     "662190": "https://wilbow.monday.com/boards/5089236279/pulses/3332057368",
     "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
     "631501": "https://wilbow.monday.com/boards/5089236279/pulses/3309938588",
+    "645656": "https://wilbow.monday.com/boards/5089236279/pulses/3329942831",
     "681226": "https://wilbow.monday.com/boards/5089236279/pulses/3280734380",
     "685239": "https://wilbow.monday.com/boards/5089236279/pulses/3136655230",
     "662275": "https://wilbow.monday.com/boards/5089236279/pulses/3174723480",
@@ -274,6 +275,18 @@ PLANNING = {
     # Unifiber FZ, pour Johan comme pour Dan. C@W PANDA+ (Geoffrey, 17/11).
     ("JM", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
     ("JM", 3): [X("BTO", caw="BTO")],
+
+    # 17/11 : Avenia Geoffrey quitte le depot les trois derniers jours.
+    # Mercredi et jeudi sur le 645656 (Burg-Reuland FH01 cluster 16), C@W
+    # PANDA+ donne par Geoffrey ; vendredi sur le 631501, deja au planning
+    # de l Equipe 2 ce jour-la. Giuseppe Caruso et Fabrice Gaspard n ont pas
+    # de ligne RESSOURCES : ils apparaissent en pastille.
+    ("GA", 2): [J("645656", "Burg-Reuland FH01 cluster 16",
+                  "+ G. Caruso · F. Gaspard", "commun", caw="PANDA+")],
+    ("GA", 3): [J("645656", "Burg-Reuland FH01 cluster 16",
+                  "+ F. Gaspard", "commun", caw="PANDA+")],
+    ("GA", 4): [J("631501", "INTERCO BURGRE-01 BUR50",
+                  "+ F. Gaspard", "commun", caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
     # Dan : BTO, sauf le mercredi 18 ou il fait la Rectification Unifiber FZ

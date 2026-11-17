@@ -1867,6 +1867,32 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **17/11 — Avenia Geoffrey quitte le dépôt les trois derniers jours :**
+  - **Mercredi 18 et jeudi 19/11 — le `645656`** (Burg-Reuland FH01 cluster 16 ; item
+    `3329942831`). C@W **PANDA+**, donné par Geoffrey. **Avec Giuseppe Caruso et Fabrice
+    Gaspard le mercredi**, **Fabrice seul le jeudi**.
+  - **Vendredi 20/11 — le `631501`** (INTERCO BURGRE-01 BUR50), **avec Fabrice**.
+  Caruso et Gaspard n'ayant pas de ligne `RESSOURCES`, ils figurent en pastille.
+
+  ⚠️ **Le `645656` est classé BTO sur le board** — groupe BTO, statut BTO, **client
+  BTO** — alors que Geoffrey lui donne un C@W **PANDA+**. En application de la règle du
+  14/11 (**c'est le code C@W qui tranche, pas le groupe**), je l'ai traité comme un
+  chantier normal : Soufflage encodé et statut passé en **Planifié**. **C'est le deuxième
+  cas après le `631501`** — à la différence que celui-ci a aussi *BTO* comme client, et
+  non Proximus. **Dis-moi si je me trompe** : je remets tout en l'état en une minute.
+
+  ⚠️ **Le `631501` est déjà au planning de l'Équipe 2 ce vendredi.** Geoffrey et Fabrice
+  s'y ajoutent donc, ce qui fait **quatre personnes** sur le chantier. **Je n'ai pas mis
+  de pastille entre eux et l'Équipe 2** — tu n'as parlé que de Fabrice. À me dire s'ils
+  y travaillent ensemble.
+
+  **Monday.com** :
+  - `645656` — **Soufflage Avenia + Gaspard au 18/11**, premier des deux jours ; les
+    quatre colonnes étaient vides, statut passé de `BTO` à **Planifié**.
+  - `631501` — **Avenia ajouté au Soufflage**, aux côtés de Dominguez, Feller et Gaspard,
+    date du 20/11 inchangée.
+  - Giuseppe Caruso reste non encodable, faute de compte Monday.
+
 - **17/11 — Mercredi 18/11 : Johan et Dan sur la « Rectification Unifiber FZ »**, à la
   place de leur BTO. Chantier **sans numéro JMS** : l'intitulé est cliquable (item
   `3362886387`, client **Unifiber**, déjà au statut `Planifié`).
