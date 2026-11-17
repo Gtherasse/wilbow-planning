@@ -236,8 +236,11 @@ PLANNING = {
         J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
         J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
     ],
-    ("JM", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
-                  "+ Équipe 1", "commun", caw="PANDA+")],
+    ("JM", 4): [
+        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé", caw="PANDA+"),
+        J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+          "+ Équipe 1", "commun", caw="PANDA+"),
+    ],
 
     # Mercredi 18 et jeudi 19/11 : l Equipe 2 sur le 680552 (BB Neuron, Huy),
     # repris de l Equipe 1 qui l a fait les 10 et 12/11 en S46. C@W PANDA+,
@@ -274,9 +277,9 @@ PLANNING = {
     # 649647 (rue de Lexhy, Fexhe), que Johan le rejoint l APRES-MIDI.
     ("PM", 1): [J("649647", "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
                   "+ J. Meurisse · après-midi", "commun", caw="PANDA+")],
+    # 17/11 : le 535147 n a PAS ete fait aujourd hui ; il part au vendredi,
+    # avant le 662190. Johan ne garde que le 649647 de l apres-midi.
     ("JM", 1): [
-        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
-          caw="PANDA+"),
         J("649647", "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
           "+ P. Mattiuz", "commun", q=AM, caw="PANDA+"),
     ],

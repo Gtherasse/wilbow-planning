@@ -1867,6 +1867,15 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **17/11 (fin de journée) — Johan n'a PAS fait le `535147` aujourd'hui** : il part au
+  **vendredi 20/11, avant le `662190`**. Son mardi ne garde que le `649647` de
+  l'après-midi, avec Pierre. **Sa matinée du mardi est donc vide** — à me dire ce qu'il
+  y a fait, pour que la grille reflète le réel.
+  **Quatrième déplacement de ce dossier en une semaine** : vendredi 20 (retiré le 10/11),
+  lundi 16 (retiré le 16/11), mardi 17 — et de nouveau vendredi 20. **Il revient à sa
+  date de départ.**
+  **Monday.com** : `535147` — **Jointage re-daté du 17 au 20/11**, Meurisse inchangé.
+
 - **17/11 (fin de journée) — la semaine de l'Équipe 1 se resserre :**
   - **Le `655649` (Andenne) quitte le mercredi et remonte à AUJOURD'HUI mardi 17**, après
     le DSTNY BE : **ils l'ont fait dans la foulée**. C'est une mise à jour du réel, pas
