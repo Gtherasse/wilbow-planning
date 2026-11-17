@@ -2225,6 +2225,31 @@ puisqu'elles manquent déjà, mais sans que personne ne le voie.
 
 ---
 
+**17/11/2026 — CORRECTION RÉTROACTIVE sur le vendredi 13/11 : Johan et Pierre n'étaient
+pas sur le `682463`, mais sur la « Mesure FH 32 Supplémentaire ».**
+Après le Cup Pasta Médiacité, leur second chantier du vendredi était la **Mesure FH 32
+Supplémentaire** (item `3304761656`, sans numéro JMS, intitulé cliquable), C@W
+**PANDA+**. Le `682463` est retiré de leur vendredi — **il reste bien au jeudi 12/11 pour
+l'Équipe 1**, ce passage-là ayant eu lieu.
+
+**C'est la première correction a posteriori d'une semaine déjà écoulée.** La grille de la
+S46 ne reflétait pas la réalité du terrain : elle est désormais juste.
+
+**Monday.com — deux corrections :**
+- `Mesure FH 32 Supplémentaire` — Jointage **re-daté du 18 au 13/11**, et **Mattiuz
+  remplacé par Meurisse + Mattiuz**. Le 18/11 était la date prévue en S47, où le chantier
+  a été supprimé le 16/11 : il avait en réalité déjà été fait le 13. Son statut est
+  **« A Encoder »**, mis par quelqu'un d'autre entre-temps — je ne l'ai pas touché, et il
+  confirme que le chantier est bien terminé.
+- `682463` — Jointage **re-daté du 13 au 16/11, Pierre seul**. Le passage du 13 n'ayant
+  pas eu lieu, la date reflète maintenant **son vrai passage d'hier lundi** (S47). Son
+  statut « En Cours Jointage » n'est pas touché.
+
+⚠️ **Le relevé d'heures du `682463` porte « 22/10 : MB + FH + MD + SF : 32H »** — rien
+pour les passages de novembre. La « Mesure FH 32 » n'a aucun relevé du tout.
+
+---
+
 ## Semaine 46 (09/11 au 13/11/2026) — créée le 30/10/2026
 
 Script `Planning/Config/_modele_planning_s46.py`, copié de la S45. PDF

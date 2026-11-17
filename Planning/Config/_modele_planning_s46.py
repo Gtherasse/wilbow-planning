@@ -96,6 +96,7 @@ LIENS = {
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
 SIGN  = "https://wilbow.monday.com/boards/5089236279/pulses/2832088996"  # SignaDyn - Zone D - Soufflage et Soudage reste zone D
 FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32 FEED-IN
+MESFH32 = "https://wilbow.monday.com/boards/5089236279/pulses/3304761656"  # Mesure FH 32 Supplementaire
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
@@ -248,16 +249,20 @@ PLANNING = {
     **{(r["id"], 2): ABS("FÉRIÉ") for r in RESSOURCES if r["id"] not in ("DP", "AN")},
 
     # Vendredi 13/11 : Johan et Pierre sur le 681226, sous reserve du client.
-    # 11/11 : tous deux enchainent sur le 682463 apres le Cup Pasta.
+    # 11/11 : tous deux enchainent sur un second chantier apres le Cup Pasta.
+    # 17/11 : CORRECTION a posteriori — ce n etait pas le 682463 mais la
+    # « Mesure FH 32 Supplementaire ». Le 682463 est retire de leur vendredi.
     ("JM", 4): [
         J("681226", "GB — Cup Pasta Médiacité",
           "+ P. Mattiuz · sous réserve du client", "commun", caw="PANDA+"),
-        J("682463", "OL — E.T.N.I.C., Avenue du Condroz 3, Huy", "+ P. Mattiuz", "commun", caw="PANDA+"),
+        X("Mesure FH 32 Supplémentaire", "+ P. Mattiuz", "commun",
+          url=MESFH32, caw="PANDA+"),
     ],
     ("PM", 4): [
         J("681226", "GB — Cup Pasta Médiacité",
           "+ J. Meurisse · sous réserve du client", "commun", caw="PANDA+"),
-        J("682463", "OL — E.T.N.I.C., Avenue du Condroz 3, Huy", "+ J. Meurisse", "commun", caw="PANDA+"),
+        X("Mesure FH 32 Supplémentaire", "+ J. Meurisse", "commun",
+          url=MESFH32, caw="PANDA+"),
     ],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
