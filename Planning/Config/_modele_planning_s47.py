@@ -238,8 +238,14 @@ PLANNING = {
     # code deja etabli. Ces deux journees ont ete RAPPROCHEES d un jour le
     # 13/11 : elles etaient au jeudi et au vendredi. Le vendredi redevient
     # gris.
-    **{("E2", i): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
-                     caw="PANDA+")] for i in (2, 3)},
+    # 17/11 : le 646374 (BEA Ougree) prend le MATIN du mercredi ; le 680552,
+    # le chantier prevu, suit dans la journee. Le jeudi ne change pas.
+    ("E2", 2): [
+        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
+        J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)", caw="PANDA+"),
+    ],
+    ("E2", 3): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
+                  caw="PANDA+")],
 
     # Vendredi 20/11 : l Equipe 2 sur le 631501 (INTERCO BURGRE-01 BUR50).
     # Chantier du groupe BTO du board, mais C@W PANDA+ (Geoffrey, 13/11).
@@ -278,13 +284,14 @@ PLANNING = {
 
     # 17/11 : Avenia Geoffrey quitte le depot les trois derniers jours.
     # Mercredi et jeudi sur le 645656 (Burg-Reuland FH01 cluster 16), C@W
-    # PANDA+ donne par Geoffrey ; vendredi sur le 631501, deja au planning
+    # GO FIBER (corrige le 17/11) ; vendredi sur le 631501, deja au planning
     # de l Equipe 2 ce jour-la. Giuseppe Caruso et Fabrice Gaspard n ont pas
     # de ligne RESSOURCES : ils apparaissent en pastille.
+    # 17/11 : correction — le 645656 est du GO FIBER, pas du PANDA+.
     ("GA", 2): [J("645656", "Burg-Reuland FH01 cluster 16",
-                  "+ G. Caruso · F. Gaspard", "commun", caw="PANDA+")],
+                  "+ G. Caruso · F. Gaspard", "commun", caw="GO FIBER")],
     ("GA", 3): [J("645656", "Burg-Reuland FH01 cluster 16",
-                  "+ F. Gaspard", "commun", caw="PANDA+")],
+                  "+ F. Gaspard", "commun", caw="GO FIBER")],
     ("GA", 4): [J("631501", "INTERCO BURGRE-01 BUR50",
                   "+ F. Gaspard", "commun", caw="PANDA+")],
 

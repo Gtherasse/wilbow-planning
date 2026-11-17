@@ -1867,15 +1867,25 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **17/11 — Mercredi 18/11 : le `646374` prend le MATIN de l'Équipe 2**, le `680552`
+  (BB Neuron, Huy) suivant dans la journée. C@W **BEA OUGRÉE**. C'est son **troisième
+  jour consécutif** sur le BEA d'Ougrée, après le lundi et le mardi. Le jeudi ne change
+  pas.
+  ⚠️ **Le destinataire n'était pas précisé dans la demande** — quatre lignes avaient un
+  chantier mercredi. Geoffrey a confirmé qu'il s'agissait de l'Équipe 2.
+  **Monday.com** : `646374` — **Soufflage laissé au 12/11**, avec les mêmes Dominguez +
+  Feller. Même équipe qui poursuit, item déjà en « En cours Soufflage ».
+
 - **17/11 — Avenia Geoffrey quitte le dépôt les trois derniers jours :**
   - **Mercredi 18 et jeudi 19/11 — le `645656`** (Burg-Reuland FH01 cluster 16 ; item
-    `3329942831`). C@W **PANDA+**, donné par Geoffrey. **Avec Giuseppe Caruso et Fabrice
+    `3329942831`). C@W ~~PANDA+~~ → **GO FIBER** (`1Y102XHX3W2MZ`), **corrigé par
+    Geoffrey le 17/11** quelques heures après l'avoir donné. **Avec Giuseppe Caruso et Fabrice
     Gaspard le mercredi**, **Fabrice seul le jeudi**.
   - **Vendredi 20/11 — le `631501`** (INTERCO BURGRE-01 BUR50), **avec Fabrice**.
   Caruso et Gaspard n'ayant pas de ligne `RESSOURCES`, ils figurent en pastille.
 
   ✅ **Le `645656` est classé BTO sur le board** — groupe BTO, statut BTO, **client
-  BTO** — alors que Geoffrey lui donne un C@W **PANDA+**. En application de la règle du
+  BTO** — alors que son C@W est **GO FIBER**. En application de la règle du
   14/11 (**c'est le code C@W qui tranche, pas le groupe**), il a été traité comme un
   chantier normal : Soufflage encodé et statut passé en **Planifié**. **Geoffrey a
   confirmé ce traitement le 17/11.** C'est le deuxième cas après le `631501`, et le
