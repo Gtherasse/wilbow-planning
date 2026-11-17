@@ -161,8 +161,14 @@ PLANNING = {
     # 12/11 : les chantiers du lundi et du mardi sont INVERSES entre les deux
     # equipes. Le 687329 (DSTNY BE, Engis) passe donc a l Equipe 1 ces deux
     # jours ; Pierre y passe toujours le mercredi 18/11.
-    **{("E1", i): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
-                     caw="PANDA+")] for i in (0, 1)},
+    ("E1", 0): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+                  caw="PANDA+")],
+    # 17/11 : le 655649 quitte le mercredi et remonte a AUJOURD HUI mardi,
+    # apres le DSTNY BE — ils l ont fait dans la foulee.
+    ("E1", 1): [
+        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis", caw="PANDA+"),
+        J("655649", "RZ FTTH DIST double Sol — Rue Bertrand 79-83, Andenne (2 MDU, 16 LU)", caw="PANDA+"),
+    ],
 
     # Lundi 16/11 : l Equipe 2 reprend son chantier du jeudi 12/11, le BEA
     # d Ougree (demande du 12/11, sa case etant liberee par l inversion).
@@ -256,10 +262,11 @@ PLANNING = {
     # Pierre y passe le vendredi 20/11.
     # 16/11 : le 680993 est decale du mercredi au VENDREDI, ou il rejoint le
     # 662190 repris a l Equipe 2. Le 655649 (Andenne) prend le mercredi.
-    ("E1", 2): [J("655649", "RZ FTTH DIST double Sol — Rue Bertrand 79-83, Andenne (2 MDU, 16 LU)", caw="PANDA+")],
     # 16/11 (soir) : le 680993 passe du vendredi au JEUDI pour l Equipe 1.
     # Son vendredi ne garde que le 662190, avec Johan.
-    ("E1", 3): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+")],
+    # 17/11 : le 680993, un temps au vendredi puis au jeudi, passe au
+    # MERCREDI. Le jeudi est laisse libre pour le moment.
+    ("E1", 2): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+")],
     ("E1", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
                   "+ J. Meurisse", "commun", caw="PANDA+")],
 

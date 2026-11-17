@@ -1867,6 +1867,24 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **17/11 (fin de journée) — la semaine de l'Équipe 1 se resserre :**
+  - **Le `655649` (Andenne) quitte le mercredi et remonte à AUJOURD'HUI mardi 17**, après
+    le DSTNY BE : **ils l'ont fait dans la foulée**. C'est une mise à jour du réel, pas
+    une planification.
+  - **Le `680993` (Ribeaucourt) passe au mercredi 18.** Troisième date pour ce chantier :
+    vendredi 20, puis jeudi 19 hier, et maintenant mercredi 18.
+  - **Le jeudi 19 est laissé libre pour le moment** — case grise, à remplir.
+
+  | Équipe 1 | lundi 16 | mardi 17 | mercredi 18 | jeudi 19 | vendredi 20 |
+  |---|---|---|---|---|---|
+  | | `687329` | `687329` + `655649` | `680993` | *(gris)* | `662190` + Johan |
+
+  **Monday.com** : `655649` — **Soufflage re-daté du 18 au 17/11** ; `680993` —
+  **Soufflage re-daté du 19 au 18/11**. Leurs personnes ne changent pas, et le Jointage
+  du `680993` garde Mattiuz au 20/11.
+  ⚠️ **Pierre jointe donc le `680993` le vendredi, deux jours après le soufflage** du
+  mercredi, au lieu du lendemain. À me dire s'il doit avancer lui aussi.
+
 - **17/11 — Mercredi 18/11 : le `646374` prend le MATIN de l'Équipe 2**, le `680552`
   (BB Neuron, Huy) suivant dans la journée. C@W **BEA OUGRÉE**. C'est son **troisième
   jour consécutif** sur le BEA d'Ougrée, après le lundi et le mardi. Le jeudi ne change
