@@ -105,6 +105,7 @@ MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vér
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
 FH40 = "https://wilbow.monday.com/boards/5089236279/pulses/3288631715"  # FH 40 Feed-In
+UNIFIBER = "https://wilbow.monday.com/boards/5089236279/pulses/3362886387"  # Rectification Unifiber FZ
 HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
 BORNESLG = "https://wilbow.monday.com/boards/5089236279/pulses/3297165250"  # Bornes Liege Expo
 VALBENOIT = "https://wilbow.monday.com/boards/5089236279/pulses/3292906173"  # Val Benoit et Grosses-Battes CCTV
@@ -269,10 +270,17 @@ PLANNING = {
     # Le 688836 (mercredi) et le 690640 (jeudi), deplaces depuis la S46 le
     # 03/11, sont ANNULES le 16/11 : Johan passe en BTO ces deux jours.
     # Tous deux etaient avec Mike Wilvers, en pastille.
-    **{("JM", i): [X("BTO", caw="BTO")] for i in (2, 3)},
+    # 17/11 : le BTO du mercredi 18 est remplace par la Rectification
+    # Unifiber FZ, pour Johan comme pour Dan. C@W PANDA+ (Geoffrey, 17/11).
+    ("JM", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
+    ("JM", 3): [X("BTO", caw="BTO")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    # Dan : BTO, sauf le mercredi 18 ou il fait la Rectification Unifiber FZ
+    # avec Johan (17/11). Le mercredi est exclu de la comprehension, sinon
+    # elle ecraserait cette prestation.
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 3, 4)},
+    ("DP", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 

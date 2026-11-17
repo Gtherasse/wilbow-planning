@@ -1867,6 +1867,18 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **17/11 — Mercredi 18/11 : Johan et Dan sur la « Rectification Unifiber FZ »**, à la
+  place de leur BTO. Chantier **sans numéro JMS** : l'intitulé est cliquable (item
+  `3362886387`, client **Unifiber**, déjà au statut `Planifié`).
+  **C@W PANDA+**, vérifié par Geoffrey : il n'existe **aucun code « Unifiber » propre**,
+  ni dans le dict `CODES` ni dans le PDF des codes.
+  **C'est la première fois que Dan quitte le BTO depuis sa nuit du 10/11.** Le mercredi
+  a été exclu de sa comprehension BTO pour ne pas écraser la prestation — même piège
+  qu'en S46 et que pour Andreï en S48.
+  **Monday.com** : **Jointage Meurisse + Panait au 18/11**, colonne vide jusqu'ici. Le
+  statut était déjà `Planifié`. **L'exception BTO ne s'applique pas** : le client est
+  Unifiber et le C@W PANDA+, donc chantier normal au sens de la règle du 14/11.
+
 - **16/11 (soir, ter) — le `680993` passe du vendredi au JEUDI pour l'Équipe 1.** Son
   jeudi, le dernier jour gris de sa semaine, est donc rempli, et son **vendredi ne garde
   que le `662190`**, avec Johan.
