@@ -1867,6 +1867,28 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **18/11 (soir) — le jeudi 19/11 est redistribué sur quatre lignes :**
+  - **Johan — le `646372` et le `646374`** (BEA Ougrée), repris à Pierre. **Son BTO du
+    jeudi disparaît**, ce qui solde l'annulation du 16/11 : il n'a plus de BTO cette
+    semaine.
+  - **Pierre — le `687329`** (DSTNY BE, Engis), qu'il reprend après le passage de Johan
+    d'aujourd'hui, **et le FH 40 Feed-In** qu'il garde. Les deux JMS du BEA qu'il avait
+    partent à Johan.
+  - **Dan et Florian — la « Rectification Unifiber FZ1984 » continue au jeudi**, deuxième
+    journée consécutive. **Leur BTO du jeudi disparaît** aussi.
+  **Plus aucun BTO en milieu de semaine** pour ces trois-là : seul Andreï en garde cinq.
+
+  **Monday.com** :
+  - `646372` et `646374` — **Jointage : Mattiuz remplacé par Meurisse**, date du 19/11
+    inchangée.
+  - `FH 40 Feed-In` — déjà Mattiuz au 19/11, rien à changer.
+  - `Rectification Unifiber FZ1984` — Hanikenne + Panait au 18/11, premier des deux
+    jours ; rien à changer.
+  - ⚠️ **`687329` — Jointage laissé à Meurisse au 18/11.** C'est le passage d'aujourd'hui,
+    quand Johan a repris la journée de Pierre absent. Le re-dater au 19/11 avec Mattiuz
+    effacerait cette trace, et son relevé d'heures est vide. **Le passage de Pierre
+    demain n'apparaît donc pas sur Monday.**
+
 - **18/11 (après-midi) — le `680993` repart au JEUDI pour l'Équipe 1.** Son mercredi ne
   garde donc que le `646374` du matin, repris à l'Équipe 2. **Quatrième date pour ce
   chantier** : vendredi 20, jeudi 19, mercredi 18 — et de nouveau jeudi 19.

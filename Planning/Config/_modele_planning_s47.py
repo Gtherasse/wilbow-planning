@@ -191,9 +191,10 @@ PLANNING = {
 
     # Jeudi 19/11 (16/11) : le FH 32 est supprime, le FH 40 reste. Les deux
     # JMS du BEA d Ougree, reportes de son mardi, passent au MATIN.
+    # 18/11 : le BEA d Ougree passe a Johan ; Pierre prend le 687329 et
+    # garde le FH 40 Feed-In.
     ("PM", 3): [
-        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
-        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
+        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis", caw="PANDA+"),
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
     ],
 
@@ -299,7 +300,11 @@ PLANNING = {
         J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
           q=AM, caw="PANDA+"),
     ],
-    ("JM", 3): [X("BTO", caw="BTO")],
+    # 18/11 : le BTO du jeudi laisse place au BEA d Ougree, repris a Pierre.
+    ("JM", 3): [
+        J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
+        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
+    ],
 
     # 17/11 : Avenia Geoffrey quitte le depot les trois derniers jours.
     # Mercredi et jeudi sur le 645656 (Burg-Reuland FH01 cluster 16), C@W
@@ -318,13 +323,16 @@ PLANNING = {
     # Dan : BTO, sauf le mercredi 18 ou il fait la Rectification Unifiber FZ
     # avec Johan (17/11). Le mercredi est exclu de la comprehension, sinon
     # elle ecraserait cette prestation.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 3, 4)},
-    ("DP", 2): [X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+")],
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 4)},
+    # 18/11 : le jeudi rejoint le mercredi sur la Rectification Unifiber.
+    **{("DP", i): [X("Rectification Unifiber FZ1984", url=UNIFIBER,
+                     caw="PANDA+")] for i in (2, 3)},
     # Florian : BTO, sauf le mercredi 18 ou il reprend la Rectification
     # Unifiber FZ de Johan, avec Dan (18/11). Le mercredi est exclu de la
     # comprehension, sinon elle ecraserait cette prestation.
-    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 1, 3, 4)},
-    ("FH", 2): [X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+")],
+    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 1, 4)},
+    **{("FH", i): [X("Rectification Unifiber FZ1984", url=UNIFIBER,
+                     caw="PANDA+")] for i in (2, 3)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 
     # Le reste de la semaine est a confirmer : cases grisees.
