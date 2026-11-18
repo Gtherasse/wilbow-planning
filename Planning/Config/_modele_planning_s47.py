@@ -106,7 +106,7 @@ MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vér
 VICINAL = "https://wilbow.monday.com/boards/5089236279/pulses/3159304163"  # 603753 + 671456, rue Du Vicinal, Clavier
 FH44 = "https://wilbow.monday.com/boards/5089236279/pulses/3241665311"  # FH 44 Feed-in
 FH40 = "https://wilbow.monday.com/boards/5089236279/pulses/3288631715"  # FH 40 Feed-In
-UNIFIBER = "https://wilbow.monday.com/boards/5089236279/pulses/3362886387"  # Rectification Unifiber FZ
+UNIFIBER = "https://wilbow.monday.com/boards/5089236279/pulses/3362886387"  # Rectification Unifiber FZ1984
 HT1517C = "https://wilbow.monday.com/boards/5089236279/pulses/3264374398"  # HT 1517C
 BORNESLG = "https://wilbow.monday.com/boards/5089236279/pulses/3297165250"  # Bornes Liege Expo
 VALBENOIT = "https://wilbow.monday.com/boards/5089236279/pulses/3292906173"  # Val Benoit et Grosses-Battes CCTV
@@ -313,12 +313,12 @@ PLANNING = {
     # avec Johan (17/11). Le mercredi est exclu de la comprehension, sinon
     # elle ecraserait cette prestation.
     **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 3, 4)},
-    ("DP", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
+    ("DP", 2): [X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+")],
     # Florian : BTO, sauf le mercredi 18 ou il reprend la Rectification
     # Unifiber FZ de Johan, avec Dan (18/11). Le mercredi est exclu de la
     # comprehension, sinon elle ecraserait cette prestation.
     **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 1, 3, 4)},
-    ("FH", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
+    ("FH", 2): [X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+")],
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 
     # Le reste de la semaine est a confirmer : cases grisees.

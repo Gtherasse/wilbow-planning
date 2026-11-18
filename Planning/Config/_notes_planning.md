@@ -1879,11 +1879,11 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   dates du 18/11 inchangées. `Rectification Unifiber FZ` — **Jointage : Meurisse
   remplacé par Hanikenne**, Panait conservé.
 
-  ⚠️ **L'item Unifiber a été RENOMMÉ entre-temps** : il s'appelle désormais
-  **« Rectification Unifiber FZ1984 »** sur Monday, alors que la grille porte
-  « Rectification Unifiber FZ ». Je n'ai pas changé le libellé de la grille —
-  **dis-moi si tu veux que j'y reprenne le `FZ1984`**, qui désigne sans doute une zone
-  précise et serait plus utile sur le terrain.
+  ✅ **L'item Unifiber a été RENOMMÉ entre-temps** en **« Rectification Unifiber
+  FZ1984 »** sur Monday. **Geoffrey a demandé le 18/11 de reprendre ce libellé** : la
+  grille porte désormais `Rectification Unifiber FZ1984`, dans les deux cases (Florian et
+  Dan) et sur les deux pages. L'orthographe suit celle de l'item Monday, sans espace
+  avant le nombre.
 
 - **17/11 (fin de journée) — Johan n'a PAS fait le `535147` aujourd'hui** : il part au
   **vendredi 20/11, avant le `662190`**. Son mardi ne garde que le `649647` de
