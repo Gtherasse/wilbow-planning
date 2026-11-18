@@ -1867,6 +1867,24 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **18/11 — Pierre est ABSENT aujourd'hui : permutation en chaîne sur trois lignes.**
+  - **Pierre** → sa case du mercredi passe en **ABSENT**. **Motif non précisé** : j'ai
+    mis le motif générique. Durée inconnue, seul le mercredi est traité.
+  - **Johan reprend sa journée** : le `691421` (Weerts Supply Chain, Oupeye) le MATIN et
+    le `687329` (DSTNY BE, Engis) l'APRÈS-MIDI, avec les quarts d'origine.
+  - **Florian reprend la « Rectification Unifiber FZ » de Johan**, qu'il fait **avec
+    Dan**, dont la journée ne change pas. Le mercredi a été exclu de sa comprehension
+    BTO — **quatrième fois que ce piège se présente**.
+  **Monday.com** : `691421` et `687329` — **Jointage : Mattiuz remplacé par Meurisse**,
+  dates du 18/11 inchangées. `Rectification Unifiber FZ` — **Jointage : Meurisse
+  remplacé par Hanikenne**, Panait conservé.
+
+  ⚠️ **L'item Unifiber a été RENOMMÉ entre-temps** : il s'appelle désormais
+  **« Rectification Unifiber FZ1984 »** sur Monday, alors que la grille porte
+  « Rectification Unifiber FZ ». Je n'ai pas changé le libellé de la grille —
+  **dis-moi si tu veux que j'y reprenne le `FZ1984`**, qui désigne sans doute une zone
+  précise et serait plus utile sur le terrain.
+
 - **17/11 (fin de journée) — Johan n'a PAS fait le `535147` aujourd'hui** : il part au
   **vendredi 20/11, avant le `662190`**. Son mardi ne garde que le `649647` de
   l'après-midi, avec Pierre. **Sa matinée du mardi est donc vide** — à me dire ce qu'il

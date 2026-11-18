@@ -183,12 +183,8 @@ PLANNING = {
     # 16/11 : les deux FH 32 sont SUPPRIMES de son mercredi, puis le 691421
     # (Weerts Supply Chain, Oupeye) prend le MATIN et le DSTNY BE passe a
     # l APRES-MIDI. C@W PANDA+ confirme pour le 691421.
-    ("PM", 2): [
-        J("691421", "OL — Weerts Supply Chain, Rue du Trilogiport 4, Oupeye",
-          q=MATIN, caw="PANDA+"),
-        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
-          q=AM, caw="PANDA+"),
-    ],
+    # 18/11 : Pierre est ABSENT aujourd hui. Sa journee passe a Johan.
+    ("PM", 2): ABS("ABSENT"),
 
     # Jeudi 19/11 (16/11) : le FH 32 est supprime, le FH 40 reste. Les deux
     # JMS du BEA d Ougree, reportes de son mardi, passent au MATIN.
@@ -289,7 +285,14 @@ PLANNING = {
     # Tous deux etaient avec Mike Wilvers, en pastille.
     # 17/11 : le BTO du mercredi 18 est remplace par la Rectification
     # Unifiber FZ, pour Johan comme pour Dan. C@W PANDA+ (Geoffrey, 17/11).
-    ("JM", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
+    # 18/11 : Johan reprend la journee de Pierre, absent. Sa Rectification
+    # Unifiber FZ passe a Florian, qui la fait avec Dan.
+    ("JM", 2): [
+        J("691421", "OL — Weerts Supply Chain, Rue du Trilogiport 4, Oupeye",
+          q=MATIN, caw="PANDA+"),
+        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+          q=AM, caw="PANDA+"),
+    ],
     ("JM", 3): [X("BTO", caw="BTO")],
 
     # 17/11 : Avenia Geoffrey quitte le depot les trois derniers jours.
@@ -311,7 +314,11 @@ PLANNING = {
     # elle ecraserait cette prestation.
     **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 3, 4)},
     ("DP", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
-    **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
+    # Florian : BTO, sauf le mercredi 18 ou il reprend la Rectification
+    # Unifiber FZ de Johan, avec Dan (18/11). Le mercredi est exclu de la
+    # comprehension, sinon elle ecraserait cette prestation.
+    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 1, 3, 4)},
+    ("FH", 2): [X("Rectification Unifiber FZ", url=UNIFIBER, caw="PANDA+")],
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 
     # Le reste de la semaine est a confirmer : cases grisees.
