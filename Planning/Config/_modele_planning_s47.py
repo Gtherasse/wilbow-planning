@@ -245,10 +245,9 @@ PLANNING = {
     # gris.
     # 17/11 : le 646374 (BEA Ougree) prend le MATIN du mercredi ; le 680552,
     # le chantier prevu, suit dans la journee. Le jeudi ne change pas.
-    ("E2", 2): [
-        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
-        J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)", caw="PANDA+"),
-    ],
+    # 18/11 : Miguel est ABSENT. Le 646374 du matin passe a l Equipe 1 et le
+    # 680552 est annule pour aujourd hui ; il reste au jeudi.
+    ("E2", 2): [A("ABSENT", q="M. Dominguez")],
     ("E2", 3): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
                   caw="PANDA+")],
 
@@ -265,7 +264,12 @@ PLANNING = {
     # Son vendredi ne garde que le 662190, avec Johan.
     # 17/11 : le 680993, un temps au vendredi puis au jeudi, passe au
     # MERCREDI. Le jeudi est laisse libre pour le moment.
-    ("E1", 2): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+")],
+    # 18/11 : le 646374 du matin, repris a l Equipe 2 dont Miguel est absent.
+    ("E1", 2): [
+        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
+        J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
+          caw="PANDA+"),
+    ],
     ("E1", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
                   "+ J. Meurisse", "commun", caw="PANDA+")],
 
@@ -542,23 +546,23 @@ def build(HLIGNE, rows, badge="PLANNING CONFIRMÉ", soustitre=None, pied2=None):
 body {{ font-family:"DejaVu Sans",Arial,sans-serif; margin:0; color:#111827; }}
 .head {{ display:flex; align-items:center; justify-content:space-between;
         border-bottom:2.235pt solid #0f172a; padding-bottom:1.2mm; margin-bottom:1.6mm; }}
-.brand {{ font-size:14.592pt; font-weight:800; letter-spacing:2.235pt; color:#0f172a; line-height:1;
+.brand {{ font-size:14.008pt; font-weight:800; letter-spacing:2.235pt; color:#0f172a; line-height:1;
          flex:0 0 auto; }}
 .brand img {{ display:block; height:9mm; width:auto; border-radius:1mm; }}
-.brand small {{ display:block; font-size:5.236pt; font-weight:600; letter-spacing:1.163pt; color:#64748b; margin-top:.7mm; }}
+.brand small {{ display:block; font-size:5.027pt; font-weight:600; letter-spacing:1.163pt; color:#64748b; margin-top:.7mm; }}
 .title {{ text-align:center; }}
-.title .wk {{ font-size:11.159pt; font-weight:800; color:#0f172a; letter-spacing:.4.471pt; }}
-.title .dt {{ font-size:7.125pt; color:#475569; margin-top:.7mm; font-weight:600; }}
+.title .wk {{ font-size:10.713pt; font-weight:800; color:#0f172a; letter-spacing:.4.471pt; }}
+.title .dt {{ font-size:6.840pt; color:#475569; margin-top:.7mm; font-weight:600; }}
 .badge {{ text-align:right; }}
-.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:6.695pt; font-weight:800;
+.badge .tag {{ display:inline-block; background:#15803d; color:#fff; font-size:6.427pt; font-weight:800;
               padding:1.3mm 2.8mm; border-radius:1.2mm; letter-spacing:.5.364pt; }}
-.badge .maj {{ font-size:5.665pt; color:#64748b; margin-top:1.1mm; }}
+.badge .maj {{ font-size:5.438pt; color:#64748b; margin-top:1.1mm; }}
 
 table {{ width:100%; border-collapse:collapse; table-layout:fixed; }}
 col {{ width:{LARG:.4f}%; }}
-th.day {{ background:#0f172a; color:#fff; font-size:7.983pt; font-weight:800; letter-spacing:.6.258pt;
+th.day {{ background:#0f172a; color:#fff; font-size:7.664pt; font-weight:800; letter-spacing:.6.258pt;
          padding:1mm 1mm; border:0.626pt solid #0f172a; text-transform:uppercase; text-align:center; }}
-th.day span {{ display:block; font-size:6.524pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
+th.day span {{ display:block; font-size:6.263pt; font-weight:600; color:#cbd5e1; letter-spacing:0; }}
 
 td {{ border:0.626pt solid #cbd5e1; border-left-width:2.146pt; border-left-style:solid;
      border-bottom:1.43pt solid #0f172a; vertical-align:top; padding:1.0mm 1.4mm; height:{HLIGNE}mm; }}
@@ -566,9 +570,9 @@ tr.grp-end td {{ border-bottom:2.683pt solid #0f172a; }}
 tr.compact td {{ height:auto; }}
 tr:last-child td {{ border-bottom:1.43pt solid #0f172a; }}
 .hdr {{ padding-bottom:.3mm; margin-bottom:.5mm; border-bottom:0.626pt solid rgba(15,23,42,.18); }}
-.rlabel {{ font-size:4.979pt; font-weight:800; letter-spacing:.7.154pt; text-transform:uppercase; }}
-.rtag {{ font-size:4.807pt; font-weight:800; letter-spacing:.6.258pt; text-transform:uppercase; margin-left:1.4mm; }}
-.rname {{ font-size:6.524pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
+.rlabel {{ font-size:4.780pt; font-weight:800; letter-spacing:.7.154pt; text-transform:uppercase; }}
+.rtag {{ font-size:4.615pt; font-weight:800; letter-spacing:.6.258pt; text-transform:uppercase; margin-left:1.4mm; }}
+.rname {{ font-size:6.263pt; font-weight:700; color:#0f172a; line-height:1.1; margin-top:.3mm; }}
 
 .body {{ }}
 .body.empty {{ background:#eef2f6; border:0.537pt solid #d5dde5; border-radius:.8mm;
@@ -581,16 +585,16 @@ tr:last-child td {{ border-bottom:1.43pt solid #0f172a; }}
 /* Hauteur reservee pour la pastille d absence du lendemain, dans la case qui
    porte la nuit : jamais visible. */
 .absspacer {{ visibility:hidden; border-radius:.8mm; text-align:center; padding:1.5mm 0; }}
-.absl {{ font-size:7.296pt; font-weight:800; letter-spacing:1.072pt; }}
+.absl {{ font-size:7.004pt; font-weight:800; letter-spacing:1.072pt; }}
 .job {{ line-height:1.2; }}
 .job + .job {{ margin-top:.35mm; padding-top:.35mm; border-top:0.537pt dashed #94a3b8; }}
-.jms {{ font-size:6.953pt; font-weight:800; color:#0f172a; }}
-.jms.nonum {{ font-size:6.781pt; line-height:1.18; letter-spacing:.25pt; }}
+.jms {{ font-size:6.675pt; font-weight:800; color:#0f172a; }}
+.jms.nonum {{ font-size:6.510pt; line-height:1.18; letter-spacing:.25pt; }}
 .jms a, .jms.nonum a {{ color:#1d4ed8; text-decoration:none; }}
-.ext {{ font-size:5.665pt; margin-left:.8mm; color:#1d4ed8; }}
-.lib {{ font-size:5.922pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
+.ext {{ font-size:5.438pt; margin-left:.8mm; color:#1d4ed8; }}
+.lib {{ font-size:5.685pt; color:#334155; margin-top:.2mm; line-height:1.15; }}
 .lib.code {{ letter-spacing:.2.683pt; color:#1e293b; }}
-.note {{ display:inline-block; font-size:5.236pt; font-weight:700; padding:.35mm 1.2mm;
+.note {{ display:inline-block; font-size:5.027pt; font-weight:700; padding:.35mm 1.2mm;
         border-radius:.8mm; margin-top:.6mm; letter-spacing:.2.683pt; }}
 .n-renfort {{ background:#fef3c7; color:#92400e; border:0.447pt solid #fcd34d; }}
 .n-commun {{ background:#e0e7ff; color:#3730a3; border:0.447pt solid #a5b4fc; }}
@@ -608,24 +612,24 @@ tr:last-child td {{ border-bottom:1.43pt solid #0f172a; }}
 .job.cheval .per.nuit {{ background:#334155; color:#fff; }}
 .job.chevalspacer {{ visibility:hidden; padding:0.7mm 1.4mm; border-top:0; margin-top:0; }}
 .perline {{ margin-bottom:.2mm; }}
-.per {{ display:inline-block; font-size:4.807pt; font-weight:800; letter-spacing:.5.364pt;
+.per {{ display:inline-block; font-size:4.615pt; font-weight:800; letter-spacing:.5.364pt;
       text-transform:uppercase; padding:.3mm 1.2mm; border-radius:.7mm; }}
 .per.jour {{ background:#e2e8f0; color:#334155; }}
 .per.nuit {{ background:#1e293b; color:#fff; }}
 .compactabs {{ display:flex; align-items:center; justify-content:space-between; gap:1.5mm; }}
-.qui {{ font-size:6.351pt; font-weight:700; color:#0f172a; }}
-.statut {{ font-size:5.321pt; font-weight:800; letter-spacing:.5.364pt; padding:.35mm 1.4mm;
+.qui {{ font-size:6.097pt; font-weight:700; color:#0f172a; }}
+.statut {{ font-size:5.108pt; font-weight:800; letter-spacing:.5.364pt; padding:.35mm 1.4mm;
          border-radius:.8mm; white-space:nowrap; }}
 .job + .job.compactabs {{ margin-top:.6mm; padding-top:.6mm; }}
-.ligneabs {{ font-size:6.351pt; font-weight:800; letter-spacing:.8.048pt; text-align:center;
+.ligneabs {{ font-size:6.097pt; font-weight:800; letter-spacing:.8.048pt; text-align:center;
            border-radius:.8mm; padding:.7mm 0; }}
-.dash {{ font-size:6.524pt; color:#8a97a6; font-weight:600; }}
+.dash {{ font-size:6.263pt; color:#8a97a6; font-weight:600; }}
 .barre-overlay {{ position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;
   background:linear-gradient(to top right, transparent calc(50% - 0.5mm), #94a3b8 calc(50% - 0.5mm),
   #94a3b8 calc(50% + 0.5mm), transparent calc(50% + 0.5mm)); }}
 
 .foot {{ display:flex; justify-content:space-between; align-items:center; margin-top:1.2mm;
-        padding-top:1mm; border-top:0.894pt solid #cbd5e1; font-size:5.665pt; color:#64748b; }}
+        padding-top:1mm; border-top:0.894pt solid #cbd5e1; font-size:5.438pt; color:#64748b; }}
 .foot b {{ color:#334155; }}
 .key {{ display:inline-block; width:3mm; height:2.2mm; background:#eef2f6; border:0.537pt solid #d5dde5;
        vertical-align:-.3mm; margin-right:.8mm; }}

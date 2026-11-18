@@ -1867,6 +1867,31 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **18/11 — Miguel est ABSENT lui aussi : deux absences le même jour, avec Pierre.**
+  - **Le `646374`** (BEA Ougrée), son chantier du MATIN, **passe à l'Équipe 1**, qui le
+    fait avant son `680993`. Le quart MATIN est conservé.
+  - **Le `680552`** (BB Neuron, Huy), son second chantier, est **annulé pour aujourd'hui**
+    — il reste au jeudi 19/11, où l'Équipe 2 le retrouve.
+  - La case de l'Équipe 2 ne porte plus que l'**absence nominative « M. Dominguez —
+    ABSENT »**. **Motif non précisé**, durée inconnue.
+
+  ⚠️ **Et Sam ?** Ses deux chantiers étant partis, **sa journée est vide**. Il n'est pas
+  déclaré absent et l'entête de l'Équipe 2 l'affiche toujours. **Dis-moi ce qu'il fait** :
+  s'il accompagne l'Équipe 1 sur le `646374`, je le mets dans leur entête comme lundi.
+
+  **Monday.com — rien de changé, et c'est délibéré.** Le Soufflage du `646374` porte
+  **Dominguez + Feller au 12/11**, le passage déjà effectué, et son relevé d'heures est
+  vide : le re-dater au 18/11 avec Bolmain + Petit effacerait cette trace. Le `680552`
+  garde de même son Soufflage au 10/11.
+
+  📌 **Deux absences le même jour sur deux lignes différentes** — c'est une première.
+  Avec Pierre absent et sa journée passée à Johan, trois lignes sur huit ont changé de
+  main aujourd'hui.
+
+  ⚠️ **Densité : polices de la S47 réduites de 4 % supplémentaires** (−8 % au total
+  cette semaine). L'Équipe 1 à deux chantiers le mercredi a refait sauter la garde d'une
+  page.
+
 - **18/11 — Pierre est ABSENT aujourd'hui : permutation en chaîne sur trois lignes.**
   - **Pierre** → sa case du mercredi passe en **ABSENT**. **Motif non précisé** : j'ai
     mis le motif générique. Durée inconnue, seul le mercredi est traité.
