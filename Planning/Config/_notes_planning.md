@@ -1867,6 +1867,15 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **18/11 (après-midi) — le `680993` repart au JEUDI pour l'Équipe 1.** Son mercredi ne
+  garde donc que le `646374` du matin, repris à l'Équipe 2. **Quatrième date pour ce
+  chantier** : vendredi 20, jeudi 19, mercredi 18 — et de nouveau jeudi 19.
+  **Monday.com** : `680993` — **Soufflage re-daté du 18 au 19/11**, et **Feller Sam
+  retiré** : il n'accompagne l'Équipe 1 qu'aujourd'hui, et retrouve l'Équipe 2 demain.
+  Restent Bolmain et Petit.
+  ⚠️ **Pierre jointe toujours ce chantier le vendredi 20**, soit le lendemain du
+  soufflage — l'enchaînement redevient celui d'origine.
+
 - **18/11 — Miguel est ABSENT lui aussi : deux absences le même jour, avec Pierre.**
   - **Le `646374`** (BEA Ougrée), son chantier du MATIN, **passe à l'Équipe 1**, qui le
     fait avant son `680993`. Le quart MATIN est conservé.

@@ -268,11 +268,10 @@ PLANNING = {
     # 17/11 : le 680993, un temps au vendredi puis au jeudi, passe au
     # MERCREDI. Le jeudi est laisse libre pour le moment.
     # 18/11 : le 646374 du matin, repris a l Equipe 2 dont Miguel est absent.
-    ("E1", 2): [
-        J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE"),
-        J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
-          caw="PANDA+"),
-    ],
+    # 18/11 : le 680993 repart au JEUDI. Le mercredi ne garde que le 646374
+    # du matin, repris a l Equipe 2 dont Miguel est absent.
+    ("E1", 2): [J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE")],
+    ("E1", 3): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+")],
     ("E1", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
                   "+ J. Meurisse", "commun", caw="PANDA+")],
 
