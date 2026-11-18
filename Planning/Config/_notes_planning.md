@@ -1875,9 +1875,12 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   - La case de l'Équipe 2 ne porte plus que l'**absence nominative « M. Dominguez —
     ABSENT »**. **Motif non précisé**, durée inconnue.
 
-  ⚠️ **Et Sam ?** Ses deux chantiers étant partis, **sa journée est vide**. Il n'est pas
-  déclaré absent et l'entête de l'Équipe 2 l'affiche toujours. **Dis-moi ce qu'il fait** :
-  s'il accompagne l'Équipe 1 sur le `646374`, je le mets dans leur entête comme lundi.
+  ✅ **Sam part avec l'Équipe 1** (Geoffrey, 18/11). L'entête du mercredi devient
+  « Bolmain Mickael / Petit Gauthier / Feller Sam » et celui de l'Équipe 2 ne porte plus
+  que « Dominguez Miguel », au-dessus de son absence. **Deuxième fois cette semaine**
+  que Sam renforce l'Équipe 1 — déjà le lundi 16.
+  **Monday.com** : `680993` — **Feller Sam ajouté au Soufflage**, aux côtés de Bolmain
+  et Petit, date du 18/11 inchangée.
 
   **Monday.com — rien de changé, et c'est délibéré.** Le Soufflage du `646374` porte
   **Dominguez + Feller au 12/11**, le passage déjà effectué, et son relevé d'heures est
@@ -1888,9 +1891,10 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   Avec Pierre absent et sa journée passée à Johan, trois lignes sur huit ont changé de
   main aujourd'hui.
 
-  ⚠️ **Densité : polices de la S47 réduites de 4 % supplémentaires** (−8 % au total
-  cette semaine). L'Équipe 1 à deux chantiers le mercredi a refait sauter la garde d'une
-  page.
+  ⚠️ **Densité : polices de la S47 réduites deux fois de 4 % dans la journée** (−12 %
+  au total cette semaine, après le −4 % du 16/11). L'Équipe 1 à deux chantiers le
+  mercredi, puis son entête à trois noms, ont fait sauter la garde d'une page à chaque
+  fois. **On approche du seuil de la S46** (−14 %), qui était jusqu'ici le maximum.
 
 - **18/11 — Pierre est ABSENT aujourd'hui : permutation en chaîne sur trois lignes.**
   - **Pierre** → sa case du mercredi passe en **ABSENT**. **Motif non précisé** : j'ai
