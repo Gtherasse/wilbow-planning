@@ -156,6 +156,10 @@ NOMS_OVERRIDE = {
     # Mercredi 18/11 : Miguel est absent, Sam part avec l Equipe 1 (18/11).
     ("E1", 2): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
     ("E2", 2): ["Dominguez Miguel"],
+    # Jeudi 19/11 : meme configuration que le vendredi — Miguel absent et
+    # Sam avec l Equipe 1 (correction retroactive du 20/11).
+    ("E1", 3): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
+    ("E2", 3): ["Dominguez Miguel"],
     # Vendredi 20/11 : Miguel absent et Sam parti avec l Equipe 1 (20/11).
     ("E1", 4): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
     ("E2", 4): ["Dominguez Miguel"],
@@ -252,8 +256,9 @@ PLANNING = {
     # 18/11 : Miguel est ABSENT. Le 646374 du matin passe a l Equipe 1 et le
     # 680552 est annule pour aujourd hui ; il reste au jeudi.
     ("E2", 2): [A("ABSENT", q="M. Dominguez")],
-    ("E2", 3): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
-                  caw="PANDA+")],
+    # 20/11 : CORRECTION retroactive — hier jeudi, Miguel etait deja absent
+    # et Sam deja avec l Equipe 1. Le 680552 n a donc pas ete fait.
+    ("E2", 3): ABS("ABSENT"),
 
     # Vendredi 20/11 : l Equipe 2 sur le 631501 (INTERCO BURGRE-01 BUR50).
     # Chantier du groupe BTO du board, mais C@W PANDA+ (Geoffrey, 13/11).

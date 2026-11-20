@@ -1867,6 +1867,24 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **20/11 — CORRECTION RÉTROACTIVE sur le jeudi 19/11 : Miguel était déjà absent, et
+  Sam était déjà avec l'Équipe 1.**
+  - L'**Équipe 2 du jeudi passe entièrement en ABSENT**, son entête ne portant que
+    « Dominguez Miguel ». **Le `680552` n'a donc pas été fait hier** — il n'a plus aucune
+    date de la semaine, après son annulation du mercredi.
+  - L'**entête de l'Équipe 1 du jeudi** devient « Bolmain Mickael / Petit Gauthier /
+    Feller Sam » sur le `680993`.
+  **Monday.com** : `680993` — **Feller Sam ajouté au Soufflage** du 19/11. Le `680552`
+  garde son Soufflage au 10/11, passage déjà effectué.
+
+  📌 **Sam aura renforcé l'Équipe 1 quatre jours sur cinq** cette semaine : lundi,
+  mercredi, jeudi et vendredi. **Il n'a passé que le mardi avec Miguel.** À ce rythme,
+  la question se pose de savoir si l'Équipe 2 existe encore en pratique — à voir avec
+  toi si la composition des équipes doit être revue.
+
+  ⚠️ **Le `680552` n'a plus de date.** Il devait se faire mercredi puis jeudi, et les
+  deux sont tombés. **Dis-moi quand le replanifier.**
+
 - **20/11 — TROIS absents ce vendredi : Johan, Pierre et Miguel.**
   - **Johan — ABSENT.** Son `535147` et son `662190` tombent.
   - **Pierre — ABSENT.** Son `680993` tombe.
