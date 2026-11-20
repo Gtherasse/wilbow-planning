@@ -1803,11 +1803,21 @@ FH 40 mercredi, la nuit du jeudi, et récup le vendredi.
 📌 **Le `535147` en est à son sixième déplacement** depuis le 09/11 : vendredi 20, lundi
 16, mardi 17, vendredi 20 à nouveau, lundi 23, mardi 24, et maintenant mercredi 25.
 
-**20/11/2026 — Nuit du jeudi 26 au vendredi 27/11 : Johan et Mike Wilvers sur le
-`675238`** (BBN 12310B, Ciney-Jemelle), 22h00–06h00, C@W **PANDA+**. Mike n'a pas de
-ligne `RESSOURCES` : il figure en pastille. Le bloc est à cheval sur les deux jours,
-comme il se doit. **C'est la première nuit de la S48**, et le jeudi de Johan, jusque-là
-gris, est rempli.
+**20/11/2026 — Nuit du jeudi 26 au vendredi 27/11 sur le `675238`** (BBN 12310B,
+Ciney-Jemelle), 22h00–06h00, C@W **PANDA+**. **Première nuit de la S48.**
+
+⚠️ **Elle a changé de main le jour même** : d'abord **Johan et Mike Wilvers**, puis
+**Panait Dan et Mike Wilvers**. Dan **garde son BTO de jour** le jeudi et fait la nuit
+par-dessus, comme en S45 et en S46. Mike n'a pas de ligne `RESSOURCES` : il figure en
+pastille. Le bloc est à cheval sur les deux jours.
+
+**Johan perd donc sa nuit ET sa récupération du vendredi**, qui en découlait
+directement : **ses jeudi et vendredi redeviennent gris**. Sa semaine s'arrête au
+mercredi. **Dis-moi si tu veux quand même lui garder la récup**, ou ce qu'il fait ces
+deux jours.
+
+**Piège de dictionnaire évité** : le jeudi a été exclu de la comprehension BTO de Dan,
+sinon elle aurait écrasé la nuit. **Cinquième fois** que ce piège se présente.
 
 ⚠️ **Monday.com — Jointage laissé à Meurisse au 16/11**, son identification de joints.
 **Ce passage n'est pas dans le relevé d'heures**, qui s'arrête au 05/11 : le re-dater au
@@ -1820,13 +1830,11 @@ dit le 09/11, et la grille de la S45 la porte en « + M. Wilvers · ANNULÉ ». 
 sont donc comptées pour une nuit qui n'a pas eu lieu.** À corriger sur le board si c'est
 bien une erreur.
 
-✅ **Récupération accordée** : Johan est en **RÉCUP le vendredi 27/11**, après sa nuit
-(décision de Geoffrey, 20/11). **C'est la première fois qu'une récupération est accordée
-après une nuit** — la question était restée sans réponse pour Dan en S45 et en S46.
-
-Le rendu tient : le badge RÉCUP s'affiche en haut de la case du vendredi et le bloc de
-nuit passe **en dessous**, à cheval, sans masquer le motif. **Rien à faire sur Monday**,
-une récupération n'étant pas un chantier.
+~~**Récupération accordée** : Johan est en RÉCUP le vendredi 27/11~~ — **ANNULÉE** une
+heure plus tard, la nuit étant passée à Dan. Le rendu avait pourtant tenu : badge RÉCUP
+en haut de la case, bloc de nuit en dessous, à cheval, sans masquer le motif. **La
+question se repose maintenant pour Dan** : faut-il lui mettre une récupération le
+vendredi 27 ? Il est pour l'instant en BTO ce jour-là.
 
 **20/11/2026 — deux ajouts de fin de journée sur la S48.**
 

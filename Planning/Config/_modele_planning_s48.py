@@ -174,10 +174,9 @@ PLANNING = {
     # 20/11 : nuit du jeudi 26 au vendredi 27/11, Johan avec Mike Wilvers
     # sur le 675238 (Ciney-Jemelle). Mike n a pas de ligne RESSOURCES : il
     # apparait en pastille. Le bloc est a cheval sur les deux jours.
-    ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
-                  "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+")],
-    # 20/11 : Johan en RECUPERATION le vendredi, apres sa nuit.
-    ("JM", 4): ABS("RÉCUP"),
+    # 20/11 : la nuit passe de Johan a Dan, toujours avec Mike Wilvers.
+    # Johan perd donc sa nuit du jeudi ET sa recuperation du vendredi, qui
+    # en decoulait : ses deux cases redeviennent grises.
 
     # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
     **{("PM", i): [J("649647",
@@ -189,7 +188,15 @@ PLANNING = {
                   caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    # Dan : BTO, sauf le jeudi ou il garde son BTO de jour ET fait la nuit
+    # du 26 au 27/11 sur le 675238, avec Mike Wilvers (20/11). Le jeudi est
+    # exclu de la comprehension, sinon elle ecraserait la nuit.
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 2, 4)},
+    ("DP", 3): [
+        X("BTO", caw="BTO"),
+        J("675238", "BBN 12310B — Ciney-Jemelle",
+          "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
+    ],
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
     # Andrei : BTO, sauf le lundi 23/11 ou il est absent (16/11). Le lundi
     # est exclu de la comprehension, sinon elle ecraserait son absence.
