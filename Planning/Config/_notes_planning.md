@@ -1867,6 +1867,29 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **20/11 — TROIS absents ce vendredi : Johan, Pierre et Miguel.**
+  - **Johan — ABSENT.** Son `535147` et son `662190` tombent.
+  - **Pierre — ABSENT.** Son `680993` tombe.
+  - **Miguel — ABSENT.** **Sam tient l'Équipe 2 seul** sur le `631501` : l'entête du
+    vendredi ne porte que « Feller Sam » et l'absence nominative figure sous le chantier.
+    Geoffrey et Fabrice sont de toute façon sur ce même chantier aujourd'hui.
+  - **L'Équipe 1 fait le `662190` seule** : la pastille croisée vers Johan disparaît.
+
+  📌 **Trois absences le même jour, et cinq sur la semaine** (Pierre mercredi, Miguel
+  mercredi, puis ces trois-ci). **Record pour une semaine.** Les motifs n'ont jamais été
+  précisés : toutes portent l'`ABSENT` générique.
+
+  **Monday.com** : `631501` — **Dominguez retiré du Soufflage**, restent Feller, Gaspard
+  et Avenia, date du 20/11 inchangée. C'est la réalité du jour.
+  ⚠️ **Trois Jointages restent posés sur des chantiers qui ne se font pas** :
+  - `535147` — Meurisse au 20/11
+  - `662190` — Meurisse au 20/11
+  - `680993` — Mattiuz au 20/11
+
+  **Je ne les ai pas vidés** : une absence n'annule pas forcément le chantier, il est
+  sans doute simplement reporté. **Dis-moi où ils repartent** et je les re-date — la S48
+  commence lundi et reste très largement vide.
+
 - **18/11 (soir) — le jeudi 19/11 est redistribué sur quatre lignes :**
   - **Johan — le `646372` et le `646374`** (BEA Ougrée), repris à Pierre. **Son BTO du
     jeudi disparaît**, ce qui solde l'annulation du 16/11 : il n'a plus de BTO cette

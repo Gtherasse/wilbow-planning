@@ -156,6 +156,8 @@ NOMS_OVERRIDE = {
     # Mercredi 18/11 : Miguel est absent, Sam part avec l Equipe 1 (18/11).
     ("E1", 2): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
     ("E2", 2): ["Dominguez Miguel"],
+    # Vendredi 20/11 : Miguel absent, Sam tient l Equipe 2 (20/11).
+    ("E2", 4): ["Feller Sam"],
 }
 
 
@@ -200,8 +202,8 @@ PLANNING = {
 
     # Vendredi 20/11 : le retour de Pierre sur le 535147 a ete retire le
     # 10/11 ; le 680993 prend sa place le meme jour, deplace du lundi 23/11.
-    ("PM", 4): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
-                  caw="PANDA+")],
+    # 20/11 : Pierre est ABSENT. Son 680993 tombe.
+    ("PM", 4): ABS("ABSENT"),
 
     # Lundi 16/11 : Johan sur le 675238 (Ciney-Jemelle), identification joint.
     # C@W PANDA+, code deja etabli lors de ses passages precedents.
@@ -236,11 +238,8 @@ PLANNING = {
         J("646372", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
         J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", caw="BEA OUGRÉE"),
     ],
-    ("JM", 4): [
-        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé", caw="PANDA+"),
-        J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
-          "+ Équipe 1", "commun", caw="PANDA+"),
-    ],
+    # 20/11 : Johan est ABSENT. Son 535147 et son 662190 tombent.
+    ("JM", 4): ABS("ABSENT"),
 
     # Mercredi 18 et jeudi 19/11 : l Equipe 2 sur le 680552 (BB Neuron, Huy),
     # repris de l Equipe 1 qui l a fait les 10 et 12/11 en S46. C@W PANDA+,
@@ -257,7 +256,12 @@ PLANNING = {
 
     # Vendredi 20/11 : l Equipe 2 sur le 631501 (INTERCO BURGRE-01 BUR50).
     # Chantier du groupe BTO du board, mais C@W PANDA+ (Geoffrey, 13/11).
-    ("E2", 4): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")],
+    # 20/11 : Miguel est ABSENT. Sam garde le chantier, l absence nominative
+    # figure sous celui-ci.
+    ("E2", 4): [
+        J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+"),
+        A("ABSENT", q="M. Dominguez"),
+    ],
 
     # Mercredi 18/11 : le 680993 (Ribeaucourt, Seraing) passe de l Equipe 2
     # a l Equipe 1 le 13/11. C@W PANDA+ confirme par Geoffrey le 10/11 ;
@@ -273,8 +277,10 @@ PLANNING = {
     # du matin, repris a l Equipe 2 dont Miguel est absent.
     ("E1", 2): [J("646374", "OL — Bureau d'Électronique Appliquée, Rue Louis Plescia 31, Ougrée", q=MATIN, caw="BEA OUGRÉE")],
     ("E1", 3): [J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)", caw="PANDA+")],
+    # 20/11 : Johan etant absent, l Equipe 1 fait le 662190 seule : la
+    # pastille croisee disparait.
     ("E1", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
-                  "+ J. Meurisse", "commun", caw="PANDA+")],
+                  caw="PANDA+")],
 
     # Mardi 17/11 : le 535147 passe a Johan (16/11 au soir) ; Pierre prend le
     # 649647 (rue de Lexhy, Fexhe), que Johan le rejoint l APRES-MIDI.
