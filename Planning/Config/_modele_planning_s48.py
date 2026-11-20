@@ -58,11 +58,15 @@ LIENS = {
     "690165": "https://wilbow.monday.com/boards/5089236279/pulses/3304713532",
     "680993": "https://wilbow.monday.com/boards/5089236279/pulses/3285668548",
     "631501": "https://wilbow.monday.com/boards/5089236279/pulses/3309938588",
+    "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
+    "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
+    "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
 SIGN  = "https://wilbow.monday.com/boards/5089236279/pulses/2832088996"  # SignaDyn - Zone D - Soufflage et Soudage reste zone D
 FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32 FEED-IN
+FH40 = "https://wilbow.monday.com/boards/5089236279/pulses/3288631715"  # FH 40 Feed-In
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
@@ -131,11 +135,26 @@ PLANNING = {
     # un temps pose ici, est retire (changement du 13/11). C@W PANDA+.
     # Le lundi, Miguel est absent et remplace par Fabrice Gaspard : l entete
     # du jour le dit, et la case porte l absence nominative en dessous.
+    # 20/11 : le 680552 (BB Neuron, Huy) REMPLACE le 631501 le lundi. Il
+    # n avait pas pu se faire en S47, Miguel etant absent les deux jours
+    # prevus. Le 631501 ne reste donc qu au mardi.
     ("E2", 0): [
-        J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+"),
+        J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)", caw="PANDA+"),
         A("ABSENT", q="M. Dominguez"),
     ],
     ("E2", 1): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")],
+
+    # 20/11 : replanification des chantiers perdus de la S47.
+    # Lundi 23/11 : Johan reprend le 535147 et le FH 40 Feed-In.
+    ("JM", 0): [
+        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
+          caw="PANDA+"),
+        X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
+    ],
+
+    # Jeudi 26/11 : Pierre reprend le 687329 (DSTNY BE, Engis).
+    ("PM", 3): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+                  caw="PANDA+")],
 
     # Mercredi 25/11 : Pierre passe sur le meme 690165, apres l Equipe 2.
     ("PM", 2): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",

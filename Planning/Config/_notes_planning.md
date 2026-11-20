@@ -1793,6 +1793,35 @@ Miguel. **Deux absences le même jour**, donc.
 pour la nuit de Dan en S46.
 **Rien à faire sur Monday** : Andreï est en BTO, jamais encodé.
 
+**20/11/2026 — REPLANIFICATION des chantiers perdus de la S47 sur la S48.**
+
+- **Lundi 23/11 — Johan : le `535147`** (FTTH BF Liège, FH44/FH45) **et le `FH 40
+  Feed-In`**. C'est **sa première journée de la semaine**, son planning étant vide
+  jusque-là. Le FH 40 **change de main** : il était prévu pour Pierre.
+- **Lundi 23/11 — l'Équipe 2 : le `680552`** (BB Neuron, Huy), **à la place du `631501`**
+  (décision de Geoffrey). Le `631501` ne reste donc qu'au mardi. ⚠️ **Miguel est absent
+  ce lundi** et remplacé par Fabrice Gaspard : le chantier reprend donc sans lui, comme
+  la semaine passée.
+- **Jeudi 26/11 — Pierre : le `687329`** (DSTNY BE, Engis). C'est son deuxième jour de la
+  semaine, après le `690165` du mercredi.
+
+**Il reste deux chantiers perdus sans date** : le `680993` (jointage de Pierre) et les
+anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'autres raisons.
+
+**Monday.com :**
+- `535147` — **Jointage re-daté du 20 au 23/11**, statut repassé en **Planifié**. Le
+  20/11 n'ayant pas eu lieu, rien n'est perdu.
+- `FH 40 Feed-In` — **Jointage re-daté du 19 au 23/11, Mattiuz remplacé par Meurisse**.
+  Le 19/11 n'ayant pas eu lieu non plus, rien n'est perdu.
+- ⚠️ **`680552` et `687329` : volontairement inchangés.** Leurs colonnes portent des
+  passages **réellement effectués** — Bolmain + Petit au 10/11 pour le premier, Meurisse
+  au 18/11 pour le second — et **leurs relevés d'heures sont vides**. Les re-dater
+  effacerait ces traces. **C'est la sixième fois que ce blocage revient** ; la
+  proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
+  re-dater) **attend toujours ta validation**.
+
+---
+
 **13/11/2026 (bis) — la semaine 48 est reprise : le `631501` remplace le `667920`, et
 Fabrice Gaspard remplace Miguel le lundi.**
 
