@@ -1793,6 +1793,28 @@ Miguel. **Deux absences le même jour**, donc.
 pour la nuit de Dan en S46.
 **Rien à faire sur Monday** : Andreï est en BTO, jamais encodé.
 
+**20/11/2026 — deux ajouts de fin de journée sur la S48.**
+
+- **Lundi 23/11 — Johan sur le `677406`** (Feed Out — Saint-Vith FH04, Aachener Straße
+  69z ; item `2908681917`, client **INFRA**). C@W **GO FIBER**, demandé et confirmé. **Le
+  `535147` et le `FH 40 Feed-In`, qui occupaient son lundi, sont décalés au mardi** et
+  s'ajoutent au `NR1083A`. **Son mardi porte donc trois prestations.**
+- **Lundi 23 et mardi 24/11 — Pierre sur le `649647`** (IZ FTTH 1 MDU 20 BU + 1 BU, Rue
+  de Lexhy, Fexhe-le-Haut-Clocher, Eloy). C@W **PANDA+**, code déjà établi. **Ses deux
+  premiers jours de la semaine**, jusque-là gris.
+
+**Monday.com :**
+- `677406` — **Jointage Meurisse au 23/11**, colonne vide jusqu'ici.
+- `535147` et `FH 40 Feed-In` — **Jointages re-datés du 23 au 24/11**, personnes
+  inchangées.
+- ⚠️ **Le statut du `677406` reste « Dossier Terminé », volontairement.** La règle du
+  09/11 interdit de rétrograder un dossier plus avancé que la planification. Ce chantier
+  **revient pourtant au planning** cinq mois après sa dernière intervention (relevé
+  d'heures bien rempli, de mai à juin). **Dis-moi s'il faut le repasser en `Planifié`** —
+  son groupe dit d'ailleurs « A Planifier Jointage », ce qui contredit son statut.
+- ⚠️ **`649647` — Jointage laissé à Mattiuz + Meurisse au 17/11**, le passage réellement
+  effectué. Relevé d'heures vide : le re-dater l'effacerait.
+
 **20/11/2026 — Mardi 24/11 : Johan sur le `NR1083A`.** Chantier **sans numéro JMS**
 (item `3372322753`) : l'intitulé est cliquable. C@W **PANDA+**, demandé et confirmé. Sa
 deuxième journée de la semaine, après le lundi.

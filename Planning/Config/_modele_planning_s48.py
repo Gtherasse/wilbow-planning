@@ -61,6 +61,8 @@ LIENS = {
     "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
     "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
     "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
+    "677406": "https://wilbow.monday.com/boards/5089236279/pulses/2908681917",
+    "649647": "https://wilbow.monday.com/boards/5089236279/pulses/3301749306",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -147,19 +149,29 @@ PLANNING = {
 
     # 20/11 : replanification des chantiers perdus de la S47.
     # Lundi 23/11 : Johan reprend le 535147 et le FH 40 Feed-In.
-    ("JM", 0): [
+    # 20/11 : le 677406 (Saint-Vith FH04) prend le lundi ; le 535147 et le
+    # FH 40, qui y etaient, sont decales au mardi. C@W GO FIBER.
+    ("JM", 0): [J("677406", "Feed Out — Saint-Vith FH04, Aachener Straße 69z",
+                  caw="GO FIBER")],
+
+    # Mardi 24/11 : Johan sur le NR1083A (chantier sans numero JMS :
+    # l intitule est cliquable, C@W PANDA+), puis sur le 535147 et le
+    # FH 40 Feed-In decales du lundi.
+    ("JM", 1): [
+        X("NR1083A", url=NR1083A, caw="PANDA+"),
         J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
           caw="PANDA+"),
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
     ],
 
-    # Mardi 24/11 : Johan sur le NR1083A. Chantier sans numero JMS :
-    # l intitule est cliquable. C@W PANDA+ confirme le 20/11.
-    ("JM", 1): [X("NR1083A", url=NR1083A, caw="PANDA+")],
-
     # Jeudi 26/11 : Pierre reprend le 687329 (DSTNY BE, Engis).
     ("PM", 3): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
                   caw="PANDA+")],
+
+    # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
+    **{("PM", i): [J("649647",
+                     "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
+                     caw="PANDA+")] for i in (0, 1)},
 
     # Mercredi 25/11 : Pierre passe sur le meme 690165, apres l Equipe 2.
     ("PM", 2): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
