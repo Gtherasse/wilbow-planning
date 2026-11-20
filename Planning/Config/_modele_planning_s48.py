@@ -158,8 +158,10 @@ PLANNING = {
     # Mardi 24/11 : Johan sur le NR1083A (chantier sans numero JMS :
     # l intitule est cliquable, C@W PANDA+), puis sur le 535147 et le
     # FH 40 Feed-In decales du lundi.
-    ("JM", 1): [
-        X("NR1083A", url=NR1083A, caw="PANDA+"),
+    # 20/11 : le 535147 et le FH 40 repartent au MERCREDI ; le mardi ne
+    # garde que le NR1083A.
+    ("JM", 1): [X("NR1083A", url=NR1083A, caw="PANDA+")],
+    ("JM", 2): [
         J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
           caw="PANDA+"),
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),

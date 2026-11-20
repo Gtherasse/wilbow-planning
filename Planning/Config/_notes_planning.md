@@ -1793,6 +1793,16 @@ Miguel. **Deux absences le même jour**, donc.
 pour la nuit de Dan en S46.
 **Rien à faire sur Monday** : Andreï est en BTO, jamais encodé.
 
+**20/11/2026 — le `535147` et le `FH 40 Feed-In` de Johan passent du mardi 24 au
+MERCREDI 25.** Son mardi ne garde que le `NR1083A`, et son mercredi, jusque-là gris, est
+rempli. **Sa semaine est désormais complète** : 677406 lundi, NR1083A mardi, 535147 +
+FH 40 mercredi, la nuit du jeudi, et récup le vendredi.
+
+**Monday.com** : les deux Jointages **re-datés du 24 au 25/11**, personnes inchangées.
+
+📌 **Le `535147` en est à son sixième déplacement** depuis le 09/11 : vendredi 20, lundi
+16, mardi 17, vendredi 20 à nouveau, lundi 23, mardi 24, et maintenant mercredi 25.
+
 **20/11/2026 — Nuit du jeudi 26 au vendredi 27/11 : Johan et Mike Wilvers sur le
 `675238`** (BBN 12310B, Ciney-Jemelle), 22h00–06h00, C@W **PANDA+**. Mike n'a pas de
 ligne `RESSOURCES` : il figure en pastille. Le bloc est à cheval sur les deux jours,
