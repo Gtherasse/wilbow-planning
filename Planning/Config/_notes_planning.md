@@ -1793,6 +1793,34 @@ Miguel. **Deux absences le même jour**, donc.
 pour la nuit de Dan en S46.
 **Rien à faire sur Monday** : Andreï est en BTO, jamais encodé.
 
+**20/11/2026 — trois ajouts sur la S48, et une équipe recomposée pour le lundi.**
+
+- **Lundi 23/11 — l'Équipe 1 sur le `679615`** (Feed out EUPEN FH01 — RAEREN FH07 ; item
+  `3361311624`), **avec Sam** en renfort. C@W **GO FIBER**, demandé et confirmé — le même
+  que le `635054` Feed-out Eupen FH01 / Raeren FH06, son voisin de série. C'est **la
+  quatrième fois que Sam renforce l'Équipe 1** en deux semaines.
+- **Mercredi 25/11 — le `631501` revient pour l'Équipe 2**, après son mardi. Elle le fait
+  donc deux jours.
+- **Lundi 23/11 — l'Équipe 2 devient « Gaspard Fabrice / Caruso Giuseppe / Avenia
+  Geoffrey »**, Miguel étant absent et Sam parti avec l'Équipe 1.
+
+  ⚠️ **Exception à la règle de la pastille, décidée par Geoffrey le 20/11** : **les trois
+  sont nommés dans l'entête**, Giuseppe Caruso compris. Jusqu'ici il n'apparaissait qu'en
+  pastille « + G. Caruso », faute de ligne `RESSOURCES`. L'entête étant du texte libre,
+  rien ne l'empêche — mais **c'est la première fois** qu'il y figure.
+  **Nouveau motif `→ ÉQUIPE 2`** ajouté à `ABS_STYLE`, en vert d'eau pour rappeler la
+  couleur de l'équipe : la ligne du magasinier le porte ce lundi, comme elle portait
+  `→ ÉQUIPE 1` le 13/11 en S46.
+
+**Monday.com** :
+- `679615` — **Soufflage Bolmain + Petit + Feller au 23/11**, les quatre colonnes étaient
+  vides ; statut passé de « À analyser » à **Planifié**.
+- `631501` — **rien à changer** : son Soufflage porte Gaspard et Avenia au 20/11, le
+  passage d'aujourd'hui.
+- ⚠️ **`680552` — toujours pas re-daté.** Son Soufflage porte Bolmain + Petit au 10/11,
+  un passage réel sans relevé d'heures. **Ni Caruso ni le trio du lundi n'y figureront
+  donc**, et Caruso reste de toute façon non encodable.
+
 **20/11/2026 — le `535147` et le `FH 40 Feed-In` de Johan passent du mardi 24 au
 MERCREDI 25.** Son mardi ne garde que le `NR1083A`, et son mercredi, jusque-là gris, est
 rempli. **Sa semaine est désormais complète** : 677406 lundi, NR1083A mardi, 535147 +

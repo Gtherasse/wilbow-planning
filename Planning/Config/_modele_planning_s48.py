@@ -66,6 +66,7 @@ LIENS = {
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
     "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
+    "679615": "https://wilbow.monday.com/boards/5089236279/pulses/3361311624",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -121,8 +122,13 @@ CODES = {
 # Aucune substitution d equipe cette semaine : les entetes restent ceux de
 # RESSOURCES.
 # Lundi 23/11 : Fabrice Gaspard remplace Miguel Dominguez, absent.
+# Lundi 23/11 : Miguel absent. Sam part avec l Equipe 1 sur le 679615, et
+# l Equipe 2 devient Fabrice Gaspard, Giuseppe Caruso et Geoffrey Avenia —
+# les trois nommes dans l entete, choix de Geoffrey du 20/11 (Caruso y
+# figure donc, par exception a la regle de la pastille).
 NOMS_OVERRIDE = {
-    ("E2", 0): ["Gaspard Fabrice", "Feller Sam"],
+    ("E1", 0): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
+    ("E2", 0): ["Gaspard Fabrice", "Caruso Giuseppe", "Avenia Geoffrey"],
 }
 
 
@@ -130,6 +136,10 @@ NOMS_OVERRIDE = {
 PLANNING = {
     # Le 680993 de Pierre a ete DEPLACE au vendredi 20/11, en S47 (10/11) :
     # son lundi redevient gris.
+
+    # Lundi 23/11 : l Equipe 1 sur le 679615 (Feed out Eupen FH01 - Raeren
+    # FH07), avec Sam en renfort. C@W GO FIBER confirme le 20/11.
+    ("E1", 0): [J("679615", "Feed out EUPEN FH01 — RAEREN FH07", caw="GO FIBER")],
 
     # Mardi 24/11 : le 690165 (MB GROUPE, rue de la Vieille Fosse 60,
     # Flemalle) passe de l Equipe 2 a l Equipe 1 le 13/11. C@W PANDA+.
@@ -148,7 +158,9 @@ PLANNING = {
         J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)", caw="PANDA+"),
         A("ABSENT", q="M. Dominguez"),
     ],
-    ("E2", 1): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")],
+    # 20/11 : le 631501 est aussi au mercredi.
+    **{("E2", i): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")]
+       for i in (1, 2)},
 
     # 20/11 : replanification des chantiers perdus de la S47.
     # Lundi 23/11 : Johan reprend le 535147 et le FH 40 Feed-In.
@@ -194,6 +206,9 @@ PLANNING = {
                   caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
+    # Lundi 23/11 : Avenia Geoffrey part en Equipe 2 : sa ligne le dit.
+    ("GA", 0): ABS("→ ÉQUIPE 2"),
+
     # Dan : BTO, sauf le jeudi ou il garde son BTO de jour ET fait la nuit
     # du 26 au 27/11 sur le 675238, avec Mike Wilvers (20/11). Le jeudi est
     # exclu de la comprehension, sinon elle ecraserait la nuit.
@@ -227,6 +242,7 @@ ABS_STYLE = {
     "ABSENT":    ("#e2e8f0", "#475569"),
     "EN ATTENTE":("#fef3c7", "#92400e"),
     "→ ÉQUIPE 1":("#dbeafe", "#1d4ed8"),
+    "→ ÉQUIPE 2":("#ccfbf1", "#0f766e"),
 }
 
 def cellule(r, i, DATA=None, mode="site"):
