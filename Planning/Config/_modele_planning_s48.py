@@ -174,6 +174,8 @@ PLANNING = {
     # apparait en pastille. Le bloc est a cheval sur les deux jours.
     ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
                   "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+")],
+    # 20/11 : Johan en RECUPERATION le vendredi, apres sa nuit.
+    ("JM", 4): ABS("RÉCUP"),
 
     # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
     **{("PM", i): [J("649647",

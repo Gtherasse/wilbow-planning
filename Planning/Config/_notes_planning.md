@@ -1810,9 +1810,13 @@ dit le 09/11, et la grille de la S45 la porte en « + M. Wilvers · ANNULÉ ». 
 sont donc comptées pour une nuit qui n'a pas eu lieu.** À corriger sur le board si c'est
 bien une erreur.
 
-⚠️ **Récupération ?** La nuit se termine au matin du **vendredi 27**, où Johan n'a rien
-de prévu. **Dis-moi s'il faut lui mettre une RÉCUP** ce vendredi — la question s'était
-déjà posée pour Dan en S45 et S46, sans réponse.
+✅ **Récupération accordée** : Johan est en **RÉCUP le vendredi 27/11**, après sa nuit
+(décision de Geoffrey, 20/11). **C'est la première fois qu'une récupération est accordée
+après une nuit** — la question était restée sans réponse pour Dan en S45 et en S46.
+
+Le rendu tient : le badge RÉCUP s'affiche en haut de la case du vendredi et le bloc de
+nuit passe **en dessous**, à cheval, sans masquer le motif. **Rien à faire sur Monday**,
+une récupération n'étant pas un chantier.
 
 **20/11/2026 — deux ajouts de fin de journée sur la S48.**
 
