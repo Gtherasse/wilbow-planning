@@ -1870,17 +1870,21 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 - **20/11 — TROIS absents ce vendredi : Johan, Pierre et Miguel.**
   - **Johan — ABSENT.** Son `535147` et son `662190` tombent.
   - **Pierre — ABSENT.** Son `680993` tombe.
-  - **Miguel — ABSENT.** **Sam tient l'Équipe 2 seul** sur le `631501` : l'entête du
-    vendredi ne porte que « Feller Sam » et l'absence nominative figure sous le chantier.
-    Geoffrey et Fabrice sont de toute façon sur ce même chantier aujourd'hui.
+  - **Miguel — ABSENT**, et **Sam part avec l'Équipe 1** (précision du 20/11) : la
+    ligne de l'Équipe 2 est donc **entièrement en ABSENT**, son entête ne portant plus
+    que « Dominguez Miguel ». **Le `631501` reste assuré** par Geoffrey et Fabrice, sur
+    la ligne du magasinier.
+    **Troisième renfort de Sam à l'Équipe 1 cette semaine**, après le lundi et le
+    mercredi : il n'aura passé que deux jours avec Miguel.
   - **L'Équipe 1 fait le `662190` seule** : la pastille croisée vers Johan disparaît.
 
   📌 **Trois absences le même jour, et cinq sur la semaine** (Pierre mercredi, Miguel
   mercredi, puis ces trois-ci). **Record pour une semaine.** Les motifs n'ont jamais été
   précisés : toutes portent l'`ABSENT` générique.
 
-  **Monday.com** : `631501` — **Dominguez retiré du Soufflage**, restent Feller, Gaspard
-  et Avenia, date du 20/11 inchangée. C'est la réalité du jour.
+  **Monday.com** : `662190` — **Feller Sam ajouté au Soufflage**, aux côtés de Bolmain
+  et Petit. `631501` — **Dominguez ET Feller retirés du Soufflage**, restent **Gaspard et
+  Avenia**, date du 20/11 inchangée. C'est la réalité du jour.
   ⚠️ **Trois Jointages restent posés sur des chantiers qui ne se font pas** :
   - `535147` — Meurisse au 20/11
   - `662190` — Meurisse au 20/11

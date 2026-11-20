@@ -156,8 +156,9 @@ NOMS_OVERRIDE = {
     # Mercredi 18/11 : Miguel est absent, Sam part avec l Equipe 1 (18/11).
     ("E1", 2): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
     ("E2", 2): ["Dominguez Miguel"],
-    # Vendredi 20/11 : Miguel absent, Sam tient l Equipe 2 (20/11).
-    ("E2", 4): ["Feller Sam"],
+    # Vendredi 20/11 : Miguel absent et Sam parti avec l Equipe 1 (20/11).
+    ("E1", 4): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
+    ("E2", 4): ["Dominguez Miguel"],
 }
 
 
@@ -256,12 +257,9 @@ PLANNING = {
 
     # Vendredi 20/11 : l Equipe 2 sur le 631501 (INTERCO BURGRE-01 BUR50).
     # Chantier du groupe BTO du board, mais C@W PANDA+ (Geoffrey, 13/11).
-    # 20/11 : Miguel est ABSENT. Sam garde le chantier, l absence nominative
-    # figure sous celui-ci.
-    ("E2", 4): [
-        J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+"),
-        A("ABSENT", q="M. Dominguez"),
-    ],
+    # 20/11 : Miguel est ABSENT et Sam part avec l Equipe 1. Le 631501
+    # reste porte par Geoffrey et Fabrice, sur la ligne du magasinier.
+    ("E2", 4): ABS("ABSENT"),
 
     # Mercredi 18/11 : le 680993 (Ribeaucourt, Seraing) passe de l Equipe 2
     # a l Equipe 1 le 13/11. C@W PANDA+ confirme par Geoffrey le 10/11 ;
