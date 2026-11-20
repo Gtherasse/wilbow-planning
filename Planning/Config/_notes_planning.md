@@ -1812,9 +1812,15 @@ par-dessus, comme en S45 et en S46. Mike n'a pas de ligne `RESSOURCES` : il figu
 pastille. Le bloc est à cheval sur les deux jours.
 
 **Johan perd donc sa nuit ET sa récupération du vendredi**, qui en découlait
-directement : **ses jeudi et vendredi redeviennent gris**. Sa semaine s'arrête au
-mercredi. **Dis-moi si tu veux quand même lui garder la récup**, ou ce qu'il fait ces
-deux jours.
+directement. ✅ **Ses deux journées sont aussitôt reprises** : il récupère **les deux ROP
+annulés le 16/11**, avec Mike Wilvers — le **`688836`** (FQ ROP endommagé 85AMAC/311) le
+**jeudi 26** et le **`690640`** (RRROP C/123, Rue Sabaré, Visé) le **vendredi 27**, dans
+leur ordre d'origine. **Sa semaine est de nouveau complète.**
+
+📌 **Ces deux dossiers auront été déplacés quatre fois** : S43, puis S46 (10 et 12/11),
+puis S47 (18 et 19/11), annulés le 16/11, et enfin S48 (26 et 27/11). **Monday.com** :
+leurs Jointages **re-datés du 18 au 26/11 et du 19 au 27/11**, Meurisse inchangé — les
+dates précédentes n'ayant jamais eu lieu, rien n'est perdu.
 
 **Piège de dictionnaire évité** : le jeudi a été exclu de la comprehension BTO de Dan,
 sinon elle aurait écrasé la nuit. **Cinquième fois** que ce piège se présente.

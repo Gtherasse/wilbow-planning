@@ -64,6 +64,8 @@ LIENS = {
     "677406": "https://wilbow.monday.com/boards/5089236279/pulses/2908681917",
     "649647": "https://wilbow.monday.com/boards/5089236279/pulses/3301749306",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
+    "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
+    "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -175,8 +177,12 @@ PLANNING = {
     # sur le 675238 (Ciney-Jemelle). Mike n a pas de ligne RESSOURCES : il
     # apparait en pastille. Le bloc est a cheval sur les deux jours.
     # 20/11 : la nuit passe de Johan a Dan, toujours avec Mike Wilvers.
-    # Johan perd donc sa nuit du jeudi ET sa recuperation du vendredi, qui
-    # en decoulait : ses deux cases redeviennent grises.
+    # Johan perd donc sa nuit du jeudi et sa recuperation du vendredi ; ses
+    # deux cases recoivent les deux ROP annules le 16/11, avec M. Wilvers.
+    ("JM", 3): [J("688836", "FQ ROP endommagé 85AMAC/311",
+                  "+ M. Wilvers", "commun", caw="PANDA+")],
+    ("JM", 4): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
+                  "+ M. Wilvers", "commun", caw="PANDA+")],
 
     # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
     **{("PM", i): [J("649647",
