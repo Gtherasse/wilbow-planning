@@ -63,6 +63,7 @@ LIENS = {
     "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
     "677406": "https://wilbow.monday.com/boards/5089236279/pulses/2908681917",
     "649647": "https://wilbow.monday.com/boards/5089236279/pulses/3301749306",
+    "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -167,6 +168,12 @@ PLANNING = {
     # Jeudi 26/11 : Pierre reprend le 687329 (DSTNY BE, Engis).
     ("PM", 3): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
                   caw="PANDA+")],
+
+    # 20/11 : nuit du jeudi 26 au vendredi 27/11, Johan avec Mike Wilvers
+    # sur le 675238 (Ciney-Jemelle). Mike n a pas de ligne RESSOURCES : il
+    # apparait en pastille. Le bloc est a cheval sur les deux jours.
+    ("JM", 3): [J("675238", "BBN 12310B — Ciney-Jemelle",
+                  "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+")],
 
     # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
     **{("PM", i): [J("649647",

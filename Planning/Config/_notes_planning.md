@@ -1793,6 +1793,27 @@ Miguel. **Deux absences le même jour**, donc.
 pour la nuit de Dan en S46.
 **Rien à faire sur Monday** : Andreï est en BTO, jamais encodé.
 
+**20/11/2026 — Nuit du jeudi 26 au vendredi 27/11 : Johan et Mike Wilvers sur le
+`675238`** (BBN 12310B, Ciney-Jemelle), 22h00–06h00, C@W **PANDA+**. Mike n'a pas de
+ligne `RESSOURCES` : il figure en pastille. Le bloc est à cheval sur les deux jours,
+comme il se doit. **C'est la première nuit de la S48**, et le jeudi de Johan, jusque-là
+gris, est rempli.
+
+⚠️ **Monday.com — Jointage laissé à Meurisse au 16/11**, son identification de joints.
+**Ce passage n'est pas dans le relevé d'heures**, qui s'arrête au 05/11 : le re-dater au
+26/11 l'effacerait. Et **Mike Wilvers n'est jamais encodé** dans la colonne Jointage,
+règle permanente, même s'il a bien un compte Monday.
+
+🔎 **Anomalie repérée dans le relevé d'heures du `675238`** : il contient la ligne
+**« 05/11 (nuit) : DP + MW : 6H »**, alors que **cette nuit a été ANNULÉE** — tu me l'as
+dit le 09/11, et la grille de la S45 la porte en « + M. Wilvers · ANNULÉ ». **Six heures
+sont donc comptées pour une nuit qui n'a pas eu lieu.** À corriger sur le board si c'est
+bien une erreur.
+
+⚠️ **Récupération ?** La nuit se termine au matin du **vendredi 27**, où Johan n'a rien
+de prévu. **Dis-moi s'il faut lui mettre une RÉCUP** ce vendredi — la question s'était
+déjà posée pour Dan en S45 et S46, sans réponse.
+
 **20/11/2026 — deux ajouts de fin de journée sur la S48.**
 
 - **Lundi 23/11 — Johan sur le `677406`** (Feed Out — Saint-Vith FH04, Aachener Straße
