@@ -67,6 +67,7 @@ CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre
 SIGN  = "https://wilbow.monday.com/boards/5089236279/pulses/2832088996"  # SignaDyn - Zone D - Soufflage et Soudage reste zone D
 FH32  = "https://wilbow.monday.com/boards/5089236279/pulses/2986868036"  # FH 32 FEED-IN
 FH40 = "https://wilbow.monday.com/boards/5089236279/pulses/3288631715"  # FH 40 Feed-In
+NR1083A = "https://wilbow.monday.com/boards/5089236279/pulses/3372322753"  # NR1083A
 ROP   = "https://wilbow.monday.com/boards/5089236279/pulses/2697093519"  # ROP BTV
 HERON = "https://wilbow.monday.com/boards/5089236279/pulses/3151190410"  # SWDE TEGEC Test pression Héron
 MOVE41 = "https://wilbow.monday.com/boards/5089236279/pulses/3218880657"  # Vérification Move Rop 41FEX
@@ -151,6 +152,10 @@ PLANNING = {
           caw="PANDA+"),
         X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
     ],
+
+    # Mardi 24/11 : Johan sur le NR1083A. Chantier sans numero JMS :
+    # l intitule est cliquable. C@W PANDA+ confirme le 20/11.
+    ("JM", 1): [X("NR1083A", url=NR1083A, caw="PANDA+")],
 
     # Jeudi 26/11 : Pierre reprend le 687329 (DSTNY BE, Engis).
     ("PM", 3): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",

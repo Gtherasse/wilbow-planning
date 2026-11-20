@@ -1793,6 +1793,17 @@ Miguel. **Deux absences le même jour**, donc.
 pour la nuit de Dan en S46.
 **Rien à faire sur Monday** : Andreï est en BTO, jamais encodé.
 
+**20/11/2026 — Mardi 24/11 : Johan sur le `NR1083A`.** Chantier **sans numéro JMS**
+(item `3372322753`) : l'intitulé est cliquable. C@W **PANDA+**, demandé et confirmé. Sa
+deuxième journée de la semaine, après le lundi.
+
+⚠️ **Son client est « À définir » sur le board** et son intitulé se réduit à cette
+référence — aucune adresse, aucun donneur d'ordre. **Si tu as un libellé plus parlant
+pour les équipes**, dis-le moi et je le mets dans la grille. L'item était déjà au statut
+`Planifié` avec ses quatre colonnes vides.
+
+**Monday.com** : **Jointage Meurisse au 24/11**, colonne vide jusqu'ici.
+
 **20/11/2026 — REPLANIFICATION des chantiers perdus de la S47 sur la S48.**
 
 - **Lundi 23/11 — Johan : le `535147`** (FTTH BF Liège, FH44/FH45) **et le `FH 40
