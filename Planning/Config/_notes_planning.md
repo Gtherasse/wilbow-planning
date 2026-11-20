@@ -1867,6 +1867,41 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
   S46).
   **Monday.com** : Jointage **Mattiuz au 17/11** sur les deux items, colonnes vides
   jusqu'ici ; leur Soufflage porte Dominguez + Feller au 12/11.
+- **20/11 — CORRECTION RÉTROACTIVE (bis) : Pierre était ABSENT hier jeudi aussi.** Ni le
+  `687329` ni le `FH 40 Feed-In` n'ont donc été faits. Sa case du jeudi passe en ABSENT.
+
+**20/11/2026 — BILAN DES CHANTIERS PERDUS À CAUSE DES ABSENCES (semaine 47).**
+
+**Non réalisés et NON replacés :**
+
+| Chantier | Prévu pour | Jour(s) perdu(s) | Cause |
+|---|---|---|---|
+| `680552` — FQ BB Neuron K12836, Huy | Équipe 2 | mer 18 **et** jeu 19 | Miguel absent les deux jours |
+| `687329` — OL DSTNY BE, Engis (jointage) | Pierre | jeu 19 | Pierre absent |
+| `FH 40 Feed-In` | Pierre | jeu 19 | Pierre absent |
+| `535147` — FTTH BF Liège, FH44/FH45 | Johan | ven 20 | Johan absent |
+| `662190` — RZ FTTH DIST Herstal (jointage) | Johan | ven 20 | Johan absent |
+| `680993` — RZ FTTH E2E, Ribeaucourt (jointage) | Pierre | ven 20 | Pierre absent |
+
+**Rattrapés sans perte, grâce à une reprise :**
+- Mercredi 18 — la journée de Pierre (`691421` + `687329`) **reprise par Johan**.
+- Mercredi 18 — le `646374` du matin **repris par l'Équipe 1**.
+- Vendredi 20 — le `631501` **assuré par Geoffrey et Fabrice**.
+- Jeudi 19 et vendredi 20 — le `680993` et le `662190` **soufflés par l'Équipe 1**, seuls
+  leurs jointages tombent.
+
+**Perdus pour une autre raison que l'absence, et toujours sans date :**
+- `688836` (FQ ROP endommagé 85AMAC/311) et `690640` (RRROP C/123, Visé) — **annulés le
+  16/11**, Johan et Mike Wilvers. Leur Jointage Monday porte encore Johan aux 18 et
+  19/11.
+- `FH 32 Feed-In` — **supprimé du planning le 16/11**. Son Jointage porte encore Mattiuz
+  au 18/11.
+
+⚠️ **Constat sur le board** : le Jointage du `662190` porte désormais **Florian Hanikenne
+et Dan Panait au 20/11**, alors que la grille les montre en BTO aujourd'hui. **Quelqu'un
+a modifié l'item en dehors de moi.** À vérifier — s'ils font bien ce jointage, la grille
+est fausse et je la corrige.
+
 - **20/11 — CORRECTION RÉTROACTIVE sur le jeudi 19/11 : Miguel était déjà absent, et
   Sam était déjà avec l'Équipe 1.**
   - L'**Équipe 2 du jeudi passe entièrement en ABSENT**, son entête ne portant que

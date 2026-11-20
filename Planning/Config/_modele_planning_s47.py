@@ -200,10 +200,9 @@ PLANNING = {
     # JMS du BEA d Ougree, reportes de son mardi, passent au MATIN.
     # 18/11 : le BEA d Ougree passe a Johan ; Pierre prend le 687329 et
     # garde le FH 40 Feed-In.
-    ("PM", 3): [
-        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis", caw="PANDA+"),
-        X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
-    ],
+    # 20/11 : CORRECTION retroactive — Pierre etait ABSENT hier jeudi. Ni le
+    # 687329 ni le FH 40 n ont donc ete faits.
+    ("PM", 3): ABS("ABSENT"),
 
     # Vendredi 20/11 : le retour de Pierre sur le 535147 a ete retire le
     # 10/11 ; le 680993 prend sa place le meme jour, deplace du lundi 23/11.
