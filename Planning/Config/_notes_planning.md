@@ -1870,6 +1870,29 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 - **20/11 — CORRECTION RÉTROACTIVE (bis) : Pierre était ABSENT hier jeudi aussi.** Ni le
   `687329` ni le `FH 40 Feed-In` n'ont donc été faits. Sa case du jeudi passe en ABSENT.
 
+- **20/11 — Flo, Dan et Andreï sur la « Rectification Unifiber FZ1984 » hier ET
+  aujourd'hui**, et **Dan et Flo enchaînent sur le `662190`** cet après-midi, le chantier
+  de l'Équipe 1 du jour.
+  - **Andreï rejoint l'Unifiber** le jeudi et le vendredi : ses deux BTO disparaissent.
+    Il ne garde que lundi, mardi et mercredi. **C'est la première fois qu'il sort du
+    BTO.**
+  - **Dan et Flo** passaient déjà le mercredi et le jeudi sur l'Unifiber ; le vendredi
+    s'y ajoute, suivi du `662190`. **Précision de Geoffrey : seulement aujourd'hui** pour
+    le second chantier, pas hier.
+
+  ✅ **Ceci explique la modification externe repérée ce matin** : le Jointage du `662190`
+  portait **Hanikenne et Panait au 20/11** sur le board, alors que la grille les montrait
+  en BTO. **La grille était en retard, pas le board.** C'est maintenant aligné, et
+  **rien n'est à changer sur Monday**.
+
+  ⚠️ **Le `662190` sort donc de la liste des chantiers perdus** : son jointage est bien
+  assuré aujourd'hui, par Dan et Florian au lieu de Johan. **Il reste cinq chantiers
+  perdus**, pas six.
+
+  ⚠️ **Andreï n'a aucun compte Monday** — recherche sur « Andre » : aucun résultat. Il ne
+  peut donc pas être encodé sur l'Unifiber, comme Giuseppe Caruso. **Son nom de famille
+  reste inconnu** depuis son arrivée.
+
 **20/11/2026 — BILAN DES CHANTIERS PERDUS À CAUSE DES ABSENCES (semaine 47).**
 
 **Non réalisés et NON replacés :**
@@ -1880,7 +1903,7 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 | `687329` — OL DSTNY BE, Engis (jointage) | Pierre | jeu 19 | Pierre absent |
 | `FH 40 Feed-In` | Pierre | jeu 19 | Pierre absent |
 | `535147` — FTTH BF Liège, FH44/FH45 | Johan | ven 20 | Johan absent |
-| `662190` — RZ FTTH DIST Herstal (jointage) | Johan | ven 20 | Johan absent |
+| ~~`662190` — RZ FTTH DIST Herstal (jointage)~~ | ~~Johan~~ | ~~ven 20~~ | **ASSURÉ par Dan et Florian** (20/11) |
 | `680993` — RZ FTTH E2E, Ribeaucourt (jointage) | Pierre | ven 20 | Pierre absent |
 
 **Rattrapés sans perte, grâce à une reprise :**
@@ -1897,10 +1920,10 @@ et jeudi 12 (le 11 étant férié), et enfin ces 18 et 19/11.
 - `FH 32 Feed-In` — **supprimé du planning le 16/11**. Son Jointage porte encore Mattiuz
   au 18/11.
 
-⚠️ **Constat sur le board** : le Jointage du `662190` porte désormais **Florian Hanikenne
-et Dan Panait au 20/11**, alors que la grille les montre en BTO aujourd'hui. **Quelqu'un
-a modifié l'item en dehors de moi.** À vérifier — s'ils font bien ce jointage, la grille
-est fausse et je la corrige.
+✅ **Constat sur le board, résolu le jour même** : le Jointage du `662190` portait
+**Florian Hanikenne et Dan Panait au 20/11** alors que la grille les montrait en BTO.
+C'était le board qui avait raison — Geoffrey l'a confirmé quelques minutes plus tard, et
+la grille est corrigée. **Le `662190` sort de la liste ci-dessus.**
 
 - **20/11 — CORRECTION RÉTROACTIVE sur le jeudi 19/11 : Miguel était déjà absent, et
   Sam était déjà avec l'Équipe 1.**

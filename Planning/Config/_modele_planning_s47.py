@@ -331,17 +331,27 @@ PLANNING = {
     # Dan : BTO, sauf le mercredi 18 ou il fait la Rectification Unifiber FZ
     # avec Johan (17/11). Le mercredi est exclu de la comprehension, sinon
     # elle ecraserait cette prestation.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 4)},
+    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1)},
     # 18/11 : le jeudi rejoint le mercredi sur la Rectification Unifiber.
-    **{("DP", i): [X("Rectification Unifiber FZ1984", url=UNIFIBER,
-                     caw="PANDA+")] for i in (2, 3)},
+    # 20/11 : le vendredi aussi, et Dan y enchaine sur le 662190, le
+    # chantier de l Equipe 1 du jour.
+    **{("DP", i): [X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+")] for i in (2, 3)},
+    ("DP", 4): [
+        X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+"),
+        J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A", caw="PANDA+"),
+    ],
     # Florian : BTO, sauf le mercredi 18 ou il reprend la Rectification
     # Unifiber FZ de Johan, avec Dan (18/11). Le mercredi est exclu de la
     # comprehension, sinon elle ecraserait cette prestation.
-    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 1, 4)},
-    **{("FH", i): [X("Rectification Unifiber FZ1984", url=UNIFIBER,
-                     caw="PANDA+")] for i in (2, 3)},
-    **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
+    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 1)},
+    **{("FH", i): [X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+")] for i in (2, 3)},
+    ("FH", 4): [
+        X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+"),
+        J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A", caw="PANDA+"),
+    ],
+    # 20/11 : Andrei rejoint la Rectification Unifiber jeudi et vendredi.
+    **{("AN", i): [X("BTO", caw="BTO")] for i in (0, 1, 2)},
+    **{("AN", i): [X("Rectification Unifiber FZ1984", url=UNIFIBER, caw="PANDA+")] for i in (3, 4)},
 
     # Le reste de la semaine est a confirmer : cases grisees.
 }
