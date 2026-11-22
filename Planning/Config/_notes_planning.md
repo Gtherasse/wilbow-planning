@@ -1930,6 +1930,28 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**22/11/2026 — Lundi 23/11 : le `645656` remplace le `680552` à l'Équipe 2.**
+
+- **Lundi 23/11 — Équipe 2 sur le `645656`** (Burg-Reuland FH01 cluster 16 ; item Monday
+  `3329942831`). C@W **GO FIBER**, le même que celui confirmé le 20/11 pour ce dossier.
+  Demandé : « en plus ou à la place du `680552` ? » — réponse de Geoffrey : **à la place**.
+- L'entête du lundi reste **« Gaspard Fabrice / Caruso Giuseppe / Avenia Geoffrey »**, et
+  l'**absence nominative « M. Dominguez — ABSENT »** reste affichée sous le chantier.
+- ⚠️ **Le `680552` (FQ — BB Neuron K12836, Huy) se retrouve une DEUXIÈME fois sans
+  aucune date.** Il était déjà tombé deux fois en S47 à cause des absences de Miguel,
+  puis replanifié au lundi 23/11 le 20/11 — et il en ressort de nouveau. **À replacer**,
+  dis-moi quel jour.
+- ⚠️ **Monday.com — rien n'a été modifié, volontairement.**
+  - `645656` : statut déjà **Planifié**, Soufflage **Avenia + Gaspard au 18/11** — un
+    passage **réellement effectué**, **relevé d'heures vide**. Le re-dater au 23/11
+    effacerait la seule trace du 18/11. **Septième occurrence du même blocage** ; la
+    proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
+    re-dater) **attend toujours ta validation**. Giuseppe Caruso reste par ailleurs
+    non encodable (pas de compte Monday).
+  - Le `645656` est classé dans le groupe **BTO** mais son C@W est **GO FIBER** : c'est
+    donc bien un **chantier normal** — le code décide, pas le groupe (règle du 14/11).
+  - `680552` : Soufflage **Bolmain + Petit au 10/11** conservé, même raison.
+
 ---
 
 **13/11/2026 (bis) — la semaine 48 est reprise : le `631501` remplace le `667920`, et

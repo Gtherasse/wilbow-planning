@@ -61,6 +61,7 @@ LIENS = {
     "687329": "https://wilbow.monday.com/boards/5089236279/pulses/3221987591",
     "535147": "https://wilbow.monday.com/boards/5089236279/pulses/2777940249",
     "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
+    "645656": "https://wilbow.monday.com/boards/5089236279/pulses/3329942831",
     "677406": "https://wilbow.monday.com/boards/5089236279/pulses/2908681917",
     "649647": "https://wilbow.monday.com/boards/5089236279/pulses/3301749306",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
@@ -154,8 +155,11 @@ PLANNING = {
     # 20/11 : le 680552 (BB Neuron, Huy) REMPLACE le 631501 le lundi. Il
     # n avait pas pu se faire en S47, Miguel etant absent les deux jours
     # prevus. Le 631501 ne reste donc qu au mardi.
+    # 22/11 : a son tour le 680552 est REMPLACE par le 645656 (Burg-Reuland
+    # FH01 cluster 16), C@W GO FIBER. Le trio du lundi le faisait deja les
+    # 18 et 19/11 en S47. Le 680552 se retrouve donc de nouveau sans date.
     ("E2", 0): [
-        J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)", caw="PANDA+"),
+        J("645656", "Burg-Reuland FH01 cluster 16", caw="GO FIBER"),
         A("ABSENT", q="M. Dominguez"),
     ],
     # 20/11 : le 631501 est aussi au mercredi.
