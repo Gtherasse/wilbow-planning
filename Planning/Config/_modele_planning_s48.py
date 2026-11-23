@@ -170,8 +170,9 @@ PLANNING = {
     # Lundi 23/11 : Johan reprend le 535147 et le FH 40 Feed-In.
     # 20/11 : le 677406 (Saint-Vith FH04) prend le lundi ; le 535147 et le
     # FH 40, qui y etaient, sont decales au mardi. C@W GO FIBER.
-    ("JM", 0): [J("677406", "Feed Out — Saint-Vith FH04, Aachener Straße 69z",
-                  caw="GO FIBER")],
+    # 23/11 : Johan est MALADE ce lundi. Sa case passe en MALADIE et le
+    # 677406 est reporte au mercredi 25/11.
+    ("JM", 0): ABS("MALADIE"),
 
     # Mardi 24/11 : Johan sur le NR1083A (chantier sans numero JMS :
     # l intitule est cliquable, C@W PANDA+), puis sur le 535147 et le
@@ -179,11 +180,10 @@ PLANNING = {
     # 20/11 : le 535147 et le FH 40 repartent au MERCREDI ; le mardi ne
     # garde que le NR1083A.
     ("JM", 1): [X("NR1083A", url=NR1083A, caw="PANDA+")],
-    ("JM", 2): [
-        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
-          caw="PANDA+"),
-        X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
-    ],
+    # 23/11 : le 535147 et le FH 40 Feed-In passent a Pierre le lundi ;
+    # le mercredi de Johan recoit le 677406, reporte de son lundi de maladie.
+    ("JM", 2): [J("677406", "Feed Out — Saint-Vith FH04, Aachener Straße 69z",
+                  caw="GO FIBER")],
 
     # Jeudi 26/11 : Pierre reprend le 687329 (DSTNY BE, Engis).
     ("PM", 3): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
@@ -201,9 +201,16 @@ PLANNING = {
                   "+ M. Wilvers", "commun", caw="PANDA+")],
 
     # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
+    # 23/11 : son lundi est ANNULE — il reprend le 535147 et le FH 40
+    # Feed-In de Johan, malade. Le 649647 ne garde que le mardi.
     **{("PM", i): [J("649647",
                      "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
-                     caw="PANDA+")] for i in (0, 1)},
+                     caw="PANDA+")] for i in (1,)},
+    ("PM", 0): [
+        J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
+          caw="PANDA+"),
+        X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
+    ],
 
     # Mercredi 25/11 : Pierre passe sur le meme 690165, apres l Equipe 2.
     ("PM", 2): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",

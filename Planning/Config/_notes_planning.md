@@ -1930,6 +1930,34 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**23/11/2026 — Johan MALADE ce lundi : Pierre reprend le `535147` et le `FH 40 Feed-In`.**
+
+- **Lundi 23/11 — Meurisse Johan en MALADIE.** Case entière barrée (`ABS("MALADIE")`).
+  ⚠️ **Durée inconnue** : seul le lundi est traité, dis-moi si ça se prolonge.
+- **Lundi 23/11 — Pierre sur le `535147`** (FTTH BF Liège — Feed-out FOx FH44/FH45, Rue
+  de Visé, C@W **PANDA+**) **et le `FH 40 Feed-In`** (C@W **FIFTHNET**). Les deux étaient
+  prévus chez **Johan le mercredi 25/11** : confirmé par Geoffrey, ils **quittent le
+  mercredi** — la case de Johan ce jour-là est reprise par le `677406`.
+- **Lundi 23/11 — le `649647` de Pierre est ANNULÉ** (rue de Lexhy, Fexhe). Il **garde
+  son mardi 24/11**, inchangé.
+- **Mercredi 25/11 — le `677406`** (Feed Out — Saint-Vith FH04) **passe du lundi au
+  mercredi** chez Johan, C@W **GO FIBER**, sur décision de Geoffrey.
+- **Monday.com — trois écritures, toutes sur des dates encore à venir, donc sans risque
+  d'effacer un passage réel :**
+  - `535147` (item `2777940249`) : Jointage **Meurisse Johan au 25/11 → Mattiuz Pierre
+    au 23/11**. Statut déjà *Planifié*.
+  - `FH 40 Feed-In` (item `3288631715`) : Jointage **Meurisse Johan au 25/11 → Mattiuz
+    Pierre au 23/11**. Statut déjà *Planifié*.
+  - `677406` (item `2908681917`) : Jointage **daté du 23 au 25/11**, Johan conservé.
+    ⚠️ Son statut reste **« Dossier Terminé »** : la règle interdit de rétrograder un
+    dossier déjà plus avancé que *Planifié*. **Question toujours en suspens** depuis le
+    20/11 : faut-il le repasser en *Planifié* ? Son groupe dit « A Planifier Jointage »,
+    ce qui contredit son statut.
+  - `649647` (item `3301749306`) : **rien modifié**. Sa colonne Jointage porte **Mattiuz
+    + Meurisse au 17/11**, un passage réellement effectué dont le **relevé d'heures est
+    vide** ; le lundi 23/11 n'y avait de toute façon jamais été encodé. L'annulation du
+    jour ne change donc rien sur Monday.
+
 **22/11/2026 — Lundi 23/11 : le `645656` remplace le `680552` à l'Équipe 2.**
 
 - **Lundi 23/11 — Équipe 2 sur le `645656`** (Burg-Reuland FH01 cluster 16 ; item Monday
