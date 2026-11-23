@@ -302,11 +302,12 @@ PLANNING = {
     # Unifiber FZ, pour Johan comme pour Dan. C@W PANDA+ (Geoffrey, 17/11).
     # 18/11 : Johan reprend la journee de Pierre, absent. Sa Rectification
     # Unifiber FZ passe a Florian, qui la fait avec Dan.
+    # 23/11 (retroactif) : Johan n a PAS eu le temps de faire le 687329
+    # (DSTNY BE, Engis) le mercredi 18/11. Il est retire de sa case et a
+    # ete replanifie au jeudi 26/11 (S48) avec Pierre.
     ("JM", 2): [
         J("691421", "OL — Weerts Supply Chain, Rue du Trilogiport 4, Oupeye",
           q=MATIN, caw="PANDA+"),
-        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
-          q=AM, caw="PANDA+"),
     ],
     # 18/11 : le BTO du jeudi laisse place au BEA d Ougree, repris a Pierre.
     ("JM", 3): [

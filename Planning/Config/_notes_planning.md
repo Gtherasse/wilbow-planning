@@ -2040,6 +2040,21 @@ BTO signalent un chantier normal. En cas de doute, demander plutôt que présume
 Script `Planning/Config/_modele_planning_s47.py`, copié de la S46. PDF
 `Planning/Planning WILBOW - S47 - 16-20 nov 2026.pdf`, 2 pages.
 
+**23/11/2026 (rétroactif) — le `687329` est retiré du mercredi 18/11 de Johan.**
+
+- Johan **n'a pas eu le temps** de faire le `687329` (OL — DSTNY BE, Rue du Parc
+  Industriel 3, Engis) le mercredi 18/11, après son `691421` du matin. Sa case du
+  mercredi ne garde donc que le **`691421` (MATIN)**.
+- Le chantier **était déjà replanifié au jeudi 26/11 (S48) pour Pierre** le 20/11 : rien
+  à ajouter côté planning, la S48 est correcte.
+- **Monday.com** — `687329` (item `3221987591`) : Jointage **Meurisse Johan au 18/11 →
+  Mattiuz Pierre au 26/11**. Le 18/11 **n'était pas un passage réel** (c'est ce que cette
+  correction établit) et le relevé d'heures est vide : **aucune trace n'est effacée**.
+  Son statut reste **« A Planifier Jointage »**, plus avancé que *Planifié* — pas de
+  rétrogradation.
+- ⚠️ Le `691421` garde son marquage **MATIN**. Si Johan y a en réalité passé la journée
+  entière, dis-le-moi et je retire le quart.
+
 **Les deux chantiers de Johan et Mike Wilvers y sont déplacés depuis la S46** (demande du
 03/11) :
 
