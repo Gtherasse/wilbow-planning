@@ -130,6 +130,10 @@ CODES = {
 NOMS_OVERRIDE = {
     ("E1", 0): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
     ("E2", 0): ["Gaspard Fabrice", "Caruso Giuseppe", "Avenia Geoffrey"],
+    # 24/11 : Miguel absent ce mardi, Sam part en Equipe 1. L Equipe 2 n a
+    # donc plus personne : son entete ne garde que Miguel, sa case est barree.
+    ("E1", 1): ["Bolmain Mickael", "Petit Gauthier", "Feller Sam"],
+    ("E2", 1): ["Dominguez Miguel"],
 }
 
 
@@ -163,8 +167,11 @@ PLANNING = {
         A("ABSENT", q="M. Dominguez"),
     ],
     # 20/11 : le 631501 est aussi au mercredi.
+    # 24/11 : Miguel est ABSENT ce mardi et Sam passe en Equipe 1 : la case
+    # du mardi est barree et le 631501 y est ANNULE. Il reste au mercredi.
     **{("E2", i): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")]
-       for i in (1, 2)},
+       for i in (2,)},
+    ("E2", 1): ABS("ABSENT"),
 
     # 20/11 : replanification des chantiers perdus de la S47.
     # Lundi 23/11 : Johan reprend le 535147 et le FH 40 Feed-In.
@@ -179,7 +186,8 @@ PLANNING = {
     # FH 40 Feed-In decales du lundi.
     # 20/11 : le 535147 et le FH 40 repartent au MERCREDI ; le mardi ne
     # garde que le NR1083A.
-    ("JM", 1): [X("NR1083A", url=NR1083A, caw="PANDA+")],
+    # 24/11 : Johan est encore MALADE ce mardi. Le NR1083A passe a Pierre.
+    ("JM", 1): ABS("MALADIE"),
     # 23/11 : le 535147 et le FH 40 Feed-In passent a Pierre le lundi ;
     # le mercredi de Johan recoit le 677406, reporte de son lundi de maladie.
     ("JM", 2): [J("677406", "Feed Out — Saint-Vith FH04, Aachener Straße 69z",
@@ -203,9 +211,9 @@ PLANNING = {
     # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
     # 23/11 : son lundi est ANNULE — il reprend le 535147 et le FH 40
     # Feed-In de Johan, malade. Le 649647 ne garde que le mardi.
-    **{("PM", i): [J("649647",
-                     "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
-                     caw="PANDA+")] for i in (1,)},
+    # 24/11 : le 649647 de Pierre passe a Florian et Andrei ; Pierre
+    # reprend le NR1083A de Johan, malade.
+    ("PM", 1): [X("NR1083A", url=NR1083A, caw="PANDA+")],
     ("PM", 0): [
         J("535147", "FTTH BF Liège — Feed-out FOx FH44/FH45, Rue de Visé",
           caw="PANDA+"),
@@ -223,17 +231,32 @@ PLANNING = {
     # Dan : BTO, sauf le jeudi ou il garde son BTO de jour ET fait la nuit
     # du 26 au 27/11 sur le 675238, avec Mike Wilvers (20/11). Le jeudi est
     # exclu de la comprehension, sinon elle ecraserait la nuit.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in (0, 1, 2, 4)},
-    ("DP", 3): [
+    # 24/11 : Dan est ABSENT du mardi 24 au vendredi 27/11. Son lundi 23
+    # reste en BTO. Sa nuit du jeudi 26 au 27 passe a Florian.
+    ("DP", 0): [X("BTO", caw="BTO")],
+    **{("DP", i): ABS("ABSENT") for i in (1, 2, 3, 4)},
+
+    # Florian : BTO, sauf le mardi 24/11 (649647, repris a Pierre) et le
+    # jeudi ou il garde son BTO de jour ET fait la nuit du 26 au 27/11 sur
+    # le 675238 avec Mike Wilvers, a la place de Dan absent (24/11). Les
+    # deux jours sont exclus de la comprehension, sinon elle les ecraserait.
+    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 2, 4)},
+    ("FH", 1): [J("649647",
+                  "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
+                  caw="PANDA+")],
+    ("FH", 3): [
         X("BTO", caw="BTO"),
         J("675238", "BBN 12310B — Ciney-Jemelle",
           "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
     ],
-    **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
     # Andrei : BTO, sauf le lundi 23/11 ou il est absent (16/11). Le lundi
     # est exclu de la comprehension, sinon elle ecraserait son absence.
-    **{("AN", i): [X("BTO", caw="BTO")] for i in (1, 2, 3, 4)},
+    **{("AN", i): [X("BTO", caw="BTO")] for i in (2, 3, 4)},
     ("AN", 0): ABS("ABSENT"),
+    # 24/11 : Andrei fait le 649647 avec Florian, ce mardi seulement.
+    ("AN", 1): [J("649647",
+                  "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
+                  caw="PANDA+")],
 
     # Tout le reste de la semaine est a confirmer : cases grisees.
 }

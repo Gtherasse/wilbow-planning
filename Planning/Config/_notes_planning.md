@@ -1930,6 +1930,44 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**24/11/2026 — mardi 24/11 : Johan toujours malade, Dan absent le reste de la semaine,
+Miguel absent, l'Équipe 2 vide.**
+
+- **Johan en MALADIE le mardi 24/11** aussi (deuxième jour). ⚠️ **Durée toujours
+  inconnue** : seul le mardi est traité en plus du lundi.
+- **Pierre reprend le `NR1083A`** ce mardi, à la place de Johan. C@W **PANDA+**.
+  Son `649647` du jour passe à Florian et Andreï.
+- **Le `649647`** (IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher)
+  **passe à Hanikenne Florian et Andreï, le mardi 24/11 seulement** (confirmé) ; ils
+  reprennent BTO les autres jours. C@W **PANDA+**.
+- **Panait Dan ABSENT du mardi 24 au vendredi 27/11** (confirmé : son lundi 23 reste en
+  BTO, il était présent). Quatre jours barrés.
+- **La nuit du jeudi 26 au vendredi 27/11 sur le `675238`** (BBN 12310B — Ciney-Jemelle,
+  avec M. Wilvers) **passe de Dan à Florian** — « mets à Flo à la place de Dan ». Florian
+  garde son BTO de jour le jeudi, le bloc de nuit est à cheval sur les deux jours.
+  C'est la **troisième fois** que cette nuit change de jointeur (Johan → Dan → Florian).
+- **Miguel Dominguez ABSENT le mardi 24/11**, et **Sam Feller part en Équipe 1** ce jour
+  là. L'Équipe 2 n'a donc **plus personne** : sa case du mardi est **barrée (ABSENT)**,
+  son entête ne garde que « Dominguez Miguel », et **le `631501` du mardi est ANNULÉ** —
+  il reste prévu le mercredi 25/11. ⚠️ **Durée : aujourd'hui seulement** (confirmé).
+- **Monday.com — deux écritures, deux abstentions.**
+  - `NR1083A` (item `3372322753`) : Jointage **Meurisse Johan → Mattiuz Pierre**, date du
+    24/11 inchangée.
+  - `690165` (item `3304713532`) : Soufflage **Bolmain + Petit + Feller Sam** au 24/11 —
+    Sam est **ajouté**, rien n'est remplacé.
+  - ⚠️ `649647` (item `3301749306`) : **rien modifié.** Sa colonne Jointage porte
+    **Mattiuz + Meurisse au 17/11**, un passage réellement effectué dont le **relevé
+    d'heures est vide**. Y inscrire Florian au 24/11 effacerait cette trace. **Andreï n'a
+    de toute façon aucun compte Monday** et resterait non encodable.
+  - ⚠️ `675238` (item `3158202616`) : **rien modifié.** Sa colonne Jointage porte
+    **Meurisse Johan au 16/11** (l'identification des joints), absente du relevé
+    d'heures. La nuit du 26/11 n'y a jamais été encodée ; le changement de jointeur ne
+    peut donc pas y être porté sans écraser le 16/11.
+  - `631501` : **rien modifié** non plus — son Soufflage porte le passage réel du 20/11.
+  - ⚠️ **Huitième et neuvième occurrences du même blocage.** La proposition du 12/11
+    (inscrire la ligne du passage précédent dans le relevé avant de re-dater) **attend
+    toujours ta validation** — elle débloquerait d'un coup tous ces cas.
+
 **23/11/2026 — Johan MALADE ce lundi : Pierre reprend le `535147` et le `FH 40 Feed-In`.**
 
 - **Lundi 23/11 — Meurisse Johan en MALADIE.** Case entière barrée (`ABS("MALADIE")`).
