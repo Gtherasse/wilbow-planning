@@ -1930,6 +1930,26 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**25/11/2026 (quater) — Geoffrey Avenia en renfort sur le `631501` ce mercredi.**
+
+- **Mercredi 25/11 — Avenia Geoffrey quitte le dépôt** et rejoint le **`631501`**
+  (INTERCO BURGRE-01 BUR50) **avec Giuseppe Caruso et Fabrice Gaspard**, en renfort de
+  l'Équipe 2 qui y est déjà. C@W **PANDA+**. Les deux renforts apparaissent en pastille
+  « + G. Caruso · F. Gaspard ».
+- ⚠️ **Densité : deuxième réduction de 5 % aujourd'hui** sur la S48 (soit **−10 % sur la
+  journée**). La semaine est pleine ; tout nouvel ajout imposera de raccourcir des
+  intitulés ou de passer à une page supplémentaire.
+- ⚠️ **Monday.com — rien modifié, et une MODIFICATION EXTERNE est à signaler.**
+  Le `631501` (item `3309938588`) porte aujourd'hui un Soufflage **« Fabrice Gaspard,
+  Geoffrey Avenia » daté du 20/11**. Or j'y avais encodé le 14/11 **Dominguez + Feller +
+  Gaspard au 20/11** : **Miguel Dominguez et Sam Feller en ont été retirés par
+  quelqu'un d'autre**, alors qu'ils y étaient bien le vendredi 20/11 (S47) et qu'ils y
+  sont encore aujourd'hui.
+  Je ne corrige pas de ma propre initiative : dis-moi si je remets Dominguez et Feller
+  dans la colonne. Le **relevé d'heures reste vide** et la date du 20/11 correspond à un
+  passage réel, donc elle n'est de toute façon pas re-datable.
+  Giuseppe Caruso reste non encodable (pas de compte Monday).
+
 **25/11/2026 (ter) — fin de S48 complétée pour l'Équipe 1 et pour Pierre.**
 
 - **Jeudi 26/11 — Équipe 1** : le **`FH 32 Feed-In` passe au MATIN** et le **`680993`**
