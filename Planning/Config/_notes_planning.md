@@ -1930,6 +1930,34 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**25/11/2026 (ter) — fin de S48 complétée pour l'Équipe 1 et pour Pierre.**
+
+- **Jeudi 26/11 — Équipe 1** : le **`FH 32 Feed-In` passe au MATIN** et le **`680993`**
+  (RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing — **Ribeaucourt**) prend
+  l'**APRÈS-MIDI**. C@W **FIFTHNET** pour le premier, **PANDA+** pour le second.
+- **Vendredi 27/11 — Équipe 1 rejoint l'Équipe 2 sur le `680552`** (BB Neuron K12836,
+  Huy). Confirmé : le chantier se fait **sur deux jours et avec les deux équipes** —
+  Équipe 2 le jeudi, Équipe 1 le vendredi.
+- **Vendredi 27/11 — Pierre sur le `FH 32 Feed-In` et le `FH 40 Feed-In`**, en jointage.
+  C@W **FIFTHNET** pour les deux ; sa case du vendredi était grise.
+- ⚠️ **Densité** : l'ajout a dépassé la page. Les polices de la S48 ont été **réduites de
+  5 %**. C'est la limite structurelle habituelle — à surveiller si la semaine se remplit
+  encore.
+- **Monday.com — deux écritures, deux abstentions.**
+  - `FH 32 FEED-IN` (item `2986868036`) : Jointage **daté du 18 au 27/11**, Pierre
+    conservé. Le 18/11 **n'a pas eu lieu** (Pierre était absent ce jour-là en S47) et
+    n'est pas au relevé : rien n'est effacé.
+  - `680552` (item `3308918299`) : Soufflage — **Bolmain et Petit sont AJOUTÉS** à
+    Dominguez + Feller, la date du 26/11 (premier des deux jours) étant conservée. C'est
+    la convention habituelle pour un chantier à cheval sur plusieurs jours.
+  - ⚠️ `680993` (item `3285668548`) : **rien modifié.** Son Soufflage porte **Bolmain +
+    Petit + Feller au 19/11**, le passage réel de l'Équipe 1 en S47, et son **relevé
+    d'heures est vide**. Le re-dater au 26/11 effacerait cette trace. **Douzième
+    occurrence.**
+  - ⚠️ `FH 40 Feed-In` (item `3288631715`) : **rien modifié.** Son Jointage porte
+    **Mattiuz Pierre au 23/11**, le passage réel de lundi, absent du relevé d'heures.
+    Le passage du vendredi 27/11 ne peut donc pas y être porté. **Treizième occurrence.**
+
 **25/11/2026 (bis) — l'Équipe 2 complète sa fin de S48, et la S49 est réorganisée.**
 
 - **Jeudi 26/11 — Équipe 2 sur le `680552`** (FQ — BB Neuron K12836, Huy
