@@ -57,6 +57,7 @@ AM    = "Après-midi"
 LIENS = {
     "679364": "https://wilbow.monday.com/boards/5089236279/pulses/3326307329",
     "679363": "https://wilbow.monday.com/boards/5089236279/pulses/3157275187",
+    "679615": "https://wilbow.monday.com/boards/5089236279/pulses/3361311624",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -114,9 +115,16 @@ NOMS_OVERRIDE = {}
 
 
 PLANNING = {
-    # Lundi 30/11 : l Equipe 2 sur les deux chantiers Neolegia de Liege,
-    # enregistres le 06/11. C@W PANDA+ confirme par Geoffrey le 09/11.
-    ("E2", 0): [
+    # Lundi 30/11 et mardi 01/12 : l Equipe 2 sur le 679615 (Feed out Eupen
+    # FH01 - Raeren FH07), C@W GO FIBER. Ajout du 25/11.
+    **{("E2", i): [J("679615", "Feed out EUPEN FH01 — RAEREN FH07",
+                     caw="GO FIBER")] for i in (0, 1)},
+
+    # Mercredi 02/12 : les deux chantiers Neolegia de Liege, enregistres le
+    # 06/11. C@W PANDA+ confirme par Geoffrey le 09/11. Ils etaient au lundi
+    # 30/11 ; le 25/11 ils sont DECALES au mercredi, le Raeren prenant les
+    # deux premiers jours.
+    ("E2", 2): [
         J("679364", "RZ 10SDU — Chemin des Confluences A2.2, Neolegia Liège",
           caw="PANDA+"),
         J("679363", "RZ 15SDU — Voie de l'Univers A1.2, Neolegia Liège",

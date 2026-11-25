@@ -69,6 +69,7 @@ LIENS = {
     "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
     "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
     "679615": "https://wilbow.monday.com/boards/5089236279/pulses/3361311624",
+    "667920": "https://wilbow.monday.com/boards/5089236279/pulses/3051265437",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -178,6 +179,14 @@ PLANNING = {
     **{("E2", i): [J("631501", "INTERCO BURGRE-01 BUR50", caw="PANDA+")]
        for i in (2,)},
     ("E2", 1): ABS("ABSENT"),
+
+    # 25/11 : l Equipe 2 reprend le 680552 (BB Neuron K12836, Huy) le jeudi
+    # 26/11 — il etait sans date depuis le 22/11 — et le 667920 (FOX FEED
+    # OUT BUL 1 - BUL 2) le vendredi 27/11. Le 667920 est un chantier BTO :
+    # C@W BTO, et RIEN n est encode sur Monday pour lui.
+    ("E2", 3): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
+                  caw="PANDA+")],
+    ("E2", 4): [J("667920", "FOX FEED OUT BUL 1 - BUL 2", caw="BTO")],
 
     # 20/11 : replanification des chantiers perdus de la S47.
     # Lundi 23/11 : Johan reprend le 535147 et le FH 40 Feed-In.

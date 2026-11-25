@@ -1930,6 +1930,39 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**25/11/2026 (bis) — l'Équipe 2 complète sa fin de S48, et la S49 est réorganisée.**
+
+- **Jeudi 26/11 — Équipe 2 sur le `680552`** (FQ — BB Neuron K12836, Huy
+  (3-81CH90950)), C@W **PANDA+**. ✅ **Le dossier retrouve enfin une date** : il était
+  sans date depuis le 22/11, après être tombé trois fois (deux absences de Miguel en
+  S47, puis remplacé par le `645656` le 22/11).
+- **Vendredi 27/11 — Équipe 2 sur le `667920`** (FOX FEED OUT BUL 1 - BUL 2). **Chantier
+  BTO** : C@W **BTO**, et **rien n'est encodé sur Monday** — exception absolue. Il avait
+  déjà été posé puis retiré de cette semaine le 13/11.
+- **Lundi 30/11 et mardi 01/12 (S49) — Équipe 2 sur le `679615`** (Feed out Eupen FH01 —
+  Raeren FH07), C@W **GO FIBER**. Confirmé : « FH07 Raeren » = bien le `679615`, celui
+  que l'Équipe 1 fait ce mercredi 25/11.
+- **Mercredi 02/12 — les deux Néolégia** (`679364` RZ 10SDU Chemin des Confluences A2.2
+  et `679363` RZ 15SDU Voie de l'Univers A1.2, Liège) **sont décalés du lundi 30/11 au
+  mercredi 02/12**, C@W **PANDA+**.
+  ⚠️ Geoffrey avait écrit « le 02/11 » ; la date a été **confirmée comme étant le
+  02/12** — le 2 novembre appartient à la semaine 45, déjà passée.
+- **Monday.com — trois écritures, deux abstentions.**
+  - `680552` (item `3308918299`) : Soufflage **Bolmain + Petit au 10/11 → Dominguez +
+    Feller au 26/11**, et statut **« À Planifier Soufflage » → « Planifié »**.
+    ✅ **Le blocage habituel ne s'appliquait pas** : son relevé d'heures contient
+    désormais `10/11 : MB + GP : 16H` et `12/11 : MB + GP : 8H` — les deux passages sont
+    tracés, le re-datage n'efface rien. **C'est exactement ce que fait la proposition du
+    12/11** ; elle fonctionne.
+  - `679364` (item `3326307329`) et `679363` (item `3157275187`) : Soufflage **daté du
+    30/11 au 02/12**, Dominguez + Feller conservés. Le 30/11 étant encore à venir, aucun
+    passage réel n'est effacé.
+  - ⚠️ `679615` (item `3361311624`) : **rien modifié.** Son Soufflage porte toujours
+    **Bolmain + Petit + Feller au 23/11**, passage réel au relevé d'heures **vide**. Ni
+    le passage de l'Équipe 1 du 25/11, ni les deux jours de l'Équipe 2 en S49 n'y sont
+    donc encodés. **Onzième occurrence.**
+  - `667920` : **rien**, chantier BTO.
+
 **25/11/2026 — Johan malade toute la semaine, ses trois derniers chantiers annulés.**
 
 - **Meurisse Johan en MALADIE les cinq jours.** Les mercredi 25, jeudi 26 et vendredi 27
