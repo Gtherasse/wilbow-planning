@@ -58,6 +58,8 @@ LIENS = {
     "679364": "https://wilbow.monday.com/boards/5089236279/pulses/3326307329",
     "679363": "https://wilbow.monday.com/boards/5089236279/pulses/3157275187",
     "679615": "https://wilbow.monday.com/boards/5089236279/pulses/3361311624",
+    "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
+    "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
 }
 # Liens des chantiers sans numero JMS
 CAT   = "https://wilbow.monday.com/boards/5089236279/pulses/3012698475"  # Fibre connexion Caterpillar Gensets
@@ -130,6 +132,16 @@ PLANNING = {
         J("679363", "RZ 15SDU — Voie de l'Univers A1.2, Neolegia Liège",
           caw="PANDA+"),
     ],
+
+    # 25/11 : les deux ROP de Johan, annules en S48 pour cause de maladie,
+    # sont replanifies : le 690640 (Vise) le mardi 01/12, le 688836 le
+    # mercredi 02/12 — Vise en premier. Avec Mike Wilvers ET Giuseppe
+    # Caruso, qui n ont ni l un ni l autre de ligne RESSOURCES : ils
+    # apparaissent en pastille.
+    ("JM", 1): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
+                  "+ M. Wilvers · G. Caruso", "commun", caw="PANDA+")],
+    ("JM", 2): [J("688836", "FQ ROP endommagé 85AMAC/311",
+                  "+ M. Wilvers · G. Caruso", "commun", caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
     **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},

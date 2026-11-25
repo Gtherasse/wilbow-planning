@@ -1725,6 +1725,24 @@ Script `Planning/Config/_modele_planning_s49.py`, copié de la S48. PDF
 cheval sur deux mois depuis la S40** : le nom du fichier suit la convention déjà
 établie (`30 nov-04 dec`), comme `31 aout-04 sept` pour la S36.
 
+**25/11/2026 — les deux ROP de Johan sont replanifiés en S49.**
+
+- **Mardi 01/12 — `690640`** (RRROP C/123 — Rue Sabaré, **Visé**) : Visé en premier,
+  comme demandé. C@W **PANDA+**.
+- **Mercredi 02/12 — `688836`** (FQ ROP endommagé 85AMAC/311). C@W **PANDA+**.
+- Les deux avec **Mike Wilvers ET Giuseppe Caruso** : ni l'un ni l'autre n'a de ligne
+  RESSOURCES, ils apparaissent donc en pastille « + M. Wilvers · G. Caruso ».
+- Ces deux chantiers avaient été **annulés le 25/11** (S48) pour cause de maladie de
+  Johan ; ils étaient restés sans nouvelle date. **Les trois chantiers perdus de la
+  semaine sont donc ramenés à un seul** : il reste le **`677406`** (Feed Out —
+  Saint-Vith FH04) du mercredi 25/11, toujours sans date.
+- **Monday.com — deux écritures.**
+  - `690640` (item `3263534972`) : Jointage **daté du 27/11 au 01/12**, Johan conservé.
+  - `688836` (item `3211258684`) : Jointage **daté du 26/11 au 02/12**, Johan conservé.
+  - Aucun des deux passages n'ayant eu lieu, **rien n'est effacé**. Les deux statuts sont
+    déjà *Planifié*. Mike Wilvers n'est jamais encodé en Jointage (il fausserait la
+    Rentabilité_Chantiers) et Giuseppe Caruso n'a pas de compte Monday.
+
 - **Lundi 30/11 — Équipe 2 sur le `679364` et le `679363`** (Neolegia, Liège),
   enregistrés le 06/11 :
   - `679364` — RZ 10SDU, Chemin des Confluences A2.2 (item `3326307329`) ;
