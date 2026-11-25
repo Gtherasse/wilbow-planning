@@ -1930,6 +1930,43 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**25/11/2026 — Johan malade toute la semaine, ses trois derniers chantiers annulés.**
+
+- **Meurisse Johan en MALADIE les cinq jours.** Les mercredi 25, jeudi 26 et vendredi 27
+  passent en MALADIE et ses chantiers sont **ANNULÉS** :
+  - `677406` (Feed Out — Saint-Vith FH04) du mercredi 25/11 ;
+  - `688836` (FQ ROP endommagé 85AMAC/311) du jeudi 26/11, **avec M. Wilvers** ;
+  - `690640` (RRROP C/123 — Rue Sabaré, Visé) du vendredi 27/11, **avec M. Wilvers**.
+  ⚠️ **Trois chantiers perdus, aucun n'est replacé** — dis-moi quand les reprogrammer.
+  ⚠️ Les deux ROP étaient prévus **avec Mike Wilvers** : je les ai annulés entièrement,
+  Mike n'ayant plus de binôme. Si tu veux qu'un autre jointeur les reprenne avec lui,
+  dis-le-moi.
+- **Mercredi 25/11 — Florian et Andreï** : `649647` (rue de Lexhy, Fexhe) le **MATIN**,
+  puis `652658` (Rue du Ruisseau 28-26-24 — Donceel) l'**APRÈS-MIDI**. C@W **PANDA+**
+  pour les deux — code déjà confirmé pour ces deux dossiers (S34 pour le 652658).
+- **Équipe 1** : `679615` (Feed out Eupen FH01 — Raeren FH07) **le mercredi 25**, retour
+  sur son chantier du lundi ; **`FH 32 Feed-In` le jeudi 26**, C@W **FIFTHNET** (le code
+  du 05/11, dernier passage connu).
+- **Monday.com — deux écritures, une abstention.**
+  - `FH 32 FEED-IN` (item `2986868036`) : Soufflage **Avenia + Gaspard au 05/11 →
+    Bolmain + Petit au 26/11**. Le passage du 05/11 **est inscrit dans le relevé
+    d'heures** (`05/11 : GA + FG : 16H`) : rien n'est perdu. Statut déjà *Planifié*.
+  - `652658` (item `2967044016`) : Jointage **vide au 19/08 → Hanikenne Florian au
+    25/11**. Le passage du 19/08 **est inscrit au relevé** (`19/08 : PM : 8H`). Andreï
+    reste non encodable (pas de compte Monday). Son statut **« Dossier Terminé »** n'est
+    pas rétrogradé.
+    ⚠️ Incohérence à signaler : cet item est **dans le groupe « En Cours Soufflage »
+    alors que son statut dit « Dossier Terminé »**. À arbitrer.
+  - ⚠️ `679615` (item `3361311624`) : **rien modifié.** Son Soufflage porte **Bolmain +
+    Petit + Feller au 23/11**, le passage réel du lundi, et son **relevé d'heures est
+    vide** : le re-dater au 25/11 effacerait la seule trace de ce lundi. **Dixième
+    occurrence** du même blocage.
+  - `649647` : toujours bloqué de la même façon (Jointage Mattiuz + Meurisse au 17/11,
+    relevé vide).
+  - Les trois chantiers annulés de Johan (`677406` au 25/11, `688836`, `690640`)
+    **gardent leurs dates sur Monday** : je ne les efface pas tant qu'aucune nouvelle
+    date n'est décidée.
+
 **24/11/2026 — mardi 24/11 : Johan toujours malade, Dan absent le reste de la semaine,
 Miguel absent, l'Équipe 2 vide.**
 

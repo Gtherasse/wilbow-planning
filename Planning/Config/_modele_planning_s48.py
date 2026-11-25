@@ -64,6 +64,7 @@ LIENS = {
     "645656": "https://wilbow.monday.com/boards/5089236279/pulses/3329942831",
     "677406": "https://wilbow.monday.com/boards/5089236279/pulses/2908681917",
     "649647": "https://wilbow.monday.com/boards/5089236279/pulses/3301749306",
+    "652658": "https://wilbow.monday.com/boards/5089236279/pulses/2967044016",
     "675238": "https://wilbow.monday.com/boards/5089236279/pulses/3158202616",
     "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
     "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
@@ -151,6 +152,11 @@ PLANNING = {
     ("E1", 1): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
                   caw="PANDA+")],
 
+    # 25/11 : l Equipe 1 retourne sur le 679615 (Feed out Eupen FH01 -
+    # Raeren FH07) ce mercredi, puis passe au FH 32 Feed-In le jeudi 26.
+    ("E1", 2): [J("679615", "Feed out EUPEN FH01 — RAEREN FH07", caw="GO FIBER")],
+    ("E1", 3): [X("FH 32 Feed-In", url=FH32, caw="FIFTHNET")],
+
     # Lundi 23 et mardi 24/11 : l Equipe 2 poursuit le 631501 (INTERCO
     # BURGRE-01 BUR50), son chantier du vendredi 20/11 en S47. Le 667920,
     # un temps pose ici, est retire (changement du 13/11). C@W PANDA+.
@@ -190,8 +196,11 @@ PLANNING = {
     ("JM", 1): ABS("MALADIE"),
     # 23/11 : le 535147 et le FH 40 Feed-In passent a Pierre le lundi ;
     # le mercredi de Johan recoit le 677406, reporte de son lundi de maladie.
-    ("JM", 2): [J("677406", "Feed Out — Saint-Vith FH04, Aachener Straße 69z",
-                  caw="GO FIBER")],
+    # 25/11 : Johan est MALADE TOUTE LA SEMAINE. Ses trois derniers jours
+    # passent en MALADIE et ses chantiers sont ANNULES : le 677406 du
+    # mercredi, le 688836 du jeudi et le 690640 du vendredi, ces deux
+    # derniers avec M. Wilvers.
+    ("JM", 2): ABS("MALADIE"),
 
     # Jeudi 26/11 : Pierre reprend le 687329 (DSTNY BE, Engis).
     ("PM", 3): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
@@ -203,10 +212,8 @@ PLANNING = {
     # 20/11 : la nuit passe de Johan a Dan, toujours avec Mike Wilvers.
     # Johan perd donc sa nuit du jeudi et sa recuperation du vendredi ; ses
     # deux cases recoivent les deux ROP annules le 16/11, avec M. Wilvers.
-    ("JM", 3): [J("688836", "FQ ROP endommagé 85AMAC/311",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
-    ("JM", 4): [J("690640", "RRROP C/123 — Rue Sabaré, Visé",
-                  "+ M. Wilvers", "commun", caw="PANDA+")],
+    ("JM", 3): ABS("MALADIE"),
+    ("JM", 4): ABS("MALADIE"),
 
     # 20/11 : Pierre sur le 649647 (rue de Lexhy, Fexhe) lundi et mardi.
     # 23/11 : son lundi est ANNULE — il reprend le 535147 et le FH 40
@@ -240,7 +247,7 @@ PLANNING = {
     # jeudi ou il garde son BTO de jour ET fait la nuit du 26 au 27/11 sur
     # le 675238 avec Mike Wilvers, a la place de Dan absent (24/11). Les
     # deux jours sont exclus de la comprehension, sinon elle les ecraserait.
-    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 2, 4)},
+    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 4)},
     ("FH", 1): [J("649647",
                   "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
                   caw="PANDA+")],
@@ -249,9 +256,23 @@ PLANNING = {
         J("675238", "BBN 12310B — Ciney-Jemelle",
           "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
     ],
+    # 25/11 : Florian et Andrei poursuivent le 649647 le MATIN, puis
+    # enchainent sur le 652658 (Donceel) l APRES-MIDI.
+    ("FH", 2): [
+        J("649647",
+          "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
+          q=MATIN, caw="PANDA+"),
+        J("652658", "Rue du Ruisseau 28-26-24 — Donceel", q=AM, caw="PANDA+"),
+    ],
     # Andrei : BTO, sauf le lundi 23/11 ou il est absent (16/11). Le lundi
     # est exclu de la comprehension, sinon elle ecraserait son absence.
-    **{("AN", i): [X("BTO", caw="BTO")] for i in (2, 3, 4)},
+    **{("AN", i): [X("BTO", caw="BTO")] for i in (3, 4)},
+    ("AN", 2): [
+        J("649647",
+          "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
+          q=MATIN, caw="PANDA+"),
+        J("652658", "Rue du Ruisseau 28-26-24 — Donceel", q=AM, caw="PANDA+"),
+    ],
     ("AN", 0): ABS("ABSENT"),
     # 24/11 : Andrei fait le 649647 avec Florian, ce mardi seulement.
     ("AN", 1): [J("649647",
