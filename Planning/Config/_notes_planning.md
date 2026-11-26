@@ -1948,6 +1948,17 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**26/11/2026 (quater) — le `662190` prend aussi le vendredi 27/11.**
+
+- **Vendredi 27/11 — Florian et Andreï sur le `662190`** (RZ FTTH DIST Herstal — Rue
+  Jean Vercheval 39, Bloc A), **journée entière**. C@W **PANDA+**.
+  **Le BTO disparaît de leur vendredi** (confirmé) : c'est le même traitement que le
+  jeudi et que le vendredi 20/11 en S47.
+- Le chantier se fait donc sur **deux jours** : jeudi après-midi et vendredi.
+- **Monday.com — rien modifié**, même blocage que ce matin : le Jointage du `662190`
+  (item `3332057368`) porte **Hanikenne + Panait au 20/11**, passage réel, relevé
+  d'heures vide.
+
 **26/11/2026 (ter) — le `662190` s'ajoute à l'après-midi de Florian et Andreï.**
 
 - **Jeudi 26/11 après-midi — Florian et Andreï sur le `662190`** (RZ FTTH DIST Herstal —

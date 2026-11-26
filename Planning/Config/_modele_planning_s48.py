@@ -286,7 +286,11 @@ PLANNING = {
     # jeudi ou il garde son BTO de jour ET fait la nuit du 26 au 27/11 sur
     # le 675238 avec Mike Wilvers, a la place de Dan absent (24/11). Les
     # deux jours sont exclus de la comprehension, sinon elle les ecraserait.
-    **{("FH", i): [X("BTO", caw="BTO")] for i in (0, 4)},
+    **{("FH", i): [X("BTO", caw="BTO")] for i in (0,)},
+    # 26/11 : le 662190 (Herstal) prend aussi le vendredi 27/11, pour
+    # Florian comme pour Andrei. Le BTO disparait de leur vendredi.
+    ("FH", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+                  caw="PANDA+")],
     ("FH", 1): [J("649647",
                   "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
                   caw="PANDA+")],
@@ -310,7 +314,8 @@ PLANNING = {
     ],
     # Andrei : BTO, sauf le lundi 23/11 ou il est absent (16/11). Le lundi
     # est exclu de la comprehension, sinon elle ecraserait son absence.
-    **{("AN", i): [X("BTO", caw="BTO")] for i in (4,)},
+    ("AN", 4): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+                  caw="PANDA+")],
     ("AN", 3): [
         J("652658", "Rue du Ruisseau 28-26-24 — Donceel", caw="PANDA+"),
         J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
