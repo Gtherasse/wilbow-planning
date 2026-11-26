@@ -1948,6 +1948,20 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**26/11/2026 (bis) — le trio Avenia / Gaspard / Caruso reste sur le `631501` le jeudi.**
+
+- **Jeudi 26/11 — Avenia Geoffrey, Fabrice Gaspard et Giuseppe Caruso poursuivent le
+  `631501`** (INTERCO BURGRE-01 BUR50), leur chantier du mercredi. C@W **PANDA+**.
+  ⚠️ **L'Équipe 2 n'y est plus ce jeudi** (elle est sur le `680552`) : le trio y est donc
+  **seul**.
+- **Monday.com — rien modifié.** Le Soufflage du `631501` (item `3309938588`) porte
+  **Gaspard + Avenia au 20/11**, première date de la série, avec un **relevé d'heures
+  vide** : la convention multi-jours veut qu'on garde la première date, et le re-datage
+  serait de toute façon bloqué. Giuseppe Caruso reste non encodable.
+  ⚠️ **La modification externe signalée le 25/11 n'est toujours pas arbitrée** :
+  Dominguez et Feller ont été retirés de cette colonne par quelqu'un d'autre alors
+  qu'ils y étaient le 20/11. Dis-moi si je les remets.
+
 **26/11/2026 — jeudi : Florian et Andreï poursuivent le `652658`, Pierre prend le
 `FH 40 Feed-In` l'après-midi.**
 

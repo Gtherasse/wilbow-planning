@@ -268,6 +268,10 @@ PLANNING = {
     # Caruso, en renfort de l Equipe 2 qui y est deja. C@W PANDA+.
     ("GA", 2): [J("631501", "INTERCO BURGRE-01 BUR50",
                   "+ G. Caruso · F. Gaspard", "commun", caw="PANDA+")],
+    # 26/11 : le trio reste sur le 631501 le jeudi. L Equipe 2 est ailleurs
+    # ce jour-la (680552) : ils y sont donc seuls.
+    ("GA", 3): [J("631501", "INTERCO BURGRE-01 BUR50",
+                  "+ G. Caruso · F. Gaspard", "commun", caw="PANDA+")],
 
     # Dan : BTO, sauf le jeudi ou il garde son BTO de jour ET fait la nuit
     # du 26 au 27/11 sur le 675238, avec Mike Wilvers (20/11). Le jeudi est
