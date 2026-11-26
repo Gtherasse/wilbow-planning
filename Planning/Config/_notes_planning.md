@@ -1948,6 +1948,26 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**26/11/2026 — jeudi : Florian et Andreï poursuivent le `652658`, Pierre prend le
+`FH 40 Feed-In` l'après-midi.**
+
+- **Jeudi 26/11 — Florian et Andreï sur le `652658`** (Rue du Ruisseau 28-26-24 —
+  Donceel), **à la place de BTO**. C@W **PANDA+**. Ils y étaient déjà l'après-midi du
+  mercredi 25 : le chantier se fait donc sur **deux jours**.
+  La **nuit du 26 au 27/11** de Florian (`675238`, avec M. Wilvers) **reste inchangée**,
+  sous son chantier de jour.
+- **Jeudi 26/11 — Pierre : le `FH 40 Feed-In` s'ajoute l'APRÈS-MIDI**, après le `687329`
+  (DSTNY BE, Engis) qui garde la journée. C@W **FIFTHNET**.
+  ⚠️ **Le `FH 40 Feed-In` est aussi au planning de Pierre le vendredi 27/11** (avec le
+  FH 32). Je l'ai laissé aux deux jours — dis-moi si le vendredi doit sauter.
+- **Monday.com — rien à écrire, et c'est voulu.**
+  - `652658` (item `2967044016`) : son Jointage porte déjà **Hanikenne Florian au
+    25/11**, premier des deux jours — **la convention multi-jours est respectée**, il
+    n'y a rien à changer. Andreï reste non encodable (pas de compte Monday).
+  - ⚠️ `FH 40 Feed-In` (item `3288631715`) : **toujours bloqué.** Son Jointage porte
+    **Mattiuz Pierre au 23/11**, passage réel de lundi, **relevé d'heures vide** — ni le
+    jeudi 26 ni le vendredi 27 ne peuvent y être portés sans effacer le lundi.
+
 **25/11/2026 (quater) — Geoffrey Avenia en renfort sur le `631501` ce mercredi.**
 
 - **Mercredi 25/11 — Avenia Geoffrey quitte le dépôt** et rejoint le **`631501`**

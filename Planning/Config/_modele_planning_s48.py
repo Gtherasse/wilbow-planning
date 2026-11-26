@@ -221,8 +221,12 @@ PLANNING = {
     ("JM", 2): ABS("MALADIE"),
 
     # Jeudi 26/11 : Pierre reprend le 687329 (DSTNY BE, Engis).
-    ("PM", 3): [J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
-                  caw="PANDA+")],
+    # 26/11 : le FH 40 Feed-In s ajoute a l APRES-MIDI, apres le 687329.
+    ("PM", 3): [
+        J("687329", "OL — DSTNY BE, Rue du Parc Industriel 3, Engis",
+          caw="PANDA+"),
+        X("FH 40 Feed-In", url=FH40, q=AM, caw="FIFTHNET"),
+    ],
 
     # 20/11 : nuit du jeudi 26 au vendredi 27/11, Johan avec Mike Wilvers
     # sur le 675238 (Ciney-Jemelle). Mike n a pas de ligne RESSOURCES : il
@@ -281,8 +285,10 @@ PLANNING = {
     ("FH", 1): [J("649647",
                   "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
                   caw="PANDA+")],
+    # 26/11 : le BTO du jeudi laisse place au 652658 (Donceel), pour
+    # Florian comme pour Andrei. La nuit du 26 au 27 reste inchangee.
     ("FH", 3): [
-        X("BTO", caw="BTO"),
+        J("652658", "Rue du Ruisseau 28-26-24 — Donceel", caw="PANDA+"),
         J("675238", "BBN 12310B — Ciney-Jemelle",
           "+ M. Wilvers", "commun", q=NUIT, caw="PANDA+"),
     ],
@@ -296,7 +302,8 @@ PLANNING = {
     ],
     # Andrei : BTO, sauf le lundi 23/11 ou il est absent (16/11). Le lundi
     # est exclu de la comprehension, sinon elle ecraserait son absence.
-    **{("AN", i): [X("BTO", caw="BTO")] for i in (3, 4)},
+    **{("AN", i): [X("BTO", caw="BTO")] for i in (4,)},
+    ("AN", 3): [J("652658", "Rue du Ruisseau 28-26-24 — Donceel", caw="PANDA+")],
     ("AN", 2): [
         J("649647",
           "IZ FTTH 1 MDU 20 BU + 1 BU — Rue de Lexhy, Fexhe-le-Haut-Clocher (Eloy)",
