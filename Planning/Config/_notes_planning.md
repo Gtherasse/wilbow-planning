@@ -1948,6 +1948,20 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**26/11/2026 (ter) — le `662190` s'ajoute à l'après-midi de Florian et Andreï.**
+
+- **Jeudi 26/11 après-midi — Florian et Andreï sur le `662190`** (RZ FTTH DIST Herstal —
+  Rue Jean Vercheval 39, Bloc A), après le `652658` qui garde la journée. C@W **PANDA+**.
+  La **nuit du 26 au 27/11** de Florian reste affichée sous ses deux chantiers de jour.
+- ⚠️ **Densité : troisième réduction de 5 %** sur la S48 (**−15 % au total**). La page
+  est saturée : les cases de Florian et d'Andreï portent maintenant trois blocs. **Tout
+  ajout supplémentaire cette semaine imposera de raccourcir les intitulés ou d'ajouter
+  une page.**
+- ⚠️ **Monday.com — rien modifié.** Le `662190` (item `3332057368`) porte un Jointage
+  **Hanikenne + Panait au 20/11**, le passage réel du vendredi en S47, avec un **relevé
+  d'heures vide** : le re-dater au 26/11 effacerait cette trace, et retirerait Dan d'un
+  passage qu'il a bien effectué. Andreï reste non encodable. **Quatorzième occurrence.**
+
 **26/11/2026 (bis) — le trio Avenia / Gaspard / Caruso reste sur le `631501` le jeudi.**
 
 - **Jeudi 26/11 — Avenia Geoffrey, Fabrice Gaspard et Giuseppe Caruso poursuivent le
