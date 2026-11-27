@@ -1948,6 +1948,48 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**27/11/2026 (bis) — allègement du vendredi et remplissage de la S49.**
+
+**Semaine 48**
+- **Pierre ne fera QUE le `FH 40 Feed-In`** ce vendredi. Le **`FH 32 Feed-In` part au
+  lundi 30/11**.
+- **L'Équipe 1 ne fera PAS le `680552`** aujourd'hui : il est **reporté au lundi 30/11**.
+  Son vendredi ne garde que le `680993` et le `FH 32`, tous deux au MATIN.
+  ⚠️ **Son après-midi est donc vide** alors que les deux chantiers restants sont marqués
+  MATIN. Si elle travaille l'après-midi sur l'un des deux, dis-le-moi et je retire les
+  quarts.
+- La densité redescend : la page respire de nouveau (hauteurs de ligne 16,7 mm contre
+  12,7 mm ce matin). Les polices restent à **−25 %** — je ne les remonte pas sans ton
+  accord, pour que la semaine garde une mise en page stable jusqu'à sa clôture.
+
+**Semaine 49**
+- **Lundi 30/11 — Équipe 1 sur le `680552`** (BB Neuron K12836, Huy), C@W **PANDA+**,
+  reporté du vendredi 27/11.
+- **Mardi 01/12 — Équipe 1 sur le `679615`** (Feed out Eupen FH01 — Raeren FH07),
+  C@W **GO FIBER**. **L'Équipe 2 y est aussi ce jour-là** : les deux équipes sur le
+  même chantier.
+- **Lundi 30/11 — Pierre sur le `FH 32 Feed-In`**, C@W **FIFTHNET**, reporté du
+  vendredi.
+- **Mardi 01/12 — Pierre sur le `662190`** (RZ FTTH DIST Herstal — **Rue Jean
+  Vercheval** 39, Bloc A), C@W **PANDA+**.
+- **Lundi 30/11 — Johan sur le `679615`**, en jointage, le même chantier que l'Équipe 2
+  ce jour-là. C@W **GO FIBER**.
+- **Dan ABSENT les cinq jours** de la semaine 49. Son BTO disparaît.
+  ⚠️ Il était déjà absent du mardi 24 au vendredi 27/11 : **neuf jours ouvrables
+  d'affilée**. Motif non précisé.
+- **Monday.com — deux écritures, deux abstentions.**
+  - `FH 32 FEED-IN` (item `2986868036`) : Jointage **daté du 27 au 30/11**, Pierre
+    conservé. Le 27/11 n'a pas eu lieu (il ne fait que le FH 40) : rien n'est effacé.
+  - `679615` (item `3361311624`) : Jointage **vide → Meurisse Johan au 30/11**. La
+    colonne était libre, aucun conflit.
+    ⚠️ Son **Soufflage reste bloqué** (Bolmain + Petit + Feller au 23/11, passage réel,
+    relevé vide) : ni le vendredi de l'Équipe 2, ni ses deux jours de S49, ni le mardi
+    de l'Équipe 1 n'y sont encodés.
+  - ⚠️ `662190` (item `3332057368`) : **rien modifié.** Jointage **Hanikenne + Panait au
+    20/11**, passage réel, relevé vide. Le mardi de Pierre n'y est pas encodé.
+  - `680552` : **rien à faire**, son Soufflage porte déjà les quatre personnes et la
+    date du 26/11, premier jour de la série.
+
 **27/11/2026 — vendredi : Équipe 1 sur trois chantiers, Florian en récup, et une
 correction rétroactive du jeudi.**
 

@@ -58,6 +58,8 @@ LIENS = {
     "679364": "https://wilbow.monday.com/boards/5089236279/pulses/3326307329",
     "679363": "https://wilbow.monday.com/boards/5089236279/pulses/3157275187",
     "679615": "https://wilbow.monday.com/boards/5089236279/pulses/3361311624",
+    "680552": "https://wilbow.monday.com/boards/5089236279/pulses/3308918299",
+    "662190": "https://wilbow.monday.com/boards/5089236279/pulses/3332057368",
     "690640": "https://wilbow.monday.com/boards/5089236279/pulses/3263534972",
     "688836": "https://wilbow.monday.com/boards/5089236279/pulses/3211258684",
 }
@@ -133,6 +135,24 @@ PLANNING = {
           caw="PANDA+"),
     ],
 
+    # 27/11 : l Equipe 1 reprend le 680552 (BB Neuron, Huy) le lundi 30/11,
+    # retire du vendredi 27/11 (S48), puis rejoint le 679615 le mardi 01/12
+    # — l Equipe 2 y est aussi ces deux jours.
+    ("E1", 0): [J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
+                  caw="PANDA+")],
+    ("E1", 1): [J("679615", "Feed out EUPEN FH01 — RAEREN FH07", caw="GO FIBER")],
+
+    # 27/11 : Pierre sur le FH 32 Feed-In le lundi 30/11 (reporte du
+    # vendredi 27/11), puis sur le 662190 (rue Jean Vercheval, Herstal) le
+    # mardi 01/12.
+    ("PM", 0): [X("FH 32 Feed-In", url=FH32, caw="FIFTHNET")],
+    ("PM", 1): [J("662190", "RZ FTTH DIST Herstal — Rue Jean Vercheval 39, Bloc A",
+                  caw="PANDA+")],
+
+    # 27/11 : Johan sur le 679615 le lundi 30/11, en jointage, le meme
+    # chantier que l Equipe 2 ce jour-la.
+    ("JM", 0): [J("679615", "Feed out EUPEN FH01 — RAEREN FH07", caw="GO FIBER")],
+
     # 25/11 : les deux ROP de Johan, annules en S48 pour cause de maladie,
     # sont replanifies : le 690640 (Vise) le mardi 01/12, le 688836 le
     # mercredi 02/12 — Vise en premier. Avec Mike Wilvers ET Giuseppe
@@ -144,7 +164,8 @@ PLANNING = {
                   "+ M. Wilvers · G. Caruso", "commun", caw="PANDA+")],
 
     # Dan, Florian et Andrei : BTO les cinq jours, reconduction habituelle.
-    **{("DP", i): [X("BTO", caw="BTO")] for i in range(5)},
+    # 27/11 : Dan est ABSENT toute la semaine.
+    **{("DP", i): ABS("ABSENT") for i in range(5)},
     **{("FH", i): [X("BTO", caw="BTO")] for i in range(5)},
     **{("AN", i): [X("BTO", caw="BTO")] for i in range(5)},
 

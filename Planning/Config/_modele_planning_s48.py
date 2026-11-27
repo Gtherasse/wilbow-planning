@@ -163,14 +163,12 @@ PLANNING = {
     # 27/11 (retroactif) : jeudi 26/11 l Equipe 1 n a fait QUE le FH 32,
     # toute la journee. Le 680993 est retire et reporte au vendredi matin.
     ("E1", 3): [X("FH 32 Feed-In", url=FH32, caw="FIFTHNET")],
-    # 27/11 : vendredi, le 680993 puis le FH 32 au MATIN, le 680552 l
-    # APRES-MIDI.
+    # 27/11 : vendredi, le 680993 puis le FH 32 au MATIN. Le 680552 est
+    # RETIRE le 27/11 et reporte au lundi 30/11 (S49).
     ("E1", 4): [
         J("680993", "RZ FTTH E2E 4 SDU — Rue du Bief 43-49, Seraing (Ribeaucourt)",
           q=MATIN, caw="PANDA+"),
         X("FH 32 Feed-In", url=FH32, q=MATIN, caw="FIFTHNET"),
-        J("680552", "FQ — BB Neuron K12836, Huy (3-81CH90950)",
-          q=AM, caw="PANDA+"),
     ],
 
     # Lundi 23 et mardi 24/11 : l Equipe 2 poursuit le 631501 (INTERCO
@@ -260,10 +258,9 @@ PLANNING = {
 
     # 25/11 : Pierre prend le FH 32 Feed-In et le FH 40 Feed-In le
     # vendredi 27/11, en jointage. Sa case du vendredi etait grise.
-    ("PM", 4): [
-        X("FH 32 Feed-In", url=FH32, caw="FIFTHNET"),
-        X("FH 40 Feed-In", url=FH40, caw="FIFTHNET"),
-    ],
+    # 27/11 : Pierre ne fera QUE le FH 40 ce vendredi. Le FH 32 part au
+    # lundi 30/11 (S49).
+    ("PM", 4): [X("FH 40 Feed-In", url=FH40, caw="FIFTHNET")],
 
     # Mercredi 25/11 : Pierre passe sur le meme 690165, apres l Equipe 2.
     ("PM", 2): [J("690165", "OL — MB GROUPE, Rue de la Vieille Fosse 60, Flémalle",
