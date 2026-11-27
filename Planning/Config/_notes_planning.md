@@ -1948,6 +1948,45 @@ anciens `688836`, `690640` et `FH 32 Feed-In`, annulés ou supprimés pour d'aut
   proposition du 12/11 (inscrire la ligne du passage précédent dans le relevé avant de
   re-dater) **attend toujours ta validation**.
 
+**27/11/2026 — vendredi : Équipe 1 sur trois chantiers, Florian en récup, et une
+correction rétroactive du jeudi.**
+
+- **Correction rétroactive — jeudi 26/11 :** l'Équipe 1 **n'a fait que le `FH 32
+  Feed-In`, toute la journée**. Le `680993` (Ribeaucourt) est **retiré de son
+  après-midi** et le FH 32 perd son quart MATIN.
+- **Vendredi 27/11 — Équipe 1, trois chantiers** : **`680993` au MATIN**, puis le
+  **`FH 32 Feed-In` au MATIN** également, et le **`680552`** (BB Neuron, Huy) l'**APRÈS-
+  MIDI**. C@W : PANDA+, FIFTHNET, PANDA+. Répartition des quarts confirmée par Geoffrey.
+- **Vendredi 27/11 — Équipe 2 sur le `679615`** (Feed out Eupen FH01 — Raeren FH07),
+  C@W **GO FIBER**, **à la place du `667920`** (chantier BTO), qui sort du planning —
+  confirmé. Elle le poursuit **lundi 30/11 et mardi 01/12** en S49, déjà encodés le
+  25/11 ; **le mardi est conservé**, Geoffrey n'ayant parlé que du lundi.
+- **Vendredi 27/11 — Andreï sur le `680993`** (Ribeaucourt, Seraing), C@W **PANDA+**.
+  Le `662190` ne garde donc que le jeudi après-midi pour lui.
+- **Vendredi 27/11 — Florian en RÉCUP**, après sa nuit du 26 au 27/11. Première récup
+  accordée après une nuit depuis le début du suivi : les nuits du 05→06/11 et du
+  10→11/11 n'en avaient jamais reçu.
+- **Vendredi 27/11 — Geoffrey Avenia reste sur le `631501` avec Fabrice Gaspard,
+  SANS Giuseppe Caruso.** Pastille « + F. Gaspard » seule.
+- ⚠️ **Densité : deux réductions de 5 % supplémentaires** (**−25 % au total sur la
+  S48**). Le vendredi porte désormais trois blocs pour l'Équipe 1. **La limite est
+  atteinte** : la prochaine semaine chargée devra passer par des intitulés plus courts
+  ou une page supplémentaire.
+- **Monday.com — AUCUNE écriture possible aujourd'hui.**
+  - ⚠️ `680993` (item `3285668548`) : son Jointage porte **Mattiuz Pierre au 20/11**,
+    un passage qui **n'a pas eu lieu** (Pierre était absent ce jour-là). Il serait donc
+    re-datable — mais **c'est Andreï qui le fait, et Andreï n'a pas de compte Monday**.
+    Y mettre la date du 27/11 en laissant Pierre serait faux. **Je n'ai rien touché**
+    et je signale : la question du compte Monday d'Andreï est bloquante ici.
+    Son Soufflage reste par ailleurs bloqué (Bolmain + Petit + Feller au 19/11, relevé
+    vide).
+  - `FH 32 FEED-IN` et `680552` : **rien à faire**, leurs colonnes portent déjà la
+    première date de la série (26/11) et les bonnes personnes.
+  - ⚠️ `679615` (item `3361311624`) : **toujours bloqué** (Soufflage Bolmain + Petit +
+    Feller au 23/11, passage réel, relevé vide). Ni le vendredi de l'Équipe 2, ni ses
+    deux jours de S49 n'y sont encodés.
+  - `667920` : **rien**, chantier BTO retiré du planning.
+
 **26/11/2026 (quater) — le `662190` prend aussi le vendredi 27/11.**
 
 - **Vendredi 27/11 — Florian et Andreï sur le `662190`** (RZ FTTH DIST Herstal — Rue
